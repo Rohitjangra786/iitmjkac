@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notable Alumni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+    <style>
+        
+
+/* Basic styles, you can customize further */
+body {
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #751313; */
+    margin-bottom: 10px;
+
+    h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 0px;
+        font-size: 4em;
+        /* font-weight: 100; */
+
+  font-optical-sizing: auto;
+  font-style: normal;
+
+    }
+    .line{
+        border: 1.5px solid rgb(177, 28, 28);
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 30rem;
+    }
+
+}
+
+.navbar {
+    text-align: center;
+    background-color: #700e0e;
+    color: #fff;
+    padding: 10px 0;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-weight: 400;
+        padding: 10px 15px;
+    }
+
+    ul li a:hover {
+        background-color: #000000;
+    }
+
+}
+
+.main-content {
+    /* margin-top: 60px; */
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+    h2 {
+        font-size: 28px;
+        color: rgb(3, 3, 3);
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+
+
+    /* card css */
+.main-head{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #00ffff63;
+}
+    article {
+        --img-scale: 1.001;
+        --title-color: black;
+        --link-icon-translate: -20px;
+        --link-icon-opacity: 0;
+        position: relative;
+        border-radius: 16px;
+        box-shadow: none;
+        background: #ffffff;
+        transform-origin: center;
+        transition: all 0.4s ease-in-out;
+        overflow: hidden;
+        width: 65%;
+        /* height: 80%; */
+      }
+      
+      article a::after {
+        position: absolute;
+        inset-block: 0;
+        inset-inline: 0;
+        cursor: pointer;
+        content: "";
+      }
+      
+      /* basic article elements styling */
+      article h3 {
+        margin: 0 0 18px 0;
+        /* font-family: "Bebas Neue", cursive; */
+        font-size: 1em;
+        letter-spacing: 0.06em;
+        color: var(--title-color);
+        transition: color 0.3s ease-out;
+
+
+        a{
+          background-color: #0ebad1;
+          padding: 10px;
+          color: white;
+        }
+      }
+      
+      figure {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        /* aspect-ratio: 16 / 9; */
+        /* overflow: hidden; */
+      }
+      
+      article img {
+        width: 100%;
+        height:170px;
+        object-fit: unset;
+        transform-origin: center;
+        transform: scale(var(--img-scale));
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      .article-body {
+        padding: 24px;
+        text-align: center;
+      }
+      
+      article a {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: #28666e;
+      }
+      
+      article a:focus {
+        outline: 1px dotted #28666e;
+      }
+      
+      article a .icon {
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        margin-left: 5px;
+        transform: translateX(var(--link-icon-translate));
+        opacity: var(--link-icon-opacity);
+        transition: all 0.3s;
+      }
+      
+      
+      
+      /************************ 
+      Generic layout (demo looks)
+      **************************/
+      
+      
+      body {
+        margin: 0;
+        padding: 48px 0;
+        font-family: "Figtree", sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        background-image: linear-gradient(45deg, #7c9885, #b5b682);
+        /* min-height: 100vh; */
+      }
+      
+      .articles {
+        display: grid;
+        max-width: 100%;
+        margin-inline: auto;
+        padding-inline: 24px;
+        /* grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); */
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        gap: 24px;
+      }
+      
+      @media screen and (max-width:1225px){
+        .articles{
+          grid-template-columns: repeat(3,1fr);
+          justify-items: center;
+
+        }
+
+        article img {
+          width: 100%;
+          height: 200px;
+          object-fit: unset;
+          transform-origin: center;
+          transform: scale(var(--img-scale));
+          transition: transform 0.4s ease-in-out;
+        }
+        
+      }
+
+     
+
+      @media screen and (max-width: 960px) {
+        article {
+          container: card/inline-size;
+          justify-items: center;
+        }
+        .article-body p {
+          display: none;
+        }
+      }
+      @media screen and (max-width:935px){
+        .articles{
+          grid-template-columns: repeat(2,1fr);
+          justify-items: center;
+
+        }
+
+        article img {
+          width: 100%;
+          height: 200px;
+          object-fit: unset;
+          transform-origin: center;
+          transform: scale(var(--img-scale));
+          transition: transform 0.4s ease-in-out;
+        }
+        
+      }
+
+      @media screen and (max-width:650px) {
+        .articles{
+          grid-template-columns: repeat(1,1fr);
+          justify-items: center;
+
+        }
+
+        header{
+          h1{
+              font-size: 3em;
+          }
+        }
+        article img {
+          width: 100%;
+          height: 200px;
+          object-fit: unset;
+          transform-origin: center;
+          transform: scale(var(--img-scale));
+          transition: transform 0.4s ease-in-out;
+        }
+        
+      }
+      
+      @container card (min-width: 380px) {
+        .article-wrapper {
+          display: grid;
+          grid-template-columns: 100px 1fr;
+          gap: 16px;
+        }
+        .article-body {
+          padding-left: 0;
+        }
+        figure {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+        figure img {
+          height: 100%;
+          aspect-ratio: 1;
+          object-fit: cover;
+        }
+      }
+      
+      .sr-only:not(:focus):not(:active) {
+        clip: rect(0 0 0 0); 
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
+      }
+}
+    </style>
+
+
+</head>
+<body>
+    <header>
+       <h1>Notable Alumni</h1>
+     
+    </header>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" id="mbaBtn" >MBA</a></li>
+            <li><a href="#" id="bbaBtn">BBA</a></li>
+            <li><a href="#" id="bcaBtn">BCA</a></li>
+            <li><a href="#" id="bcomBtn">B.COM</a></li>
+        </ul>
+    </nav>
+   
+    <main class="main-content" id="mainContent">
+        
+        <!-- Content will be loaded here -->
+    </main>
+
+    <script src="./main.js"></script>
+
+
+  
+</body>
+</html>
+
+
+

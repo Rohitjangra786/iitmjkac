@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #BD0C1F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.logo-head h1 {
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-right: 15%;
+}
+
+.logo-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: #BD0C1F;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.tabs {
+    border: 1px solid #cccccc;
+    display: flex;
+    /* margin: 0 20px; */
+}
+
+.tabs_content {
+    background-color: white;
+    color: black;
+    width: 83%;
+}
+
+.tabs_sidebar {
+    width: 17%;
+    flex-shrink: 0;
+    background: #cccccc;
+    background-color: #BD0C1F;
+}
+
+.tabs_button {
+    display: block;
+    padding: 10px;
+    background-color: #BD0C1F;
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.tabs_button:active {
+    background-color: #dddddd;
+    color: #BD0C1F;
+}
+
+.tabs_button:not(:last-of-type) {
+    border-bottom: 1px solid #cccccc;
+}
+
+.tabs_button--active {
+    font-weight: bold;
+    border-right: 2px solid #BD0C1F;
+    ;
+    background-color: #dddddd;
+    color: #BD0C1F;
+}
+
+.tabs_content {
+    padding: 15px;
+    font-size: 0.5rem;
+    display: none;
+}
+
+.tabs_content--active {
+    display: block;
+}
+
+.tabs_content> :first-child {
+    margin-top: 0;
+}
+
+.tabs_content h2 {
+    font-size: 1.5rem;
+    background-color: white;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.iitm_img img{
+    width: 100%;
+    height: 112%;
+}
+
+.tabs_content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding-right: 100px;
+    color: black;
+}
+
+.tabs {
+    margin-top: 0px;
+    height: 83.8vh;
+}
+
+.tab-content {
+    font-size: 1rem;
+    color: black;
+}
+
+.tab-content>.active {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.nav-link {
+    color: black !important;
+    background-color: #BD0C1F !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+.nav-item button {
+    width: 120px;
+    margin: 10px 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #dddddd !important;
+    color: #BD0C1F !important;
+    border-radius: 0px !important;
+}
+
+table {
+    font-size: 1rem !important;
+    margin-top: 40px;
+}
+
+.table-group-divider {
+    border-top-color: black !important;
+}
+
+td,
+th {
+    text-align: left !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.subCriteria {
+    text-align: center;
+    color: #BD0C1F;
+    margin-top: 20px;
+}
+
+.iitm_img img {
+    width: 80%;
+    height: 100%;
+    position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}

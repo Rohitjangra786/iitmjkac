@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+
+.navbar {
+  font-family: "Unbounded", cursive;
+  background-color: #850000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 19vh;
+}
+
+.navbar img {
+  width: 200px;
+  object-fit: cover;
+  margin-left: 4rem;
+}
+.navbar .nav-img{
+    width: 150px;
+    object-fit: cover;
+  margin-right: 4rem;
+}
+
+.head{
+    padding: 1rem;
+}
+
+.head h4{
+    
+    color: white;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 2.6em;
+    margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.head p{
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+}
+
+/* main section css */
+
+.governanceMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.governanceMainCenter{
+    width: 100%;
+    display: block;
+    /* height: 45em; */
+    /* margin-bottom: 10px; */
+}
+.governanceMainCenter h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.heading{
+  width: 60vw;
+  margin: auto;
+  color: #3379b7d9;
+
+  .home_btn{
+    display: none;
+  }
+}
+
+
+
+.parentBox{
+    margin-top: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 10px;
+    background-color: #dff2fe;
+    display: inline-flex;
+    min-width: 550px;
+    color: #5e7f96;
+    height: 60px;
+    text-align: center;
+        justify-content: left;
+        align-items: center;
+    margin-top: 30px;
+    margin: 9px;
+    box-shadow:6px 6px #9dd6fd;
+}
+
+.box a {
+    padding:1rem;
+    color: rgb(239, 80, 80);
+    text-decoration: none;
+    font-weight: bolder
+}
+
+.box span{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.mobileBox{
+    display: none;
+
+
+}
+/* quick links  */
+
+.mainRight{
+  /* width: 20vw; */
+  overflow: hidden;
+  align-items: center;
+  /* margin-top: 100px; */
+/* margin-right: 10px; */
+/* border: 2px solid rgb(0, 0, 0, 1);
+border-radius: 10px;   */
+border-left: 2px solid black;
+border-top: 2px solid black;
+border-top-left-radius:20px ;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+
+h1{
+      margin-top: 10px;
+      text-align: center;
+  }
+
+.quick-access {
+  height: 100%;
+  width: 100%;
+  /* background-color: #f4f4f4; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quick-access ul {
+  /* list-style: none; */
+  list-style-type: circle; 
+  padding: 0;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.quick-access ul li {
+  margin: 20px 0px;
+}
+
+.quick-access ul li a {
+  /* text-decoration: none; */
+  color: #000000;
+  display: block;
+  font-size: 0.9em;
+}
+.quick-access ul li a:hover{
+  color: #850000;
+  font-weight: 600;
+}
+}
+
+footer{
+  background-color: #850000;
+  color: white;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p{
+  align-items: center;
+  text-align: center;
+}
+
+.headhome{
+  display: none;
+}
+
+
+/* responsive css */
+
+@media  (max-width:1480px){
+  .navbar{
+      
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap !important;
+      
+      .iitmlogo{
+          img{
+              width: 120px;
+          }
+      }
+      .ipulogo{
+          img{
+              width: 110px;
+              display:flex;
+          }
+      }
+      .head{
+          h4{
+              font-size: 1.8rem;
+              font-weight: bolder;
+          }
+          p{
+            display: none;
+              font-size: .5em;
+              font-weight: bolder;
+          }
+      }
+  }
+
+  .governanceMain{
+      width: 100%;
+      
+      .governanceMainCenter{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .heading{
+          margin-bottom: 20px;
+          h1{
+              font-size: 1.8em;
+          }
+      }
+      /* .pc{
+        display: none !important;
+      } */
+      .mobile{
+        display: none !important  ;
+      }
+      .parentBox{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          grid-column-gap: 0rem !important;
+          
+          .box{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+            min-width: 80%;
+            margin-bottom: 30px;
+
+            .boxinner{
+              height: 70px;
+              min-width: 100%;
+
+              span{
+                font-size: 1em;
+              }
+              summary{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+              
+
+              .inner{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+            }
+           
+        }
+
+      }
+      /* .mainRight{
+        display: none;
+      } */
+      
+  }
+  .mainLeft{
+      width: 100%;
+      height: auto;
+  }
+
+}
+
+
+
+@media  (max-width:1280px){
+  .navbar{
+      
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap !important;
+      
+      .iitmlogo{
+          img{
+              width: 120px;
+          }
+      }
+      .ipulogo{
+          img{
+              width: 110px;
+              display:flex;
+          }
+      }
+      .head{
+          h4{
+              font-size: 1.8rem;
+              font-weight: bolder;
+          }
+          p{
+            display: none;
+              font-size: .5em;
+              font-weight: bolder;
+          }
+      }
+  }
+
+  .governanceMain{
+      width: 100%;
+      
+      .governanceMainCenter{
+        display: block;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .heading{
+          margin-bottom: 20px;
+          h1{
+              font-size: 1.8em;
+          }
+      }
+      /* .pc{
+        display: none !important;
+      } */
+      .mobile{
+        display: none !important  ;
+      }
+      .parentBox{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          grid-column-gap: 0rem !important;
+          
+          .box{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+            min-width: 80%;
+            margin-bottom: 30px;
+
+            .boxinner{
+              height: 70px;
+              min-width: 100%;
+
+              span{
+                font-size: 1em;
+              }
+              summary{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+              
+
+              .inner{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+            }
+           
+        }
+
+      }
+      /* .mainRight{
+        display: none;
+      } */
+      
+  }
+  .mainLeft{
+      width: 100%;
+      height: auto;
+  }
+
+}
+
+
+
+
+
+@media (max-width:845px){
+  .navbar{
+      
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap !important;
+      
+      .iitmlogo{
+          img{
+              width: 120px;
+          }
+      }
+      .ipulogo{
+          img{
+              width: 110px;
+              display:flex;
+          }
+      }
+      .head{
+          h4{
+              font-size: 1.8rem;
+              font-weight: bolder;
+          }
+          p{
+            display: none;
+              font-size: .5em;
+              font-weight: bolder;
+          }
+      }
+  }
+
+  .governanceMain{
+      width: 100%;
+      .governanceMainCenter{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .heading{
+          margin-bottom: 20px;
+
+          .home_btn{
+            display: flex;
+            justify-content: center;
+            text-decoration: none; font-size: 1.2em; margin-top: 25px; color: #850000; font-weight: 600;
+          }
+
+          .home_btn:hover{
+            font-weight: 800;
+            color:#5e7f96;
+            text-decoration: underline;
+          }
+          h1{
+              font-size: 1.8em;
+          }
+      }
+      /* .pc{
+        display: none !important;
+      } */
+      .mobile{
+        display: none !important  ;
+      }
+      .parentBox{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          margin-left: 0rem;
+
+
+          .box{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+            min-width: 80%;
+            margin-bottom: 30px;
+            a{
+                font-size: 0.9em;
+              }
+            .boxinner{
+              height: 70px;
+              min-width: 100%;
+
+              span{
+                font-size: 1em;
+              }
+              summary{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+              
+
+              .inner{
+                display: flex;
+                justify-content: left;
+            align-items: center ;
+              }
+            }
+           
+        }
+
+      }
+      .mainRight{
+        display: none;
+      }
+      
+  }
+  .mainLeft{
+      width: 100%;
+      height: auto;
+  }
+
+}
+
+@media (max-width:731px){
+ 
+  .navbar{
+      .ipulogo img {
+          display: none;
+      }
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap !important;
+      
+      .iitmlogo{
+          margin-left: -30px;
+          img{
+              width: 115px;
+          }
+      }
+      .head{
+          h4{
+              font-size: 1.14999rem;
+          }
+          p{
+              display: none;
+          }
+      }
+  }
+
+  .governanceMain{
+      width: 100%;
+
+.heading{
+  margin-bottom: 20px;
+  h1{
+      font-size: 1.7em;
+  }
+}
+.pc{
+  display: none !important;
+}
+.mobile{
+  display: flex !important;
+}
+      .parentBox{
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        grid-template-rows: 0rem 0rem;
+        grid-template-columns: 0rem 0rem;
+        grid-column-gap: 0rem;
+        max-width: 100%;
+        margin-left: 0rem;
+        justify-content: center;
+        align-items: center;
+
+        .box{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0px;
+            min-width: 80%;
+            margin-bottom: 30px;
+            a{
+                font-size: 0.7em;
+              }
+            .boxinner{
+              height: 70px;
+              min-width: 100%;
+            }
+           
+        }
+
+      }
+      .mainRight{
+        display: none;
+      }
+
+      
+  }
+
+  .mainLeft{
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+@media (max-width:369px) {
+   
+
+  footer{
+    position: fixed;
+  }
+  .navbar{
+      .ipulogo img {
+          display: none;
+      }
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap !important;
+      
+      .iitmlogo{
+          margin-left: -20px;
+          img{
+              width: 90px;
+          }
+      }
+      .head{
+          h4{
+              font-size: 1.12rem;
+          }
+          p{
+              display: none;
+          }
+      }
+  }
+
+  .governanceMain{
+      width: 100%;
+
+      .heading{
+        margin-bottom: 20px;
+        width: 100%;
+        h1{
+            font-size: 1.5em;
+        }
+      }
+      .pc{
+        display: none !important;
+      }
+      .mobile{
+        display: flex !important;
+      }
+      .parentBox{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          display: flex;
+          grid-template-rows: 0rem 0rem;
+          grid-template-columns: 0rem 0rem;
+          grid-column-gap: 0rem;
+          max-width: 100%;
+          margin-left: 0rem;
+          justify-content: center;
+          align-items: center;
+
+
+          .box{
+              display: flex;
+              flex-direction: row;
+              margin-top: 0px;
+              min-width: 80%;
+              margin-bottom: 30px;
+
+              a{
+                font-size: 0.7em;
+              }
+              .boxinner{
+                height: 70px;
+                min-width: 100%;
+              }
+             
+          }
+
+      }
+
+      .mainRight{
+        display: none;
+      }
+
+      
+
+      }
+  
+
+  .mainLeft{
+      width: 100%;
+      height: auto;
+  }
+}
+

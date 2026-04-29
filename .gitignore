@@ -1,0 +1,57 @@
+# Claude Code memory
+.claude/
+
+# ── Video files ───────────────────────────────────────────────────
+*.mp4
+*.mov
+*.m4v
+*.ogv
+*.webm
+*.avi
+*.mkv
+
+# ── PDF documents (large content assets, not source code) ─────────
+*.pdf
+*.PDF
+
+# ── Large content images (gallery, uploads, event photos) ─────────
+upload/
+upload_new/
+sliderimages/
+fiesta2k25/
+events/images/
+campuslife/images/
+faculty/images/
+aboutus_new/images/
+infrastructure/images/
+placements/images/
+alumni/magazines/
+journals1/
+journals2/
+academics/images/
+academics/unmesh/
+academics/p/
+IITMNBAAB/doc/
+IITMNBAAB/New page/PDFs/
+ICACIA2025/images/
+ICACIA2025/speakers/
+NCDIS2025/images/
+NCDIS2025/speakers/
+nbasar/
+
+# ── Archives (already cleaned, but exclude any future ones) ───────
+*.zip
+*.rar
+*.tar
+*.gz
+
+# ── Server / ephemeral files ──────────────────────────────────────
+visitors.txt
+error_log
+*.log
+*.crdownload
+
+# ── macOS / Windows system files ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

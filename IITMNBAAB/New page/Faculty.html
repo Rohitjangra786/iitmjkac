@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IITM | College</title>
+    <link rel="shortcut icon" href="iitm.jpg" type="image/x-icon" />
+
+
+     <!-- Include Bootstrap CSS -->
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <!-- Optional: Include Font Awesome for icons if not using Glyphicons -->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./NewCss.css" />
+
+    <style>
+        .quicklap{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            gap: 3.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            background-color: rgba(218, 218, 218, 0.348);
+            padding: 10px;
+
+            
+            a{
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                /* border: 2px solid black; */
+                border-radius: 5px;
+                padding: 5px;
+            }
+            a:hover{
+                background-color: rgb(135, 0, 0);
+                color: white ;
+            }
+        }
+        .navbar{
+            margin-bottom: 0px;
+        }
+    
+        .quick {
+    display: none; /* Initially hidden */
+    position: fixed;
+    gap: 1rem;
+    z-index: 10000;
+    top: 10.5rem;
+    height: 100vh;
+    background-color: rgb(142, 0, 0);
+    width: 60vw;
+    padding: 2rem;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* Hidden offscreen by default */
+
+
+    a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 2em;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                border: 2px solid rgba(114, 114, 114, 0.497);
+                border-radius: 5px;
+                padding: 5px;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+}
+
+.quick.active {
+    transform: translateX(0); /* Slide in when active */
+    display: flex;
+}
+
+.burger {
+   
+    display: none; /* Hidden on large screens */
+   
+   
+}
+@media screen and (max-width: 778px) {
+    .quicklap{
+        display: none;
+    }
+    .quick{
+        top: 13.5rem;
+    }
+    .burger {
+        display: block; /* Show burger button on smaller screens */
+        top: 14.5rem;
+        left: 90%;
+        font-size: 2.6rem;
+    cursor: pointer;
+    position: fixed;
+   
+    z-index: 10001;
+        
+right: 0;
+
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .quicklap{
+        display: none;
+    }
+    .quick{
+        top: 10.5rem;
+    }
+    .burger {
+        display: block; /* Show burger button on smaller screens */
+        top: 10.5rem;
+        left: 90%;
+        font-size: 2.6rem;
+    cursor: pointer;
+    position: fixed;
+   
+    z-index: 10001;
+        
+right: 0;
+
+    }
+}
+
+
+  
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="navbar">
+        <div class="iitmlogo">
+          <img src="../logow.png" alt="logo" style="float: left; margin-left: 40px;"/>
+        </div>
+        <div class="head">
+          <h4> Institute of Information Technology & Management </h4>
+          <p style="font-family:Noto Sans, sans-serif;">
+              Accredited Grade "A" by National Assessment and Accreditation Council (NAAC)
+              <br>
+              Approved by AICTE ,Rated as Category 'A+' by SFRC & 'A' by JAC Govt. of NCT of Delhi,Recognised U/s 2(f) of UGC Act,
+              <br>
+              Affiliated to Guru Gobind Singh Indraprastha University, New Delhi
+          </p>
+        </div>
+        <div class="ipulogo">
+            <img src="../ipulogo.png" alt="logo" style="float: right; margin-left: 40px;" class="nav-img"/>
+          </div>
+      </div>
+    </header>
+
+
+    <!-- quick access -->
+    <div class="burger" onclick="toggleSidebar()"> ☰</div>
+    <div class="quick">
+      <a href="../index.html">Home</a>
+      <a href="./Vision.html">Criteria 1</a>
+        <a href="./Governance.html">Criteria 2</a>
+        <a href="./Program.html">Criteria 3</a>
+        <a href="./Curriculum.html">Criteria 4</a>
+        <a href="./Student.html">Criteria 5</a>
+        <a href="./Faculty.html">Criteria 6</a>
+        <a href="./Industry.html">Criteria 7</a>
+        <a href="./Infrastructure.html">Criteria 8</a>
+        <a href="./Alumni.html">Criteria 9</a>
+        <a href="./Continuous.html">Criteria 10</a>
+    </div>
+
+    <div class="quicklap">
+      <a href="../index.html">Home</a>
+      <a href="./Vision.html">Criteria 1</a>
+      <a href="./Governance.html">Criteria 2</a>
+      <a href="./Program.html">Criteria 3</a>
+      <a href="./Curriculum.html">Criteria 4</a>
+      <a href="./Student.html">Criteria 5</a>
+      <a href="./Faculty.html">Criteria 6</a>
+      <a href="./Industry.html">Criteria 7</a>
+      <a href="./Infrastructure.html">Criteria 8</a>
+      <a href="./Alumni.html">Criteria 9</a>
+      <a href="./Continuous.html">Criteria 10</a>
+    </div>
+    
+
+     
+    <!-- main data section (body)-->
+
+    <div class="main">
+
+
+      <main class="MainCenter">
+
+        <div class="heading">
+          <h1 style="font-size: 3.5em; text-decoration: underline;">6. Faculty attributes and Contributions</h1>
+        </div>
+
+        <div class="container first-container col-sm-12 pull-left">
+          <table class="table table-condensed">
+            <thead class="tablehead">
+              <tr style="font-weight:bold; font-size: 1.8em;">
+                <th>Sub Criteria Number</th>
+                <th style="text-align: left;">Description</th>
+                <th style="text-align: right;">View Details</th>
+              </tr>
+            </thead>
+
+            <tbody style="font-size: 0.9em;">
+              <!-- CRITERION 5-->
+              <tr class="sub-container">
+                 <td >A</td>
+                 <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem; text-align: left;">List of Faculty with education & experience</td>
+                 <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 a.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+               </tr>
+               <tr class="sub-container">
+                <td  >B</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Departmental Appointment Letters</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 b.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >C</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Salary statement(3 months for each assessment year)</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 c.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >D</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Pedagogical Initiatives</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 d.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >E</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Faculty Initiatives</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 e.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              
+              <tr class="sub-container">
+                <td >F</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">MDP documents</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 f.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >G</td>
+                
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem; text-align: left;" >Faculty Appraisal Performa</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="#" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                    <!--<a href="./PDFs/6 g.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>-->
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >H</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem; text-align: left;" >Programmes for Faculty Development</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6.h.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+            <!-- I -->
+              <!--<tr class="sub-container">
+                <td >H</td>
+                <td style="text-align: left; background-color:#ffffff7d; border-radius: 450px; height: 5rem;">Programme Organized</td>
+                <td style="text-align: right;">
+                 <button type="button" class="btn btn-success exploder" style="font-size: 1em;">
+                    Click Here
+                 </button>
+               </td>
+              </tr>
+
+              <tr class="explode hide">
+                <td colspan="4" style="background: #CCC; display: none;">
+                    <table class="table table-condensed">
+                      <thead style="font-size: .8em;">
+                        <tr>
+                         <th>Sub Criteria Number</th>
+                         <th style="text-align: left;">Description</th>
+                         <th style="text-align: left;">View Details</th>
+                        </tr>
+                      </thead>
+                      
+                      
+     
+                      <tbody style="font-size: 0.9em;">
+                       <style>
+                         tr{
+                           height: 4rem;
+                         }
+                       </style>
+                        <tr>
+                         <td>I.1</td>
+                         <td style="text-align: left;">For Faculty (Internal)</td>
+                         <td>
+                           <button type="button" class="btn btn-success " style="font-size: 1em;">
+                             <a href="./PDFs/" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                           </button>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td>I.2</td>
+                         <td style="text-align: left;">Attended by Faculty (External)</td>
+                           <td>
+                             <button type="button" class="btn btn-success " style="font-size: 1em;">
+                               <a href="./PDFs/" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                             </button>
+                           </td>
+                       </tr>
+                     
+
+
+                      </tbody>
+                    
+                  </table>
+                 </td>
+              </tr>-->
+
+
+              <tr class="sub-container">
+                <td >I</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Visiting Faculty Documentary evidence(hours, payment details)</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 i.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >J</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Faculty Publication</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 j.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >K</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Sponsored Research</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 k.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >L</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Consultancy</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 l.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="sub-container">
+                <td >M</td>
+                <td style="background-color:#ffffff7d;  border-radius: 450px; height: 5rem;  text-align: left;">Teaching Cases for learners</td>
+                <td style="text-align: right;">
+                  <button type="button" class="btn btn-success " style="font-size: 1em;">
+                    <a href="./PDFs/6 m.pdf" target="_blank" style="text-decoration: none; color: white;">Click Here</a>
+                  </button>
+                </td>
+              </tr>
+        </tbody>
+
+          </table>
+
+        </div>
+
+      </main>
+
+
+
+    </div>
+
+    <footer >
+      <p> Copyright@2023 IITM Janakpuri</p>
+    </footer>
+
+  </body>
+ <!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- Custom script -->
+<script>
+    $(document).ready(function(){
+        $(".exploder").click(function(){
+            $(this).toggleClass("btn-success btn-danger");
+            $(this).children("span").toggleClass("glyphicon-arrow-down glyphicon-zoom-out");
+            $(this).closest("tr").next("tr").toggleClass("hide");
+            if($(this).closest("tr").next("tr").hasClass("hide")){
+                $(this).closest("tr").next("tr").children("td").slideUp();
+            }
+            else{
+                $(this).closest("tr").next("tr").children("td").slideDown(350);
+            }
+        });
+    });
+
+    function toggleSidebar() {
+    const sidebar = document.querySelector('.quick');
+    sidebar.classList.toggle('active');
+}
+
+</script>
+
+</html>

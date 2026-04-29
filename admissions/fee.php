@@ -1,0 +1,243 @@
+<?php
+// Disable browser caching
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+// Check if the user is navigating back using JavaScript
+echo '<script>';
+echo 'if (window.performance && (window.performance.getEntriesByType("navigation")[0]?.type === "back_forward")) {';
+echo '   window.location.href = "http://iitmjanakpuri.com/index.php";';
+echo '}'; 
+echo '</script>';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IITM Janakpuri | Fee Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
+    <style>
+html,
+body * {
+    box-sizing: border-box;
+    font-family: georgia, 'Open Sans', sans-serif
+}
+p{
+    text-align: justify;
+}
+        .logo {
+            height: 80px;
+            width: 150px;
+            margin-top: 10px;
+        }
+        .hero-section {
+            background-color: #800000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .value-added-section {
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #800000;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            line-height: 1.8;
+        }
+
+        .value-added-section h1 {
+            font-size: 24px;
+            color: #800000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .value-added-section p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+
+    .committee-list {
+        color: #800000;
+        list-style-position: inside; /* Optional for list styling */
+    }
+
+    .committee-list li {
+        display: list-item;
+                color: #800000;
+    }
+    
+    /* Collapsibles */
+.collapsible {
+  background-color: maroon;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  border: 1rem transparent inset;
+}
+
+.active, .collapsible:hover {
+  background-color: #80000;
+  border: 1rem maroon inset;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 1px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  /*background-color: #f1f1f1;*/
+  margin:0 auto;
+}
+
+.myfontsize{
+    fontsize: 10px;
+    text-align: justify;
+}
+h3{
+       fontsize: 10px;
+}
+/* Collapsibles Ends */
+
+
+
+ /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ /* float: right; */
+}
+
+/* Style the container */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 45%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container1{
+    background-color:white;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <?php include('../naacheader.php'); ?>
+    <?php include('../n.php'); ?>
+ 
+    <div style="height: 10vh;"></div>
+   
+    <div class="container">
+        <h1 class="text-center">
+           Online Fees Payment Links
+        </h1>
+    </div>
+    <div class="container">
+        
+			            <div class="row">
+			            	<div class="col-sm-12 text-center">
+			            		<center><p><B>Fee Payments for MBA, MCA, BBA, BCA, B.Com(H) & BA(JMC) Courses</b></p></center>
+			            		<a href="https://octopod.co.in/student/admission/9e859d59c6e3c871c207986242cead92" target="_blank" class="btn btn-primary">UG & PG Payments</a>
+			            	</div>
+			            	<!--<div class="col-sm-6 text-center">
+			            		<p>Fee Payments for PG Courses</p>
+			            		<a href="https://smarthubeducation.hdfcbank.com/SmartFees/Landing.action?instId=4194" target="_blank" class="btn btn-danger">PG Payments</a>
+			            	</div>-->
+			            </div>
+			            
+<div style="height: 10vh;"></div>		
+ 
+
+    </div>
+       <div style="height: 5vh"></div>
+    <?php
+        include("../naacfooter.php");
+    ?>
+    <script src="myscript.js"></script>
+</body>
+</html>
