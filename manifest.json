@@ -1,0 +1,31 @@
+{
+  "name": "IITM Janakpuri — Institute of Information Technology & Management",
+  "short_name": "IITM Janakpuri",
+  "description": "Institute of Information Technology & Management, Janakpuri, New Delhi. Affiliated to GGSIPU. NAAC accredited, ISO certified. Offering BCA, BBA, B.Com (H), BJMC, MBA, MCA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "background_color": "#ffffff",
+  "theme_color": "#800000",
+  "icons": [
+    {
+      "src": "/direct-image/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

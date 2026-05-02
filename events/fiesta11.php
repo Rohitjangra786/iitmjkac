@@ -477,7 +477,7 @@
               students on March 13, 2021. The alumni meet was targeted to foster a sense of community among alumni. The event 
               commenced at 10 am, where students were welcomed with High Tea. The students meanwhile interacted with the faculty
               and their batch mates and remembered the good old days. The meet was inaugurated by Ms. Seema Sharma, Member – Governing 
-              Body, Mr. Shiva Sharma, Executive Director, Prof (Dr.) C.P. Chawla, Director, Institute of Innovation in Technology & Management 
+              Body, Mr. Shiva Sharma, Executive Director, Prof (Dr.) C.P. Chawla, Director, Institute of Innovation in Technology & Management
               and Mr. R.K. Singh, Director, Indraprastha Institute of Technology & Management. Further, Cultural programmes were organized which
               included group dance performance, mono act and mashup music (live) performed by junior students. Some Management fun games Like word
               puzzles/maze, tambola etc. were also played to up the fun tempo for the Alumni. Event was ably anchored by team 

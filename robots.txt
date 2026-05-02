@@ -1,0 +1,37 @@
+# robots.txt for https://iitmjanakpuri.com
+# Institute of Information Technology & Management, Janakpuri (GGSIPU)
+
+User-agent: *
+Allow: /
+
+# Block sensitive and non-public paths
+Disallow: /db/
+Disallow: /cgi-bin/
+Disallow: /upload1/
+Disallow: /upload_new/
+Disallow: /direct-file/
+Disallow: /direct-image/
+Disallow: /feedbackimages/
+Disallow: /assets1/
+Disallow: /assets_new/
+
+# Block dev and leftover artifacts
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.zip$
+Disallow: /tmp/
+
+# Allow Googlebot to fetch CSS / JS / images for proper rendering
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Sitemap
+Sitemap: https://iitmjanakpuri.com/sitemap.xml

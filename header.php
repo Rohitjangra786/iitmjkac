@@ -4,7 +4,6 @@
   <title>IITM Janakpuri Delhi | Official-Website | Institute of Information of Technology & Management Janakpuri | IITM Janakpuri | IITMIPU Janakpuri | iitmjanakpuri | iitm janakpuri | IITM </title>
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
   <meta name="description" content="The IITM-Institute of Information Technology & Management is awarded ‘A’ Grade by GNCTD, NAAC Accredited, ISO Certified, Affiliated to GGSIP University & Approved by AICTE. IITM is among the Top Institutes of IT and Best Colleges of Management in Delhi NCR. IITM conduct three Undergraduate Programmes of BCA, BBA & BCOM (Hons.) and two Post Graduate Programmes of MCA & MBA." />
-  <meta name="keywords" content="IITM Janakpuri-Official Website, Top College for BCA & MCA in delhi, Best college for BCA & MCA in india, Top college for BBA & MBA in delhi, Top college for B.Com(H) in delhi Best college for BBA & MBA in india, Highest Ranked College, Best Placement college" />
   <link rel="icon" type="image/x-icon" href="direct-image/favicon.ico" />
   <link rel="alternate" hreflang="en-IN" href="http://www.iitmjanakpuri.com/" />
   <link rel="canonical" href="http://www.iitmjanakpuri.com" />
@@ -31,8 +30,6 @@
 <?php
   $path = "assets/";
   include($path."external-css.php"); 
-  include("webspider.php");
-  $webs = new webspider;
 ?>
 <div class="icon-bar">
   

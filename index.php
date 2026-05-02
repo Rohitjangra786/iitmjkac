@@ -1,8 +1,6 @@
 <?php
-// Disable browser caching
-header("Cache-Control: no-cache, no-store, must-revalidate");
-header("Pragma: no-cache");
-header("Expires: 0");
+// Cache HTML for 5 minutes; revalidate against server before reuse
+header("Cache-Control: public, max-age=300, must-revalidate");
 
 // Check if the user is navigating back using JavaScript
 echo '<script>';
