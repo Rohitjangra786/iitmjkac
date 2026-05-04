@@ -5,6 +5,9 @@
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
   <meta name="description" content="The IITM-Institute of Information Technology & Management is awarded ‘A’ Grade by GNCTD, NAAC Accredited, ISO Certified, Affiliated to GGSIP University & Approved by AICTE. IITM is among the Top Institutes of IT and Best Colleges of Management in Delhi NCR. IITM conduct three Undergraduate Programmes of BCA, BBA & BCOM (Hons.) and two Post Graduate Programmes of MCA & MBA." />
   <link rel="icon" type="image/x-icon" href="direct-image/favicon.ico" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/images/icon-192.png" />
+  <meta name="theme-color" content="#800000" />
   <link rel="alternate" hreflang="en-IN" href="http://www.iitmjanakpuri.com/" />
   <link rel="canonical" href="http://www.iitmjanakpuri.com" />
   <meta property="og:site_name" content="IITM Janakpuri | IITM - Institute of Information Technology & Management | IITM Janakpuri Delhi | IITM Janakpuri New Delhi | IITM | IITM - Delhi Janakpuri | iitm janakpuri | mba colleges in delhi ncr | best mba colleges in delhi ncr | mba colleges in delhi ncr with low fees | top colleges for mba in delhi ncr | mba in IP colleges | top 10 mba colleges in delhi ncr | top management colleges in delhi | top business colleges in delhi | 
