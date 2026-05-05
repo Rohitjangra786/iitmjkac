@@ -397,12 +397,13 @@ body * {
     }
     .programmes{ margin: 0 !important; }
     .programmes a{
-        padding: 10px 6px !important;
+        padding: 14px 8px !important;
         border-radius: 10px !important;
     }
     .programmes .text{
-        font-size: 11.5px !important;
-        line-height: 1.15 !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        line-height: 1.2 !important;
         margin: 0 !important;
     }
 
@@ -424,33 +425,184 @@ body * {
 
 /* ========================== MODERN HOME ELEMENTS ========================== */
 
-/* Modern stats strip */
+/* ==================== PLACEMENT HIGHLIGHTS ==================== */
+.placement-section{
+    margin: 24px auto 6px;
+    padding: 0 14px;
+    max-width: 1100px;
+}
+.placement-section .placement-title{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.placement-section .placement-title h2{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #800000;
+    margin: 0;
+    letter-spacing: .3px;
+}
+.placement-section .placement-title h2::after{
+    content:"";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg,#800000,#fb8500);
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+.placement-section .placement-title p{
+    color: #6b6b6b;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13px;
+    margin: 6px 0 0;
+}
+
+.placement-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+}
+@media (max-width: 991.98px){
+    .placement-grid{ grid-template-columns: repeat(3, 1fr); gap: 10px; }
+}
+@media (max-width: 575px){
+    .placement-grid{ grid-template-columns: repeat(2, 1fr); gap: 8px; }
+}
+
+.placement-card{
+    background: linear-gradient(135deg,#ffffff 0%,#fdf3e7 100%);
+    border: 1px solid rgba(128,0,0,.12);
+    border-radius: 14px;
+    padding: 14px 8px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(128,0,0,.08);
+    transition: transform .25s ease, box-shadow .25s ease;
+    font-family: 'Poppins', system-ui, sans-serif;
+    animation: fadeUp .5s ease backwards;
+    position: relative;
+    overflow: hidden;
+}
+.placement-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(128,0,0,.18);
+}
+.placement-card:nth-child(1){ animation-delay: .05s; }
+.placement-card:nth-child(2){ animation-delay: .12s; }
+.placement-card:nth-child(3){ animation-delay: .19s; }
+.placement-card:nth-child(4){ animation-delay: .26s; }
+.placement-card:nth-child(5){ animation-delay: .33s; }
+.placement-card:nth-child(6){ animation-delay: .40s; }
+
+.placement-card .pkg-course{
+    font-size: 11px;
+    font-weight: 800;
+    color: #800000;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+    margin-bottom: 6px;
+    display: block;
+    line-height: 1.1;
+}
+.placement-card .pkg-value{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg,#800000,#d62828,#fb8500);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: block;
+    margin-bottom: 4px;
+}
+.placement-card .pkg-value small{
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 2px;
+}
+.placement-card .pkg-label{
+    font-size: 10px;
+    color: #6b6b6b;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    line-height: 1.2;
+    display: block;
+}
+@media (min-width: 992px){
+    .placement-card .pkg-value{ font-size: 24px; }
+    .placement-card .pkg-value small{ font-size: 12px; }
+}
+
+/* Featured "Highest Package" card — gold gradient + crown */
+.placement-card.featured{
+    background: linear-gradient(135deg,#ffe27a 0%,#ffb703 55%,#fb8500 100%);
+    border: 1px solid #fb8500;
+    box-shadow: 0 8px 22px rgba(251,133,0,.30);
+    animation: fadeUp .5s ease backwards, featuredPulse 2.6s ease-in-out infinite 1s;
+}
+.placement-card.featured:hover{
+    box-shadow: 0 16px 32px rgba(251,133,0,.45);
+}
+.placement-card.featured .pkg-course,
+.placement-card.featured .pkg-label{
+    color: #5e0000;
+}
+.placement-card.featured .pkg-value{
+    background: linear-gradient(135deg,#5e0000,#800000,#3d0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.placement-card.featured::before{
+    content: "👑";
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    font-size: 14px;
+    transform: rotate(14deg);
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,.18));
+}
+
+@keyframes featuredPulse{
+    0%,100%{ box-shadow: 0 8px 22px rgba(251,133,0,.30); }
+    50%    { box-shadow: 0 12px 30px rgba(251,133,0,.55); }
+}
+
+/* Modern stats strip — 6 cards: 6 cols desktop, 3 cols tablet, 2 cols mobile */
 .modern-stats{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 12px;
     margin: 22px auto;
     padding: 0 14px;
     max-width: 1100px;
 }
+@media (max-width: 991.98px){
+    .modern-stats{ grid-template-columns: repeat(3, 1fr); gap: 10px; }
+}
 @media (max-width: 575px){
-    .modern-stats{ grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .modern-stats{ grid-template-columns: repeat(2, 1fr); gap: 8px; }
 }
 
 .stat-card{
     background: linear-gradient(135deg, #ffffff 0%, #fdf3e7 100%);
     border: 1px solid rgba(128,0,0,.10);
     border-radius: 16px;
-    padding: 18px 10px;
+    padding: 16px 8px;
     text-align: center;
     box-shadow: 0 6px 18px rgba(128,0,0,.07);
     transition: transform .25s ease, box-shadow .25s ease;
     animation: fadeUp .5s ease backwards;
 }
 .stat-card:nth-child(1){ animation-delay: .05s; }
-.stat-card:nth-child(2){ animation-delay: .15s; }
-.stat-card:nth-child(3){ animation-delay: .25s; }
-.stat-card:nth-child(4){ animation-delay: .35s; }
+.stat-card:nth-child(2){ animation-delay: .12s; }
+.stat-card:nth-child(3){ animation-delay: .19s; }
+.stat-card:nth-child(4){ animation-delay: .26s; }
+.stat-card:nth-child(5){ animation-delay: .33s; }
+.stat-card:nth-child(6){ animation-delay: .40s; }
 
 .stat-card:hover{
     transform: translateY(-4px);
@@ -465,15 +617,18 @@ body * {
 
 .stat-card .stat-num{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.05;
     background: linear-gradient(135deg,#800000,#d62828,#fb8500);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
     display: block;
+}
+@media (min-width: 992px){
+    .stat-card .stat-num{ font-size: 26px; }
 }
 
 .stat-card .stat-label{
@@ -827,85 +982,87 @@ body * {
     box-shadow: 0 12px 28px rgba(255,0,0,.45);
 }
 
-/* ============== Course-wise Admission Helpline cards ============== */
+/* ============== Course-wise Admission Helpline cards (compact) ============== */
 .course-leads{
-    margin: 28px auto;
+    margin: 14px auto 10px;
     padding: 0 14px;
     max-width: 1100px;
 }
 
 .course-leads .leads-title{
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .course-leads .leads-title h2{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 800;
     color: #800000;
     margin: 0;
     letter-spacing: .3px;
+    line-height: 1.2;
 }
 
 .course-leads .leads-title h2::after{
     content:"";
     display: block;
-    width: 50px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     background: linear-gradient(90deg,#800000,#fb8500);
-    border-radius: 3px;
-    margin: 8px auto 0;
+    border-radius: 2px;
+    margin: 6px auto 0;
 }
 
 .course-leads .leads-title p{
     color: #6b6b6b;
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 13px;
-    margin: 8px 0 0;
+    font-size: 12px;
+    margin: 4px 0 0;
+    line-height: 1.3;
 }
 
 .leads-grid{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 8px;
 }
 @media (min-width: 576px){ .leads-grid{ grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 992px){ .leads-grid{ grid-template-columns: repeat(3, 1fr); } }
 
 .lead-card{
     background: #fff;
-    border-radius: 16px;
-    padding: 16px;
+    border-radius: 12px;
+    padding: 10px 12px;
     display: grid;
-    grid-template-columns: 56px 1fr auto;
+    grid-template-columns: 44px 1fr auto;
     align-items: center;
-    gap: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,.07);
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
     border: 1px solid rgba(0,0,0,.05);
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
     font-family: 'Poppins', system-ui, sans-serif;
 }
 
 .lead-card:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 16px 32px rgba(0,0,0,.12);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0,0,0,.10);
     border-color: rgba(128,0,0,.18);
 }
 
 .lead-badge{
-    width: 56px;
-    height: 56px;
-    border-radius: 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     font-weight: 800;
-    font-size: 13px;
+    font-size: 11px;
     text-align: center;
     line-height: 1.05;
-    box-shadow: 0 6px 14px rgba(0,0,0,.18);
+    box-shadow: 0 4px 10px rgba(0,0,0,.16);
     letter-spacing: .3px;
 }
 
@@ -917,27 +1074,27 @@ body * {
 
 .lead-info{ min-width: 0; }
 .lead-info .lead-course{
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     color: #800000;
     text-transform: uppercase;
-    letter-spacing: .8px;
+    letter-spacing: .7px;
     line-height: 1.1;
 }
 .lead-info .lead-name{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     color: #2b2b2b;
-    line-height: 1.25;
-    margin-top: 3px;
+    line-height: 1.2;
+    margin-top: 2px;
     word-break: break-word;
 }
 .lead-info .lead-phone{
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 600;
     color: #6b6b6b;
     text-decoration: none;
-    margin-top: 3px;
+    margin-top: 1px;
     display: inline-block;
 }
 .lead-info .lead-phone:hover{ color: #800000; }
@@ -946,14 +1103,14 @@ body * {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     background: linear-gradient(135deg,#22c55e,#16a34a);
     color: #fff !important;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
-    box-shadow: 0 6px 14px rgba(22,163,74,.35);
+    box-shadow: 0 4px 10px rgba(22,163,74,.32);
     transition: transform .2s ease, box-shadow .2s ease;
 }
 .lead-call:hover,
@@ -961,7 +1118,7 @@ body * {
     transform: scale(1.08);
     color: #fff !important;
     text-decoration: none;
-    box-shadow: 0 10px 22px rgba(22,163,74,.55);
+    box-shadow: 0 8px 18px rgba(22,163,74,.50);
 }
 
 /* Mobile-only: secondary Enquiry FAB next to Apply FAB (opens enquiry modal) */
@@ -1291,27 +1448,77 @@ body * {
     </div>
 </div>
 
-<!-- Modern stats strip -->
+<!-- Modern stats strip — 6 cards -->
 <div class="modern-stats">
     <div class="stat-card">
         <span class="stat-icon">🎓</span>
+        <span class="stat-num">2500+</span>
+        <span class="stat-label">Students</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-icon">👨‍🏫</span>
+        <span class="stat-num">120+</span>
+        <span class="stat-label">Faculty</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-icon">👥</span>
+        <span class="stat-num">7600+</span>
+        <span class="stat-label">Alumni</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-icon">🏆</span>
         <span class="stat-num">25+</span>
         <span class="stat-label">Years of Excellence</span>
     </div>
     <div class="stat-card">
-        <span class="stat-icon">👥</span>
-        <span class="stat-num">7000+</span>
-        <span class="stat-label">Strong Alumni</span>
+        <span class="stat-icon">💼</span>
+        <span class="stat-num">530+</span>
+        <span class="stat-label">Mentorship by Industry Leaders</span>
     </div>
     <div class="stat-card">
-        <span class="stat-icon">🏆</span>
-        <span class="stat-num">NAAC&nbsp;A</span>
-        <span class="stat-label">Accredited Grade</span>
+        <span class="stat-icon">🎉</span>
+        <span class="stat-num">1100+</span>
+        <span class="stat-label">Campus Events</span>
     </div>
-    <div class="stat-card">
-        <span class="stat-icon">⭐</span>
-        <span class="stat-num">Top&nbsp;50</span>
-        <span class="stat-label">B-School Rank</span>
+</div>
+
+<!-- Placement Highlights — course-wise average packages + featured highest package -->
+<div class="placement-section">
+    <div class="placement-title">
+        <h2>Placement Highlights</h2>
+        <p>Average packages by program · Highest offer of the year</p>
+    </div>
+    <div class="placement-grid">
+        <div class="placement-card featured">
+            <span class="pkg-course">Highest</span>
+            <span class="pkg-value">22.30<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">BCA Top Package</span>
+        </div>
+        <div class="placement-card">
+            <span class="pkg-course">MBA</span>
+            <span class="pkg-value">13.36<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">Average</span>
+        </div>
+        <div class="placement-card">
+            <span class="pkg-course">MCA</span>
+            <span class="pkg-value">6.70<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">Average</span>
+        </div>
+        <div class="placement-card">
+            <span class="pkg-course">BBA</span>
+            <span class="pkg-value">6.70<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">Average</span>
+        </div>
+        <div class="placement-card">
+            <span class="pkg-course">B.Com (H)</span>
+            <span class="pkg-value">6<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">Average</span>
+        </div>
+        <div class="placement-card">
+            <span class="pkg-course">BA (JMC)</span>
+            <span class="pkg-value">4.50<small>&nbsp;LPA</small></span>
+            <span class="pkg-label">Average</span>
+        </div>
     </div>
 </div>
 
@@ -1561,7 +1768,12 @@ body * {
 
         <div class="course-wrap">
             <div class="course-box">
-                <div class="course-name">MBA / MCA</div>
+                <div class="course-name">MBA</div>
+                <div class="course-value">60</div>
+            </div>
+
+            <div class="course-box">
+                <div class="course-name">MCA</div>
                 <div class="course-value">60</div>
             </div>
 

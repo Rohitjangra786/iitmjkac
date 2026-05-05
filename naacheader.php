@@ -176,26 +176,26 @@
         .hero-section .col-md-7{
             text-align: center !important;
         }
-        /* Make <center> a flex column so we can REORDER its children:
-           Pills (order:1) appear directly after the logo, BEFORE the title (order:2). */
+        /* Make <center> a flex column so we can ORDER its children:
+           Title (order:1) sits directly under the logo, then the accreditation pills (order:2) below it. */
         .hero-section .col-md-7 center{
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
-            row-gap: 8px;
+            row-gap: 10px;
         }
-        .hero-section .accreditation-pills{ order: 1 !important; }
-        .hero-section .hero-title{ order: 2 !important; }
+        .hero-section .hero-title{ order: 1 !important; }
+        .hero-section .accreditation-pills{ order: 2 !important; }
         .hero-section .col-md-7 center > p{ order: 3 !important; }
 
         .hero-section .hero-title{
             font-family: 'Poppins', system-ui, sans-serif;
-            font-size: 13.5px !important;
+            font-size: 16.5px !important;
             font-weight: 800 !important;
-            line-height: 1.25 !important;
+            line-height: 1.22 !important;
             margin: 0 !important;
             color: #fff;
-            letter-spacing: .2px;
+            letter-spacing: .3px;
             text-align: center;
         }
         .hero-section p{
@@ -271,7 +271,7 @@
                            Rated Category 'A+' by SFRC & 'A' Grade (Highest Category) by JAC Govt. of NCT of Delhi<br>
                            Approved by AICTE & Affiliated to GGS Indraprastha University, New Delhi</p>
                         <div class="accreditation-pills">
-                            <span>NAAC A</span>
+                            <span>NAAC Grade &lsquo;A&rsquo;</span>
                             <span>NBA</span>
                             <span>AICTE</span>
                             <span>UGC 2(f)</span>
