@@ -216,48 +216,69 @@
         background: #fff;
         border-radius: 2px;
     }
-    .mobile-topbar .topbar-logo{
+    /* Admission-centric center block (replaces the static logo+label) */
+    .mobile-topbar .topbar-admission{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex: 1 1 auto;
+        min-width: 0;
+        text-decoration: none;
+        padding: 4px 8px;
+        line-height: 1;
+        overflow: hidden;
+    }
+    .mobile-topbar .topbar-admission .adm-eyebrow{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #800000;
+        background: linear-gradient(135deg,#800000,#d62828);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 3px;
+        white-space: nowrap;
+    }
+    .mobile-topbar .topbar-admission .adm-headline{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 13.5px;
+        font-weight: 800;
+        color: #2b2b2b;
+        white-space: nowrap;
         display: flex;
         align-items: center;
         gap: 6px;
-        text-decoration: none;
-        flex: 1 1 auto;
-        justify-content: center;
-        min-width: 0;
-        overflow: hidden;
     }
-    .mobile-topbar .topbar-logo img{
-        height: 34px;
-        width: auto;
-        max-width: 110px;
-        object-fit: contain;
-        display: block;
+    .mobile-topbar .topbar-admission .adm-headline .adm-arrow{
+        color: #d62828;
+        font-weight: 900;
+        animation: admArrow 1.4s ease-in-out infinite;
+        display: inline-block;
     }
-    .mobile-topbar .topbar-logo .name{
-        font-family: 'Poppins', system-ui, sans-serif;
-        font-weight: 800;
-        font-size: 10px;
-        color: #800000;
-        letter-spacing: 1px;
-        line-height: 1;
-        text-transform: uppercase;
-        opacity: .85;
-        white-space: nowrap;
+    @keyframes admArrow{
+        0%,100%{ transform: translateX(0); }
+        50%    { transform: translateX(4px); }
     }
-    /* On very narrow screens, drop the disambiguator label */
-    @media (max-width: 360px){
-        .mobile-topbar .topbar-logo .name{ display: none; }
-    }
+
     .mobile-topbar .topbar-apply{
         background: linear-gradient(135deg,#ffb703,#fb8500,#d62828);
         color: #fff !important;
         font-weight: 800;
         font-size: 12px;
-        padding: 9px 12px;
+        padding: 10px 14px;
         border-radius: 50px;
         text-decoration: none;
-        box-shadow: 0 4px 12px rgba(214,40,40,.4);
+        box-shadow: 0 4px 14px rgba(214,40,40,.45);
         white-space: nowrap;
+        animation: applyTopPulse 2s ease-in-out infinite;
+    }
+    @keyframes applyTopPulse{
+        0%,100%{ box-shadow: 0 4px 14px rgba(214,40,40,.45); }
+        50%    { box-shadow: 0 6px 20px rgba(214,40,40,.75); }
     }
 }
 
@@ -464,11 +485,11 @@
     <button class="topbar-burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" aria-label="Open menu">
         <span></span><span></span><span></span>
     </button>
-    <a href="https://www.iitmjanakpuri.com/" class="topbar-logo">
-        <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence">
-        <span class="name">Janakpuri</span>
+    <a href="#enquiryModal" data-bs-toggle="modal" class="topbar-admission" aria-label="Open admission enquiry">
+        <span class="adm-eyebrow">Admissions Open</span>
+        <span class="adm-headline">2026 - 27 <span class="adm-arrow">›</span></span>
     </a>
-    <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" class="topbar-apply">Apply ›</a>
+    <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" class="topbar-apply">Apply Now ›</a>
 </div>
 
 <!-- =============== Mobile Off-canvas Sidebar (visible <992px) =============== -->

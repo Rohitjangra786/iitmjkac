@@ -419,8 +419,9 @@ body * {
     /* Marquee — slightly smaller */
     .marquee-container{ font-size: 13px; padding: 4px 0; }
 
-    /* Body padding-bottom so the stacked Apply + Call FABs don't permanently cover content */
-    body{ padding-bottom: 150px; }
+    /* No body padding-bottom — the footer itself reserves space for the FABs below its bottom bar
+       so the FABs always sit over the dark maroon footer area, not over a white gap. */
+    body{ padding-bottom: 0; }
 }
 
 /* ========================== MODERN HOME ELEMENTS ========================== */
@@ -935,52 +936,38 @@ body * {
 .follow-us-icons .icons-gs{
     display: flex !important;
     justify-content: center;
-    gap: 10px;
+    gap: 22px;
     flex-wrap: wrap;
     align-items: center;
 }
 
+/* Pure icon only — no pill, no border, no background */
 .follow-us-icons .icons-gs a.s{
-    width: 40px !important;
-    height: 40px !important;
-    line-height: 40px !important;
-    border-radius: 50% !important;
-    background: #ffffff !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: 1 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
     color: #800000 !important;
-    font-size: 17px !important;
+    font-size: 24px !important;
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(128,0,0,.12);
-    transition: transform .3s ease, box-shadow .3s ease, background .3s ease, color .3s ease;
+    box-shadow: none !important;
     border: 0 !important;
+    padding: 0 !important;
     text-decoration: none;
-    position: relative;
+    transition: transform .25s ease, color .25s ease;
 }
 .follow-us-icons .icons-gs a.s:hover{
-    transform: translateY(-4px) scale(1.06);
-    color: #fff !important;
+    transform: translateY(-3px) scale(1.08);
 }
-.follow-us-icons .icons-gs a.instagram:hover{
-    background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888) !important;
-    box-shadow: 0 12px 28px rgba(220,39,67,.45);
-}
-.follow-us-icons .icons-gs a.facebook:hover{
-    background: #1877f2 !important;
-    box-shadow: 0 12px 28px rgba(24,119,242,.45);
-}
-.follow-us-icons .icons-gs a.linkedin:hover{
-    background: #0a66c2 !important;
-    box-shadow: 0 12px 28px rgba(10,102,194,.45);
-}
-.follow-us-icons .icons-gs a.twitter:hover{
-    background: #1da1f2 !important;
-    box-shadow: 0 12px 28px rgba(29,161,242,.45);
-}
-.follow-us-icons .icons-gs a.youtube:hover{
-    background: #ff0000 !important;
-    box-shadow: 0 12px 28px rgba(255,0,0,.45);
-}
+/* Hover: color shifts to brand color, no chunky background */
+.follow-us-icons .icons-gs a.instagram:hover{ color: #dc2743 !important; background: transparent !important; box-shadow: none !important; }
+.follow-us-icons .icons-gs a.facebook:hover { color: #1877f2 !important; background: transparent !important; box-shadow: none !important; }
+.follow-us-icons .icons-gs a.linkedin:hover { color: #0a66c2 !important; background: transparent !important; box-shadow: none !important; }
+.follow-us-icons .icons-gs a.twitter:hover  { color: #1da1f2 !important; background: transparent !important; box-shadow: none !important; }
+.follow-us-icons .icons-gs a.youtube:hover  { color: #ff0000 !important; background: transparent !important; box-shadow: none !important; }
 
 /* ============== Course-wise Admission Helpline cards (compact) ============== */
 .course-leads{
