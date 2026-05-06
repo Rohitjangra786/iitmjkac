@@ -3,11 +3,11 @@
 # Runs whenever you click "Deploy HEAD Commit" in cPanel → Git Version Control → Manage.
 #
 # IMPORTANT: verify DEPLOYPATH matches your actual cPanel document root before the first deploy.
-#   - Default assumes cPanel username "iitmjkac" with the site at /home/iitmjkac/public_html
+#   - cPanel username "iitmjkac" with the site at /home2/iitmjkac/public_html
 #   - If your host is different, change the path on the export line below
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/iitmjkac/public_html/
+    - export DEPLOYPATH=/home2/iitmjkac/public_html/
     - /bin/mkdir -p $DEPLOYPATH
 
     # Sync everything from the repo into public_html.
