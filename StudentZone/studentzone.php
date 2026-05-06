@@ -62,25 +62,22 @@ echo '</script>';
             border-radius: 5px;
             background-color: #f9f9f9;
             transition: background-color 0.3s, transform 0.3s;
-        }
-
-        .box a {
+            display: block;
             text-decoration: none;
             color: #800000;
             font-weight: bold;
+            cursor: pointer;
         }
 
-        .box:hover {
+        .box:hover,
+        .box:focus {
             background-color: #800000;
             color: white;
             transform: scale(1.05);
+            text-decoration: none;
         }
 
-        .box:hover a {
-            color: white;
-        }
-
-        .box span {
+        .box .material-symbols-outlined {
             font-size: 24px;
             display: block;
             margin-bottom: 10px;
@@ -125,68 +122,68 @@ echo '</script>';
     <div class="boxMain">
 
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/StudentZone/nss.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/nss.php" target="_blank">NSS</a>
-            </div>
-            <div class="box">
+                NSS
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/ncc.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/ncc.php" target="_blank">NCC</a>
-            </div>
+                NCC
+            </a>
         </div>
 
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/StudentZone/sdc.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/sdc.php" target="_blank">Incubation Center</a>
-            </div>
-            <div class="box">
+                Incubation Center
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/debate.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/debate.php" target="_blank">Debate and Literary Committee</a>
-            </div>
+                Debate and Literary Committee
+            </a>
         </div>
 
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/StudentZone/cultural.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/cultural.php" target="_blank">Cultural Committee</a>
-            </div>
-            <div class="box">
+                Cultural Committee
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/esc.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/esc.php" target="_blank">Environment & Sustainability Committee</a>
-            </div>
+                Environment &amp; Sustainability Committee
+            </a>
         </div>
 
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/StudentZone/edcell.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/edcell.php" target="_blank">Entrepreneurship Development Cell</a>
-            </div>
-            <div class="box">
+                Entrepreneurship Development Cell
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/sports.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/sports.php" target="_blank">Sports Committee</a>
-            </div>
+                Sports Committee
+            </a>
         </div>
 
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/fiesta2k25/" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/fiesta2k25/" target="_blank">Fiesta</a>
-            </div>
-            <div class="box">
+                Fiesta
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/mclub.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/mclub.php" target="_blank">Management Club</a>
-            </div>
+                Management Club
+            </a>
         </div>
         <div class="parentBox">
-            <div class="box leftside">
+            <a class="box leftside" href="https://iitmjanakpuri.com/StudentZone/emc.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/emc.php" target="_blank">Event Management Committee</a>
-            </div>
-            <div class="box">
+                Event Management Committee
+            </a>
+            <a class="box" href="https://iitmjanakpuri.com/StudentZone/canteen.php" target="_blank">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/StudentZone/canteen.php" target="_blank">Canteen Committee</a>
-            </div>
+                Canteen Committee
+            </a>
         </div>
     </div>
   </div>

@@ -1317,6 +1317,7 @@ body * {
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="8" aria-label="Slide 9"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="9" aria-label="Slide 10"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="11" aria-label="Slide 12"></button>
 
     </div>
     <div class="carousel-inner">
@@ -1340,10 +1341,13 @@ body * {
             <img src="sliderimages/17.png" class="d-block w-100" alt="Slide 6">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/18.png" class="d-block w-100" alt="Slide 7">
+            <img src="sliderimages/18.png" class="d-block w-100" alt="Our Academic Pride - BBA">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/19.png" class="d-block w-100" alt="Slide 8">
+            <img src="sliderimages/BCAIMAGEBANNERIITM.png" class="d-block w-100" alt="Our Academic Pride - BCA">
+        </div>
+        <div class="carousel-item">
+            <img src="sliderimages/19.png" class="d-block w-100" alt="Our Academic Pride - B.Com(H)">
         </div>
         <div class="carousel-item">
             <img src="sliderimages/11.png" class="d-block w-100" alt="Slide 9">
