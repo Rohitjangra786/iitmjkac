@@ -1473,7 +1473,7 @@ body * {
 <div class="placement-section">
     <div class="placement-title">
         <h2>Placement Highlights</h2>
-        <p>Average packages by program · Highest offer of the year</p>
+        <p>Highest packages by program · Highest offer of the year</p>
     </div>
     <div class="placement-grid">
         <div class="placement-card featured">
@@ -1484,27 +1484,27 @@ body * {
         <div class="placement-card">
             <span class="pkg-course">MBA</span>
             <span class="pkg-value">13.36<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">Average</span>
+            <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
             <span class="pkg-course">MCA</span>
             <span class="pkg-value">6.70<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">Average</span>
+            <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
             <span class="pkg-course">BBA</span>
             <span class="pkg-value">6.70<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">Average</span>
+            <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
             <span class="pkg-course">B.Com (H)</span>
             <span class="pkg-value">6<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">Average</span>
+            <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
             <span class="pkg-course">BA (JMC)</span>
             <span class="pkg-value">4.50<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">Average</span>
+            <span class="pkg-label">Highest</span>
         </div>
     </div>
 </div>
@@ -1795,6 +1795,20 @@ body * {
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                    <div class="carousel-item active">
+                        <img src="NewsImages/top19b.jpeg" class="img-responsive" style="width: 100%;  height: auto;" />
+                       <h3 class="tgfmlt" style="text-align: center;font-weight:bolder"></h3>
+                       <h4 class="tgfmlt" style="text-align: center;">Top 19 B-School (MBA) &mdash; Times B-School Survey 2026</h4>
+                       <h4 class="tgfmlt" style="text-align: center;"></h4>
+                       <div></div>
+                    </div>
+                   <div class="carousel-item">
+                        <img src="NewsImages/37th.jpeg" class="img-responsive" style="width: 100%;  height: auto;" />
+                       <h3 class="tgfmlt" style="text-align: center;font-weight:bolder"></h3>
+                       <h4 class="tgfmlt" style="text-align: center;">Ranked 37th in Placements &mdash; Times B-School Survey 2026</h4>
+                       <h4 class="tgfmlt" style="text-align: center;"></h4>
+                       <div></div>
+                    </div>
+                   <div class="carousel-item">
                         <img src="upload_new/gallery/rankk.jpeg" class="img-responsive" style="width: 100%;  height: auto;" />
                        <h3 class="tgfmlt" style="text-align: center;font-weight:bolder"></h3>
                        <h4 class="tgfmlt" style="text-align: center;">Top 50 B-School</h4>
@@ -2166,11 +2180,11 @@ try {
                             <label for="enq-course">Course of Interest</label>
                             <select class="form-select" id="enq-course" name="course" required>
                                 <option value="" disabled selected>Select a course</option>
-                                <option value="MBA|9560098709|Dr. Mandeep Singh">MBA — Dr. Mandeep Singh</option>
-                                <option value="BCA / MCA|9211592472|Mr. Ashish Nayyar">BCA &amp; MCA — Mr. Ashish Nayyar</option>
-                                <option value="BBA|9711197715|Dr. Deepika Arora &amp; Dr. Deepali Saluja">BBA — Dr. Deepika Arora &amp; Dr. Deepali Saluja</option>
-                                <option value="B.Com (H)|8920636874|Dr. Raghav Jain">B.Com (H) — Dr. Raghav Jain</option>
-                                <option value="BA (JMC)|7217872947|Dr. Nivedita Sharma">BA (JMC) — Dr. Nivedita Sharma</option>
+                                <option value="MBA|9560098709|Dr. Mandeep Singh">MBA</option>
+                                <option value="BCA / MCA|9211592472|Mr. Ashish Nayyar">BCA &amp; MCA</option>
+                                <option value="BBA|9711197715|Dr. Deepika Arora &amp; Dr. Deepali Saluja">BBA</option>
+                                <option value="B.Com (H)|8920636874|Dr. Raghav Jain">B.Com (H)</option>
+                                <option value="BA (JMC)|7217872947|Dr. Nivedita Sharma">BA (JMC)</option>
                             </select>
                             <div class="form-help">You'll be connected directly to the selected course lead via WhatsApp.</div>
                         </div>
