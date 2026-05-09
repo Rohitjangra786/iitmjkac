@@ -1,0 +1,1358 @@
+[
+    {
+        "vol":  16,
+        "issue":  2,
+        "year":  2025,
+        "period":  "July-December",
+        "sortKey":  202507,
+        "slug":  "v16i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "AI-Driven Digital Transformation in Business Process Optimization",
+                             "authors":  "Mohd Azher Parvez",
+                             "doi":  "10.65301/iitm.2025.17.2.920",
+                             "pages":  "1-7",
+                             "pdf":  "data/articles/v16i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Maximizing Gen Z Engagement: A Modern Approach to IT Sector Talent Management",
+                             "authors":  "Aarti Sehgal and Disha Garg",
+                             "doi":  "10.65301/iitm.2025.17.2.921",
+                             "pages":  "8-23",
+                             "pdf":  "data/articles/v16i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Women-LED Startups and Atmanirbhar Bharat",
+                             "authors":  "Sunpreet Kaur Dhir",
+                             "doi":  "10.65301/iitm.2025.17.2.922",
+                             "pages":  "24-27",
+                             "pdf":  "data/articles/v16i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Stock Market Reaction to Merger Announcements in Indian Public Sector Banking: An Event Study Approach",
+                             "authors":  "Srishti Arora and K. Ravi Sankar",
+                             "doi":  "10.65301/iitm.2025.17.2.924",
+                             "pages":  "28-34",
+                             "pdf":  "data/articles/v16i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Human-AI Collaboration Models in Operations and Supply Chain Management",
+                             "authors":  "Sandeep Mahajan",
+                             "doi":  "10.65301/iitm.2025.17.2.925",
+                             "pages":  "35-62",
+                             "pdf":  "data/articles/v16i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Review of Hybrid Deep Learning Techniques for Robust ECG Signal Classification by Addressing Noise and Class Imbalance",
+                             "authors":  "Bhavna Soni and Pritaj Yadav",
+                             "doi":  "10.65301/iitm.2025.17.2.926",
+                             "pages":  "63-79",
+                             "pdf":  "data/articles/v16i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Human Activity Recognition in Smart Homes: Advancements and Future Trends with Edge Computing Integration and Ethical Frameworks",
+                             "authors":  "Himanshi Sharma, Rahul Sachdeva and A. K. Mishra",
+                             "doi":  "10.65301/iitm.2025.17.2.927",
+                             "pages":  "80-87",
+                             "pdf":  "data/articles/v16i2/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "A Survey on Secure and Scalable Cross-Chain Provenance Techniques for Digital Forensics",
+                             "authors":  "Mohankumar S D, J V N Lakshmi and Shashidhara D",
+                             "doi":  "10.65301/iitm.2025.17.2.928",
+                             "pages":  "88-99",
+                             "pdf":  "data/articles/v16i2/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Towards Resilient PLM Architectures: Cyber Threats, Security Mechanisms, and Industrial Implications",
+                             "authors":  "Shashidhara D, Minavathi and Mohankumar S D",
+                             "doi":  "10.65301/iitm.2025.17.2.929",
+                             "pages":  "100-108",
+                             "pdf":  "data/articles/v16i2/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "AI-Driven Predictive Models for Infrastructure Health Monitoring and Failure Prediction",
+                             "authors":  "Bhavinbhai G. Lakhani",
+                             "doi":  "10.65301/iitm.2025.17.2.930",
+                             "pages":  "109-122",
+                             "pdf":  "data/articles/v16i2/article-10.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  16,
+        "issue":  1,
+        "year":  2025,
+        "period":  "January-June",
+        "sortKey":  202501,
+        "slug":  "v16i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Technologies Shaping Knowledge Management",
+                             "authors":  "Preeti Malhotra, Ramandeep Kaur and Raghav Jain",
+                             "doi":  "10.65301/iitm.2025.16.1.416",
+                             "pages":  "1-26",
+                             "pdf":  "data/articles/v16i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "The Impact of Smart HR Strategies on Reaching Gender Equality Goals",
+                             "authors":  "Pooja and Nisha",
+                             "doi":  "10.65301/iitm.2025.16.1.417",
+                             "pages":  "27-33",
+                             "pdf":  "data/articles/v16i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Survey on Usage of Fitness Apps by Millennial using Chi Square Test",
+                             "authors":  "Ambika Sharma",
+                             "doi":  "10.65301/iitm.2025.16.1.418",
+                             "pages":  "34-41",
+                             "pdf":  "data/articles/v16i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Rising Role of IOT for Remote Sensing Disaster Application",
+                             "authors":  "Sushma Malik and Anamika Rana",
+                             "doi":  "10.65301/iitm.2025.16.1.419",
+                             "pages":  "42-59",
+                             "pdf":  "data/articles/v16i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Wastewater Reuse Optimization Using Machine Learning",
+                             "authors":  "Ankita and Nidhi Ruhil",
+                             "doi":  "10.65301/iitm.2025.16.1.420",
+                             "pages":  "60-74",
+                             "pdf":  "data/articles/v16i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Blockchain Unchained: Applications Outside Cryptocurrency",
+                             "authors":  "Lakshmi Kumari and Neetu Mittal",
+                             "doi":  "10.65301/iitm.2025.16.1.421",
+                             "pages":  "75-89",
+                             "pdf":  "data/articles/v16i1/article-6.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  15,
+        "issue":  2,
+        "year":  2024,
+        "period":  "July-December",
+        "sortKey":  202407,
+        "slug":  "v15i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Female Education – A Path to Achieve Gender Parity for Sustainable Development Goals",
+                             "authors":  "Anita Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.422",
+                             "pages":  "1-6",
+                             "pdf":  "data/articles/v15i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Computational Development of Duality for Mathematical Programming Problem: Historic Analysis",
+                             "authors":  "Megha Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.423",
+                             "pages":  "7-15",
+                             "pdf":  "data/articles/v15i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Overspendings in Indian Weddings",
+                             "authors":  "Anuradha Sarkar , Qudsiya Maigaonkar and Soniya Rai",
+                             "doi":  "10.65301/iitm.2024.15.1.424",
+                             "pages":  "17-33",
+                             "pdf":  "data/articles/v15i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Leadership and Well-being: A role in Organizational setup in India",
+                             "authors":  "Krati Agarwal",
+                             "doi":  "10.65301/iitm.2024.15.1.425",
+                             "pages":  "34-48",
+                             "pdf":  "data/articles/v15i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "A Comprehensive Review of Deep Learning Architectures: Applications, Advancements, and Challenges",
+                             "authors":  "Ankita Luke",
+                             "doi":  "10.65301/iitm.2024.15.1.426",
+                             "pages":  "49-60",
+                             "pdf":  "data/articles/v15i2/article-5.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  15,
+        "issue":  1,
+        "year":  2024,
+        "period":  "January-June",
+        "sortKey":  202401,
+        "slug":  "v15i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Female Education– A Path to Achieve Gender Parity for Sustainable Development Goals",
+                             "authors":  "Anita Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.422",
+                             "pages":  "1-6",
+                             "pdf":  "data/articles/v15i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Computational Development of Duality for Mathematical Programming Problem: Historic Analysis",
+                             "authors":  "Megha Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.423",
+                             "pages":  "7-15",
+                             "pdf":  "data/articles/v15i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Overspendings in Indian Weddings",
+                             "authors":  "Anuradha Sarkar, Qudsiya Maigaonkar and Soniya Rai",
+                             "doi":  "10.65301/iitm.2024.15.1.424",
+                             "pages":  "17-33",
+                             "pdf":  "data/articles/v15i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Leadership and Well-being: A Role in Organizational Setup in India",
+                             "authors":  "Krati Agarwal",
+                             "doi":  "10.65301/iitm.2024.15.1.425",
+                             "pages":  "34-48",
+                             "pdf":  "data/articles/v15i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "A Comprehensive Review of Deep Learning Architectures: Applications, Advancements, and Challenges",
+                             "authors":  "Ankita Luke",
+                             "doi":  "10.65301/iitm.2024.15.1.426",
+                             "pages":  "49-60",
+                             "pdf":  "data/articles/v15i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "The Impact of Remote Work Technology on HR Practices: Navigating the Digital Workforce Revolution",
+                             "authors":  "Sapna Gandhi",
+                             "doi":  "10.65301/iitm.2024.15.1.427",
+                             "pages":  "61-74",
+                             "pdf":  "data/articles/v15i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Enhancing Cyber Security through Artificial Intelligence: Opportunities and Challenges",
+                             "authors":  "Priyanka Rattan",
+                             "doi":  "10.65301/iitm.2024.15.1.428",
+                             "pages":  "75-85",
+                             "pdf":  "data/articles/v15i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Sustainability Linked Bonds an Instrument of Future Finance Based on Past Trends: A Bibliometric Analysis",
+                             "authors":  "Nancy Gupta, Ajit Mittal and Rachita Rana",
+                             "doi":  "10.65301/iitm.2024.15.1.429",
+                             "pages":  "86-108",
+                             "pdf":  "data/articles/v15i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Initial Public Offering: A Case Study on Avenue Super Marts Ltd",
+                             "authors":  "Rohit Kumar and Hanshika Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.430",
+                             "pages":  "109-118",
+                             "pdf":  "data/articles/v15i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Agile Effort Estimation Using Machine Learning – A Systematic Review",
+                             "authors":  "Prabhneet Kaur and Ankur Sharma",
+                             "doi":  "10.65301/iitm.2024.15.1.431",
+                             "pages":  "119-137",
+                             "pdf":  "data/articles/v15i1/article-10.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  13,
+        "issue":  2,
+        "year":  2022,
+        "period":  "July-December",
+        "sortKey":  202207,
+        "slug":  "v13i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "International Business Challenges Faced by EXIM Companies",
+                             "authors":  "Rashmi Gujrati , Hayri Uygun , Vandana Raghava and Giuseppe Granata",
+                             "doi":  "10.65301/iitm.2022.13.2.460",
+                             "pages":  "1-6",
+                             "pdf":  "data/articles/v13i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Communities Strengthening Peace and Harmony: A Technological Perspective",
+                             "authors":  "Usha Yadav and Sheetal Soni",
+                             "doi":  "10.65301/iitm.2022.13.2.461",
+                             "pages":  "7-12",
+                             "pdf":  "data/articles/v13i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Analysis of Level of Variation of Job Satisfaction for Permanent and Temporary Employees: Evidence from Delhi NCR?",
+                             "authors":  "Puja Devi",
+                             "doi":  "10.65301/iitm.2022.13.2.462",
+                             "pages":  "13-18",
+                             "pdf":  "data/articles/v13i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Data Compliance Architecture for Managing Organizations Local and Global Data Using Data Virtualization",
+                             "authors":  "Rahul Shivaji Bagade , R G Pawar and Anuradha Dandnaik",
+                             "doi":  "10.65301/iitm.2022.13.2.463",
+                             "pages":  "19-25",
+                             "pdf":  "data/articles/v13i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Impact of Covid-19 on Training and Development",
+                             "authors":  "Anuradha Sarkar and Advait Syamsunder",
+                             "doi":  "10.65301/iitm.2022.13.2.464",
+                             "pages":  "26-30",
+                             "pdf":  "data/articles/v13i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "To Identify the Untrustworthy Leader of a Hierarchical Wireless Sensor Network Using Received Signal Strength",
+                             "authors":  "Md. Ibrahim Abdullah, Md. Atiqur Rahman , Mohammad Alamgir Hossain , Md. Shohidul Islam and Md. Shamim Hossain",
+                             "doi":  "10.65301/iitm.2022.13.2.465",
+                             "pages":  "31-41",
+                             "pdf":  "data/articles/v13i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "An Empirical Insight into Indian Service Organisations with Reference to Organisational Citizenship Behaviour of Employees Towards Organisation and Individuals",
+                             "authors":  "Ravi Kumar Gupta, Sakshi Gupta \u0026 Anita Gupta",
+                             "doi":  "10.65301/iitm.2022.13.2.466",
+                             "pages":  "43-52",
+                             "pdf":  "data/articles/v13i2/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Stress Management",
+                             "authors":  "Rita Nagpal",
+                             "doi":  "10.65301/iitm.2022.13.2.467",
+                             "pages":  "53-58",
+                             "pdf":  "data/articles/v13i2/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Serving Three Months Notice Period in the Indian IT Industry- Insights and Contradictions",
+                             "authors":  "Kannamani Ramasamy , and Sudershan Reddy",
+                             "doi":  "10.65301/iitm.2022.13.2.468",
+                             "pages":  "59-73",
+                             "pdf":  "data/articles/v13i2/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "An In-Depth Study is Conducted on the Segmented Genes of the Cancer Causing Helicobacter Pylori",
+                             "authors":  "Md. Atiqur Rahman , Mohammad Alamgir Hossain , Md. Ibrahim Abdullah, Ahsan-Ul-Ambia , Md. Mojahidul Islam and Md. Shohidul Islam",
+                             "doi":  "10.65301/iitm.2022.13.2.469",
+                             "pages":  "74-86",
+                             "pdf":  "data/articles/v13i2/article-10.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  13,
+        "issue":  1,
+        "year":  2022,
+        "period":  "January-June",
+        "sortKey":  202201,
+        "slug":  "v13i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Examining Satisfaction Level of Faculty with Online Learning during Covid-19",
+                             "authors":  "Rashmi",
+                             "doi":  "10.65301/iitm.2022.13.1.450",
+                             "pages":  "1-7",
+                             "pdf":  "data/articles/v13i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Knowledge Management Practices in Selected Information Technology (IT) Industries: An Empirical Study",
+                             "authors":  "Rajni",
+                             "doi":  "10.65301/iitm.2022.13.1.451",
+                             "pages":  "8-14",
+                             "pdf":  "data/articles/v13i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Music Genre Classification using Machine Learning A Comparative Study",
+                             "authors":  "Sahil Poonia , Chetan Verma and Nikita Malik",
+                             "doi":  "10.65301/iitm.2022.13.1.452",
+                             "pages":  "15-21",
+                             "pdf":  "data/articles/v13i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Cloud Computing Out-Turn on E-Commerce",
+                             "authors":  "Romika Yadav and Maria Afzal",
+                             "doi":  "10.65301/iitm.2022.13.1.453",
+                             "pages":  "22-25",
+                             "pdf":  "data/articles/v13i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Covid-19 Impact on Digital Services of Banking Industry with Respect to Employee’s Perception",
+                             "authors":  "Pallavi Pandey , Bilal Mustafa Khan and Harish Singla",
+                             "doi":  "10.65301/iitm.2022.13.1.454",
+                             "pages":  "26-32",
+                             "pdf":  "data/articles/v13i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Implementation of 5S in Indian Firms",
+                             "authors":  "Manoj Kumar",
+                             "doi":  "10.65301/iitm.2022.13.1.455",
+                             "pages":  "33-42",
+                             "pdf":  "data/articles/v13i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "The Effects of the COVID-19 Pandemic on the Educational System",
+                             "authors":  "Anamika Rana and Sushma Malik",
+                             "doi":  "10.65301/iitm.2022.13.1.456",
+                             "pages":  "43-49",
+                             "pdf":  "data/articles/v13i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "A Brief Study of Different Issues in Research",
+                             "authors":  "Pawan Kumar",
+                             "doi":  "10.65301/iitm.2022.13.1.457",
+                             "pages":  "50-55",
+                             "pdf":  "data/articles/v13i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Digitalization in Human Resource Management",
+                             "authors":  "Vijay Pithadia and Aastha Vashisth",
+                             "doi":  "10.65301/iitm.2022.13.1.458",
+                             "pages":  "56-63",
+                             "pdf":  "data/articles/v13i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Blockchain Based E-Voting System",
+                             "authors":  "Kushal Kapoor , Utkarsh Sharma and Sheetal Kaushik",
+                             "doi":  "10.65301/iitm.2022.13.1.459",
+                             "pages":  "64-69",
+                             "pdf":  "data/articles/v13i1/article-10.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  12,
+        "issue":  2,
+        "year":  2021,
+        "period":  "July-December",
+        "sortKey":  202107,
+        "slug":  "v12i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Financial Models for Indian Stock Prices Prediction Using LSTM and Bi-Directional LSTM Model",
+                             "authors":  "Manish Choubisa and Manish Dubey",
+                             "doi":  "10.65301/iitm.2025.12.2.592",
+                             "pages":  "10-14",
+                             "pdf":  "data/articles/v12i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "A Study on Impact of Social Media Marketing on Youth With Reference to Fashion Trends in Mumbai",
+                             "authors":  "Shaikh Farhat Fatma Mumtaz Husain",
+                             "doi":  "10.65301/iitm.2025.12.2.593",
+                             "pages":  "15-18",
+                             "pdf":  "data/articles/v12i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Waste Management System in Smart Cities using IoT : An Overview",
+                             "authors":  "Shivran Priyanka , Suresh Kumar and Monika Saxena",
+                             "doi":  "10.65301/iitm.2025.12.2.594",
+                             "pages":  "19-22",
+                             "pdf":  "data/articles/v12i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "A Study on Inventory Management System: A Case Study of Hindustan Aeronautics Limited (HAL), Nashik",
+                             "authors":  "Deepak S. Sharma and Yogita Patil",
+                             "doi":  "10.65301/iitm.2025.12.2.595",
+                             "pages":  "23-25",
+                             "pdf":  "data/articles/v12i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "The Mediating Role of Corporate Social Responsibility: Exploring Determinants and Indicators in Driving the Performance Constructs",
+                             "authors":  "Sini V. Pillai and Jayadev S.",
+                             "doi":  "10.65301/iitm.2021.12.2.596",
+                             "pages":  "26-31",
+                             "pdf":  "data/articles/v12i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Strategic Management as Key to Improve the Quality of Education",
+                             "authors":  "Pawan Kumar",
+                             "doi":  "10.65301/iitm.2021.12.2.597",
+                             "pages":  "32-38",
+                             "pdf":  "data/articles/v12i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "The Role of Data Warehousing in the Infrastructure of E-Commerce",
+                             "authors":  "Akhilesh Saini",
+                             "doi":  "10.65301/iitm.2021.12.2.598",
+                             "pages":  "39-47",
+                             "pdf":  "data/articles/v12i2/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Exploring the Relationship between Attitude and Purchase Intention Towards Organic Food – does ‘Willingness to Pay’ Mediate the Effect?",
+                             "authors":  "Sisir Ghorai , Abhijit Sinha and Sudin Bag",
+                             "doi":  "10.65301/iitm.2021.12.2.599",
+                             "pages":  "48-58",
+                             "pdf":  "data/articles/v12i2/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "A Comparative Analysis of the Values and Attitudes of Generation X and Generation Y in India",
+                             "authors":  "Arpita Kaul , Karnika Pagaria , Bhavyaa Aggarwal , Ankit Satija , Harsh Gupta, Vanshika Kalra , Chhavi Kapoor , Jayati Gupta, Arushi Gupta, Swasti Mishra and Pooja Jhamb",
+                             "doi":  "10.65301/iitm.2021.12.2.600",
+                             "pages":  "59-66",
+                             "pdf":  "data/articles/v12i2/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "An Empirical Analysis of Brand-Switching Behaviour \u0026 Customer Loyalty Status of Different Shampoo Brands in Siliguri City under Darjeeling District of North Bengal",
+                             "authors":  "Shomnath Dutta",
+                             "doi":  "10.65301/iitm.2025.12.2.591",
+                             "pages":  "67-74",
+                             "pdf":  "data/articles/v12i2/article-10.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  12,
+        "issue":  1,
+        "year":  2021,
+        "period":  "January-June",
+        "sortKey":  202101,
+        "slug":  "v12i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "ATM System with OTP Authentication",
+                             "authors":  "Aditi Badnore and Umarani C.",
+                             "doi":  "10.65301/iitm.2021.12.1.470",
+                             "pages":  "1-3",
+                             "pdf":  "data/articles/v12i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Cloud Gaming: Future of Computer Games",
+                             "authors":  "Sareena Philip, Chitra Nasa and Yash Sharma",
+                             "doi":  "10.65301/iitm.2021.12.1.471",
+                             "pages":  "4-11",
+                             "pdf":  "data/articles/v12i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Digital Payments: India Gears Up the Digital Fast Lane by Innovation Zipping",
+                             "authors":  "Pallavi Pandey , Bilal Mustafa Khan and Harish Singla",
+                             "doi":  "10.65301/iitm.2021.12.1.472",
+                             "pages":  "12-18",
+                             "pdf":  "data/articles/v12i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Electronic Waste Management in India: Review",
+                             "authors":  "Amit Kumar",
+                             "doi":  "10.65301/iitm.2021.12.1.473",
+                             "pages":  "19-23",
+                             "pdf":  "data/articles/v12i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Face Recognition with Python",
+                             "authors":  "Deepika Rawat , Deepanshu , Vishal Gupta, Megha Attri , and Abhishek Upadhyay",
+                             "doi":  "10.65301/iitm.2021.12.1.474",
+                             "pages":  "24-28",
+                             "pdf":  "data/articles/v12i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Key Search Integrated with Designated Tester and Time-enabled Proxy Encryption Function in Health Cloud",
+                             "authors":  "Ragul M and Lakshmi J.V.N",
+                             "doi":  "10.65301/iitm.2021.12.1.475",
+                             "pages":  "29-31",
+                             "pdf":  "data/articles/v12i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Old/Used Cars Price Prediction using Machine Learning Algorithms",
+                             "authors":  "Arjun Reddy and Kamalraj R",
+                             "doi":  "10.65301/iitm.2021.12.1.476",
+                             "pages":  "32-35",
+                             "pdf":  "data/articles/v12i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Review Paper on Contextual Chatbot for Covid-19 Updates",
+                             "authors":  "Piyush Sharma",
+                             "doi":  "10.65301/iitm.2021.12.1.477",
+                             "pages":  "36-37",
+                             "pdf":  "data/articles/v12i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "A Sketch-Based Safeguarding Opposed to Application Layer DDoS Attacks",
+                             "authors":  "Srividya B G and Feon Jaison",
+                             "doi":  "10.65301/iitm.2021.12.1.478",
+                             "pages":  "38-39",
+                             "pdf":  "data/articles/v12i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Steganography Using Python",
+                             "authors":  "Rajrishi Sengupta , and C. Umarani",
+                             "doi":  "10.65301/iitm.2021.12.1.479",
+                             "pages":  "40-43",
+                             "pdf":  "data/articles/v12i1/article-10.pdf"
+                         },
+                         {
+                             "no":  11,
+                             "title":  "Using Computer Webcam as a Surveillance Device",
+                             "authors":  "Mohd Rafey , Kamalraj R. and Meeramani N.",
+                             "doi":  "10.65301/iitm.2021.12.1.480",
+                             "pages":  "44-49",
+                             "pdf":  "data/articles/v12i1/article-11.pdf"
+                         },
+                         {
+                             "no":  12,
+                             "title":  "A Cloud Authentication Protocol Using One Time Pad",
+                             "authors":  "Varun H M, and JVN Lakshmi",
+                             "doi":  "10.65301/iitm.2021.12.1.481",
+                             "pages":  "50-54",
+                             "pdf":  "data/articles/v12i1/article-12.pdf"
+                         },
+                         {
+                             "no":  13,
+                             "title":  "Survey of Big Data Map Reduces Techniques",
+                             "authors":  "Shelton K",
+                             "doi":  "10.65301/iitm.2021.12.1.482",
+                             "pages":  "55-58",
+                             "pdf":  "data/articles/v12i1/article-13.pdf"
+                         },
+                         {
+                             "no":  14,
+                             "title":  "Web Penetrator – Web App Penetration Testing Tool",
+                             "authors":  "Raj Saundatikar and Lakshmi J.V.N",
+                             "doi":  "10.65301/iitm.2021.12.1.483",
+                             "pages":  "59-61",
+                             "pdf":  "data/articles/v12i1/article-14.pdf"
+                         },
+                         {
+                             "no":  15,
+                             "title":  "LSTM Based Text Classification",
+                             "authors":  "Dirash AR and SK Manju Bargavi",
+                             "doi":  "10.65301/iitm.2021.12.1.484",
+                             "pages":  "62-65",
+                             "pdf":  "data/articles/v12i1/article-15.pdf"
+                         },
+                         {
+                             "no":  16,
+                             "title":  "An Comparative Study on Facial Character Analysis",
+                             "authors":  "Kavya P and Kamalraj R",
+                             "doi":  "10.65301/iitm.2021.12.1.485",
+                             "pages":  "66-68",
+                             "pdf":  "data/articles/v12i1/article-16.pdf"
+                         },
+                         {
+                             "no":  17,
+                             "title":  "Vehicle Number Plate Detection",
+                             "authors":  "Anagha Jayakumar TN and S.K.Manju Bargavi",
+                             "doi":  "10.65301/iitm.2021.12.1.486",
+                             "pages":  "69-72",
+                             "pdf":  "data/articles/v12i1/article-17.pdf"
+                         },
+                         {
+                             "no":  18,
+                             "title":  "Review Paper on Intrusion Detection Using Machine Learning",
+                             "authors":  "Vinay Singh Dhapola and C. Umarani",
+                             "doi":  "10.65301/iitm.2021.12.1.487",
+                             "pages":  "73-74",
+                             "pdf":  "data/articles/v12i1/article-18.pdf"
+                         },
+                         {
+                             "no":  19,
+                             "title":  "A Survey on Maintenance of Aircraft Engines Using LSTM",
+                             "authors":  "Nitin Prasad and A Rengarajan",
+                             "doi":  "10.65301/iitm.2021.12.1.488",
+                             "pages":  "75-77",
+                             "pdf":  "data/articles/v12i1/article-19.pdf"
+                         },
+                         {
+                             "no":  20,
+                             "title":  "Criminal Investigation Tracker with Suspect Prediction",
+                             "authors":  "Gopal Kushwaha and C. Umarani",
+                             "doi":  "10.65301/iitm.2021.12.1.489",
+                             "pages":  "78-80",
+                             "pdf":  "data/articles/v12i1/article-20.pdf"
+                         },
+                         {
+                             "no":  21,
+                             "title":  "Fraud Detection",
+                             "authors":  "Nikitha Pradeep and A Rengarajan",
+                             "doi":  "10.65301/iitm.2021.12.1.490",
+                             "pages":  "81-82",
+                             "pdf":  "data/articles/v12i1/article-21.pdf"
+                         },
+                         {
+                             "no":  22,
+                             "title":  "Parent Child Monitor System",
+                             "authors":  "Saikiran Salloori",
+                             "doi":  "10.65301/iitm.2021.12.1.491",
+                             "pages":  "83-87",
+                             "pdf":  "data/articles/v12i1/article-22.pdf"
+                         },
+                         {
+                             "no":  23,
+                             "title":  "Design and Implementation of Low Cost Dual Axis Solar Tracking System using Microcontroller",
+                             "authors":  "Diponkor Bala , G. M. Waliullah , Md. Shamim Hossain , Md. Ibrahim Abdullah and Mohammad Alamgir Hossain",
+                             "doi":  "10.65301/iitm.2021.12.1.492",
+                             "pages":  "88-92",
+                             "pdf":  "data/articles/v12i1/article-23.pdf"
+                         },
+                         {
+                             "no":  24,
+                             "title":  "Web Mining: A Framework",
+                             "authors":  "Surbhi Sharma and Sudhir Kumar Sharma",
+                             "doi":  "10.65301/iitm.2021.12.1.494",
+                             "pages":  "93-98",
+                             "pdf":  "data/articles/v12i1/article-24.pdf"
+                         },
+                         {
+                             "no":  25,
+                             "title":  "Effect of 5G on Human Life",
+                             "authors":  "Pankaj Kumar Varshney and Loveleen Kaur",
+                             "doi":  "10.65301/iitm.2021.12.1.495",
+                             "pages":  "99-101",
+                             "pdf":  "data/articles/v12i1/article-25.pdf"
+                         },
+                         {
+                             "no":  26,
+                             "title":  "Voice Controlled Home Automation System Using Arduino",
+                             "authors":  "Vikas Pal, Sumit Kumar, Virender Kumar, Gunjan Jha and Peeyush Pant",
+                             "doi":  "10.65301/iitm.2021.12.1.497",
+                             "pages":  "102-107",
+                             "pdf":  "data/articles/v12i1/article-26.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  11,
+        "issue":  2,
+        "year":  2020,
+        "period":  "July-December",
+        "sortKey":  202007,
+        "slug":  "v11i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Need of Optimum Faculty-Student Rapport and Wise Use of Technology in Classroom Environment: An Empirical Study Conducted in Private Institutions of NCR, India",
+                             "authors":  "Deeksha Thakur",
+                             "doi":  "10.65301/iitm.2020.11.2.625",
+                             "pages":  "1-10",
+                             "pdf":  "data/articles/v11i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Is CSR Aligned to SDGs? – A Study of CSR Programs in Education",
+                             "authors":  "Kalyani Mujumdar and Datattry Mane",
+                             "doi":  "10.65301/iitm.2020.11.2.626",
+                             "pages":  "11-19",
+                             "pdf":  "data/articles/v11i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Job Satisfaction among Millennials : The Role of Procedural, Distributive, and Interactional Justice",
+                             "authors":  "Rahul A. Kamble , Ritesh Kumar and Surbhi Chalise",
+                             "doi":  "10.65301/iitm.2020.11.2.627",
+                             "pages":  "20-26",
+                             "pdf":  "data/articles/v11i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Non-Executive-Independent Directors, Pay-Performance Sensitivity Analysis of Bombay Stock Exchange (BSE)-260 Firms",
+                             "authors":  "Rahul A. Kamble , Ritesh Kumar and Surbhi Chalise",
+                             "doi":  "10.65301/iitm.2020.11.2.629",
+                             "pages":  "27-33",
+                             "pdf":  "data/articles/v11i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "A Study on Causes of Occupational Stress at Small Scale Manufacturing Units in Selected Industry of South Gujarat",
+                             "authors":  "Charmi R Kothari and Rashvin Tailor",
+                             "doi":  "10.65301/iitm.2020.11.2.630",
+                             "pages":  "34-37",
+                             "pdf":  "data/articles/v11i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "A Qualitative Study to Identify the Issues of Employers Employing Migrant Workers",
+                             "authors":  "C. Surya Prakash and Reema",
+                             "doi":  "10.65301/iitm.2020.11.2.631",
+                             "pages":  "38-44",
+                             "pdf":  "data/articles/v11i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Managing Mental Health During COVID- 19 Pandemic and Beyond",
+                             "authors":  "Sini V. Pillai , Vipin H and Navya Jayachandran",
+                             "doi":  "10.65301/iitm.2020.11.2.632",
+                             "pages":  "45-51",
+                             "pdf":  "data/articles/v11i2/article-7.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  11,
+        "issue":  1,
+        "year":  2020,
+        "period":  "January-June",
+        "sortKey":  202001,
+        "slug":  "v11i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Performance Analysis of Feature-Based Automated Measurement of Mouse Social Behavioral",
+                             "authors":  "Mohammad Muntasir Rahman , Ashrafunnahar Hena , Bikash Chandra Singh and Mohammad Alamgir Hossain",
+                             "doi":  "10.65301/iitm.2020.11.1.633",
+                             "pages":  "1-6",
+                             "pdf":  "data/articles/v11i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Cross-Layer Security Solution for Secure Communication of Sensorsin Wireless Sensor Networks",
+                             "authors":  "Rakesh Kumar Saini and Naveen Kumar",
+                             "doi":  "10.65301/iitm.2020.11.1.634",
+                             "pages":  "7-13",
+                             "pdf":  "data/articles/v11i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Design of a Solution for a Biometric Face Recognition Task",
+                             "authors":  "Kshitiz Bajagain and Swati Sah",
+                             "doi":  "10.65301/iitm.2020.11.1.610",
+                             "pages":  "14-21",
+                             "pdf":  "data/articles/v11i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Deep Neural Network for the Automatic Classification of Vertebral Column Disorders",
+                             "authors":  "Menaka Ramasamy , Sabenabanu Abdulkadhar , and Jeyakumar Natarajan",
+                             "doi":  "10.65301/iitm.2020.11.1.611",
+                             "pages":  "22-25",
+                             "pdf":  "data/articles/v11i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Tuning Parameters Using Machine Learning for Minimizing Slowness of Traffic in Smart Cities",
+                             "authors":  "Lakshmi J V N",
+                             "doi":  "10.65301/iitm.2020.11.1.612",
+                             "pages":  "26-30",
+                             "pdf":  "data/articles/v11i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Blockchain Technology in Banking and Finance",
+                             "authors":  "Heena Arora and Anita Venaik",
+                             "doi":  "10.65301/iitm.2020.11.1.613",
+                             "pages":  "31-38",
+                             "pdf":  "data/articles/v11i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Artificial Neural Network in Developing Software Project Telemetry Metrics",
+                             "authors":  "Himanshu Sharma",
+                             "doi":  "10.65301/iitm.2020.11.1.614",
+                             "pages":  "39-44",
+                             "pdf":  "data/articles/v11i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Artificial Intelligence and Techniques",
+                             "authors":  "Manu Shree",
+                             "doi":  "10.65301/iitm.2020.11.1.615",
+                             "pages":  "45-48",
+                             "pdf":  "data/articles/v11i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Information and Communication Technology Adoption: A Case Study of Nigerian Tertiary Education Regulatory Agency",
+                             "authors":  "Oladipupo Bello and Yskandar Hamam",
+                             "doi":  "10.65301/iitm.2020.11.1.645",
+                             "pages":  "49-54",
+                             "pdf":  "data/articles/v11i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Cooperative Spectrum Sensing with Selection Diversity Reception in Cognitive Radio",
+                             "authors":  "Md Shahabub Alam , Mohammad Alamgir Hossain , Ashrafunnahar Hena , Md Ibrahim Abdullah, and Shamim Hossain",
+                             "doi":  "10.65301/iitm.2020.11.1.616",
+                             "pages":  "55-58",
+                             "pdf":  "data/articles/v11i1/article-10.pdf"
+                         },
+                         {
+                             "no":  11,
+                             "title":  "Design and Development of Arduino Based Contactless Thermometer",
+                             "authors":  "Md Abdullah Al Mamun , Mohammad Alamgir Hossain , M Muntasir Rahman , Md Ibrahim Abdullah and Md Shamim Hossain",
+                             "doi":  "10.65301/iitm.2020.11.1.617",
+                             "pages":  "59-62",
+                             "pdf":  "data/articles/v11i1/article-11.pdf"
+                         },
+                         {
+                             "no":  12,
+                             "title":  "ProgX -Programmable Extension Board",
+                             "authors":  "Lalit Ahuja , K Kirthik Vasan , V. Manikanta Kushal , Manisha and Mamta Rani",
+                             "doi":  "10.65301/iitm.2020.11.1.618",
+                             "pages":  "63-65",
+                             "pdf":  "data/articles/v11i1/article-12.pdf"
+                         },
+                         {
+                             "no":  13,
+                             "title":  "Effects of Video Games on Mental Concentration",
+                             "authors":  "Shriya Pandey",
+                             "doi":  "10.65301/iitm.2020.11.1.619",
+                             "pages":  "66-69",
+                             "pdf":  "data/articles/v11i1/article-13.pdf"
+                         },
+                         {
+                             "no":  14,
+                             "title":  "ICT in Higher Education: A Review of Issues, Challenges and Solutions with Special Reference to India",
+                             "authors":  "Mohit Dixit and Lovish Raheja",
+                             "doi":  "10.65301/iitm.2020.11.1.620",
+                             "pages":  "70-75",
+                             "pdf":  "data/articles/v11i1/article-14.pdf"
+                         },
+                         {
+                             "no":  15,
+                             "title":  "A Brief Survey of Cryptocurrency Systems",
+                             "authors":  "Sushma Malik and Anamika Rana",
+                             "doi":  "10.65301/iitm.2020.11.1.621",
+                             "pages":  "76-82",
+                             "pdf":  "data/articles/v11i1/article-15.pdf"
+                         },
+                         {
+                             "no":  16,
+                             "title":  "ICT Initiatives and Tools in Higher Education",
+                             "authors":  "Rachita Arora and Romika Yadav",
+                             "doi":  "10.65301/iitm.2020.11.1.622",
+                             "pages":  "83-85",
+                             "pdf":  "data/articles/v11i1/article-16.pdf"
+                         },
+                         {
+                             "no":  17,
+                             "title":  "Digital Signatures",
+                             "authors":  "Pankaj Kumar Varshney , Anmol Kukreja and Shivam Dewan",
+                             "doi":  "10.65301/iitm.2020.11.1.623",
+                             "pages":  "86-90",
+                             "pdf":  "data/articles/v11i1/article-17.pdf"
+                         },
+                         {
+                             "no":  18,
+                             "title":  "A Study on Mobile Applications in Education",
+                             "authors":  "Sunitha Ravi and Elina Singh",
+                             "doi":  "10.65301/iitm.2020.11.1.628",
+                             "pages":  "91-97",
+                             "pdf":  "data/articles/v11i1/article-18.pdf"
+                         },
+                         {
+                             "no":  19,
+                             "title":  "A Study on Machine Learning Tools",
+                             "authors":  "Shivani Sharma and Sudhir Kumar Sharma",
+                             "doi":  "10.65301/iitm.2020.11.1.641",
+                             "pages":  "98-102",
+                             "pdf":  "data/articles/v11i1/article-19.pdf"
+                         },
+                         {
+                             "no":  20,
+                             "title":  "Intrusion Detection Techniques for Mobile Cloud Computing in Heterogeneous 5G",
+                             "authors":  "Ishu Chawla , Oshin Vinayak and Suman Singh",
+                             "doi":  "10.65301/iitm.2020.11.1.642",
+                             "pages":  "103-110",
+                             "pdf":  "data/articles/v11i1/article-20.pdf"
+                         },
+                         {
+                             "no":  21,
+                             "title":  "Usage of Internet of Things in Education",
+                             "authors":  "Romika Yadav and Palak Khurana",
+                             "doi":  "10.65301/iitm.2020.11.1.643",
+                             "pages":  "111-113",
+                             "pdf":  "data/articles/v11i1/article-21.pdf"
+                         },
+                         {
+                             "no":  22,
+                             "title":  "Recommender System: A Review",
+                             "authors":  "Shipranjali and Sudhir Kumar Sharma",
+                             "doi":  "10.65301/iitm.2020.11.1.644",
+                             "pages":  "114-119",
+                             "pdf":  "data/articles/v11i1/article-22.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  10,
+        "issue":  2,
+        "year":  2019,
+        "period":  "July-December",
+        "sortKey":  201907,
+        "slug":  "v10i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "The Missing Middle: Bridging the Gap of Financing Needs for Women Owned SMEs in India",
+                             "authors":  "Sana Moid and Shailja Dixit",
+                             "doi":  "10.65301/iitm.2019.10.2.526",
+                             "pages":  "1-12",
+                             "pdf":  "data/articles/v10i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Is there Information Diffusion in India from Asian Stock Markets? A Quantile Regression Approach",
+                             "authors":  "Swati Khanna and Ashish Kumar",
+                             "doi":  "10.65301/iitm.2019.10.2.527",
+                             "pages":  "13-20",
+                             "pdf":  "data/articles/v10i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Islamic Principles as a Predictor of Investment Behaviour of Muslim Investors in Delhi/NCR",
+                             "authors":  "Shweta Goel , Suchita Dwivedi and Neha Jain",
+                             "doi":  "10.65301/iitm.2019.10.2.528",
+                             "pages":  "21-29",
+                             "pdf":  "data/articles/v10i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Delineated Segmentation of Factors on Employee Attraction in Entrepreneurial Firms",
+                             "authors":  "Shivangi Saxena and Suman Shokeen",
+                             "doi":  "10.65301/iitm.2019.10.2.529",
+                             "pages":  "30-36",
+                             "pdf":  "data/articles/v10i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Words Transform World: Impact of Faculty Language Patterns and Communicative Stylein Tertiary Education- A Study Conducted in Higher Education Institute in National Capital Region- India",
+                             "authors":  "Deeksha Thakur",
+                             "doi":  "10.65301/iitm.2019.10.2.530",
+                             "pages":  "37-41",
+                             "pdf":  "data/articles/v10i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Impact of Organizational Culture on Employee Engagement and Effectiveness in Indian Manufacturing Company",
+                             "authors":  "Suneet Soni",
+                             "doi":  "10.65301/iitm.2019.10.2.531",
+                             "pages":  "42-52",
+                             "pdf":  "data/articles/v10i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Crowd Funding in India",
+                             "authors":  "Chhavi Singhal Kandoi , Sakshi V Jain and Abhishek Venkteshwar",
+                             "doi":  "10.65301/iitm.2019.10.2.624",
+                             "pages":  "53-56",
+                             "pdf":  "data/articles/v10i2/article-7.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  10,
+        "issue":  1,
+        "year":  2019,
+        "period":  "January-June",
+        "sortKey":  201901,
+        "slug":  "v10i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Monitoring water quality by sensors in Wireless Sensor Networks-A Review",
+                             "authors":  "Rakesh Kumar Saini",
+                             "doi":  "10.65301/iitm.2019.10.1.513",
+                             "pages":  "1-5",
+                             "pdf":  "data/articles/v10i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Multimode Summarized Text to Speech Conversion Application",
+                             "authors":  "Archit Sehgal and Gitika Khanna",
+                             "doi":  "10.65301/iitm.2019.10.1.514",
+                             "pages":  "6-10",
+                             "pdf":  "data/articles/v10i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Aadhaar Smart Meter: A Real-Time Bill Generator",
+                             "authors":  "Ramaneek Kalra and Vijay Rohilla",
+                             "doi":  "10.65301/iitm.2019.10.1.515",
+                             "pages":  "11-14",
+                             "pdf":  "data/articles/v10i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "A Review on Optical Character Recognition",
+                             "authors":  "Archit Singhal and Bhoomika",
+                             "doi":  "10.65301/iitm.2019.10.1.516",
+                             "pages":  "15-19",
+                             "pdf":  "data/articles/v10i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Prediction of Heart Attack Using Machine Learning",
+                             "authors":  "Akshit Bhardwaj , Ayush Kundra , Bhavya Gandhi, Sumit Kumar, Arvind Rehalia and Manoj Gupta",
+                             "doi":  "10.65301/iitm.2019.10.1.518",
+                             "pages":  "20-24",
+                             "pdf":  "data/articles/v10i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Detection and Prevention Schemes in Mobile Ad hoc Networks",
+                             "authors":  "Jeelani , Subodh Kumar Sharma and Pankaj Kumar Varshney",
+                             "doi":  "10.65301/iitm.2019.10.1.520",
+                             "pages":  "25-33",
+                             "pdf":  "data/articles/v10i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "A Review on Histogram of Oriented Gradient",
+                             "authors":  "Apurva Jain and Deepanshu Singh",
+                             "doi":  "10.65301/iitm.2019.10.1.521",
+                             "pages":  "34-36",
+                             "pdf":  "data/articles/v10i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Breast Cancer Risk Prediction",
+                             "authors":  "Pankaj Kumar Varshney , Hemant Kumar, Jasleen Kaur and Ishika Gera",
+                             "doi":  "10.65301/iitm.2019.10.1.522",
+                             "pages":  "37-45",
+                             "pdf":  "data/articles/v10i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "CYBER: Threats in Social Networking Websites and Physical System Security",
+                             "authors":  "Tripti Lamba and Ashish Garg",
+                             "doi":  "10.65301/iitm.2019.10.1.523",
+                             "pages":  "46-54",
+                             "pdf":  "data/articles/v10i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Comparative Analysis of Different Encryption Techniques in Mobile Ad-Hoc Networks (MANETs)",
+                             "authors":  "Apoorva Sharma and Gitika Kushwaha",
+                             "doi":  "10.65301/iitm.2019.10.1.524",
+                             "pages":  "55-64",
+                             "pdf":  "data/articles/v10i1/article-10.pdf"
+                         },
+                         {
+                             "no":  11,
+                             "title":  "Fuchsia OS - A Threat to Android",
+                             "authors":  "Taranjeet Singh and Rishabh Bhardwaj",
+                             "doi":  "10.65301/iitm.2019.10.1.525",
+                             "pages":  "65-67",
+                             "pdf":  "data/articles/v10i1/article-11.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  9,
+        "issue":  2,
+        "year":  2018,
+        "period":  "July-December",
+        "sortKey":  201807,
+        "slug":  "v9i2",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Panel Data Study of Dividend Policy Effect on Firms’ Value: Study on Manufacturing Sector of Bangladesh",
+                             "authors":  "Mohammad Shahidul Islam",
+                             "doi":  "10.65301/iitm.2018.9.2.506",
+                             "pages":  "1-9",
+                             "pdf":  "data/articles/v9i2/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Determining Factors of Attitude towards Green Purchase Behavior of FMCG Products",
+                             "authors":  "Vaishali Sethi",
+                             "doi":  "10.65301/iitm.2018.9.2.507",
+                             "pages":  "10-25",
+                             "pdf":  "data/articles/v9i2/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Comparing the Volatility of Returns in Indian and Chinese Information Technology Sector",
+                             "authors":  "Parul Tyagi",
+                             "doi":  "10.65301/iitm.2018.9.2.508",
+                             "pages":  "26-34",
+                             "pdf":  "data/articles/v9i2/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Distinguishing Countries on the Basis of Modified HDI",
+                             "authors":  "Ambica Sharma and Hardik Beniwal",
+                             "doi":  "10.65301/iitm.2018.9.2.509",
+                             "pages":  "35-49",
+                             "pdf":  "data/articles/v9i2/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Social Responsibility and Ethics in Marketing",
+                             "authors":  "Anupreet Kaur Mokha",
+                             "doi":  "10.65301/iitm.2018.9.2.510",
+                             "pages":  "50-56",
+                             "pdf":  "data/articles/v9i2/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Job Satisfaction of Employees in Multispecialty Hospitals in Delhi and NCR",
+                             "authors":  "Suniti Chandiok",
+                             "doi":  "10.65301/iitm.2018.9.2.511",
+                             "pages":  "57-67",
+                             "pdf":  "data/articles/v9i2/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Strategies v/s Consumer Perception of Brand Zara - India",
+                             "authors":  "Saloni Saraswat",
+                             "doi":  "10.65301/iitm.2018.9.2.512",
+                             "pages":  "68-80",
+                             "pdf":  "data/articles/v9i2/article-7.pdf"
+                         }
+                     ]
+    },
+    {
+        "vol":  9,
+        "issue":  1,
+        "year":  2018,
+        "period":  "January-June",
+        "sortKey":  201801,
+        "slug":  "v9i1",
+        "articles":  [
+                         {
+                             "no":  1,
+                             "title":  "Securing the Transaction by Parsing XML File in Mobile Commerce",
+                             "authors":  "Jyoti Batra Arora",
+                             "doi":  "10.65301/iitm.2018.9.1.493",
+                             "pages":  "1-7",
+                             "pdf":  "data/articles/v9i1/article-1.pdf"
+                         },
+                         {
+                             "no":  2,
+                             "title":  "Social Media: Paving Path for Entrepreneurship",
+                             "authors":  "Jyoti Kukreja , Pratibha Sahool and Juhi Tripathi",
+                             "doi":  "10.65301/iitm.2018.9.1.496",
+                             "pages":  "8-13",
+                             "pdf":  "data/articles/v9i1/article-2.pdf"
+                         },
+                         {
+                             "no":  3,
+                             "title":  "Mining with Neural Networks",
+                             "authors":  "Himashu Verma and Prerna Mahajan",
+                             "doi":  "10.65301/iitm.2018.9.1.503",
+                             "pages":  "13-16",
+                             "pdf":  "data/articles/v9i1/article-3.pdf"
+                         },
+                         {
+                             "no":  4,
+                             "title":  "Host Website from Home Anonymously",
+                             "authors":  "Prerna Mahajan and Kashish Gupta",
+                             "doi":  "10.65301/iitm.2018.9.1.498",
+                             "pages":  "17-21",
+                             "pdf":  "data/articles/v9i1/article-4.pdf"
+                         },
+                         {
+                             "no":  5,
+                             "title":  "Optimization of Work Load Using Map Reduce Framework: Review Study",
+                             "authors":  "Aasheesh Raizada , Manoj Rana and Pankaj Kumar Varshney",
+                             "doi":  "10.65301/iitm.2018.9.1.499",
+                             "pages":  "19-23",
+                             "pdf":  "data/articles/v9i1/article-5.pdf"
+                         },
+                         {
+                             "no":  6,
+                             "title":  "Cloud Computing: A Backbone for Educational Platform in E-learning",
+                             "authors":  "Sushma Malik and Anamika Rana",
+                             "doi":  "10.65301/iitm.2018.9.1.500",
+                             "pages":  "24-29",
+                             "pdf":  "data/articles/v9i1/article-6.pdf"
+                         },
+                         {
+                             "no":  7,
+                             "title":  "Modified Cascade-2 Algorithm with Adaptive Slope Sigmoidal Function",
+                             "authors":  "Jaswinder Kaur and Sudhir Kumar Sharma",
+                             "doi":  "10.65301/iitm.2018.9.1.501",
+                             "pages":  "32-36",
+                             "pdf":  "data/articles/v9i1/article-7.pdf"
+                         },
+                         {
+                             "no":  8,
+                             "title":  "Cloud Computing –Rendering Virtualization to IT-Sector",
+                             "authors":  "Ramandeep Kaur",
+                             "doi":  "10.65301/iitm.2018.9.1.502",
+                             "pages":  "37-40",
+                             "pdf":  "data/articles/v9i1/article-8.pdf"
+                         },
+                         {
+                             "no":  9,
+                             "title":  "Using Python to Analyze Secondary School Student Alcohol Consumption and Their Academic Performance",
+                             "authors":  "Poonam Kumari and Aditya Pratap",
+                             "doi":  "10.65301/iitm.2018.9.1.504",
+                             "pages":  "45-51",
+                             "pdf":  "data/articles/v9i1/article-9.pdf"
+                         },
+                         {
+                             "no":  10,
+                             "title":  "Comparative Analysis of Fuzzy C Means and Fuzzy C Means++",
+                             "authors":  "Manika Garg",
+                             "doi":  "10.65301/iitm.2018.9.1.1074",
+                             "pages":  "52-55",
+                             "pdf":  "data/articles/v9i1/article-10.pdf"
+                         },
+                         {
+                             "no":  11,
+                             "title":  "A Novel Bio-Geography Based Approach for Multiple Sequence Alignment",
+                             "authors":  "Rohit Kumar Yadav",
+                             "doi":  "10.65301/iitm.2018.9.1.505",
+                             "pages":  "56-63",
+                             "pdf":  "data/articles/v9i1/article-11.pdf"
+                         }
+                     ]
+    }
+]

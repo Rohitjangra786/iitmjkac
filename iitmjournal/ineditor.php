@@ -86,6 +86,8 @@
 					<p><b>Dr. Anubhuti Yadav</b><br/>Professor, New Media, Indian Institute of Mass Communication</p>
 
 					<p><b>Dr. Syed Arshad Ali</b><br/>Assistant Professor, Department of Computer Science &amp; Applications, Sharda University, Greater Noida</p>
+
+					<p><b>Prof. Kalyan Shankar Ray</b><br/>Professor &amp; Vice-President, ASBM University</p>
 				</div>
 			</div>
 			<div class="panel panel-default">
@@ -95,21 +97,9 @@
 	<div class="panel-body">
 
 		<p>
-			<b>Dr. Mohd Azher Parvez</b><br/>
-			Associate Professor, Department of Commerce and Business Management,<br/>
-			Nishitha Degree and P.G College, Nizamabad, Telangana State
-		</p>
-
-		<p>
 			<b>Prof. (Dr.) Smruti Ranjan Rath</b><br/>
 			Dean – Commerce & Management,<br/>
 			AISECT University, Hazaribag, Jharkhand, India
-		</p>
-
-		<p>
-			<b>Dr. Lakshmi J V N</b><br/>
-			Associate Professor, SoCSA,<br/>
-			REVA University
 		</p>
 
 		<p>
@@ -122,6 +112,18 @@
 			<b>Dr. Shilpa Wadhwa</b><br/>
 			Associate Professor,<br/>
 			I Business Institute, Greater Noida
+		</p>
+
+		<p>
+			<b>Ms. Savitha Kulkarni</b><br/>
+			Assistant Professor,<br/>
+			KLS-IMER, Belagavi
+		</p>
+
+		<p>
+			<b>Dr. Rekha Birje</b><br/>
+			Department of MBA,<br/>
+			KLS Gogte Institute of Technology, Belgaum, Karnataka
 		</p>
 
 	</div>

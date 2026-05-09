@@ -8,8 +8,20 @@ header("Expires: 0");
 echo '<script>';
 echo 'if (window.performance && (window.performance.getEntriesByType("navigation")[0]?.type === "back_forward")) {';
 echo '   window.location.href = "http://iitmjanakpuri.com/index.php";';
-echo '}'; 
+echo '}';
 echo '</script>';
+
+// Pull latest journal issue + counts from the journal subsite so this page stays fresh.
+$jrnDataFile = __DIR__ . "/../iitmjournal/data/articles.json";
+$jrnLatest = null;
+$jrnIssues = 0;
+$jrnArticles = 0;
+if (file_exists($jrnDataFile)) {
+    $jrnAll = json_decode(file_get_contents($jrnDataFile), true) ?: [];
+    $jrnIssues = count($jrnAll);
+    foreach ($jrnAll as $iss) { $jrnArticles += count($iss["articles"] ?? []); }
+    if ($jrnIssues > 0) { $jrnLatest = $jrnAll[0]; }
+}
 ?>
 
 <!DOCTYPE html>
@@ -87,6 +99,139 @@ body * {
         display: list-item;
                 color: #800000;
     }
+
+    /* Journal info enhancements */
+    .jrn-section { margin: 24px 0 18px; }
+    .jrn-section-title {
+        font-size: 18px;
+        color: #800000;
+        font-weight: 700;
+        margin: 0 0 12px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid #800000;
+    }
+
+    .jrn-glance {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 10px;
+    }
+    .jrn-fact {
+        background: #fff;
+        border: 1px solid #e2c9c9;
+        border-left: 4px solid #800000;
+        border-radius: 6px;
+        padding: 10px 12px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .jrn-fact .lbl {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: #888;
+        margin-bottom: 3px;
+    }
+    .jrn-fact .val {
+        font-size: 15px;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .jrn-latest {
+        background: linear-gradient(135deg, #800000 0%, #5a0000 100%);
+        color: #fff;
+        border-radius: 8px;
+        padding: 16px 18px;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .jrn-latest .ll-lbl {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: 0.85;
+    }
+    .jrn-latest .ll-issue {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 2px;
+    }
+    .jrn-latest .ll-period {
+        font-size: 13px;
+        opacity: 0.92;
+    }
+    .jrn-latest .ll-meta {
+        font-size: 12px;
+        opacity: 0.85;
+        margin-top: 4px;
+    }
+    .jrn-latest a.ll-cta {
+        background: #fff;
+        color: #800000;
+        font-weight: 600;
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .jrn-latest a.ll-cta:hover { background: #f3e6e6; }
+
+    .jrn-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .jrn-chip {
+        background: #fff;
+        border: 1px solid #800000;
+        color: #800000;
+        padding: 4px 12px;
+        border-radius: 14px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .jrn-board {
+        background: #fafafa;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        padding: 12px 16px;
+    }
+    .jrn-board .row-item {
+        padding: 6px 0;
+        border-bottom: 1px dashed #ddd;
+        font-size: 14px;
+    }
+    .jrn-board .row-item:last-child { border-bottom: none; }
+    .jrn-board .role { color: #800000; font-weight: 600; display: inline-block; min-width: 130px; }
+    .jrn-board .more-link {
+        display: inline-block;
+        margin-top: 8px;
+        color: #800000;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .jrn-explore {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 8px;
+    }
+    .jrn-explore a {
+        background: #fff;
+        border: 1px solid #800000;
+        color: #800000;
+        padding: 10px 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+        transition: background 0.15s, color 0.15s;
+    }
+    .jrn-explore a:hover { background: #800000; color: #fff; }
+    .jrn-explore a i { margin-right: 6px; }
     </style>
 </head>
 <body>
@@ -125,13 +270,75 @@ body * {
                     that hold relevance for professionals in the fields of Management and Information Technology, adhering to academic standards and rigor within its purview.
                 </p>
                 <p class="text-justify">
-                     The viewpoints presented within the Journal reflect those of the respective authors. The editor, 
-                     editorial board, editorial advisory board, and the institute hereby disclaim responsibility and 
-                     liability for any statements of fact, opinions, and originality of content, as well as any potential 
-                     violation of copyright by the authors. Reproduction of any part of this publication in any form is strictly 
+                     The viewpoints presented within the Journal reflect those of the respective authors. The editor,
+                     editorial board, editorial advisory board, and the institute hereby disclaim responsibility and
+                     liability for any statements of fact, opinions, and originality of content, as well as any potential
+                     violation of copyright by the authors. Reproduction of any part of this publication in any form is strictly
                      prohibited without the prior written consent of the publisher.
-               
+
                 </p>
+
+                <?php if ($jrnLatest): ?>
+                <div class="jrn-latest">
+                    <div>
+                        <div class="ll-lbl">Latest Issue</div>
+                        <div class="ll-issue">Volume <?php echo (int)$jrnLatest["vol"]; ?>, Issue <?php echo (int)$jrnLatest["issue"]; ?></div>
+                        <div class="ll-period"><?php echo htmlspecialchars($jrnLatest["period"]); ?> <?php echo (int)$jrnLatest["year"]; ?></div>
+                        <div class="ll-meta"><?php echo count($jrnLatest["articles"] ?? []); ?> articles &middot; <?php echo $jrnArticles; ?> articles across <?php echo $jrnIssues; ?> issues online</div>
+                    </div>
+                    <a class="ll-cta" href="https://www.iitmjanakpuri.com/iitmjournal/currentssue.php" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> Read Current Issue</a>
+                </div>
+                <?php endif; ?>
+
+                <div class="jrn-section">
+                    <div class="jrn-section-title">Journal at a Glance</div>
+                    <div class="jrn-glance">
+                        <div class="jrn-fact"><div class="lbl">ISSN</div><div class="val">0976-8629</div></div>
+                        <div class="jrn-fact"><div class="lbl">E-ISSN</div><div class="val">2349-9826</div></div>
+                        <div class="jrn-fact"><div class="lbl">Frequency</div><div class="val">Bi-Annual</div></div>
+                        <div class="jrn-fact"><div class="lbl">Started</div><div class="val">2009</div></div>
+                        <div class="jrn-fact"><div class="lbl">Type</div><div class="val">Peer-Reviewed</div></div>
+                        <div class="jrn-fact"><div class="lbl">Indexing</div><div class="val">ICSSR &middot; J-Gate &middot; Google Scholar</div></div>
+                    </div>
+                </div>
+
+                <div class="jrn-section">
+                    <div class="jrn-section-title">Aim &amp; Scope</div>
+                    <p class="text-justify" style="margin-bottom: 6px;">
+                        IJMIT serves as an interdisciplinary platform for high-quality research and scholarly work
+                        across business, technology, commerce, and media studies. Contributions that demonstrate
+                        methodological rigor, originality, and societal impact are particularly welcome.
+                    </p>
+                    <div class="jrn-chips">
+                        <span class="jrn-chip">Management</span>
+                        <span class="jrn-chip">Computer Science</span>
+                        <span class="jrn-chip">Commerce</span>
+                        <span class="jrn-chip">Journalism &amp; Media</span>
+                    </div>
+                </div>
+
+                <div class="jrn-section">
+                    <div class="jrn-section-title">Editorial Leadership</div>
+                    <div class="jrn-board">
+                        <div class="row-item"><span class="role">Patron</span> Shri J.C. Sharma, Chairman</div>
+                        <div class="row-item"><span class="role">Editor-in-Chief</span> Prof. (Dr.) Rachita Rana, Director &amp; Professor, IITM Janakpuri</div>
+                        <div class="row-item"><span class="role">Editor</span> Dr. Dipti Gulati, Librarian, IITM Janakpuri</div>
+                        <a class="more-link" href="https://www.iitmjanakpuri.com/iitmjournal/ineditor.php" target="_blank">View full Editorial Board &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="jrn-section">
+                    <div class="jrn-section-title">Explore the Journal</div>
+                    <div class="jrn-explore">
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/currentssue.php" target="_blank"><i class="fa fa-newspaper-o"></i>Current Issue</a>
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/itissue.php" target="_blank"><i class="fa fa-archive"></i>Past Issues</a>
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/aimscope.php" target="_blank"><i class="fa fa-bullseye"></i>Aim &amp; Scope</a>
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/guidlines.php" target="_blank"><i class="fa fa-file-text-o"></i>Author Guidelines</a>
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/ineditor.php" target="_blank"><i class="fa fa-users"></i>Editorial Board</a>
+                        <a href="https://www.iitmjanakpuri.com/iitmjournal/publicationethics.php" target="_blank"><i class="fa fa-shield"></i>Publication Ethics</a>
+                    </div>
+                </div>
+
                 <p class="text-justify">
                     The soft copy can be mailed at :- <i class="fa fa-envelope" aria-hidden="true"></i>journal@iitmipu.ac.in
                 
@@ -141,9 +348,9 @@ body * {
 
                 </p>
                 <h2 class="tgfmlt2 text-justify" style="color: #4b4b4b;"><strong>Website Link to IITM Online Journals:-</strong></h2>
-                <p class="text-justify">The Journal is also available online at the link <a href="http://www.iitmjanakpuri.com/iitmjournal/" target="_blank"><i class="fa fa-link" aria-hidden="true">
+                <p class="text-justify">The online version of IITM Journal of Management & IT is also available through <a href="https://journalskart.com/journals/iitm" target="_blank"><i class="fa fa-link" aria-hidden="true">
                     
-                </i> www.iitmipujournal.org</a></p>
+                </i> https://journalskart.com/journals/iitm</a></p>
                <!-- <h2 class="tgfmlt2 text-justify" style="color: #4b4b4b;"><strong>Advisory Board Members</strong></h2>
                 <p class="text-justify">
                 <ul class="committee-list" style="margin-left: 2em;">
