@@ -157,12 +157,13 @@
     }
     .modern-footer .footer-brand .brand-tag{
         font-size: 12px;
-        font-weight: 600;
-        color: #ffd700;
+        font-weight: 700;
+        color: #ffffff;
         letter-spacing: .8px;
         text-transform: uppercase;
         margin: -8px 0 12px;
         display: block;
+        opacity: .92;
     }
     .modern-footer .footer-brand p{
         font-size: 12.5px;

@@ -23,17 +23,39 @@ echo '</script>';
 
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Modern font: Poppins -->
+    <!-- Modern fonts: Inter (body) + Poppins (headings/UI) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Bootstrap JS -->
 
     <style>
 html,
 body * {
     box-sizing: border-box;
-    font-family: georgia, 'Open Sans', sans-serif
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body{
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #1f2937;
+    line-height: 1.55;
+    letter-spacing: .1px;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.tgfmlt, .tgfmlt1,
+.card-title, .nt,
+.modal-title, .btn{
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif !important;
+    letter-spacing: .2px;
+}
+h1, h2, h3, .h1, .h2, .h3{
+    font-weight: 700;
+}
+strong, b{
+    font-weight: 700;
 }
         .logo {
             height: 80px;
@@ -93,7 +115,7 @@ body * {
 
 
 .course-intake-section{
-    background: #fff;
+    background: linear-gradient(135deg,#fff8f8 0%,#ffd6d6 100%);
     padding: 25px 0 10px;
 }
 
@@ -226,7 +248,7 @@ body * {
         z-index: 1080;
         align-items: center;
         gap: 8px;
-        background: linear-gradient(135deg,#ffb703 0%,#fb8500 50%,#d62828 100%);
+        background: linear-gradient(135deg,#a00000 0%,#800000 50%,#5e0000 100%);
         color: #fff !important;
         font-weight: 800;
         font-size: 14px;
@@ -295,7 +317,7 @@ body * {
         justify-content: center;
     }
     .mobile-admissions-hero .hero-btn{
-        background: #ffb703;
+        background: #ffffff;
         color: #5e0000 !important;
         font-weight: 800;
         padding: 10px 16px;
@@ -380,7 +402,7 @@ body * {
     .container[style*="background-color: #f0f8ff"]{
         padding: 8px !important;
         margin-top: 6px !important;
-        background: linear-gradient(135deg,#fff7ed,#fdf3e7) !important;
+        background: linear-gradient(135deg,#ffffff,#fef2f2) !important;
     }
     .container[style*="background-color: #f0f8ff"] .row{
         display: grid !important;
@@ -449,7 +471,7 @@ body * {
     display: block;
     width: 50px;
     height: 3px;
-    background: linear-gradient(90deg,#800000,#fb8500);
+    background: linear-gradient(90deg,#800000,#d62828);
     border-radius: 3px;
     margin: 8px auto 0;
 }
@@ -473,7 +495,7 @@ body * {
 }
 
 .placement-card{
-    background: linear-gradient(135deg,#ffffff 0%,#fdf3e7 100%);
+    background: linear-gradient(135deg,#ffffff 0%,#fef2f2 100%);
     border: 1px solid rgba(128,0,0,.12);
     border-radius: 14px;
     padding: 14px 8px;
@@ -510,7 +532,7 @@ body * {
     font-size: 20px;
     font-weight: 800;
     line-height: 1;
-    background: linear-gradient(135deg,#800000,#d62828,#fb8500);
+    background: linear-gradient(135deg,#800000,#d62828);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -539,8 +561,8 @@ body * {
 
 /* Featured "Highest Package" card — gold gradient + crown */
 .placement-card.featured{
-    background: linear-gradient(135deg,#ffe27a 0%,#ffb703 55%,#fb8500 100%);
-    border: 1px solid #fb8500;
+    background: linear-gradient(135deg,#a00000 0%,#800000 50%,#5e0000 100%);
+    border: 1px solid #5e0000;
     box-shadow: 0 8px 22px rgba(251,133,0,.30);
     animation: fadeUp .5s ease backwards, featuredPulse 2.6s ease-in-out infinite 1s;
 }
@@ -549,13 +571,16 @@ body * {
 }
 .placement-card.featured .pkg-course,
 .placement-card.featured .pkg-label{
-    color: #5e0000;
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,.20);
 }
 .placement-card.featured .pkg-value{
-    background: linear-gradient(135deg,#5e0000,#800000,#3d0000);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,.25);
 }
 .placement-card.featured::before{
     content: "👑";
@@ -589,7 +614,7 @@ body * {
 }
 
 .stat-card{
-    background: linear-gradient(135deg, #ffffff 0%, #fdf3e7 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffe8e8 100%);
     border: 1px solid rgba(128,0,0,.10);
     border-radius: 16px;
     padding: 16px 8px;
@@ -621,7 +646,7 @@ body * {
     font-size: 22px;
     font-weight: 800;
     line-height: 1.05;
-    background: linear-gradient(135deg,#800000,#d62828,#fb8500);
+    background: linear-gradient(135deg,#800000,#d62828);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -644,12 +669,35 @@ body * {
     line-height: 1.2;
 }
 
-/* Modern "Explore IITM" quick-access cards */
+/* Modern "Explore IITM" quick-access cards — RED gradient section */
 .modern-explore{
     margin: 28px auto;
-    padding: 0 14px;
+    padding: 32px 24px 30px;
     max-width: 1100px;
+    background: linear-gradient(135deg, #800000 0%, #a00000 50%, #5e0000 100%);
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(128,0,0,.25);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
 }
+.modern-explore::before{
+    content: "";
+    position: absolute;
+    top: -40%; right: -10%;
+    width: 380px; height: 380px;
+    background: radial-gradient(circle, rgba(255,255,255,.12), transparent 70%);
+    pointer-events: none;
+}
+.modern-explore::after{
+    content: "";
+    position: absolute;
+    bottom: -40%; left: -10%;
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, rgba(214,40,40,.40), transparent 70%);
+    pointer-events: none;
+}
+.modern-explore > *{ position: relative; z-index: 1; }
 
 .modern-explore .explore-title{
     text-align: center;
@@ -660,7 +708,7 @@ body * {
     font-family: 'Poppins', system-ui, sans-serif;
     font-size: 24px;
     font-weight: 800;
-    color: #800000;
+    color: #ffffff !important;
     margin: 0;
     letter-spacing: .3px;
 }
@@ -668,15 +716,15 @@ body * {
 .modern-explore .explore-title h2::after{
     content:"";
     display: block;
-    width: 50px;
+    width: 56px;
     height: 3px;
-    background: linear-gradient(90deg,#800000,#fb8500);
+    background: linear-gradient(90deg, #ffffff, rgba(255,255,255,.55));
     border-radius: 3px;
     margin: 8px auto 0;
 }
 
 .modern-explore .explore-title p{
-    color: #6b6b6b;
+    color: rgba(255,255,255,.88) !important;
     font-family: 'Poppins', system-ui, sans-serif;
     font-size: 13px;
     margin: 8px 0 0;
@@ -756,7 +804,7 @@ body * {
 .explore-card.c2 .explore-icon{ background: linear-gradient(135deg,#0077b6,#00b4d8); }
 .explore-card.c3 .explore-icon{ background: linear-gradient(135deg,#588157,#a3b18a); }
 .explore-card.c4 .explore-icon{ background: linear-gradient(135deg,#7c5cff,#23c4ff); }
-.explore-card.c5 .explore-icon{ background: linear-gradient(135deg,#fb8500,#ffb703); }
+.explore-card.c5 .explore-icon{ background: linear-gradient(135deg,#a00000,#800000); }
 .explore-card.c6 .explore-icon{ background: linear-gradient(135deg,#e63946,#d62828); }
 
 .explore-card .explore-name{
@@ -779,7 +827,7 @@ body * {
 /* Modernize marquee bar */
 .marquee-container{
     position: relative;
-    background: linear-gradient(90deg,#fff7ed 0%,#ffe9d3 100%);
+    background: linear-gradient(90deg,#ffffff 0%,#fef2f2 100%);
     border-top: 1px solid rgba(128,0,0,.12);
     border-bottom: 1px solid rgba(128,0,0,.12);
     padding: 8px 0 8px 86px;
@@ -878,28 +926,54 @@ body * {
 
 /* ==================== COMPACT MODERN FOLLOW US ==================== */
 .follow-us-icons{
-    background: linear-gradient(135deg,#fff7ed 0%,#ffe9d3 50%,#fcd5b4 100%) !important;
-    padding: 18px 14px !important;
+    background: linear-gradient(135deg, #ffffff 0%, rgba(128,0,0,.08) 100%) !important;
+    padding: 32px 24px !important;
     position: relative;
     overflow: hidden;
+    border: 2px solid #800000;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(128,0,0,.12);
+    max-width: 1100px;
+    margin: 28px auto !important;
+    color: #2b2b2b;
 }
 .follow-us-icons::before,
 .follow-us-icons::after{
     content:"";
     position: absolute;
-    width: 180px; height: 180px;
+    width: 220px; height: 220px;
     border-radius: 50%;
-    filter: blur(50px);
+    filter: blur(60px);
     pointer-events: none;
-    opacity: .30;
+    opacity: .25;
 }
 .follow-us-icons::before{
-    top: -90px; left: -60px;
-    background: radial-gradient(circle, rgba(255,183,3,.7), transparent);
+    top: -110px; left: -70px;
+    background: radial-gradient(circle, rgba(214,40,40,.45), transparent);
 }
 .follow-us-icons::after{
-    bottom: -90px; right: -60px;
-    background: radial-gradient(circle, rgba(214,40,40,.55), transparent);
+    bottom: -110px; right: -70px;
+    background: radial-gradient(circle, rgba(128,0,0,.50), transparent);
+}
+/* Maroon text + icons on the light pink card */
+.follow-us-icons .follow-s-txt{
+    background: linear-gradient(135deg, #800000, #d62828) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+}
+.follow-us-icons .follow-us-tagline{
+    color: #6b6b6b !important;
+}
+.follow-us-icons .icons-gs a.s{
+    color: #800000 !important;
+}
+.follow-us-icons .icons-gs a.s::after{
+    color: #800000 !important;
+}
+.follow-us-icons .icons-gs a.s:hover::after{
+    color: #d62828 !important;
 }
 .follow-us-icons .container,
 .follow-us-icons .row,
@@ -913,7 +987,7 @@ body * {
     font-size: 20px !important;
     font-weight: 800 !important;
     letter-spacing: .4px;
-    background: linear-gradient(135deg,#800000,#d62828,#fb8500);
+    background: linear-gradient(135deg,#800000,#d62828);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -971,9 +1045,13 @@ body * {
 
 /* ============== Course-wise Admission Helpline cards (compact) ============== */
 .course-leads{
-    margin: 14px auto 10px;
-    padding: 0 14px;
+    margin: 28px auto;
+    padding: 28px 24px 24px;
     max-width: 1100px;
+    background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+    border: 2px solid #800000;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(128,0,0,.12);
 }
 
 .course-leads .leads-title{
@@ -996,7 +1074,7 @@ body * {
     display: block;
     width: 40px;
     height: 2px;
-    background: linear-gradient(90deg,#800000,#fb8500);
+    background: linear-gradient(90deg,#800000,#d62828);
     border-radius: 2px;
     margin: 6px auto 0;
 }
@@ -1025,16 +1103,16 @@ body * {
     grid-template-columns: 44px 1fr auto;
     align-items: center;
     gap: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,.06);
-    border: 1px solid rgba(0,0,0,.05);
+    box-shadow: 0 4px 10px rgba(128,0,0,.06);
+    border: 1px solid rgba(128,0,0,.10);
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
     font-family: 'Poppins', system-ui, sans-serif;
 }
 
 .lead-card:hover{
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(0,0,0,.10);
-    border-color: rgba(128,0,0,.18);
+    box-shadow: 0 10px 20px rgba(128,0,0,.14);
+    border-color: rgba(128,0,0,.30);
 }
 
 .lead-badge{
@@ -1054,10 +1132,11 @@ body * {
 }
 
 .lead-card.l1 .lead-badge{ background: linear-gradient(135deg,#800000,#d62828); }
-.lead-card.l2 .lead-badge{ background: linear-gradient(135deg,#0077b6,#00b4d8); }
-.lead-card.l3 .lead-badge{ background: linear-gradient(135deg,#588157,#a3b18a); }
-.lead-card.l4 .lead-badge{ background: linear-gradient(135deg,#7c5cff,#23c4ff); }
-.lead-card.l5 .lead-badge{ background: linear-gradient(135deg,#fb8500,#ffb703); }
+.lead-card.l2 .lead-badge{ background: linear-gradient(135deg,#a00000,#800000); }
+.lead-card.l3 .lead-badge{ background: linear-gradient(135deg,#5e0000,#800000); }
+.lead-card.l4 .lead-badge{ background: linear-gradient(135deg,#800000,#a00000); }
+.lead-card.l5 .lead-badge{ background: linear-gradient(135deg,#a00000,#800000); }
+.lead-card.l6 .lead-badge{ background: linear-gradient(135deg,#800000,#d62828); }
 
 .lead-info{ min-width: 0; }
 .lead-info .lead-course{
@@ -1250,6 +1329,1635 @@ body * {
     color: #6b6b6b;
 }
 
+/* ============ Section enhancements: icons, labels, summaries ============ */
+
+/* Course Intake — icons, subtitle, "SEATS" labels, total footer */
+.course-intake-section .course-title-wrap{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.course-intake-section .course-subtitle{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    color: #6b6b6b;
+    margin: 8px 0 0;
+    letter-spacing: .2px;
+}
+.course-intake-section .course-icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #800000, #d62828);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto 8px;
+    box-shadow: 0 4px 10px rgba(128,0,0,.22);
+    transition: transform .25s ease, background .25s ease, color .25s ease;
+}
+.course-intake-section .course-box:hover .course-icon{
+    transform: scale(1.1) rotate(-5deg);
+    background: #fff;
+    color: #800000;
+    box-shadow: inset 0 0 0 2px #800000;
+}
+.course-intake-section .course-value small{
+    display: block;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-top: 4px;
+    color: #800000;
+    -webkit-text-fill-color: #800000 !important;
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+}
+.course-intake-section .course-total{
+    margin-top: 18px;
+    padding: 12px 18px;
+    text-align: center;
+    background: linear-gradient(135deg, #800000 0%, #5e0000 100%);
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .35px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 6px 18px rgba(128,0,0,.24);
+}
+.course-intake-section .course-total strong{
+    font-weight: 800;
+    font-size: 16px;
+}
+.course-intake-section .course-total-divider{
+    opacity: .5;
+}
+
+/* Notices — NEW badge on the latest notice (first item) */
+.col-md-3[style*="margin: 2em"] .notice-item:first-child{
+    position: relative;
+    background: linear-gradient(135deg, rgba(128,0,0,.04), rgba(214,40,40,.02));
+    border-radius: 10px;
+    padding-right: 50px !important;
+}
+.col-md-3[style*="margin: 2em"] .notice-item:first-child::after{
+    content: "NEW";
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    background: linear-gradient(135deg, #800000, #d62828);
+    color: #fff;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    padding: 3px 9px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(128,0,0,.32);
+    animation: notiNewPulse 2s ease-in-out infinite;
+}
+@keyframes notiNewPulse{
+    0%,100%{ transform: scale(1); box-shadow: 0 4px 10px rgba(128,0,0,.32); }
+    50%    { transform: scale(1.08); box-shadow: 0 6px 16px rgba(128,0,0,.50); }
+}
+
+/* Follow Us — add social-network labels under each icon (CSS-only, attr-free) */
+.follow-us-icons .icons-gs{ gap: 26px !important; }
+.follow-us-icons .icons-gs a.s{
+    flex-direction: column !important;
+    gap: 6px !important;
+    font-size: 30px !important;
+}
+.follow-us-icons .icons-gs a.s::after{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #800000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color .25s ease;
+}
+.follow-us-icons .icons-gs a.instagram::after{ content: "Instagram"; }
+.follow-us-icons .icons-gs a.facebook::after { content: "Facebook"; }
+.follow-us-icons .icons-gs a.linkedin::after { content: "LinkedIn"; }
+.follow-us-icons .icons-gs a.twitter::after  { content: "Twitter"; }
+.follow-us-icons .icons-gs a.youtube::after  { content: "YouTube"; }
+.follow-us-icons .icons-gs a.s:hover::after{ color: #d62828; }
+
+
+/* ============ FULL HORIZONTAL FIT — wider sections that fill the screen ============ */
+@media (min-width: 992px){
+    .iitm-highlights-banner,
+    .placement-section,
+    .modern-stats,
+    .modern-explore,
+    .course-leads,
+    .course-intake-section,
+    .iitm-programmes-section,
+    .col-md-3[style*="margin: 2em"],
+    .follow-us-icons,
+    .container.px-0:has(> video),
+    .container-fluid.px-0:has(> video){
+        max-width: min(1320px, 92vw) !important;
+    }
+}
+@media (min-width: 1400px){
+    .iitm-highlights-banner,
+    .placement-section,
+    .modern-stats,
+    .modern-explore,
+    .course-leads,
+    .course-intake-section,
+    .iitm-programmes-section,
+    .col-md-3[style*="margin: 2em"],
+    .follow-us-icons,
+    .container.px-0:has(> video),
+    .container-fluid.px-0:has(> video){
+        max-width: min(1480px, 90vw) !important;
+    }
+}
+
+/* ============ Our Programmes — themed card grid (matches Course Intake) ============ */
+.iitm-programmes-section{
+    background: linear-gradient(135deg,#fff0f0 0%,#ffd6d6 100%);
+    border-radius: 18px;
+    padding: 28px 24px 24px;
+    max-width: 1100px;
+    margin: 28px auto;
+    box-shadow: 0 6px 20px rgba(128,0,0,.06);
+    border: 1px solid rgba(128,0,0,.10);
+}
+.iitm-programmes-section .programmes-title{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.iitm-programmes-section .programmes-title h2{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: #800000;
+    margin: 0;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+.iitm-programmes-section .programmes-title h2::after{
+    content:"";
+    display: block;
+    width: 56px;
+    height: 3px;
+    background: linear-gradient(90deg,#800000,#d62828);
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+.iitm-programmes-section .programmes-title p{
+    color: #6b6b6b;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    margin: 8px 0 0;
+}
+.iitm-programmes-section .programmes-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 18px;
+}
+@media (min-width: 768px){
+    .iitm-programmes-section .programmes-grid{ grid-template-columns: repeat(4, 1fr); gap: 16px; }
+}
+.iitm-programmes-section .prog-card{
+    background: #ffffff;
+    border: 1px solid rgba(128,0,0,.10);
+    border-radius: 14px;
+    padding: 22px 14px;
+    text-align: center;
+    text-decoration: none !important;
+    color: #800000 !important;
+    box-shadow: 0 6px 16px rgba(128,0,0,.06);
+    transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: 140px;
+}
+.iitm-programmes-section .prog-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(128,0,0,.22);
+    background: linear-gradient(135deg, #800000 0%, #5e0000 100%);
+    color: #ffffff !important;
+    border-color: #5e0000;
+}
+.iitm-programmes-section .prog-icon{
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #800000, #d62828);
+    color: #ffffff !important;
+    font-size: 26px;
+    box-shadow: 0 4px 12px rgba(128,0,0,.25);
+    transition: transform .3s ease, background .25s ease, color .25s ease;
+}
+.iitm-programmes-section .prog-card:hover .prog-icon{
+    transform: scale(1.12) rotate(-6deg);
+    background: #ffffff;
+    color: #800000 !important;
+}
+.iitm-programmes-section .prog-name{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: .2px;
+    color: inherit;
+}
+@media (min-width: 992px){
+    .iitm-programmes-section .programmes-title h2{ font-size: 28px; }
+    .iitm-programmes-section .prog-name{ font-size: 15px; }
+    .iitm-programmes-section .prog-icon{ width: 60px; height: 60px; font-size: 28px; }
+}
+
+/* ============ IITM Mitra — dummy chatbot widget ============ */
+.iitm-chatbot-fab{
+    position: fixed;
+    left: 22px;
+    bottom: 26px;
+    z-index: 1090;
+    background: linear-gradient(135deg, #800000, #5e0000);
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    padding: 12px 18px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(128,0,0,.40);
+    transition: transform .25s ease, box-shadow .25s ease;
+    letter-spacing: .3px;
+}
+.iitm-chatbot-fab:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(128,0,0,.55);
+}
+.iitm-chatbot-fab.is-active{
+    background: linear-gradient(135deg, #5e0000, #3d0000);
+}
+.iitm-chatbot-fab .cf-icon{ font-size: 18px; }
+.iitm-chatbot-fab .cf-pulse{
+    width: 8px; height: 8px;
+    background: #4ade80;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(74,222,128,.6);
+    animation: cbFabPulse 1.6s infinite ease-out;
+}
+@keyframes cbFabPulse{
+    0%{ box-shadow: 0 0 0 0 rgba(74,222,128,.7); }
+    70%{ box-shadow: 0 0 0 8px rgba(74,222,128,0); }
+    100%{ box-shadow: 0 0 0 0 rgba(74,222,128,0); }
+}
+
+.iitm-chatbot-window{
+    position: fixed;
+    left: 22px;
+    bottom: 86px;
+    z-index: 1095;
+    width: 360px;
+    max-width: calc(100vw - 44px);
+    height: 520px;
+    max-height: calc(100vh - 120px);
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 24px 60px rgba(0,0,0,.30), 0 0 0 1px rgba(128,0,0,.12);
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    font-family: 'Inter', system-ui, sans-serif;
+    opacity: 0;
+    transform: translateY(20px) scale(.96);
+    transition: transform .25s ease, opacity .25s ease;
+}
+.iitm-chatbot-window.is-open{
+    display: flex;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+.cb-header{
+    background: linear-gradient(135deg, #800000 0%, #5e0000 100%);
+    color: #fff;
+    padding: 16px 16px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.cb-header::before{
+    content:"";
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 140px; height: 140px;
+    background: radial-gradient(circle, rgba(255,255,255,.10), transparent 70%);
+    pointer-events: none;
+}
+.cb-brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
+}
+/* Academic robot avatar — standing bot with graduation cap on top */
+.cb-academic-robot{
+    position: relative;
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(135deg, rgba(255,255,255,.28), rgba(255,255,255,.10));
+    border: 2px solid rgba(255,255,255,.55);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 14px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.20);
+    flex-shrink: 0;
+    margin-top: 8px;
+    animation: cbBotStand 3.5s ease-in-out infinite;
+}
+@keyframes cbBotStand{
+    0%,100%{ transform: translateY(0); }
+    50%    { transform: translateY(-3px); }
+}
+.cb-bot-emoji{
+    font-size: 28px;
+    line-height: 1;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,.30));
+}
+.cb-logo-img{
+    width: 36px;
+    height: auto;
+    max-height: 30px;
+    object-fit: contain;
+    filter: brightness(0) invert(1) drop-shadow(0 2px 4px rgba(0,0,0,.30));
+    display: block;
+}
+/* Graduation cap pinned to the top of the robot */
+.cb-grad-cap{
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    font-size: 22px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,.30));
+    z-index: 2;
+}
+/* Subtle floor shadow under the standing bot */
+.cb-academic-robot::after{
+    content:"";
+    position: absolute;
+    bottom: -10px;
+    left: 12%; right: 12%;
+    height: 6px;
+    background: rgba(0,0,0,.30);
+    border-radius: 50%;
+    filter: blur(4px);
+}
+.cb-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    line-height: 1.15;
+}
+.cb-iitm-tag{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 9.5px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,.75);
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255,255,255,.20);
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.cb-name{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 15.5px;
+    font-weight: 800;
+    letter-spacing: .3px;
+}
+.cb-status{
+    font-size: 10.5px;
+    opacity: .92;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cb-dot{
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 8px rgba(74,222,128,.7);
+}
+.cb-close{
+    background: rgba(255,255,255,.18); border: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    color: #fff; font-size: 20px; line-height: 1;
+    cursor: pointer; padding: 0;
+}
+.cb-close:hover{ background: rgba(255,255,255,.30); }
+
+.cb-body{
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    background: #fff5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cb-msg{
+    max-width: 88%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 1.42;
+    word-wrap: break-word;
+    animation: cbFade .3s ease;
+    letter-spacing: .1px;
+}
+.cb-msg b{ font-weight: 700; }
+.cb-msg br + br{ display: none; }
+@keyframes cbFade{
+    from{ opacity: 0; transform: translateY(6px); }
+    to{ opacity: 1; transform: translateY(0); }
+}
+.cb-msg.cb-bot{
+    align-self: flex-start;
+    background: #fff;
+    color: #2b2b2b;
+    border: 1px solid rgba(128,0,0,.10);
+    border-bottom-left-radius: 4px;
+}
+.cb-msg.cb-bot a{ color: #800000; font-weight: 600; }
+.cb-msg.cb-user{
+    align-self: flex-end;
+    background: linear-gradient(135deg, #800000, #5e0000);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+.cb-msg.cb-typing{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 14px;
+}
+.cb-msg.cb-typing .cb-typing-bot{
+    width: auto !important;
+    height: auto !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    animation: none !important;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.cb-msg.cb-typing span:not(.cb-typing-bot){
+    width: 7px; height: 7px;
+    background: #800000;
+    border-radius: 50%;
+    animation: cbTyp 1.2s infinite ease-in-out;
+}
+.cb-msg.cb-typing span:nth-child(2){ animation-delay: .15s; }
+.cb-msg.cb-typing span:nth-child(3){ animation-delay: .3s; }
+@keyframes cbTyp{
+    0%, 80%, 100%{ transform: scale(.6); opacity: .4; }
+    40%{ transform: scale(1); opacity: 1; }
+}
+
+.cb-suggestions{
+    padding: 8px 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    background: #fff;
+    border-top: 1px solid rgba(128,0,0,.08);
+}
+.cb-chip{
+    background: #fff5f5;
+    border: 1px solid rgba(128,0,0,.20);
+    color: #800000;
+    padding: 5px 11px;
+    border-radius: 50px;
+    font-size: 11.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s ease, color .2s ease, transform .15s ease;
+    font-family: 'Poppins', system-ui, sans-serif;
+}
+.cb-chip:hover{
+    background: #800000;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.cb-input-wrap{
+    display: flex;
+    gap: 8px;
+    padding: 12px 12px 14px;
+    background: #fff;
+    border-top: 1px solid rgba(128,0,0,.08);
+    align-items: flex-end;
+    position: relative;
+    min-height: 70px;
+}
+/* Full-body standing robot next to the input */
+.cb-standing-bot{
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -8px;        /* let the feet sit on the input baseline */
+    animation: cbBotIdle 2.6s ease-in-out infinite;
+    transform-origin: bottom center;
+}
+.cb-standing-bot svg{ display: block; }
+@keyframes cbBotIdle{
+    0%,100%{ transform: translateY(0) rotate(0deg); }
+    25%    { transform: translateY(-2px) rotate(-1deg); }
+    75%    { transform: translateY(-2px) rotate(1deg); }
+}
+.cb-input{
+    flex: 1; min-width: 0;
+    border: 1px solid rgba(128,0,0,.20);
+    border-radius: 22px;
+    padding: 9px 14px;
+    font-size: 13px;
+    font-family: 'Inter', system-ui, sans-serif;
+    outline: none;
+    transition: border-color .2s ease, box-shadow .2s ease;
+}
+.cb-input:focus{
+    border-color: #800000;
+    box-shadow: 0 0 0 3px rgba(128,0,0,.10);
+}
+.cb-send{
+    background: linear-gradient(135deg, #800000, #5e0000);
+    color: #fff; border: 0;
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform .2s ease;
+}
+.cb-send:hover{ transform: scale(1.08); }
+
+@media (max-width: 575.98px){
+    .iitm-chatbot-fab{
+        left: 14px; bottom: 18px;
+        padding: 0; width: 50px; height: 50px;
+        border-radius: 50%;
+        justify-content: center;
+    }
+    .iitm-chatbot-fab .cf-label,
+    .iitm-chatbot-fab .cf-pulse{ display: none; }
+    .iitm-chatbot-window{
+        left: 10px; right: 10px; bottom: 75px;
+        width: auto; max-width: none;
+        height: 70vh;
+    }
+}
+
+/* ============ Mascot robot — TOP-TO-BOTTOM on the RIGHT of chat ============
+   Chat is at left:22, width:360 (right edge at left:382). Mascot is positioned
+   right after the chat, full viewport height, with its left arm reaching IN to
+   grip the chat's right edge. SVG viewBox extends -40px on the left so the arm
+   can paint past the mascot's CSS box into the chat's right edge. */
+.cb-mascot{
+    position: fixed;
+    left: 386px;
+    top: 24px;
+    bottom: 24px;
+    z-index: 1097;            /* in front of chat (1095) so the hand grips visibly */
+    width: 220px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity .4s ease, transform .5s cubic-bezier(.34,1.56,.64,1);
+}
+.cb-mascot.is-visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+.cb-mascot svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    filter: drop-shadow(0 16px 28px rgba(128,0,0,.30));
+    animation: cbMascotBreathe 4.2s ease-in-out infinite;
+}
+@keyframes cbMascotBreathe{
+    0%,100%{ transform: translateY(0); }
+    50%    { transform: translateY(-5px); }
+}
+.cb-mascot-bubble{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    color: #800000;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 7px 14px;
+    border-radius: 16px;
+    border: 1.5px solid #800000;
+    box-shadow: 0 6px 14px rgba(128,0,0,.30);
+    white-space: nowrap;
+    pointer-events: none;
+    animation: cbBubbleBob 2.6s ease-in-out infinite;
+    letter-spacing: .3px;
+    z-index: 2;
+}
+.cb-mascot-bubble::after{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-right: 1.5px solid #800000;
+    border-bottom: 1.5px solid #800000;
+}
+@keyframes cbBubbleBob{
+    0%,100%{ transform: translateX(-50%) translateY(0); }
+    50%    { transform: translateX(-50%) translateY(-3px); }
+}
+
+/* Hide mascot on tablets / mobiles — desktop ≥1200px only */
+@media (max-width: 1199.98px){
+    .cb-mascot{ display: none !important; }
+}
+
+/* ============ Lightbox modal styling for highlights ============ */
+.img-lightbox-content{
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    position: relative;
+}
+.img-lightbox-img{
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 14px;
+    box-shadow: 0 30px 60px rgba(0,0,0,.50);
+    display: block;
+}
+.img-lightbox-close{
+    position: absolute !important;
+    top: -18px;
+    right: -18px;
+    z-index: 10;
+    background-color: #ffffff !important;
+    background-size: 16px 16px !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 50% !important;
+    width: 42px !important;
+    height: 42px !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    box-shadow: 0 10px 26px rgba(0,0,0,.45);
+    border: 2px solid #800000 !important;
+    transition: background-color .2s ease, transform .2s ease;
+}
+.img-lightbox-close:hover,
+.img-lightbox-close:focus{
+    background-color: #800000 !important;
+    transform: rotate(90deg) scale(1.05);
+    box-shadow: 0 12px 30px rgba(128,0,0,.55);
+    outline: 0 !important;
+    /* Invert the X icon to white when bg goes maroon */
+    filter: invert(1);
+}
+#imgLightbox .modal-dialog{
+    margin: 24px auto;
+}
+
+/* ============ IITM Highlights — compact auto-scrolling banner (slider) ============ */
+.iitm-highlights-banner{
+    overflow: hidden;
+    background: linear-gradient(180deg, #fff5f5 0%, #ffe4e4 100%);
+    padding: 28px 0;
+    margin: 24px auto;
+    max-width: 1140px;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(128,0,0,.10);
+    border: 1px solid rgba(128,0,0,.12);
+    position: relative;
+}
+.iitm-highlights-banner::before,
+.iitm-highlights-banner::after{
+    content:"";
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+}
+.iitm-highlights-banner::before{
+    left: 0;
+    background: linear-gradient(90deg, #fff5f5, transparent);
+}
+.iitm-highlights-banner::after{
+    right: 0;
+    background: linear-gradient(-90deg, #fff5f5, transparent);
+}
+.iitm-highlights-banner .highlights-track{
+    display: flex;
+    gap: 14px;
+    width: max-content;
+    animation: scrollHighlights 60s linear infinite;
+}
+.iitm-highlights-banner:hover .highlights-track{
+    animation-play-state: paused;
+}
+.iitm-highlights-banner .highlights-row{
+    display: flex;
+    gap: 14px;
+    flex-shrink: 0;
+}
+.iitm-highlights-banner .hl-card{
+    flex-shrink: 0;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(128,0,0,.10);
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1), box-shadow .3s ease, border-color .3s ease;
+    border: 1px solid rgba(128,0,0,.08);
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    cursor: zoom-in;
+}
+.iitm-highlights-banner .hl-card:hover{
+    transform: translateY(-10px) scale(1.55);
+    box-shadow: 0 24px 50px rgba(128,0,0,.40);
+    border-color: #800000;
+    z-index: 10;
+}
+.iitm-highlights-banner .hl-card img{
+    height: 110px;
+    width: auto;
+    display: block;
+    object-fit: cover;
+}
+@keyframes scrollHighlights{
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+@media (max-width: 575.98px){
+    .iitm-highlights-banner .hl-card img{ height: 78px; }
+    .iitm-highlights-banner{ padding: 12px 0; margin: 18px auto; border-radius: 12px; }
+}
+
+/* ---------- Hide ALL sliders / carousels everywhere (per user) ---------- */
+#carouselExampleIndicators1,
+#carouselExampleSlidesOnly,
+.card.sliders3-ed,
+.carousel.slide,
+.carousel.slide.mt-3{
+    display: none !important;
+}
+
+/* Hide the legacy .lowerb wrapper entirely — its content has been replaced
+   (Course Intake is now its own section above; IITM In News has a new framed grid below) */
+.lowerb,
+.bwhite{ display: none !important; }
+
+/* ============ IITM In News — auto-scrolling framed banner (matches highlights) ============ */
+.iitm-news-banner{
+    margin: 28px auto;
+    padding: 22px 0 24px;
+    max-width: 1140px;
+    background: linear-gradient(135deg, #ffffff 0%, #fef2f2 100%);
+    border: 1px solid rgba(128,0,0,.10);
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(128,0,0,.08);
+    overflow: hidden;
+}
+.iitm-news-banner .news-title{
+    text-align: center;
+    margin: 0 auto 16px;
+    padding: 0 14px;
+}
+.iitm-news-banner .news-title h2{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: #800000;
+    margin: 0;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+.iitm-news-banner .news-title h2::after{
+    content:"";
+    display: block;
+    width: 56px;
+    height: 3px;
+    background: linear-gradient(90deg,#800000,#d62828);
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+.iitm-news-banner .news-title p{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    color: #6b6b6b;
+    margin: 8px 0 0;
+}
+.iitm-news-banner .news-banner-wrap{
+    overflow: hidden;
+    position: relative;
+    padding: 8px 0 16px;
+}
+.iitm-news-banner .news-banner-wrap::before,
+.iitm-news-banner .news-banner-wrap::after{
+    content:"";
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+}
+.iitm-news-banner .news-banner-wrap::before{
+    left: 0;
+    background: linear-gradient(90deg, #fff5f5, transparent);
+}
+.iitm-news-banner .news-banner-wrap::after{
+    right: 0;
+    background: linear-gradient(-90deg, #fff5f5, transparent);
+}
+.iitm-news-banner .news-track{
+    display: flex;
+    gap: 14px;
+    width: max-content;
+    animation: scrollNews 70s linear infinite;
+}
+.iitm-news-banner:hover .news-track{
+    animation-play-state: paused;
+}
+.iitm-news-banner .news-row{
+    display: flex;
+    gap: 14px;
+    flex-shrink: 0;
+}
+.iitm-news-banner .news-card{
+    flex-shrink: 0;
+    display: block;
+    width: 220px;
+    background: #fff;
+    border: 1px solid rgba(128,0,0,.10);
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    box-shadow: 0 4px 12px rgba(128,0,0,.10);
+    cursor: zoom-in;
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1), box-shadow .3s ease, border-color .3s ease;
+    position: relative;
+    z-index: 1;
+}
+.iitm-news-banner .news-card:hover{
+    transform: translateY(-10px) scale(1.4);
+    z-index: 10;
+    box-shadow: 0 24px 50px rgba(128,0,0,.40);
+    border-color: #800000;
+}
+.iitm-news-banner .news-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.iitm-news-banner .news-card .news-caption{
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 6px 10px;
+    background: linear-gradient(180deg, transparent, rgba(94,0,0,.92));
+    color: #fff;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3;
+    pointer-events: none;
+    letter-spacing: .2px;
+}
+@keyframes scrollNews{
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+@media (min-width: 992px){
+    .iitm-news-banner{ max-width: min(1320px, 92vw); }
+    .iitm-news-banner .news-card{ width: 240px; }
+}
+@media (min-width: 1400px){
+    .iitm-news-banner{ max-width: min(1480px, 90vw); }
+}
+@media (max-width: 575.98px){
+    .iitm-news-banner .news-card{ width: 170px; }
+    .iitm-news-banner{ padding: 16px 0 18px; }
+}
+
+/* ============ Auto-hide scrollbar — invisible at idle, red on activity ============ */
+/* Always-reserved width so layout doesn't shift, but thumb is invisible by default */
+html{
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    transition: scrollbar-color .35s ease;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    background: transparent;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: background .35s ease;
+}
+/* On user activity (scroll / mouse move) — show red themed thumb */
+html.is-active{
+    scrollbar-color: #800000 transparent;
+}
+html.is-active::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #800000, #d62828);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.20);
+}
+html.is-active::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(180deg, #5e0000, #800000);
+    background-clip: padding-box;
+}
+
+/* ---------- Force horizontal fit — no horizontal scroll, ever ---------- */
+html, body{
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    margin: 0;
+}
+img, video{
+    max-width: 100%;
+    height: auto;
+}
+/* Navbar must NOT have any overflow clipping — dropdowns + caret need to render outside */
+nav.navbar,
+nav.navbar .container,
+nav.navbar .navbar-collapse,
+nav.navbar .navbar-nav,
+nav.navbar .nav-item{
+    overflow: visible !important;
+}
+
+/* ============ Themed Notices (clean cards, no raw URLs) ============ */
+.col-md-3[style*="margin: 2em"] .notices-card{
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px 28px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+    border: 1px solid rgba(128,0,0,.10);
+}
+.col-md-3[style*="margin: 2em"] .notices-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 6px;
+}
+.col-md-3[style*="margin: 2em"] .notice-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 4px;
+    border-bottom: 1px dashed rgba(128,0,0,.14);
+    transition: background .25s ease;
+    border-radius: 8px;
+}
+.col-md-3[style*="margin: 2em"] .notice-item:last-child{ border-bottom: 0; }
+.col-md-3[style*="margin: 2em"] .notice-item:hover{
+    background: linear-gradient(135deg, rgba(128,0,0,.04), rgba(255,183,3,.05));
+}
+.col-md-3[style*="margin: 2em"] .notice-num{
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#800000,#d62828);
+    color: #fff;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 12.5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(128,0,0,.30);
+    margin-top: 2px;
+}
+.col-md-3[style*="margin: 2em"] .notice-link{
+    flex: 1;
+    min-width: 0;
+    color: #2b2b2b !important;
+    text-decoration: none !important;
+    display: block;
+    transition: color .2s ease;
+}
+.col-md-3[style*="margin: 2em"] .notice-link:hover{ color: #800000 !important; }
+.col-md-3[style*="margin: 2em"] .notice-title-text{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.45;
+    display: block;
+    word-break: break-word;
+}
+.col-md-3[style*="margin: 2em"] .notice-icon{
+    color: #d62828;
+    margin-right: 8px;
+    font-size: 14px;
+    transition: transform .2s ease, color .2s ease;
+}
+.col-md-3[style*="margin: 2em"] .notice-link:hover .notice-icon{
+    color: #800000;
+    transform: translateX(2px);
+}
+.col-md-3[style*="margin: 2em"] .notice-date{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 11px;
+    color: #6b6b6b;
+    font-weight: 600;
+    margin-top: 6px;
+    letter-spacing: .2px;
+    background: rgba(128,0,0,.06);
+    border: 1px solid rgba(128,0,0,.10);
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+.col-md-3[style*="margin: 2em"] .notice-date i.fa{
+    color: #800000;
+    font-size: 10px;
+}
+.col-md-3[style*="margin: 2em"] .notices-view-all{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    padding: 11px 22px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff !important;
+    background: linear-gradient(135deg,#800000,#d62828);
+    border-radius: 50px;
+    text-decoration: none !important;
+    box-shadow: 0 6px 16px rgba(128,0,0,.25);
+    transition: transform .2s ease, box-shadow .2s ease;
+    letter-spacing: .3px;
+    border: 0;
+}
+.col-md-3[style*="margin: 2em"] .notices-view-all:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(128,0,0,.40);
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.col-md-3[style*="margin: 2em"] .notices-view-all i.fa{
+    transition: transform .2s ease;
+}
+.col-md-3[style*="margin: 2em"] .notices-view-all:hover i.fa{
+    transform: translateX(4px);
+}
+
+/* ================================================================== */
+/* ============== DESKTOP MODERN POLISH (≥992px) ==================== */
+/* ================================================================== */
+@media (min-width: 992px){
+
+    /* ---------- 0. MIRROR MOBILE: hide dated strip, show modern hero ---------- */
+    /* Hide the legacy top-admission-strip on desktop — same as mobile.
+       Replaced by the gradient admissions hero card below the slider. */
+    .top-admission-strip{ display: none !important; }
+
+    /* Show the maroon gradient "Admissions Open 2026-27" card on desktop, sized large */
+    .mobile-admissions-hero{
+        display: block !important;
+        margin: 32px auto !important;
+        max-width: 1100px;
+        padding: 44px 48px !important;
+        border-radius: 22px !important;
+        text-align: center;
+        background: linear-gradient(135deg,#800000 0%,#a52a2a 50%,#d62828 100%) !important;
+        color: #fff;
+        box-shadow: 0 18px 40px rgba(128,0,0,.30);
+        position: relative;
+        overflow: hidden;
+    }
+    .mobile-admissions-hero::before{
+        content:"";
+        position: absolute;
+        top: -40%; right: -8%;
+        width: 360px; height: 360px;
+        background: radial-gradient(circle, rgba(255,183,3,.42) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .mobile-admissions-hero::after{
+        content:"";
+        position: absolute;
+        bottom: -40%; left: -8%;
+        width: 320px; height: 320px;
+        background: radial-gradient(circle, rgba(255,255,255,.10) 0%, transparent 70%);
+        pointer-events: none;
+    }
+    .mobile-admissions-hero > *{ position: relative; z-index: 1; }
+    .mobile-admissions-hero h3{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 38px !important;
+        font-weight: 900 !important;
+        margin: 0 0 10px !important;
+        letter-spacing: .4px;
+        line-height: 1.15;
+    }
+    .mobile-admissions-hero p{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 16px !important;
+        margin: 0 0 24px !important;
+        opacity: .95;
+        font-weight: 500;
+    }
+    .mobile-admissions-hero .hero-actions{
+        display: flex !important;
+        gap: 14px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .mobile-admissions-hero .hero-btn{
+        background: #ffffff !important;
+        color: #800000 !important;
+        font-weight: 800 !important;
+        padding: 14px 30px !important;
+        border-radius: 50px !important;
+        text-decoration: none !important;
+        font-size: 15px !important;
+        box-shadow: 0 8px 20px rgba(0,0,0,.20);
+        transition: transform .2s ease, box-shadow .2s ease;
+        font-family: 'Poppins', system-ui, sans-serif;
+        letter-spacing: .3px;
+    }
+    .mobile-admissions-hero .hero-btn:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 14px 28px rgba(0,0,0,.30);
+        color: #5e0000 !important;
+    }
+    .mobile-admissions-hero .hero-btn.outline{
+        background: rgba(255,255,255,.14) !important;
+        color: #fff !important;
+        border: 1.5px solid rgba(255,255,255,.75);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+    .mobile-admissions-hero .hero-btn.outline:hover{
+        background: rgba(255,255,255,.24) !important;
+        color: #fff !important;
+    }
+
+    /* ---------- Promo video: framed, natural aspect, no letterbox ----------
+       width:100% + height:auto means the video element height matches the video's
+       natural aspect ratio — so there's no dead "brown" letterbox area. */
+    .container-fluid.px-0:has(> video){
+        max-width: 1140px !important;
+        margin: 24px auto !important;
+        padding: 0 14px !important;
+    }
+    .container-fluid.px-0 > video{
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: initial !important;
+        background: transparent !important;
+        border-radius: 18px;
+        box-shadow: 0 14px 32px rgba(0,0,0,.18);
+        border: 2px solid rgba(128,0,0,.18);
+        display: block;
+    }
+
+    /* Show the floating "Apply Now" FAB on desktop too */
+    .mobile-apply-fab{
+        display: inline-flex !important;
+        position: fixed;
+        right: 22px;
+        bottom: 26px;
+        z-index: 1080;
+        align-items: center;
+        gap: 10px;
+        background: linear-gradient(135deg,#a00000 0%,#800000 50%,#5e0000 100%);
+        color: #fff !important;
+        font-weight: 800;
+        font-size: 14px;
+        padding: 13px 22px;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 10px 26px rgba(214,40,40,.40);
+        animation: fabPulse 1.8s ease-in-out infinite;
+        font-family: 'Poppins', system-ui, sans-serif;
+        letter-spacing: .3px;
+    }
+    .mobile-apply-fab:hover,
+    .mobile-apply-fab:focus{
+        color: #fff !important;
+        text-decoration: none;
+        transform: translateY(-2px);
+    }
+    .mobile-apply-fab .fab-icon{ font-size: 20px; }
+
+    /* Show the "Enquiry" FAB on desktop too — opens the admission enquiry modal
+       so users can re-interact with the form after closing the auto-popup */
+    .mobile-call-fab{
+        display: inline-flex !important;
+        position: fixed;
+        right: 22px;
+        bottom: 90px;
+        z-index: 1080;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: auto;
+        height: auto;
+        padding: 12px 20px;
+        background: linear-gradient(135deg,#22c55e,#16a34a);
+        color: #fff !important;
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: .3px;
+        border: 0;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 8px 22px rgba(22,163,74,.45);
+        animation: callPulse 1.8s ease-in-out infinite;
+        cursor: pointer;
+    }
+    .mobile-call-fab::after{
+        content: "Enquiry";
+    }
+    .mobile-call-fab:hover,
+    .mobile-call-fab:focus{
+        color: #fff !important;
+        text-decoration: none;
+        transform: translateY(-2px);
+        outline: 0;
+    }
+
+
+    /* ---------- A. Hide empty wrappers / placeholders ---------- */
+    /* Welcome ("bwhite") — content is mostly commented out */
+    .bwhite{ padding: 0 !important; margin: 0 !important; }
+    .bwhite > .container{ padding: 0 !important; margin: 0 !important; }
+    .bwhite .row{ margin: 0 !important; }
+
+    /* Lowerb wrapper — drop the 2rem top margin and decorative empty rows */
+    .lowerb{ margin-top: 0 !important; }
+    .lowerb > .row:first-child{ display: none !important; }
+
+    /* Empty maroon admissions placeholder card (style="background-color: #800000") */
+    .lowerb .card.sliders3-ed[style*="background-color: #800000"]{
+        display: none !important;
+    }
+    .lowerb > .row:nth-of-type(2):has(.card.sliders3-ed[style*="background-color: #800000"]){
+        display: none !important;
+    }
+
+    /* The empty inner row + 5vh spacer above course-intake */
+    .lowerb .col-md-7 > .container > .row:first-child{ display: none !important; }
+    .lowerb .col-md-7 > .container > div[style*="height: 5vh"]{ display: none !important; }
+
+    /* Tighten the giant 5vh / 10vh dividers on desktop */
+    div[style*="height: 5vh"]{ height: 24px !important; }
+    div[style*="height: 10vh"]{ height: 36px !important; }
+
+    /* Let the inner sections breathe — undo the col-md-7 + max-width: 600px constraint */
+    .lowerb .col-md-7{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .lowerb .col-md-7 .col-md[style*="max-width: 600px"]{
+        max-width: 100% !important;
+    }
+    /* Force the course-intake-section to use the full responsive section width */
+    .lowerb .course-intake-section{
+        max-width: min(1320px, 92vw) !important;
+        width: auto !important;
+    }
+    @media (min-width: 1400px){
+        .lowerb .course-intake-section{
+            max-width: min(1480px, 90vw) !important;
+        }
+    }
+
+
+    /* ---------- B. Course Intake — modern gradient card grid ---------- */
+    .course-intake-section{
+        background: linear-gradient(135deg,#ffffff 0%,#fef2f2 100%);
+        border-radius: 18px;
+        padding: 28px 24px 24px !important;
+        max-width: 1100px;
+        margin: 28px auto !important;
+        box-shadow: 0 8px 24px rgba(128,0,0,.12);
+        border: 2px solid #800000;
+    }
+    .course-intake-section .course-title{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        color: #800000;
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 6px;
+    }
+    .course-intake-section .course-title::after{
+        content:"";
+        display: block;
+        width: 56px;
+        height: 3px;
+        background: linear-gradient(90deg,#800000,#d62828);
+        border-radius: 3px;
+        margin: 8px auto 0;
+    }
+    .course-intake-section .course-wrap{
+        display: grid !important;
+        grid-template-columns: repeat(6, 1fr) !important;
+        gap: 14px !important;
+        margin-top: 18px;
+        padding: 0 !important;
+    }
+    .course-intake-section .course-box{
+        background: #fff;
+        border: 1px solid rgba(128,0,0,.10) !important;
+        border-radius: 14px !important;
+        padding: 18px 10px !important;
+        min-width: 0 !important;
+        box-shadow: 0 4px 10px rgba(128,0,0,.06);
+        transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease, background .25s ease;
+    }
+    .course-intake-section .course-box:hover{
+        background: linear-gradient(135deg, #800000, #5e0000) !important;
+        transform: translateY(-4px) !important;
+        box-shadow: 0 14px 28px rgba(128,0,0,.30);
+        border-color: #5e0000 !important;
+    }
+    .course-intake-section .course-box:hover .course-name,
+    .course-intake-section .course-box:hover .course-value small{
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .course-intake-section .course-box:hover .course-value{
+        background: none !important;
+        -webkit-background-clip: initial !important;
+        background-clip: initial !important;
+        -webkit-text-fill-color: #ffffff !important;
+        color: #ffffff !important;
+    }
+    .course-intake-section .course-box:hover .course-icon{
+        background: #ffffff !important;
+        color: #800000 !important;
+    }
+    .course-intake-section .course-box .course-name{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        color: #800000 !important;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        margin-bottom: 8px;
+    }
+    .course-intake-section .course-box .course-value{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 1;
+        background: linear-gradient(135deg,#800000,#d62828);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent !important;
+    }
+
+
+    /* ---------- C. "IITM In News" carousel — maroon gradient + shadow ---------- */
+    /* Targets only the IITM In News card (style="background: #800000;") — the empty
+       admissions placeholder uses style="background-color: #800000" and is hidden above. */
+    .lowerb .card.sliders3-ed[style*="background: #800000"]{
+        background: linear-gradient(135deg,#800000 0%,#a52a2a 50%,#5e0000 100%) !important;
+        border: 0 !important;
+        border-radius: 18px !important;
+        box-shadow: 0 14px 32px rgba(128,0,0,.25) !important;
+        margin: 28px auto !important;
+        max-width: 1100px;
+        overflow: hidden;
+    }
+    .lowerb .card.sliders3-ed[style*="background: #800000"] .card-body{
+        padding: 28px !important;
+    }
+    .lowerb .card.sliders3-ed[style*="background: #800000"] .card-title{
+        font-family: 'Poppins', system-ui, sans-serif !important;
+        font-size: 1.5rem !important;
+        font-weight: 800 !important;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        margin-bottom: 16px !important;
+    }
+    .lowerb .card.sliders3-ed[style*="background: #800000"] .card-title::after{
+        content:"";
+        display: block;
+        width: 56px;
+        height: 3px;
+        background: linear-gradient(90deg,#ffffff,#fee2e2);
+        border-radius: 3px;
+        margin: 10px auto 0;
+    }
+    .lowerb .card.sliders3-ed[style*="background: #800000"] .carousel-item img{
+        border-radius: 12px;
+        max-height: 420px;
+        object-fit: contain;
+    }
+    .lowerb .card.sliders3-ed[style*="background: #800000"] h4.tgfmlt{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 15px !important;
+        font-weight: 600;
+        margin-top: 12px;
+        color: rgba(255,255,255,.92);
+    }
+
+
+    /* ---------- D. Notices column — modern card layout ---------- */
+    .col-md-3[style*="margin: 2em"]{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+        max-width: 1100px !important;
+        margin: 28px auto !important;
+        padding: 0 14px !important;
+    }
+    .col-md-3[style*="margin: 2em"] > div{
+        background: #fff;
+        border-radius: 16px;
+        padding: 28px 32px;
+        box-shadow: 0 8px 24px rgba(0,0,0,.06);
+        border: 1px solid rgba(128,0,0,.08);
+    }
+    .col-md-3[style*="margin: 2em"] h1.nt{
+        font-family: 'Poppins', system-ui, sans-serif !important;
+        font-size: 26px !important;
+        font-weight: 800 !important;
+        color: #800000 !important;
+        position: relative;
+        padding-left: 18px;
+        margin: 0 0 16px !important;
+    }
+    .col-md-3[style*="margin: 2em"] h1.nt::before{
+        content:"";
+        position: absolute;
+        left: 0; top: 6px;
+        width: 6px;
+        height: 26px;
+        background: linear-gradient(180deg,#800000,#d62828);
+        border-radius: 5px;
+    }
+    .col-md-3[style*="margin: 2em"] .badge{
+        font-family: 'Poppins', system-ui, sans-serif;
+        font-size: 11px !important;
+        padding: 4px 9px !important;
+        border-radius: 50px !important;
+        margin-right: 8px;
+        background: linear-gradient(135deg,#800000,#d62828) !important;
+        color: #fff !important;
+    }
+    .col-md-3[style*="margin: 2em"] a.tgfmlt.nt{
+        font-family: 'Poppins', system-ui, sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #2b2b2b !important;
+        line-height: 1.5;
+        text-decoration: none !important;
+    }
+    .col-md-3[style*="margin: 2em"] a.tgfmlt.nt:hover{
+        color: #800000 !important;
+    }
+    .col-md-3[style*="margin: 2em"] .scp2{
+        font-size: 11px !important;
+        color: #888 !important;
+        margin: 4px 0 10px !important;
+        font-weight: 500;
+    }
+    .col-md-3[style*="margin: 2em"] a.btn-danger{
+        margin-top: 16px !important;
+        padding: 10px 22px !important;
+        font-size: 13px !important;
+        font-weight: 700;
+        border-radius: 50px !important;
+        background: linear-gradient(135deg,#800000,#d62828) !important;
+        border: 0 !important;
+        box-shadow: 0 6px 16px rgba(128,0,0,.25);
+        text-decoration: none !important;
+        transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .col-md-3[style*="margin: 2em"] a.btn-danger:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 10px 22px rgba(128,0,0,.40);
+    }
+
+
+    /* ---------- E. Programmes grid — replace alice-blue with warm gradient ---------- */
+    .container[style*="background-color: #f0f8ff"]{
+        background: linear-gradient(135deg,#ffffff 0%,#fef2f2 100%) !important;
+        border-radius: 20px;
+        max-width: 1100px;
+        margin: 28px auto !important;
+        padding: 36px 28px !important;
+        box-shadow: 0 6px 20px rgba(128,0,0,.06);
+    }
+    .container[style*="background-color: #f0f8ff"] .row{
+        margin: 0;
+        --bs-gutter-x: 18px;
+    }
+    .container[style*="background-color: #f0f8ff"] .programmes a{
+        padding: 26px 14px !important;
+        font-size: 16px !important;
+        border-radius: 16px !important;
+    }
+    .container[style*="background-color: #f0f8ff"] .programmes .text{
+        font-size: 16px !important;
+        font-weight: 700;
+        margin: 0;
+    }
+
+
+    /* ---------- F. Marquee desktop refinement ---------- */
+    .marquee-container{ font-size: 14.5px; }
+
+
+    /* ---------- G. Follow Us — desktop spacing + larger icons ---------- */
+    .follow-us-icons{
+        padding: 40px 14px !important;
+        max-width: 1100px;
+        margin: 28px auto !important;
+        border-radius: 20px;
+    }
+    .follow-s-txt{ font-size: 28px !important; }
+    .follow-us-tagline{ font-size: 13px !important; }
+    .follow-us-icons .icons-gs{ gap: 32px !important; }
+    .follow-us-icons .icons-gs a.s{ font-size: 32px !important; }
+
+
+    /* ---------- H. Section title typography parity ---------- */
+    .placement-section .placement-title h2,
+    .modern-explore .explore-title h2{
+        font-size: 28px !important;
+    }
+    .course-leads .leads-title h2{
+        font-size: 22px !important;
+    }
+    .placement-section,
+    .modern-explore{
+        margin-top: 32px !important;
+        margin-bottom: 32px !important;
+    }
+    .modern-stats{
+        margin-top: 28px !important;
+        margin-bottom: 28px !important;
+    }
+
+}
+
     </style>
 </head>
 <body>
@@ -1369,6 +3077,41 @@ body * {
     </button>
 </div>
 
+<!-- ============ IITM Highlights — auto-scrolling compact banner ============ -->
+<section class="iitm-highlights-banner" aria-label="IITM Highlights">
+    <div class="highlights-track">
+        <div class="highlights-row">
+            <a href="sliderimages/12.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/12.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/13.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/13.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/14.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/14.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/15.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/15.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/16.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/16.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/17.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/17.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/18.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/18.png" alt="Academic Pride - BBA" loading="lazy"></a>
+            <a href="sliderimages/BCAIMAGEBANNERIITM.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/BCAIMAGEBANNERIITM.png" alt="Academic Pride - BCA" loading="lazy"></a>
+            <a href="sliderimages/19.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/19.png" alt="Academic Pride - B.Com" loading="lazy"></a>
+            <a href="sliderimages/11.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/11.png" alt="IITM Highlight" loading="lazy"></a>
+            <a href="sliderimages/TV Studio.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/TV Studio.png" alt="TV Studio" loading="lazy"></a>
+            <a href="sliderimages/nccc.jpeg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/nccc.jpeg" alt="NCC" loading="lazy"></a>
+        </div>
+        <!-- Duplicate row for seamless infinite loop -->
+        <div class="highlights-row" aria-hidden="true">
+            <a href="sliderimages/12.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/12.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/13.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/13.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/14.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/14.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/15.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/15.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/16.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/16.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/17.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/17.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/18.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/18.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/BCAIMAGEBANNERIITM.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/BCAIMAGEBANNERIITM.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/19.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/19.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/11.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/11.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/TV Studio.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/TV Studio.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/nccc.jpeg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/nccc.jpeg" alt="" loading="lazy"></a>
+        </div>
+    </div>
+</section>
+
 <!-- Mobile-only Admissions Hero Card -->
 <div class="mobile-admissions-hero">
     <h3>🎓 Admissions Open 2026-27</h3>
@@ -1388,49 +3131,59 @@ body * {
     </div>
     <div class="leads-grid">
         <div class="lead-card l1">
-            <div class="lead-badge">MBA</div>
+            <div class="lead-badge">BCA</div>
             <div class="lead-info">
-                <div class="lead-course">Master of Business Admin</div>
-                <div class="lead-name">Dr. Mandeep Singh</div>
-                <a href="tel:+919560098709" class="lead-phone">+91 95600 98709</a>
+                <div class="lead-course">Bachelor of Computer Application</div>
+                <div class="lead-name">Ms. Leena Gupta</div>
+                <a href="tel:+918796283551" class="lead-phone">+91 87962 83551</a>
             </div>
-            <a href="tel:+919560098709" class="lead-call" aria-label="Call Dr. Mandeep Singh">📞</a>
+            <a href="tel:+918796283551" class="lead-call" aria-label="Call Ms. Leena Gupta">📞</a>
         </div>
 
         <div class="lead-card l2">
-            <div class="lead-badge">BCA<br>MCA</div>
+            <div class="lead-badge">MCA</div>
             <div class="lead-info">
-                <div class="lead-course">BCA &amp; MCA</div>
+                <div class="lead-course">Master of Computer Application</div>
                 <div class="lead-name">Mr. Ashish Nayyar</div>
-                <a href="tel:+919211592472" class="lead-phone">+91 92115 92472</a>
+                <a href="tel:+918796452755" class="lead-phone">+91 87964 52755</a>
             </div>
-            <a href="tel:+919211592472" class="lead-call" aria-label="Call Mr. Ashish Nayyar">📞</a>
+            <a href="tel:+918796452755" class="lead-call" aria-label="Call Mr. Ashish Nayyar">📞</a>
         </div>
 
         <div class="lead-card l3">
             <div class="lead-badge">BBA</div>
             <div class="lead-info">
                 <div class="lead-course">Bachelor of Business Admin</div>
-                <div class="lead-name">Dr. Deepika Arora &amp; Dr. Deepali Saluja</div>
-                <a href="tel:+919711197715" class="lead-phone">+91 97111 97715</a>
+                <div class="lead-name">Dr. Deepali Saluja</div>
+                <a href="tel:+918796452756" class="lead-phone">+91 87964 52756</a>
             </div>
-            <a href="tel:+919711197715" class="lead-call" aria-label="Call BBA Lead">📞</a>
+            <a href="tel:+918796452756" class="lead-call" aria-label="Call Dr. Deepali Saluja">📞</a>
         </div>
 
         <div class="lead-card l4">
             <div class="lead-badge">B.Com<br>(H)</div>
             <div class="lead-info">
-                <div class="lead-course">B.Com (Honours)</div>
+                <div class="lead-course">B.Com (Hons.)</div>
                 <div class="lead-name">Dr. Raghav Jain</div>
-                <a href="tel:+918920636874" class="lead-phone">+91 89206 36874</a>
+                <a href="tel:+918796452757" class="lead-phone">+91 87964 52757</a>
             </div>
-            <a href="tel:+918920636874" class="lead-call" aria-label="Call Dr. Raghav Jain">📞</a>
+            <a href="tel:+918796452757" class="lead-call" aria-label="Call Dr. Raghav Jain">📞</a>
         </div>
 
         <div class="lead-card l5">
+            <div class="lead-badge">MBA</div>
+            <div class="lead-info">
+                <div class="lead-course">Master of Business Administration</div>
+                <div class="lead-name">Dr. Mandeep Singh</div>
+                <a href="tel:+919560098709" class="lead-phone">+91 95600 98709</a>
+            </div>
+            <a href="tel:+919560098709" class="lead-call" aria-label="Call Dr. Mandeep Singh">📞</a>
+        </div>
+
+        <div class="lead-card l6">
             <div class="lead-badge">BA<br>(JMC)</div>
             <div class="lead-info">
-                <div class="lead-course">Journalism &amp; Mass Comm.</div>
+                <div class="lead-course">Journalism &amp; Mass Communication</div>
                 <div class="lead-name">Dr. Nivedita Sharma</div>
                 <a href="tel:+917217872947" class="lead-phone">+91 72178 72947</a>
             </div>
@@ -1546,6 +3299,137 @@ body * {
         </a>
     </div>
 </div>
+
+<!-- ============ Course Intake (moved out of .lowerb so it spans full width) ============ -->
+<div class="course-intake-section">
+    <div class="container text-center">
+        <div class="course-title-wrap">
+            <h2 class="course-title">Course Intake</h2>
+            <p class="course-subtitle">Available seats · Academic Year 2026-27</p>
+        </div>
+
+        <div class="course-wrap">
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                <div class="course-name">MBA</div>
+                <div class="course-value">60<small>SEATS</small></div>
+            </div>
+
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-laptop" aria-hidden="true"></i></span>
+                <div class="course-name">MCA</div>
+                <div class="course-value">60<small>SEATS</small></div>
+            </div>
+
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+                <div class="course-name">BCA</div>
+                <div class="course-value">240<small>SEATS</small></div>
+            </div>
+
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+                <div class="course-name">BBA</div>
+                <div class="course-value">360<small>SEATS</small></div>
+            </div>
+
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-pie-chart" aria-hidden="true"></i></span>
+                <div class="course-name">B.Com (H)</div>
+                <div class="course-value">120<small>SEATS</small></div>
+            </div>
+
+            <div class="course-box">
+                <span class="course-icon"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+                <div class="course-name">BA (JMC)</div>
+                <div class="course-value">180<small>SEATS</small></div>
+            </div>
+        </div>
+
+        <div class="course-total">
+            <span><strong>1,020</strong> Total Seats</span>
+            <span class="course-total-divider">·</span>
+            <span><strong>6</strong> Programmes</span>
+        </div>
+    </div>
+</div>
+
+<!-- ============ IITM In News — auto-scrolling framed banner ============ -->
+<section class="iitm-news-banner" aria-label="IITM In News">
+    <div class="news-title">
+        <h2>IITM In News</h2>
+        <p>Recognitions and rankings featured in leading publications</p>
+    </div>
+    <div class="news-banner-wrap">
+        <div class="news-track">
+            <div class="news-row">
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="NewsImages/top19b.jpeg" alt="Top 19 B-School (MBA)" loading="lazy">
+                    <div class="news-caption">Top 19 B-School (MBA) — Times 2026</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="NewsImages/37th.jpeg" alt="Ranked 37th in Placements" loading="lazy">
+                    <div class="news-caption">Ranked 37th in Placements — Times 2026</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/rankk.jpeg" alt="Top 50 B-School" loading="lazy">
+                    <div class="news-caption">Top 50 B-School</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/bscho24.jpg" alt="Top 70 B-School" loading="lazy">
+                    <div class="news-caption">Top 70 B-School</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/deb23.jpeg" alt="Best B-School" loading="lazy">
+                    <div class="news-caption">Best B-School</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/ind23.jpeg" alt="India Today Ranking" loading="lazy">
+                    <div class="news-caption">India Today Ranking</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/timesbschool.jpg" alt="Times B-School" loading="lazy">
+                    <div class="news-caption">Times B-School</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/businessaward.jpg" alt="Business Award" loading="lazy">
+                    <div class="news-caption">Business Award</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/conf.jpg" alt="International Conference IKDSAK-2023" loading="lazy">
+                    <div class="news-caption">International Conference IKDSAK-2023</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/fiesta.jpg" alt="IITM Fiesta" loading="lazy">
+                    <div class="news-caption">IITM Fiesta</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/lak.jpg" alt="Star Cast of LAKEEREIN" loading="lazy">
+                    <div class="news-caption">Star Cast of LAKEEREIN</div>
+                </a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox">
+                    <img src="upload_new/gallery/indiia.jpg" alt="Live Show — India TV" loading="lazy">
+                    <div class="news-caption">Live Show — India TV</div>
+                </a>
+            </div>
+            <!-- Duplicate row for seamless infinite loop -->
+            <div class="news-row" aria-hidden="true">
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="NewsImages/top19b.jpeg" alt="" loading="lazy"><div class="news-caption">Top 19 B-School (MBA) — Times 2026</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="NewsImages/37th.jpeg" alt="" loading="lazy"><div class="news-caption">Ranked 37th in Placements — Times 2026</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/rankk.jpeg" alt="" loading="lazy"><div class="news-caption">Top 50 B-School</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/bscho24.jpg" alt="" loading="lazy"><div class="news-caption">Top 70 B-School</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/deb23.jpeg" alt="" loading="lazy"><div class="news-caption">Best B-School</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/ind23.jpeg" alt="" loading="lazy"><div class="news-caption">India Today Ranking</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/timesbschool.jpg" alt="" loading="lazy"><div class="news-caption">Times B-School</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/businessaward.jpg" alt="" loading="lazy"><div class="news-caption">Business Award</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/conf.jpg" alt="" loading="lazy"><div class="news-caption">International Conference IKDSAK-2023</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/fiesta.jpg" alt="" loading="lazy"><div class="news-caption">IITM Fiesta</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/lak.jpg" alt="" loading="lazy"><div class="news-caption">Star Cast of LAKEEREIN</div></a>
+                <a class="news-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="upload_new/gallery/indiia.jpg" alt="" loading="lazy"><div class="news-caption">Live Show — India TV</div></a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Second Slider
 <div id="carouselExampleIndicators2" class="carousel slide mt-3" data-bs-ride="carousel">
@@ -1753,45 +3637,6 @@ body * {
 
 
 
-<div class="course-intake-section">
-    <div class="container text-center">
-        <div class="course-title">Course Intake</div>
-
-        <div class="course-wrap">
-            <div class="course-box">
-                <div class="course-name">MBA</div>
-                <div class="course-value">60</div>
-            </div>
-
-            <div class="course-box">
-                <div class="course-name">MCA</div>
-                <div class="course-value">60</div>
-            </div>
-
-            <div class="course-box">
-                <div class="course-name">BCA</div>
-                <div class="course-value">240</div>
-            </div>
-
-            <div class="course-box">
-                <div class="course-name">BBA</div>
-                <div class="course-value">360</div>
-            </div>
-
-            <div class="course-box">
-                <div class="course-name">B.Com (H)</div>
-                <div class="course-value">120</div>
-            </div>
-
-            <div class="course-box">
-                <div class="course-name">BA (JMC)</div>
-                <div class="course-value">180</div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <div class="card sliders3-ed" style="background: #800000;">
     <div class="card-body">
       <h1 class="card-title tgfmlt" style="font-size: 1.3rem;text-align:center;color: white;">IITM In News</h1>
@@ -1966,84 +3811,61 @@ try {
 ?>
 
 <div class="col-md-3" style="margin: 2em;">
-    <div>
+    <div class="notices-card">
         <h1 class="tgfmlt nt">Notices</h1>
-        <?php $counter = 1; ?>
-        <?php foreach ($notices as $notice): ?>
-            <span class="badge tgfmlt" style="background: #800000;color:#fff;"><?php echo $counter; ?></span>
-            <?php $counter++; ?>
-            <a href="<?php echo $notice['file_path']; ?>" target="_blank" class="tgfmlt nt">
-                <?php echo $notice['notice_title']; ?>
-                <p class="scp2">[Uploaded on: <?php echo $notice['date_uploaded']; ?>]</p>
-                [Link: <a href="<?php echo $notice['file_path']; ?>" target="_blank"><?php echo $notice['file_path']; ?></a>]
-            </a>
-            <br/>
-        <?php endforeach; ?>
-        <a class="btn btn-danger tgfmlt"  href="https://www.iitmjanakpuri.com/notices.php" target="_blank">View All Notices</a>
-        <div class="text-right">
-
-        </div>
+        <ul class="notices-list">
+            <?php $counter = 1; foreach ($notices as $notice): ?>
+                <li class="notice-item">
+                    <span class="notice-num"><?php echo $counter++; ?></span>
+                    <a href="<?php echo $notice['file_path']; ?>" target="_blank" class="notice-link">
+                        <span class="notice-title-text">
+                            <i class="fa fa-file-text-o notice-icon" aria-hidden="true"></i>
+                            <?php echo $notice['notice_title']; ?>
+                        </span>
+                        <span class="notice-date">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <?php echo $notice['date_uploaded']; ?>
+                        </span>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+        <a class="notices-view-all" href="https://www.iitmjanakpuri.com/notices.php" target="_blank">
+            View All Notices <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
     </div>
 </div>
 <div style="height: 5vh;"></div>
-<div class="container" style="background-color: #f0f8ff; padding: 50px 20px;">
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 svg-icon-container">
-            <div class="programmes">
-                <a href="https://iitmjanakpuri-sdc.in/" target="_blank">
-
-                 <!--   <img src="icon1.svg" alt="Icon 1" class="icon"> -->
-
-                    <p class="text">Incubation Program</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 svg-icon-container">
-            <div class="programmes">
-                <a href="https://iitmjanakpuri.com/StudentZone/esc.php">
-                 <!--   <img src="icon2.svg" alt="Icon 2" class="icon"> -->
-                    <p class="text">Green Initiatives</p>
-                </a>
-            </div>
-        </div>
-<div class="col-lg-3 col-md-6 col-sm-3 col-xs-12 svg-icon-container">
-            <div class="programmes">
-                <a href="https://iitmjanakpuri.com/StudentZone/studentzone.php" target="_blank">
-
-                 <!--   <img src="icon1.svg" alt="Icon 1" class="icon"> -->
-
-                    <p class="text">Students' Societies</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 svg-icon-container">
-            <div class="programmes">
-                <a href="https://iitmjanakpuri.com/upload_new/Physical%20Wellbeing.pdf" target="_blank">
-            <!--        <img src="icon3.svg" alt="Icon 3" class="icon"> -->
-                    <p class="text">Counselling Services</p>
-                </a>
-            </div>
-        </div>
-
-
-
-       <!--  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 svg-icon-container">
-            <div class="programmes">
-                <a href="">
-                   <img src="icon3.svg" alt="Icon 3" class="icon">
-                    <p class="text">Centre for Professional Development</p>
-                </a>
-            </div>
-        </div>-->
-        <!-- Repeat structure for additional items -->
+<!-- ============ Our Programmes — themed card grid (matches Course Intake) ============ -->
+<section class="iitm-programmes-section">
+    <div class="programmes-title">
+        <h2>Our Programmes</h2>
+        <p>Initiatives that shape every IITM student</p>
     </div>
-
-</div>
+    <div class="programmes-grid">
+        <a href="https://iitmjanakpuri-sdc.in/" target="_blank" class="prog-card">
+            <span class="prog-icon"><i class="fa fa-rocket" aria-hidden="true"></i></span>
+            <span class="prog-name">Incubation Program</span>
+        </a>
+        <a href="https://iitmjanakpuri.com/StudentZone/esc.php" class="prog-card">
+            <span class="prog-icon"><i class="fa fa-leaf" aria-hidden="true"></i></span>
+            <span class="prog-name">Green Initiatives</span>
+        </a>
+        <a href="https://iitmjanakpuri.com/StudentZone/studentzone.php" target="_blank" class="prog-card">
+            <span class="prog-icon"><i class="fa fa-users" aria-hidden="true"></i></span>
+            <span class="prog-name">Students' Societies</span>
+        </a>
+        <a href="https://iitmjanakpuri.com/upload_new/Physical%20Wellbeing.pdf" target="_blank" class="prog-card">
+            <span class="prog-icon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+            <span class="prog-name">Counselling Services</span>
+        </a>
+    </div>
+</section>
 <div style="height: 10vh;"></div>
 
 
  <!--   SOCIAL MEDIA ICONS -->
-  <div class="row follow-us-icons" style="background: #F5CEAF;width: 100%;">
+  <div class="row follow-us-icons" style="width: 100%;">
     <div style="width: 100%">
         <div class="container">
             <div class="row text-center">
@@ -2154,6 +3976,482 @@ try {
 
     <!-- Mobile-only Enquiry FAB (opens admission enquiry form modal) -->
     <button type="button" class="mobile-call-fab" data-bs-toggle="modal" data-bs-target="#enquiryModal" aria-label="Open admission enquiry form">✉️</button>
+
+    <!-- ============ IITM Mitra — dummy chatbot widget ============ -->
+    <button type="button" class="iitm-chatbot-fab" id="chatbotToggle" aria-label="Open IITM Mitra chatbot">
+        <span class="cf-icon">💬</span>
+        <span class="cf-pulse"></span>
+        <span class="cf-label">IITM Mitra</span>
+    </button>
+    <div class="iitm-chatbot-window" id="chatbotWindow" aria-hidden="true" role="dialog" aria-label="IITM Mitra chatbot">
+        <div class="cb-header">
+            <div class="cb-brand">
+                <div class="cb-academic-robot" aria-hidden="true">
+                    <span class="cb-grad-cap">🎓</span>
+                    <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM" class="cb-logo-img">
+                </div>
+                <div class="cb-titles">
+                    <div class="cb-iitm-tag">IITM Janakpuri</div>
+                    <div class="cb-name">IITM Mitra</div>
+                    <div class="cb-status"><span class="cb-dot"></span> Online · Ask me anything</div>
+                </div>
+            </div>
+            <button type="button" class="cb-close" id="chatbotClose" aria-label="Close chat">×</button>
+        </div>
+        <div class="cb-body" id="chatbotMessages"></div>
+        <div class="cb-suggestions" id="chatbotSuggestions">
+            <button type="button" class="cb-chip">🎓 Admissions</button>
+            <button type="button" class="cb-chip">📚 Courses</button>
+            <button type="button" class="cb-chip">💼 Placements</button>
+            <button type="button" class="cb-chip">📞 Contact</button>
+            <button type="button" class="cb-chip">📍 Location</button>
+            <button type="button" class="cb-chip">💰 Fees</button>
+        </div>
+        <form class="cb-input-wrap" id="chatbotForm" autocomplete="off">
+            <div class="cb-standing-bot" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100" width="40" height="68">
+                    <!-- Tassel -->
+                    <line x1="30" y1="14" x2="44" y2="20" stroke="#800000" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="44" cy="20" r="2" fill="#800000"/>
+                    <!-- Graduation cap -->
+                    <rect x="13" y="9" width="34" height="3" fill="#1a1a1a"/>
+                    <polygon points="14,12 30,16 46,12 30,4" fill="#222"/>
+                    <!-- Antennas -->
+                    <line x1="22" y1="18" x2="22" y2="22" stroke="#800000" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="22" cy="16" r="1.5" fill="#d62828"/>
+                    <line x1="38" y1="18" x2="38" y2="22" stroke="#800000" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="38" cy="16" r="1.5" fill="#d62828"/>
+                    <!-- Head -->
+                    <rect x="16" y="22" width="28" height="22" rx="6" fill="#fff" stroke="#800000" stroke-width="2"/>
+                    <!-- Eyes -->
+                    <circle cx="25" cy="31" r="2.4" fill="#800000"/>
+                    <circle cx="35" cy="31" r="2.4" fill="#800000"/>
+                    <circle cx="26" cy="30" r=".8" fill="#fff"/>
+                    <circle cx="36" cy="30" r=".8" fill="#fff"/>
+                    <!-- Smile -->
+                    <path d="M 24 38 Q 30 41 36 38" stroke="#800000" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                    <!-- Neck -->
+                    <rect x="27" y="44" width="6" height="3" fill="#800000"/>
+                    <!-- Body with IITM chest -->
+                    <rect x="11" y="47" width="38" height="30" rx="5" fill="#fff" stroke="#800000" stroke-width="2"/>
+                    <line x1="16" y1="55" x2="44" y2="55" stroke="rgba(128,0,0,.18)" stroke-width="0.6"/>
+                    <text x="30" y="68" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="800" fill="#800000" letter-spacing="0.5">IITM</text>
+                    <!-- Arms -->
+                    <rect x="3" y="50" width="6" height="22" rx="2.5" fill="#fff" stroke="#800000" stroke-width="1.5"/>
+                    <rect x="51" y="50" width="6" height="22" rx="2.5" fill="#fff" stroke="#800000" stroke-width="1.5"/>
+                    <!-- Hands -->
+                    <circle cx="6" cy="74" r="3" fill="#800000"/>
+                    <circle cx="54" cy="74" r="3" fill="#800000"/>
+                    <!-- Legs -->
+                    <rect x="18" y="77" width="8" height="17" rx="2" fill="#fff" stroke="#800000" stroke-width="1.5"/>
+                    <rect x="34" y="77" width="8" height="17" rx="2" fill="#fff" stroke="#800000" stroke-width="1.5"/>
+                    <!-- Feet -->
+                    <ellipse cx="22" cy="96" rx="6.5" ry="2.5" fill="#800000"/>
+                    <ellipse cx="38" cy="96" rx="6.5" ry="2.5" fill="#800000"/>
+                </svg>
+            </div>
+            <input type="text" class="cb-input" id="chatbotInput" placeholder="Type your question…" />
+            <button type="submit" class="cb-send" aria-label="Send">➤</button>
+        </form>
+    </div>
+    <script>
+        (function(){
+            var fab = document.getElementById('chatbotToggle');
+            var win = document.getElementById('chatbotWindow');
+            var closeBtn = document.getElementById('chatbotClose');
+            var form = document.getElementById('chatbotForm');
+            var input = document.getElementById('chatbotInput');
+            var messages = document.getElementById('chatbotMessages');
+            var suggestions = document.getElementById('chatbotSuggestions');
+            if (!fab || !win) return;
+
+            var mascot = document.getElementById('chatbotMascot');
+            function openChat(){
+                win.classList.add('is-open');
+                fab.classList.add('is-active');
+                win.setAttribute('aria-hidden','false');
+                if (mascot) mascot.classList.add('is-visible');
+                if (!messages.dataset.greeted){
+                    addBot("Namaste! 🙏 I'm <b>IITM Mitra</b>, your friendly admission guide.<br><i>\"Vidyā Dadāti Vinayam\"</i> — Knowledge brings humility.<br>How can I help you today?");
+                    messages.dataset.greeted = '1';
+                }
+                setTimeout(function(){ input.focus(); }, 200);
+            }
+            function closeChat(){
+                win.classList.remove('is-open');
+                fab.classList.remove('is-active');
+                win.setAttribute('aria-hidden','true');
+                if (mascot) mascot.classList.remove('is-visible');
+            }
+            fab.addEventListener('click', function(){
+                win.classList.contains('is-open') ? closeChat() : openChat();
+            });
+            closeBtn.addEventListener('click', closeChat);
+
+            function addUser(text){
+                var d = document.createElement('div');
+                d.className = 'cb-msg cb-user';
+                d.textContent = text;
+                messages.appendChild(d);
+                messages.scrollTop = messages.scrollHeight;
+            }
+            function addBot(html){
+                var d = document.createElement('div');
+                d.className = 'cb-msg cb-bot';
+                d.innerHTML = html;
+                messages.appendChild(d);
+                messages.scrollTop = messages.scrollHeight;
+            }
+
+            // Course-wise faculty contacts (used by multiple intents)
+            var COURSE_CONTACTS = "<b>Course-wise Admission Helpline (2026-27):</b><br>" +
+                "• <b>BCA</b> — Ms. Leena Gupta · <a href='tel:+918796283551'>+91 87962 83551</a><br>" +
+                "• <b>MCA</b> — Mr. Ashish Nayyar · <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
+                "• <b>BBA</b> — Dr. Deepali Saluja · <a href='tel:+918796452756'>+91 87964 52756</a><br>" +
+                "• <b>B.Com (H)</b> — Dr. Raghav Jain · <a href='tel:+918796452757'>+91 87964 52757</a><br>" +
+                "• <b>MBA</b> — Dr. Mandeep Singh · <a href='tel:+919560098709'>+91 95600 98709</a><br>" +
+                "• <b>BA (JMC)</b> — Dr. Nivedita Sharma · <a href='tel:+917217872947'>+91 72178 72947</a>";
+
+            var responses = [
+                { match: /\b(hi|hello|hey|namaste|namaskar|hola|salam|howdy|yo|sup|wassup|whats?\s?up|aloha|hiya|good\s?(morning|afternoon|evening|day)|gree ?tings|nice.*meet|pleased.*meet)\b/i,
+                  reply: "Namaste! 🙏 Welcome to <b>IITM Janakpuri</b>. <i>Vidyā Dadāti Vinayam</i> — knowledge gives humility. How may I assist you?" },
+                /* Bot status — "how are you" type queries */
+                { match: /(how.*are.*you|how.*you.*doing|how.*it.*going|how.*have.*you.*been|how.*everything|are.*you.*good|how.*things|are.*you.*okay|how.*your.*day|are.*you.*fine|how.*you.*feel|status.?check|all.?good\??$)/i,
+                  reply: "I'm doing great, thanks! 🤖 Ready to help with your IITM queries — admissions, courses, fees, placements, you name it. What would you like to know?" },
+                /* Library — specific book actions / facilities — comes BEFORE the general library intent */
+                { match: /(issue.*book|borrow|book.*lend|lending|return.*book|book.*return|renew.*book|reissue|book.*search|catalog|fine.*overdue|fine.*book|overdue|lost.*book|book.*lost|library.*book.*issue|how.?many.?books|library.?card|take.*book|take.*home|reading.?room|study.?area|study.?room|study.?space|librarian|carry.*book)/i,
+                  reply: "📚 <b>Library — Book Services &amp; Facilities</b><br>• <b>Issue / borrow</b> — present your library card at the counter<br>• Up to <b>4 books</b> per student (varies by programme)<br>• <b>Renewal</b> — bring book to counter or use OPAC: <a href='https://www.iitmjanakpuri.com/Library/opac.php' target='_blank'>OPAC search</a><br>• <b>Late fine</b> — ~₹2/day per overdue book<br>• <b>Lost book</b> — inform the librarian; replacement charge applies<br>• <b>Reading rooms / study areas</b> — open during library hours<br>🕘 <b>Hours:</b> Mon–Fri 8 AM – 6 PM · Sat 10 AM – 5 PM · Sun closed<br>🔗 <a href='https://www.iitmjanakpuri.com/Library/libraryservices.php' target='_blank'>All Library Services</a> · <a href='https://www.iitmjanakpuri.com/Library/contactus.php' target='_blank'>Contact Library</a>" },
+                /* E-resources — e-books / e-journals / e-databases / online */
+                { match: /(e.?book|e.?journal|e.?database|online.?resource|online.?journal|digital.?library|digital.?resource|open.?access|e.?newsletter)/i,
+                  reply: "💻 <b>Library E-Resources:</b><br>• <a href='https://www.iitmjanakpuri.com/Library/ebooks.php' target='_blank'>E-Books</a><br>• <a href='https://www.iitmjanakpuri.com/Library/ejournals.php' target='_blank'>E-Journals</a><br>• <a href='https://www.iitmjanakpuri.com/Library/edatabases.php' target='_blank'>E-Databases</a><br>• <a href='https://www.iitmjanakpuri.com/Library/openaccessresources.php' target='_blank'>Open Access Resources</a><br>• <a href='https://www.iitmjanakpuri.com/Library/enewsletters.php' target='_blank'>E-Newsletters</a><br>Access via campus Wi-Fi or the LMS portal." },
+                /* Medical leave / attendance */
+                { match: /(medical.?leave|medical.?cer\s?ti?fic|sick.*class|sick.*miss|missed.*class|absent.*sick|i.?was.?sick|a\s?ttend?ance.*medical|medical.*absent)/i,
+                  reply: "🏥 <b>Medical Leave Policy:</b><br>If you missed class due to sickness, submit a <b>valid medical certificate</b> to the administration office <b>within one week of rejoining</b>. Contact your department head for the specific form." },
+                /* FAQ — general help */
+                { match: /(\bfaq\b|frequently.?asked|common.?question|q\s*&\s*a|help.?topic|general.?inquir|general.?ques)/i,
+                  reply: "📝 <b>Need a quick answer?</b><br>Full FAQ → <a href='https://iitmjanakpuri.com/admissions/faqs.php' target='_blank'>Admissions FAQs</a><br>Or just ask me directly — try keywords like: <i>admission, eligibility, fees, placements, scholarship, hostel, library, contact, faculty</i>." },
+                /* Course-specific intents — match the course name in any form (BCA, B.C.A, b c a, etc.)
+                   plus the lead's name. Broad regex so Hinglish queries with typos still hit:
+                   "admission lena hai bca mein", "bca ka admission", "mai bca karna chahta hu" all work. */
+                { match: /(\bb\.?\s?c\.?\s?a\b|\bleena\b|leena.?gupta)/i,
+                  reply: "🎓 <b>BCA — Bachelor of Computer Applications</b><br>" +
+                         "🪑 <b>240 seats</b> · 3-year programme<br>" +
+                         "📋 Eligibility: 12th pass with min 50% (Maths preferred)<br>" +
+                         "👩‍🏫 Lead: <b>Ms. Leena Gupta</b> · 📞 <a href='tel:+918796283551'>+91 87962 83551</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/bca.php' target='_blank'>BCA Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                { match: /(\bm\.?\s?c\.?\s?a\b|ashish.?nayyar|\bashish\b|\bnayyar\b)/i,
+                  reply: "🎓 <b>MCA — Master of Computer Applications</b><br>" +
+                         "🪑 <b>60 seats</b> · 2-year programme (NEP 2020)<br>" +
+                         "📋 Eligibility: Bachelor's with Maths in 12th or graduation + IPU CET MCA<br>" +
+                         "👨‍🏫 Lead: <b>Mr. Ashish Nayyar</b> · 📞 <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/mca.php' target='_blank'>MCA Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                { match: /(\bb\.?\s?b\.?\s?a\b|deepali.?saluja|\bsaluja\b|\bdeepali\b)/i,
+                  reply: "🎓 <b>BBA — Bachelor of Business Administration</b><br>" +
+                         "🪑 <b>360 seats</b> · 3-year programme<br>" +
+                         "📋 Eligibility: 12th pass with min 50% (any stream)<br>" +
+                         "👩‍🏫 Lead: <b>Dr. Deepali Saluja</b> · 📞 <a href='tel:+918796452756'>+91 87964 52756</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/bba.php' target='_blank'>BBA Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                { match: /(\bb\.?\s?com\b|raghav.?jain|\braghav\b)/i,
+                  reply: "🎓 <b>B.Com (Honours)</b><br>" +
+                         "🪑 <b>120 seats</b> · 3-year programme<br>" +
+                         "📋 Eligibility: 12th pass with min 50% (Commerce preferred)<br>" +
+                         "👨‍🏫 Lead: <b>Dr. Raghav Jain</b> · 📞 <a href='tel:+918796452757'>+91 87964 52757</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/bcom.php' target='_blank'>B.Com Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                { match: /(\bm\.?\s?b\.?\s?a\b|mandeep.?singh|\bmandeep\b)/i,
+                  reply: "🎓 <b>MBA — Master of Business Administration</b><br>" +
+                         "🪑 <b>60 seats</b> · 2-year programme<br>" +
+                         "🎯 Specializations: Marketing · Finance · HR · Operations · IT &amp; Analytics · International Business<br>" +
+                         "📋 Eligibility: Bachelor's 50%+ &amp; valid IPU CET MBA / CAT<br>" +
+                         "👨‍🏫 Lead: <b>Dr. Mandeep Singh</b> · 📞 <a href='tel:+919560098709'>+91 95600 98709</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/mba.php' target='_blank'>MBA Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                { match: /(\bba.?\s?\(?jmc\)?\b|\bjmc\b|\bbajmc\b|journalism|mass.?comm|nivedita.?sharma|\bnivedita\b)/i,
+                  reply: "🎓 <b>BA (JMC) — Journalism &amp; Mass Communication</b><br>" +
+                         "🪑 <b>180 seats</b> · 3-year programme<br>" +
+                         "📋 Eligibility: 12th pass with min 50% (any stream)<br>" +
+                         "📺 In-house TV studio, radio &amp; audio lab, editing suites<br>" +
+                         "👩‍🏫 Lead: <b>Dr. Nivedita Sharma</b> · 📞 <a href='tel:+917217872947'>+91 72178 72947</a><br>" +
+                         "🔗 <a href='https://iitmjanakpuri.com/course/bjmc.php' target='_blank'>BA (JMC) Course Page</a> · " +
+                         "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
+                /* Faculty contact list — direct intent */
+                { match: /(faculty.*(contact|number|list|phone)|course.?wise|programme.?lead|program.?lead|advisor|incharge|in.?charge)/i,
+                  reply: COURSE_CONTACTS },
+
+                /* ============ ADMISSION DEEP-DIVE INTENTS ============ */
+                { match: /(eligibility|eligible|criteria|qualify|10\+2|12th|class.?12|cutoff|cut.?off|percentage|min.*marks|pass.*marks)/i,
+                  reply: "📋 <b>Eligibility (2026-27):</b><br>• <b>BCA</b> — 12th pass, min 50% (Maths preferred)<br>• <b>BBA</b> — 12th pass, min 50% (any stream)<br>• <b>B.Com (H)</b> — 12th pass, min 50% (Commerce preferred)<br>• <b>BA (JMC)</b> — 12th pass, min 50% (any stream)<br>• <b>MBA</b> — Bachelor's 50%+ &amp; valid <b>IPU CET MBA</b> / CAT<br>• <b>MCA</b> — Bachelor's with Maths in 12th or grad + IPU CET MCA" },
+                { match: /(ipu.?cet|ipu.?test|entrance.?(exam|test)|^cet$|cuet|ipu.*exam|admission.?test|how.*test)/i,
+                  reply: "📝 <b>Admission via IPU CET</b><br>IITM is affiliated to <b>GGS Indraprastha University</b>. All UG &amp; PG admissions are via <b>IPU CET</b>.<br>1. Register on <a href='https://ipu.ac.in' target='_blank'>ipu.ac.in</a><br>2. Appear for the test → get rank<br>3. Counselling → choice fill <b>IITM Janakpuri</b><br>4. Seat allotment → reporting at IITM" },
+                { match: /(document|paper|certificate|chahiye|need.*submit|need.*bring|kya.*chahiye|required.*admission)/i,
+                  reply: "📄 <b>Documents required:</b><br>• 10th &amp; 12th marksheets + certificates<br>• Bachelor's degree (for MBA/MCA)<br>• IPU CET admit card + scorecard<br>• Photo ID (Aadhaar / PAN / Passport)<br>• 4 passport-size photos<br>• Caste / EWS certificate (if applicable)<br>• Migration / Transfer Certificate<br>• Character certificate" },
+                { match: /(form|application|how.*apply|how.?to.?apply|register|registration|fill.*form|online.*apply|apply.*kaise)/i,
+                  reply: "📝 <b>How to apply (step-by-step):</b><br>1️⃣ Register for <b>IPU CET</b> at <a href='https://ipu.ac.in' target='_blank'>ipu.ac.in</a><br>2️⃣ Appear for the test → check result<br>3️⃣ Online counselling + <b>choice filling</b> (pick IITM Janakpuri)<br>4️⃣ Document verification + fee payment<br>5️⃣ Report at IITM with originals<br><br>📞 <b>011-28525051</b> or click <b>Apply Now</b>" },
+                { match: /(deadline|last.?date|important.?date|when.*admission|when.*apply|kab.*admission|schedule|notification.*admission)/i,
+                  reply: "🗓 <b>Tentative Schedule 2026-27</b> (final dates from GGSIPU):<br>• Form release — Mar/Apr<br>• IPU CET — Apr/May<br>• Result — May/Jun<br>• Counselling — Jun–Aug<br>• Reporting at IITM — Aug<br>For latest: <a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php'>Admission Procedure</a> · 📞 011-28525051" },
+                { match: /(counsell?ing|choice.?filling|allotment|round|seat.?alloc|sliding)/i,
+                  reply: "🗒 <b>Counselling Process (IPU CET):</b><br>1. Online registration with CET rank<br>2. <b>Choice filling</b> — list IITM Janakpuri<br>3. Seat allotment in multiple rounds<br>4. Document verification (online + on-campus)<br>5. Pay fees + report at IITM<br>📞 011-28525051" },
+                { match: /(reservation|sc\b|st\b|obc|ews|category|quota|defence|defense|ward|girl.?child|kashmiri|pwd|disab)/i,
+                  reply: "🪪 <b>Reservation (per GGSIPU norms):</b><br>• SC — 15% · ST — 7.5%<br>• OBC (NCL) — 27%<br>• EWS — 10%<br>• PwD — 5% (horizontal)<br>• Defence personnel ward — supernumerary<br>• Single girl child / Kashmiri migrant — supernumerary<br>Submit valid certificates at counselling." },
+                { match: /(management.?quota|direct.?admission|nri.?seat|sponsored.?seat|management.?seat)/i,
+                  reply: "🎟 <b>Management Quota / Direct Admission</b><br>~15% seats are filled under management quota for select courses.<br>📞 <b>011-28525051</b> · ✉️ director@iitmipu.ac.in<br>Page → <a href='https://iitmjanakpuri.com/admissions/managementquota.php'>Management Quota</a>" },
+                { match: /(refund|cancel.*admission|withdraw|leaving|exit.*admission)/i,
+                  reply: "💵 <b>Refund Policy</b> follows UGC guidelines:<br>• Before deadline → 100% (less ₹1,000 processing)<br>• Within 15 days → ~90%<br>• 15–30 days → ~80%<br>• Slab-wise reduction thereafter<br>Confirm slab: 011-28525051" },
+                { match: /(result|merit.?list|allotment.?list|selected|admit.?card)/i,
+                  reply: "📜 <b>Results &amp; Allotment:</b><br>• IPU CET result → <a href='https://ipu.ac.in' target='_blank'>ipu.ac.in</a><br>• Counselling allotment → IPU counselling portal<br>• IITM-side reporting via email/SMS<br>📞 011-28525051" },
+                { match: /(form.?fee|application.?fee|registration.?fee|cet.?fee)/i,
+                  reply: "💳 <b>Application/Form Fee</b> is set by GGSIPU on its CET portal (typically ₹1,200 per programme; varies year to year). Pay during IPU CET registration on <a href='https://ipu.ac.in' target='_blank'>ipu.ac.in</a>." },
+                { match: /(brochure|prospectus|info.?booklet|pdf.*download|leaflet)/i,
+                  reply: "📘 <b>IITM Brochure / Prospectus</b> — download from website (Placements → Brochure or Admissions). For a printed copy: 📞 011-28525051" },
+                { match: /(website|official.?site|^url$|important.?link)/i,
+                  reply: "🌐 <b>Useful links:</b><br>• Main site: <a href='https://www.iitmjanakpuri.com' target='_blank'>iitmjanakpuri.com</a><br>• Internship Cell: <a href='https://www.iitminternware.com' target='_blank'>iitminternware.com</a><br>• Alumni Portal: <a href='https://www.alumniiitmjanakpuri.com' target='_blank'>alumniiitmjanakpuri.com</a><br>• Grievance: <a href='https://iitmjanakpuri-sdc.in/tracking/' target='_blank'>iitmjanakpuri-sdc.in/tracking</a>" },
+                { match: /(director|chairman|principal|head.*institute|leadership|founder|chaturvedi|executive.?director)/i,
+                  reply: "👨‍💼 <b>Leadership:</b><br>• Founded by <b>Padma Vibhushan Shri T.N. Chaturvedi</b> (1999)<br>• Governed under <b>Mata Leelawati Shikshan Sansthan</b><br>About Us → Chairman / Director / Executive Director on the website." },
+                { match: /(vision|mission|philosophy|motto|values)/i,
+                  reply: "🎯 <b>Vision &amp; Mission:</b> Outcome-based education + tech-driven, learner-centric pedagogy producing empathetic professionals.<br>🪔 <i>Vidyā Dadāti Vinayam</i> — knowledge brings humility.<br>About Us → Vision &amp; Mission" },
+                { match: /(mba.*(spec|stream|major|specializ)|finance.*mba|marketing.*mba|operations.*mba|analytics.*mba|international.?business|^ib$|hr.*mba)/i,
+                  reply: "🎓 <b>MBA Specializations</b> at IITM (dual specialization in Year-2):<br>• Marketing · Finance · HR<br>• Operations · IT &amp; Analytics · International Business<br>📞 MBA — Dr. Mandeep Singh: <a href='tel:+919560098709'>+91 95600 98709</a>" },
+                { match: /(duration|how.?long|kitne.?saal|kitne.?year|years.*course|length.*course|course.?length)/i,
+                  reply: "⏳ <b>Programme Duration:</b><br>• MBA — 2 yrs · MCA — 2 yrs (NEP 2020)<br>• BCA / BBA / B.Com (H) / BA (JMC) — 3 yrs<br>4-year Honours / Research option available under NEP." },
+                { match: /(wifi|wi.?fi|internet|^lab$|computer.?lab|smart.?class|infrastructure|facility|facilities)/i,
+                  reply: "🖥 <b>Infrastructure:</b><br>• Wi-Fi enabled, pollution-free campus<br>• Modern computer labs · Smart classrooms<br>• Auditorium &amp; seminar halls<br>• Conference rooms<br>• ICT facilities — <a href='https://www.iitmjanakpuri.com/infrastructure/ict.php' target='_blank'>Infrastructure → ICT</a>" },
+                { match: /(tv.?studio|media.?studio|radio.?lab|jmc.?lab|production|editing.?suite)/i,
+                  reply: "📺 <b>Media Studio (BA-JMC):</b><br>• TV studio with cameras + lights<br>• Radio &amp; audio production lab<br>• Editing suites (video + photo)<br>Hands-on training for journalism students." },
+                { match: /(cafe|canteen|food|mess|^eat$|kitchen)/i,
+                  reply: "🍽 IITM has an in-campus <b>cafeteria</b> with student-friendly pricing — managed by the Canteen Committee. Hygienic, varied options through the day." },
+                { match: /(sport|gym|cricket|football|basketball|games|outdoor.?game|indoor.?game|tournament)/i,
+                  reply: "🏏 <b>Sports:</b><br>• Outdoor + indoor games<br>• Annual sports meets<br>• Sports Committee under Student Zone" },
+                { match: /(ragging|anti.?ragging|harass|bully)/i,
+                  reply: "🛡 <b>Zero-tolerance Anti-Ragging Policy.</b> Strict UGC compliance. Anti-Ragging Cell + ICC for women safety. 📞 011-28525051 to report." },
+                { match: /(grievance|complaint|redressal|sgrc|grc\b|tracking.?portal)/i,
+                  reply: "📮 <b>Grievance Redressal:</b><br>• GRC &amp; SGRC constituted as per UGC<br>• Online portal: <a href='https://iitmjanakpuri-sdc.in/tracking/' target='_blank'>iitmjanakpuri-sdc.in/tracking</a><br>• Confidential, time-bound resolution" },
+                { match: /(icc\b|internal.?complaints|women.?safety|posh\b)/i,
+                  reply: "👩‍⚖️ <b>Internal Complaints Committee (ICC)</b> functions as per the POSH Act 2013. Confidential mechanism for redressal of harassment complaints." },
+                { match: /(industry.?connect|^mou$|^tie.?up$|corporate.?connect|partner.?company|collaboration)/i,
+                  reply: "🤝 <b>Industry Connect:</b><br>• 530+ industry mentors<br>• MoUs with leading corporates<br>• Regular guest lectures, FDPs, workshops<br>• Live projects + summer training" },
+                { match: /(nirf|times.?b.?school|times.?survey|^ranking$|ranked|top.?\d+)/i,
+                  reply: "🏆 <b>Recent Recognitions:</b><br>• <b>Top 19 B-School (MBA)</b> — Times 2026<br>• Top 50 / Top 70 B-School rankings<br>• India Today rankings featured<br>• <b>37th in Placements</b> — Times 2026" },
+                { match: /(fiesta|cultural|annual.?fest|^ncc$|^nss$|debate|^esc$|ed.?cell|management.?club|student.?society|^society$|^emc$)/i,
+                  reply: "🎭 <b>Student Life:</b><br>• <b>Fiesta</b> — annual cultural fest<br>• MEDIAX, Anugoonj, Management Sapiens<br>• <b>NCC</b> &amp; <b>NSS</b> active units<br>• Debate, Cultural, Sports, ESC, ED Cell, Management Club, EMC<br>StudentZone → Societies" },
+                { match: /(transport|metro|^bus$|how.?reach|kaise.?aaye|directions|nearest)/i,
+                  reply: "🚇 <b>Reach IITM:</b><br>• Nearest Metro: <b>Janakpuri West</b> (Magenta) / <b>Janakpuri East</b> (Blue)<br>• Multiple DTC bus routes<br>📍 D-29, Institutional Area, Janakpuri" },
+                { match: /(convocation|degree.*give|graduate.?ceremony|degree.?ceremony)/i,
+                  reply: "🎓 <b>Convocation</b> is conducted by GGS Indraprastha University. IITM students receive degrees through the IPU convocation ceremony." },
+                { match: /(migration|^tc$|transfer.?certificate)/i,
+                  reply: "📑 <b>Migration / Transfer Certificate</b> required at admission (originals + photocopies). Issued by your previous board / university." },
+                { match: /(dress|uniform|attire|dress.?code)/i,
+                  reply: "👔 IITM follows a <b>smart-casual / formal</b> dress code on campus. Specific guidelines in the Student Handbook." },
+                { match: /(holiday|vacation|leave.*calendar|winter.?break|summer.?break|academic.?calendar)/i,
+                  reply: "🗓 Academic calendar &amp; holidays follow the GGSIPU schedule. See <b>Academics → Academic Calendar</b> on the website." },
+                { match: /(timetable|class.?schedule|time.?table|class.?timing|kab.?class)/i,
+                  reply: "🕘 Class timetables (programme + year-wise) are published in <b>Academics → Time Table</b>. Latest 2024-25 &amp; 2023-24 versions are online." },
+                { match: /(top.?recruiter|company.*placed|placement.?company|placement.?partner|^recruit$)/i,
+                  reply: "🏢 <b>Top Recruiters &amp; Partners</b> include leading corporates across IT, Finance, Marketing, Media. See Placements → <a href='https://www.iitmjanakpuri.com/placements/partners.php'>Placement Partners</a> &amp; <a href='https://www.iitmjanakpuri.com/placements/recruiters.php'>Recruiters Speak</a>." },
+                { match: /(internship.?cell|summer.?training|live.?project|industrial.?training)/i,
+                  reply: "💼 <b>Internships &amp; Summer Training</b><br>• Internship Cell: <a href='https://www.iitminternware.com' target='_blank'>iitminternware.com</a><br>• Summer training records: Placements section<br>• Live industry projects + 530+ mentors" },
+
+                /* General admission / apply intent (fallback after specific intents) */
+                { match: /(admission|apply|enrol|enroll|join|admit)/i,
+                  reply: "🎓 <b>Admissions Open for 2026-27!</b><br>• Click <b>Apply Now</b> at the top<br>• 📞 Main helpline: <b>011-28525051</b><br>• Talk to the program lead directly:<br><br>" + COURSE_CONTACTS + "<br><br>Try asking: <i>eligibility, IPU CET, documents, how to apply, fees, scholarship, counselling</i>" },
+                /* Total seats / intake */
+                { match: /(total.?seats|how.?many.?seats|intake|seats.*available|kitne.?seats)/i,
+                  reply: "🪑 <b>Total intake — 1,020 seats across 6 programmes</b><br>• MBA — 60 · MCA — 60<br>• BCA — 240 · BBA — 360<br>• B.Com (H) — 120 · BA (JMC) — 180<br><br>" + COURSE_CONTACTS },
+                /* General courses */
+                { match: /(course|program|degree|study|stream|branch|programme)/i,
+                  reply: "📚 IITM offers <b>6 programmes</b> (Total 1,020 seats):<br>• <b>BCA</b> — 240 · Ms. Leena Gupta · <a href='tel:+918796283551'>87962 83551</a><br>• <b>MCA</b> — 60 · Mr. Ashish Nayyar · <a href='tel:+918796452755'>87964 52755</a><br>• <b>BBA</b> — 360 · Dr. Deepali Saluja · <a href='tel:+918796452756'>87964 52756</a><br>• <b>B.Com (H)</b> — 120 · Dr. Raghav Jain · <a href='tel:+918796452757'>87964 52757</a><br>• <b>MBA</b> — 60 · Dr. Mandeep Singh · <a href='tel:+919560098709'>95600 98709</a><br>• <b>BA (JMC)</b> — 180 · Dr. Nivedita Sharma · <a href='tel:+917217872947'>72178 72947</a>" },
+                { match: /(fee|fees|cost|tuition|price|payment|kitna|kitne)/i,
+                  reply: "💰 For full fee structure check the <b>Fee Details PDF</b> in the Admissions section, or call <b>011-28525051</b>." },
+                { match: /(placement|package|salary|job|career|recruit|company)/i,
+                  reply: "💼 <b>Placement Highlights:</b><br>• 🏆 Highest: <b>22.30 LPA</b> (BCA)<br>• MBA: 13.36 LPA<br>• Ranked <b>Top 19 B-School</b> — Times 2026<br>• 530+ industry mentors" },
+                { match: /(library|opac|catalogue|reading.?material|library.?facili|book|journal)/i,
+                  reply: "📖 <b>IITM Library</b> offers e-books, e-journals, OPAC, open-access resources &amp; advisory support.<br>🔗 <a href='https://www.iitmjanakpuri.com/Library/' target='_blank'>Library Home</a> · <a href='https://www.iitmjanakpuri.com/Library/about-library.php' target='_blank'>About</a> · <a href='https://www.iitmjanakpuri.com/Library/opac.php' target='_blank'>OPAC</a> · <a href='https://www.iitmjanakpuri.com/Library/resources.php' target='_blank'>Resources</a><br>🕘 Mon–Fri 8 AM – 6 PM · Sat 10 AM – 5 PM" },
+                { match: /(contact|phone|number|helpline|reach|call|email|mail)/i,
+                  reply: "📞 <b>Contact:</b><br>011-28525051 / 28520239 / 28525882<br>✉️ director@iitmipu.ac.in" },
+                { match: /(address|location|where|place|map|metro|reach)/i,
+                  reply: "📍 <b>IITM Janakpuri</b><br>D-29, Institutional Area,<br>Janakpuri, New Delhi-110058<br>🚇 Easily reachable via Delhi Metro" },
+                { match: /(naac|nba|accreditation|approve|grade|recognise|recognize|aicte|ugc|ggsipu|iso)/i,
+                  reply: "🏆 IITM is <b>NAAC Grade 'A'</b>, <b>NBA</b> accredited, <b>AICTE</b> approved, recognised under <b>UGC 2(f)</b>, ISO 21001:2018 certified, and affiliated to <b>GGSIPU</b>." },
+                { match: /(faculty|teacher|professor|staff|guru|acharya)/i,
+                  reply: "👨‍🏫 IITM has <b>120+</b> qualified faculty across MBA, BCA & MCA, B.Com & BBA, and BA(JMC) departments. Our <i>Acharyas</i> bring decades of academic + industry expertise." },
+                { match: /(alumni|former student|past student|ex.?student)/i,
+                  reply: "🎓 IITM has a strong network of <b>7,600+ alumni</b> in leading corporates across India." },
+                { match: /(scholarship|fee waiver|financial aid|wazifa)/i,
+                  reply: "🎁 IITM offers In-house, <b>Merit-cum-Means (DHE)</b>, and <b>EWS (GGSIPU)</b> scholarships. Check Student Zone → Scholarships." },
+                { match: /(established|founded|history|since|year|when|kab)/i,
+                  reply: "IITM was <b>established in 1999</b> under Mata Leelawati Shikshan Sansthan, with 25+ years of academic excellence — founded by Padma Vibhushan Shri T.N. Chaturvedi." },
+                { match: /(hostel|accommodation|stay|residence|pg|rehne)/i,
+                  reply: "🏠 IITM is a day-scholar institute. We don't run an in-house hostel, but our team can guide you to nearby PG accommodations." },
+                { match: /(event|fest|fiesta|cultural|workshop|conference|seminar|guest)/i,
+                  reply: "🎉 IITM hosts <b>Fiesta, MEDIAX, Anugoonj, Management Sapiens</b>, FDPs, Industrial Visits, Conferences, and many cultural fests every year." },
+                { match: /(internship)/i,
+                  reply: "💼 Visit our <b>Internship Cell</b> at <a href='https://www.iitminternware.com/' target='_blank'>iitminternware.com</a> for opportunities." },
+                { match: /(thank|dhanyawad|shukriya|thanx|thx|appreciate|grateful|cheers)/i,
+                  reply: "Dhanyawaad! 🙏 Happy to help. Aur kuch poochna hai? (Anything else?)" },
+                { match: /(\bbye\b|goodbye|alvida|tata|see\s*ya|see\s*you|farewell|take\s*care|catch\s*you|talk\s*later|signing\s*off)/i,
+                  reply: "Alvida! 🙏 Wishing you success on your IITM journey. <i>Tamasoma Jyotirgamaya</i> — lead us from darkness to light." },
+                { match: /(who.*you|what.*name|tum kaun|aap kaun)/i,
+                  reply: "I'm <b>IITM Mitra</b> 🤖 — a dummy assistant for IITM Janakpuri. <i>Mitra</i> means friend in Sanskrit. I can answer questions about admissions, courses, fees, placements, and more." }
+            ];
+
+            function botReply(q){
+                for (var i=0;i<responses.length;i++){
+                    if (responses[i].match.test(q)) return responses[i].reply;
+                }
+                return "🤔 I can help with <b>admissions, courses, fees, placements, contact, location, accreditation, scholarships, faculty, alumni, events</b> and more. Try a quick option below or rephrase your question.";
+            }
+
+            function send(text){
+                var q = (text || '').trim();
+                if (!q) return;
+                addUser(q);
+                input.value = '';
+                var typing = document.createElement('div');
+                typing.className = 'cb-msg cb-bot cb-typing';
+                typing.innerHTML = '<span class="cb-typing-bot">🤖</span><span></span><span></span><span></span>';
+                messages.appendChild(typing);
+                messages.scrollTop = messages.scrollHeight;
+                setTimeout(function(){
+                    typing.remove();
+                    addBot(botReply(q));
+                }, 600);
+            }
+
+            form.addEventListener('submit', function(e){
+                e.preventDefault();
+                send(input.value);
+            });
+            suggestions.addEventListener('click', function(e){
+                var chip = e.target.closest('.cb-chip');
+                if (chip) send(chip.textContent);
+            });
+        })();
+    </script>
+
+    <!-- ============ Mascot robot — full TOP-TO-BOTTOM, stands RIGHT of chat, left arm holds the UI ============ -->
+    <div class="cb-mascot" id="chatbotMascot" aria-hidden="true">
+        <div class="cb-mascot-bubble">Holding it for you! 🤖</div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 240 800" preserveAspectRatio="xMidYMid meet">
+            <!-- HEAD area (top) -->
+            <!-- Tassel -->
+            <path d="M 100 64 Q 130 72 142 88" stroke="#800000" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <circle cx="142" cy="88" r="5" fill="#d62828"/>
+            <!-- Graduation cap -->
+            <rect x="48" y="40" width="104" height="9" fill="#1a1a1a"/>
+            <polygon points="48,49 100,68 152,49 100,28" fill="#222"/>
+            <!-- Antennas -->
+            <line x1="72" y1="58" x2="72" y2="80" stroke="#800000" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="72" cy="54" r="4.5" fill="#d62828"/>
+            <line x1="128" y1="58" x2="128" y2="80" stroke="#800000" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="128" cy="54" r="4.5" fill="#d62828"/>
+            <!-- Head box -->
+            <rect x="30" y="80" width="140" height="110" rx="22" fill="#fff" stroke="#800000" stroke-width="4"/>
+            <!-- Eyes -->
+            <circle cx="68" cy="124" r="10" fill="#800000"/>
+            <circle cx="132" cy="124" r="10" fill="#800000"/>
+            <circle cx="72" cy="120" r="3.5" fill="#fff"/>
+            <circle cx="136" cy="120" r="3.5" fill="#fff"/>
+            <!-- Cheeks -->
+            <circle cx="46" cy="156" r="6" fill="rgba(214,40,40,.32)"/>
+            <circle cx="154" cy="156" r="6" fill="rgba(214,40,40,.32)"/>
+            <!-- Smile -->
+            <path d="M 68 162 Q 100 178 132 162" stroke="#800000" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+            <!-- Neck -->
+            <rect x="88" y="190" width="24" height="14" fill="#800000"/>
+
+            <!-- Body (middle) — IITM badge -->
+            <rect x="20" y="204" width="160" height="320" rx="18" fill="#fff" stroke="#800000" stroke-width="4"/>
+            <line x1="34" y1="226" x2="166" y2="226" stroke="rgba(128,0,0,.22)" stroke-width="1.2"/>
+            <text x="100" y="368" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#800000" letter-spacing="3">IITM</text>
+            <text x="100" y="396" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#a00000" letter-spacing="2">JANAKPURI</text>
+            <!-- Chest panel circle (decorative) -->
+            <circle cx="100" cy="280" r="22" fill="none" stroke="#800000" stroke-width="2.5"/>
+            <circle cx="100" cy="280" r="14" fill="#d62828" opacity=".25"/>
+            <circle cx="100" cy="280" r="6" fill="#d62828"/>
+            <!-- Belt -->
+            <rect x="20" y="500" width="160" height="14" fill="#800000"/>
+            <rect x="92" y="498" width="16" height="18" rx="2" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+
+            <!-- LEFT ARM — reaches OUT to grip the chat (extends to negative x, into chat's right edge) -->
+            <path d="M 22 244 Q -10 280 -22 360 Q -28 430 -16 480 Q -8 510 8 514"
+                  stroke="#800000" stroke-width="22" fill="none" stroke-linecap="round"/>
+            <path d="M 22 244 Q -10 280 -22 360 Q -28 430 -16 480 Q -8 510 8 514"
+                  stroke="#fff" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <!-- Left hand gripping -->
+            <circle cx="8" cy="514" r="20" fill="#800000"/>
+            <circle cx="8" cy="514" r="13" fill="#fff" stroke="#800000" stroke-width="2"/>
+            <!-- Fingers wrapping -->
+            <rect x="-2" y="500" width="5" height="14" rx="2" fill="#800000" transform="rotate(-18 0 507)"/>
+            <rect x="6" y="498" width="5" height="14" rx="2" fill="#800000"/>
+            <rect x="14" y="500" width="5" height="14" rx="2" fill="#800000" transform="rotate(18 16 507)"/>
+
+            <!-- RIGHT ARM — hangs at the side -->
+            <path d="M 178 244 Q 196 290 192 380 Q 188 470 184 510"
+                  stroke="#800000" stroke-width="22" fill="none" stroke-linecap="round"/>
+            <path d="M 178 244 Q 196 290 192 380 Q 188 470 184 510"
+                  stroke="#fff" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <circle cx="184" cy="514" r="20" fill="#800000"/>
+            <circle cx="184" cy="514" r="13" fill="#fff" stroke="#800000" stroke-width="2"/>
+
+            <!-- Legs -->
+            <rect x="48" y="524" width="36" height="180" rx="6" fill="#fff" stroke="#800000" stroke-width="4"/>
+            <rect x="116" y="524" width="36" height="180" rx="6" fill="#fff" stroke="#800000" stroke-width="4"/>
+            <!-- Knee dots -->
+            <circle cx="66" cy="610" r="4" fill="#800000"/>
+            <circle cx="134" cy="610" r="4" fill="#800000"/>
+            <!-- Feet -->
+            <ellipse cx="66" cy="710" rx="28" ry="9" fill="#800000"/>
+            <ellipse cx="134" cy="710" rx="28" ry="9" fill="#800000"/>
+            <!-- Floor shadow -->
+            <ellipse cx="100" cy="730" rx="78" ry="8" fill="rgba(0,0,0,.22)"/>
+        </svg>
+    </div>
+
+    <!-- ============ Highlights Image Lightbox Modal ============ -->
+    <div class="modal fade" id="imgLightbox" tabindex="-1" aria-labelledby="imgLightboxLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content img-lightbox-content">
+                <button type="button" class="btn-close img-lightbox-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img id="imgLightboxImg" src="" alt="IITM Highlight" class="img-lightbox-img">
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Lightbox for highlight + news images
+            var lightbox = document.getElementById('imgLightbox');
+            var lbImg = document.getElementById('imgLightboxImg');
+            if (lightbox && lbImg) {
+                document.querySelectorAll('.iitm-highlights-banner .hl-card, .iitm-news-banner .news-card').forEach(function (card) {
+                    card.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        var img = card.querySelector('img');
+                        if (img && img.src) lbImg.src = img.src;
+                    });
+                });
+            }
+
+            // Auto-hide scrollbar — show red thumb on activity, fade after 1.5s idle
+            var html = document.documentElement;
+            var idleTimer = null;
+            var IDLE_MS = 1500;
+            function ping() {
+                html.classList.add('is-active');
+                if (idleTimer) clearTimeout(idleTimer);
+                idleTimer = setTimeout(function () {
+                    html.classList.remove('is-active');
+                }, IDLE_MS);
+            }
+            window.addEventListener('scroll', ping, { passive: true });
+            window.addEventListener('wheel', ping, { passive: true });
+            window.addEventListener('mousemove', ping, { passive: true });
+            window.addEventListener('touchmove', ping, { passive: true });
+            window.addEventListener('keydown', ping);
+        });
+    </script>
 
     <!-- Admission Enquiry Modal -->
     <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">

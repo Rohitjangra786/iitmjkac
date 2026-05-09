@@ -265,7 +265,7 @@
     }
 
     .mobile-topbar .topbar-apply{
-        background: linear-gradient(135deg,#ffb703,#fb8500,#d62828);
+        background: linear-gradient(135deg,#a00000,#800000,#5e0000);
         color: #fff !important;
         font-weight: 800;
         font-size: 12px;
@@ -285,13 +285,13 @@
 .mobile-sidebar{
     width: 86% !important;
     max-width: 360px;
-    background: #fffaf5;
-    z-index: 1085 !important;   /* above the fixed mobile topbar (1075) */
+    background: #ffffff;
+    z-index: 1120 !important;   /* above the fixed adm-announce-strip (1100) */
 }
 
-/* Backdrop must also sit above the topbar so it covers the whole screen */
+/* Backdrop must also sit above the announcement strip */
 .offcanvas-backdrop.show{
-    z-index: 1080 !important;
+    z-index: 1115 !important;
 }
 
 .mobile-sidebar .offcanvas-header{
@@ -357,15 +357,15 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: #fdf3e7;
-    border-bottom: 1px solid #f1d9be;
+    background: #fff5f5;
+    border-bottom: 1px solid rgba(128,0,0,.15);
 }
 
 .sidebar-apply-btn{
     display: block;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(135deg, #ffb703 0%, #fb8500 50%, #d62828 100%);
+    background: linear-gradient(135deg, #a00000 0%, #800000 50%, #5e0000 100%);
     color: #fff !important;
     font-weight: 800;
     font-size: 15px;
@@ -422,7 +422,7 @@
 
 .sidebar-accordion .accordion-item{
     border: 0;
-    border-bottom: 1px solid #f1d9be;
+    border-bottom: 1px solid rgba(128,0,0,.15);
     background: transparent;
 }
 
@@ -459,7 +459,7 @@
 }
 
 .sidebar-accordion .accordion-body a:hover{
-    background: #fdf3e7;
+    background: #fff5f5;
     color: #800000 !important;
     border-left-color: #800000;
 }
@@ -475,6 +475,155 @@
     background: #faf3ec;
 }
 
+/* =================================================================== */
+/* ============== MODERN ENHANCED NAVBAR — RED & WHITE (≥992px) ====== */
+/* =================================================================== */
+@media (min-width: 992px){
+    /* Maroon (red) gradient bar */
+    nav.navbar.bg-dark,
+    nav.navbar{
+        background: linear-gradient(135deg, #800000 0%, #5e0000 50%, #3d0000 100%) !important;
+        background-color: #800000 !important;
+        border-bottom: 2px solid rgba(255,255,255,.40) !important;
+        padding: 0 !important;
+        position: sticky;
+        top: 0;
+        z-index: 1050;
+        box-shadow: 0 6px 22px rgba(0,0,0,.20);
+    }
+    nav.navbar > .container,
+    nav.navbar > .container-fluid{ padding: 0 !important; }
+
+    /* White accent line at the very top of the bar */
+    nav.navbar::before{
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.65) 50%, transparent);
+        opacity: .9;
+        z-index: 1;
+    }
+
+    nav.navbar .navbar-nav{
+        gap: 2px;
+        align-items: center;
+    }
+    nav.navbar .navbar-nav .nav-item{ position: relative; }
+
+    /* Top-level nav links — white on red */
+    nav.navbar .navbar-nav .nav-link{
+        color: #ffffff !important;
+        font-family: 'Poppins', system-ui, sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 13px !important;
+        letter-spacing: .55px !important;
+        padding: 16px 14px !important;
+        text-transform: uppercase;
+        background: transparent !important;
+        position: relative;
+        transition: color .25s ease, background .25s ease;
+        border-radius: 0 !important;
+        white-space: nowrap;
+    }
+
+    /* Hover / open state — bright white with subtle white-tinted bg + static underline */
+    nav.navbar .navbar-nav .nav-item:hover > .nav-link,
+    nav.navbar .navbar-nav .nav-link:focus,
+    nav.navbar .navbar-nav .nav-link.active,
+    nav.navbar .navbar-nav .nav-item.show > .nav-link,
+    nav.navbar .navbar-nav .nav-link:hover{
+        color: #ffffff !important;
+        background: rgba(255,255,255,.14) !important;
+        box-shadow: inset 0 -3px 0 #ffffff;
+    }
+
+    nav.navbar .navbar-nav .dropdown-toggle::after{
+        margin-left: 7px;
+        opacity: .85;
+        vertical-align: 1px;
+    }
+
+    /* ===== Dropdown menus — simple display toggle on hover (reliable, no ghosts) ===== */
+    nav.navbar .dropdown-menu{
+        display: none !important;
+        background: #ffffff !important;
+        border: 0 !important;
+        border-radius: 14px !important;
+        padding: 8px !important;
+        box-shadow: 0 16px 40px rgba(0,0,0,.20) !important;
+        margin-top: 0 !important;
+        min-width: 250px;
+        font-family: 'Poppins', system-ui, sans-serif;
+        border-top: 3px solid #800000 !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    nav.navbar .nav-item.dropdown:hover > .dropdown-menu,
+    nav.navbar .nav-item.dropdown.show > .dropdown-menu,
+    nav.navbar .nav-item.dropdown:focus-within > .dropdown-menu{
+        display: block !important;
+    }
+
+    /* Override the legacy peach hover bg on dropdown menus */
+    nav.navbar .nav-item.dropdown:hover .dropdown-menu,
+    .nav-item.dropdown:hover .dropdown-menu{
+        background-color: #ffffff !important;
+    }
+
+    nav.navbar .dropdown-menu .dropdown-item{
+        font-family: 'Poppins', system-ui, sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 500 !important;
+        color: #2b2b2b !important;
+        padding: 9px 14px !important;
+        border-radius: 9px !important;
+        margin: 1px 0;
+        transition: background .2s ease, color .2s ease, padding-left .2s ease;
+        white-space: normal;
+        line-height: 1.35;
+        background: transparent !important;
+    }
+    nav.navbar .dropdown-menu .dropdown-item:hover,
+    nav.navbar .dropdown-menu .dropdown-item:focus{
+        background: rgba(128,0,0,.08) !important;
+        color: #800000 !important;
+        padding-left: 18px !important;
+    }
+    nav.navbar .dropdown-menu .dropdown-item.active,
+    nav.navbar .dropdown-menu .dropdown-item:active{
+        background: linear-gradient(135deg, #800000, #5e0000) !important;
+        color: #ffffff !important;
+    }
+
+    /* Submenu (second-level) */
+    nav.navbar .dropdown-submenu{ position: relative; }
+    nav.navbar .dropdown-submenu > .dropdown-toggle::after{
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 0;
+        font-family: FontAwesome;
+        content: "\f105"; /* fa-angle-right */
+        font-size: 13px;
+        opacity: .65;
+        margin: 0;
+    }
+    nav.navbar .dropdown-submenu > .dropdown-menu{
+        display: none !important;
+        margin-left: 4px !important;
+        margin-top: 0 !important;
+        top: 0 !important;
+        left: 100% !important;
+    }
+    nav.navbar .dropdown-submenu:hover > .dropdown-menu,
+    nav.navbar .dropdown-submenu:focus-within > .dropdown-menu,
+    nav.navbar .dropdown-submenu .dropdown-menu.show{
+        display: block !important;
+    }
+}
 
     </style>
 </head>
