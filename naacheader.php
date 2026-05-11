@@ -1,17 +1,43 @@
 
  <style>
-    /* ============ Admission-centric announcement strip — STICKY, RED + WHITE ============ */
+    /* Single source-of-truth for the admission red gradient — change here once,
+       every admission-themed section updates together (dynamic). Deep pure red,
+       no gold/orange tint, matching the "Explore IITM" / footer-side admission cards. */
+    :root{
+        --iitm-admission-bg: linear-gradient(135deg, #800000 0%, #a00000 50%, #5e0000 100%);
+    }
+
+    /* ============ Admission strip — STICKY (in flow + sticks at top while scrolling) ============
+       Sticky keeps the strip in normal document flow on load (so the institute hero below it
+       is naturally visible) AND sticks to the top once the user scrolls past it. */
     .adm-announce-strip{
-        background: linear-gradient(135deg,#5e0000 0%,#800000 45%,#a00000 100%);
+        background: var(--iitm-admission-bg);
         color: #fff;
         padding: 10px 0;
         font-family: 'Poppins', system-ui, sans-serif;
-        border-bottom: 1px solid rgba(255,255,255,.18);
+        border-bottom: 1px solid rgba(255,255,255,.20);
         position: sticky;
         top: 0;
         z-index: 1100;
         overflow: hidden;
-        box-shadow: 0 4px 14px rgba(0,0,0,.18);
+        box-shadow: 0 6px 20px rgba(128,0,0,.30);
+    }
+    /* Make sure scroll-margin handles anchor jumps cleanly */
+    html{ scroll-padding-top: 60px; }
+
+    /* Force single-line on desktop so the strip is consistently ~50px tall */
+    @media (min-width: 992px){
+        .adm-announce-strip > .container{
+            flex-wrap: nowrap !important;
+            overflow: hidden;
+        }
+        .adm-announce-headline,
+        .adm-announce-courses{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
+        }
     }
     /* Hamburger button — mobile-only, opens the existing sidebar */
     .adm-announce-burger{
@@ -137,14 +163,11 @@
         .adm-announce-cta{ font-size: 12px; padding: 6px 14px; }
     }
 
-    /* ============ Mobile-only — compact, fixed bar with hamburger top-left ============ */
+    /* ============ Mobile-only — compact bar with hamburger top-left ============ */
     @media (max-width: 991.98px){
         .adm-announce-strip{
-            position: fixed !important;
-            top: 0; left: 0; right: 0;
             padding: 6px 10px !important;
         }
-        body{ padding-top: 52px !important; }
         .adm-announce-strip > .container{
             display: flex !important;
             flex-wrap: nowrap !important;
@@ -651,6 +674,7 @@
         </div>
     </div>
 </div>
+
 
 
   <!-- Hero Section -->

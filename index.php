@@ -285,7 +285,7 @@ strong, b{
         margin: 14px 12px 6px;
         padding: 18px 16px;
         border-radius: 14px;
-        background: linear-gradient(135deg,#800000 0%,#a52a2a 50%,#d62828 100%);
+        background: linear-gradient(135deg, #800000 0%, #a00000 50%, #5e0000 100%);
         color: #fff;
         text-align: center;
         box-shadow: 0 8px 22px rgba(128,0,0,.30);
@@ -297,7 +297,7 @@ strong, b{
         position:absolute;
         top:-30%; right:-20%;
         width:200px; height:200px;
-        background: radial-gradient(circle, rgba(255,183,3,.35) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(255,255,255,.18) 0%, transparent 70%);
     }
     .mobile-admissions-hero h3{
         font-size: 22px;
@@ -2061,6 +2061,314 @@ strong, b{
     margin: 24px auto;
 }
 
+/* ============ NEW HERO — campus image + heading + CTAs (image-ref design) ============ */
+.iitm-hero-new{
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    align-items: center;
+    gap: 28px;
+    max-width: min(1320px, 92vw);
+    margin: 28px auto 0;
+    padding: 32px 32px;
+    background: linear-gradient(135deg, #faf3f3 0%, #fff5f5 60%, #f5e8e8 100%);
+    border-radius: 18px;
+    border: 1px solid rgba(128,0,0,.10);
+    box-shadow: 0 8px 24px rgba(128,0,0,.08);
+    overflow: hidden;
+    position: relative;
+}
+.iitm-hero-new::before{
+    content: "";
+    position: absolute;
+    top: -40%; right: -20%;
+    width: 480px; height: 480px;
+    background: radial-gradient(circle, rgba(214,40,40,.10), transparent 70%);
+    pointer-events: none;
+}
+.iitm-hero-new .hero-new-content{ position: relative; z-index: 1; }
+.iitm-hero-new .hero-new-eyebrow{
+    display: inline-block;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 11.5px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+    /* Inherits the unified admission gradient — same as top strip / hero card / explore */
+    background: var(--iitm-admission-bg, linear-gradient(135deg, #800000 0%, #a00000 50%, #5e0000 100%));
+    padding: 6px 14px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(128,0,0,.25);
+    margin-bottom: 14px;
+}
+.iitm-hero-new .hero-new-title{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #2b2b2b;
+    margin: 0 0 10px;
+    letter-spacing: -.5px;
+}
+.iitm-hero-new .hero-new-courses{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #800000;
+    margin: 0 0 12px;
+    letter-spacing: .35px;
+}
+.iitm-hero-new .hero-new-tag{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: #5a5a5a;
+    margin: 0 0 22px;
+    max-width: 540px;
+}
+.iitm-hero-new .hero-new-actions{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.iitm-hero-new .hero-new-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 20px;
+    border-radius: 6px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 13.5px;
+    letter-spacing: .3px;
+    text-decoration: none !important;
+    transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    border: 2px solid #800000;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-family: 'Poppins', system-ui, sans-serif;
+}
+.iitm-hero-new .hero-new-btn.primary{
+    background: #800000;
+    color: #fff !important;
+}
+.iitm-hero-new .hero-new-btn.primary:hover{
+    background: #5e0000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(128,0,0,.30);
+    color: #fff !important;
+}
+.iitm-hero-new .hero-new-btn.outline{
+    background: #fff;
+    color: #800000 !important;
+}
+.iitm-hero-new .hero-new-btn.outline:hover{
+    background: #fff5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(128,0,0,.18);
+    color: #800000 !important;
+}
+/* "Enquiry" button — green so it's visually distinct from the other two */
+.iitm-hero-new .hero-new-btn.enquiry{
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #fff !important;
+    border-color: #16a34a;
+}
+.iitm-hero-new .hero-new-btn.enquiry:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(22,163,74,.32);
+    color: #fff !important;
+}
+
+/* Admission helper-link row (helpline / programme leads / procedure) */
+.iitm-hero-new .hero-new-helpers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    align-items: center;
+    margin-top: 14px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 12.5px;
+}
+.iitm-hero-new .hero-new-helper-link{
+    color: #800000 !important;
+    font-weight: 700;
+    font-size: 12.5px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 0;
+    transition: color .2s ease;
+}
+.iitm-hero-new .hero-new-helper-link:hover{
+    color: #5e0000 !important;
+    text-decoration: underline !important;
+}
+.iitm-hero-new .hero-new-helper-link i.fa{ font-size: 12px; }
+.iitm-hero-new .hero-new-helper-divider{
+    color: rgba(128,0,0,.40);
+    font-weight: 700;
+}
+
+/* Mini stats row — credibility for admission-seekers */
+.iitm-hero-new .hero-new-stats-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px dashed rgba(128,0,0,.25);
+}
+.iitm-hero-new .hero-new-stat{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+.iitm-hero-new .hero-new-stat b{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #800000;
+    letter-spacing: -.3px;
+}
+.iitm-hero-new .hero-new-stat span{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    margin-top: 2px;
+}
+.iitm-hero-new .hero-new-image{
+    border-radius: 14px;
+    overflow: hidden;
+    aspect-ratio: 16 / 11;
+    max-height: 320px;
+    background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
+    box-shadow: 0 14px 30px rgba(0,0,0,.12);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iitm-hero-new .hero-new-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;        /* show the full image — no cropping */
+    display: block;
+}
+@media (max-width: 991.98px){
+    .iitm-hero-new{
+        grid-template-columns: 1fr;
+        padding: 24px 20px;
+        margin: 16px auto 0;
+        gap: 22px;
+    }
+    .iitm-hero-new .hero-new-title{ font-size: 26px; }
+    .iitm-hero-new .hero-new-tag{ font-size: 13.5px; }
+    .iitm-hero-new .hero-new-image{ order: -1; }
+}
+
+/* ============ Overview cards row — Course Intake / Helpline / Programmes / Follow Us ============ */
+.iitm-overview-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    max-width: min(1320px, 92vw);
+    margin: 18px auto;
+}
+@media (max-width: 991.98px){
+    /* 2-up grid on tablets and phones — never collapse to single column */
+    .iitm-overview-cards{ grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 14px auto; }
+}
+.iitm-overview-cards .overview-card{
+    background: linear-gradient(135deg, #fff 0%, rgba(128,0,0,.05) 100%);
+    border: 1.5px solid #800000;
+    border-radius: 12px;
+    padding: 16px 14px 14px;
+    text-align: left;
+    transition: transform .25s ease, box-shadow .25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.iitm-overview-cards .overview-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(128,0,0,.18);
+}
+.iitm-overview-cards .overview-icon{
+    color: #800000;
+    margin-bottom: 2px;
+    line-height: 0;
+}
+.iitm-overview-cards .overview-icon svg{ width: 26px; height: 26px; }
+.iitm-overview-cards .overview-title{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #800000;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.iitm-overview-cards .overview-stat{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #800000;
+    line-height: 1.05;
+    margin-top: 2px;
+}
+.iitm-overview-cards .overview-sub{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.iitm-overview-cards .overview-desc{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 12px;
+    line-height: 1.45;
+    color: #5a5a5a;
+    margin: 2px 0 0;
+}
+.iitm-overview-cards .overview-btn{
+    display: inline-block;
+    margin-top: auto;
+    padding-top: 10px;
+    color: #800000 !important;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 12.5px;
+    text-decoration: none !important;
+    border: 0;
+    align-self: flex-start;
+}
+@media (min-width: 992px){
+    .iitm-overview-cards .overview-title{ font-size: 13px; }
+    .iitm-overview-cards .overview-stat{ font-size: 34px; }
+    .iitm-overview-cards .overview-sub,
+    .iitm-overview-cards .overview-desc{ font-size: 13px; }
+    .iitm-overview-cards .overview-btn{ font-size: 13px; padding-top: 12px; }
+    .iitm-overview-cards .overview-icon svg{ width: 30px; height: 30px; }
+    .iitm-overview-cards .overview-card{ padding: 20px 18px 18px; }
+}
+.iitm-overview-cards .overview-card:hover .overview-btn{
+    color: #5e0000 !important;
+}
+.iitm-overview-cards .overview-btn::after{
+    content: " ›";
+    transition: margin-left .2s ease;
+    display: inline-block;
+}
+.iitm-overview-cards .overview-card:hover .overview-btn::after{
+    margin-left: 4px;
+}
+
 /* ============ IITM Highlights — compact auto-scrolling banner (slider) ============ */
 .iitm-highlights-banner{
     overflow: hidden;
@@ -2326,6 +2634,7 @@ html, body{
     overflow-x: hidden !important;
     max-width: 100vw !important;
     margin: 0;
+    scroll-behavior: smooth;
 }
 img, video{
     max-width: 100%;
@@ -2364,7 +2673,7 @@ nav.navbar .nav-item{
 }
 .col-md-3[style*="margin: 2em"] .notice-item:last-child{ border-bottom: 0; }
 .col-md-3[style*="margin: 2em"] .notice-item:hover{
-    background: linear-gradient(135deg, rgba(128,0,0,.04), rgba(255,183,3,.05));
+    background: linear-gradient(135deg, rgba(128,0,0,.04), rgba(214,40,40,.06));
 }
 .col-md-3[style*="margin: 2em"] .notice-num{
     flex-shrink: 0;
@@ -2477,7 +2786,7 @@ nav.navbar .nav-item{
         padding: 44px 48px !important;
         border-radius: 22px !important;
         text-align: center;
-        background: linear-gradient(135deg,#800000 0%,#a52a2a 50%,#d62828 100%) !important;
+        background: linear-gradient(135deg, #800000 0%, #a00000 50%, #5e0000 100%) !important;
         color: #fff;
         box-shadow: 0 18px 40px rgba(128,0,0,.30);
         position: relative;
@@ -2488,7 +2797,7 @@ nav.navbar .nav-item{
         position: absolute;
         top: -40%; right: -8%;
         width: 360px; height: 360px;
-        background: radial-gradient(circle, rgba(255,183,3,.42) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(255,255,255,.22) 0%, transparent 70%);
         pointer-events: none;
     }
     .mobile-admissions-hero::after{
@@ -2966,7 +3275,91 @@ nav.navbar .nav-item{
 
        <?php include('n.php'); ?>
 
+        <!-- ============ NEW HERO — admission-centric (image-ref design) ============ -->
+        <section class="iitm-hero-new">
+            <div class="hero-new-content">
+                <span class="hero-new-eyebrow">🎓 Admissions Open · Academic Year 2026-27</span>
+                <h1 class="hero-new-title">Transforming Education.<br>Building Industry Leaders.</h1>
+                <p class="hero-new-courses">MBA · MCA · BBA · BCA · B.Com (H) · BA (JMC)</p>
+                <p class="hero-new-tag">25+ years of academic excellence, industry-aligned programmes and holistic development.</p>
+                <div class="hero-new-actions">
+                    <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="hero-new-btn primary">Apply Now →</a>
+                    <button type="button" class="hero-new-btn enquiry" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
+                    <a href="course/programmes.php" class="hero-new-btn outline">Explore Programmes</a>
+                </div>
+                <div class="hero-new-helpers">
+                    <a href="tel:01128525051" class="hero-new-helper-link" aria-label="Call admission helpline">
+                        <i class="fa fa-phone" aria-hidden="true"></i> 011-28525051
+                    </a>
+                    <span class="hero-new-helper-divider">·</span>
+                    <a href="#course-leads" class="hero-new-helper-link">
+                        <i class="fa fa-headphones" aria-hidden="true"></i> Talk to a Programme Lead
+                    </a>
+                    <span class="hero-new-helper-divider">·</span>
+                    <a href="admissions/admissionprocedure.php" class="hero-new-helper-link">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i> Admission Procedure
+                    </a>
+                </div>
+                <div class="hero-new-stats-row">
+                    <div class="hero-new-stat"><b>1,020+</b><span>Total Seats</span></div>
+                    <div class="hero-new-stat"><b>6</b><span>Programmes</span></div>
+                    <div class="hero-new-stat"><b>NAAC</b><span>Grade A</span></div>
+                    <div class="hero-new-stat"><b>NBA</b><span>Accredited</span></div>
+                </div>
+            </div>
+            <div class="hero-new-image">
+                <img src="images/campus-hero.jpg" alt="IITM Janakpuri Campus" width="1400" height="1004" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='images/campus-hero.png'">
+            </div>
+        </section>
 
+        <!-- ============ Overview cards (4-up: Course Intake / Helpline / Programmes / Follow Us) ============ -->
+        <section class="iitm-overview-cards">
+            <div class="overview-card">
+                <div class="overview-icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="11" r="3"/><circle cx="23" cy="11" r="3"/><circle cx="16" cy="9" r="3.5"/>
+                        <path d="M3 24c1-4 4-6 6-6s5 2 6 6M17 24c1-4 4-6 6-6s5 2 6 6"/>
+                    </svg>
+                </div>
+                <div class="overview-title">COURSE INTAKE</div>
+                <div class="overview-stat">1,020+</div>
+                <div class="overview-sub">Total Seats</div>
+                <a href="#course-intake" class="overview-btn">View Intake</a>
+            </div>
+            <div class="overview-card">
+                <div class="overview-icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 4a10 10 0 0 0-10 10v6a3 3 0 0 0 3 3h2v-9H7a8 8 0 0 1 18 0h-4v9h2a3 3 0 0 0 3-3v-6A10 10 0 0 0 16 4z"/>
+                        <path d="M21 23v2a4 4 0 0 1-4 4h-2"/>
+                    </svg>
+                </div>
+                <div class="overview-title">COURSE-WISE HELPLINE</div>
+                <p class="overview-desc">Talk to the right faculty for your chosen programme.</p>
+                <a href="#course-leads" class="overview-btn">View Helplines</a>
+            </div>
+            <div class="overview-card">
+                <div class="overview-icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 6 2 13l14 7 14-7-14-7z"/>
+                        <path d="M6 16v6c0 1.5 4 3 10 3s10-1.5 10-3v-6"/>
+                    </svg>
+                </div>
+                <div class="overview-title">PROGRAMMES</div>
+                <p class="overview-desc">UG, PG &amp; Professional programmes designed for your future.</p>
+                <a href="course/programmes.php" class="overview-btn">Explore Programmes</a>
+            </div>
+            <div class="overview-card">
+                <div class="overview-icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="12" r="4"/><circle cx="22" cy="11" r="3"/>
+                        <path d="M3 26c1-5 4-7 8-7s7 2 8 7M19 26c.5-3.5 2.5-5 5-5s4 1.5 5 5"/>
+                    </svg>
+                </div>
+                <div class="overview-title">FOLLOW US</div>
+                <p class="overview-desc">Stay connected for latest updates, events &amp; more.</p>
+                <a href="#follow-us-anchor" class="overview-btn">Follow Us</a>
+            </div>
+        </section>
 
         <!-- Marquee Section -->
     <div class="marquee-container">
@@ -3124,7 +3517,7 @@ nav.navbar .nav-item{
 </div>
 
 <!-- Course-wise Admission Helpline -->
-<div class="course-leads">
+<div class="course-leads" id="course-leads">
     <div class="leads-title">
         <h2>Course-wise Admission Helpline</h2>
         <p>Talk directly to the program lead for Admissions 2026-27</p>
@@ -3301,7 +3694,7 @@ nav.navbar .nav-item{
 </div>
 
 <!-- ============ Course Intake (moved out of .lowerb so it spans full width) ============ -->
-<div class="course-intake-section">
+<div class="course-intake-section" id="course-intake">
     <div class="container text-center">
         <div class="course-title-wrap">
             <h2 class="course-title">Course Intake</h2>
@@ -3865,7 +4258,7 @@ try {
 
 
  <!--   SOCIAL MEDIA ICONS -->
-  <div class="row follow-us-icons" style="width: 100%;">
+  <div class="row follow-us-icons" id="follow-us-anchor" style="width: 100%;">
     <div style="width: 100%">
         <div class="container">
             <div class="row text-center">

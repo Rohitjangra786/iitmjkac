@@ -487,7 +487,7 @@
         border-bottom: 2px solid rgba(255,255,255,.40) !important;
         padding: 0 !important;
         position: sticky;
-        top: 0;
+        top: 50px;            /* sit below the fixed adm-announce-strip (50px tall) */
         z-index: 1050;
         box-shadow: 0 6px 22px rgba(0,0,0,.20);
     }
