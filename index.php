@@ -4880,10 +4880,11 @@ try {
                             <label for="enq-course">Course of Interest</label>
                             <select class="form-select" id="enq-course" name="course" required>
                                 <option value="" disabled selected>Select a course</option>
+                                <option value="BCA|8796283551|Ms. Leena Gupta">BCA</option>
+                                <option value="MCA|8796452755|Mr. Ashish Nayyar">MCA</option>
+                                <option value="BBA|8796452756|Dr. Deepali Saluja">BBA</option>
+                                <option value="B.Com (H)|8796452757|Dr. Raghav Jain">B.Com (H)</option>
                                 <option value="MBA|9560098709|Dr. Mandeep Singh">MBA</option>
-                                <option value="BCA / MCA|9211592472|Mr. Ashish Nayyar">BCA &amp; MCA</option>
-                                <option value="BBA|9711197715|Dr. Deepika Arora &amp; Dr. Deepali Saluja">BBA</option>
-                                <option value="B.Com (H)|8920636874|Dr. Raghav Jain">B.Com (H)</option>
                                 <option value="BA (JMC)|7217872947|Dr. Nivedita Sharma">BA (JMC)</option>
                             </select>
                             <div class="form-help">You'll be connected directly to the selected course lead via WhatsApp.</div>

@@ -11,7 +11,7 @@
        Sticky keeps the strip in normal document flow on load (so the institute hero below it
        is naturally visible) AND sticks to the top once the user scrolls past it. */
     .adm-announce-strip{
-        background: var(--iitm-admission-bg);
+        background: linear-gradient(90deg, #f5b800 0%, #f08200 35%, #c91a1a 70%, #800000 100%);
         color: #fff;
         padding: 10px 0;
         font-family: 'Poppins', system-ui, sans-serif;
@@ -20,7 +20,8 @@
         top: 0;
         z-index: 1100;
         overflow: hidden;
-        box-shadow: 0 6px 20px rgba(128,0,0,.30);
+        box-shadow: 0 6px 20px rgba(200,80,0,.30);
+        text-shadow: 0 1px 2px rgba(0,0,0,.25);
     }
     /* Make sure scroll-margin handles anchor jumps cleanly */
     html{ scroll-padding-top: 60px; }

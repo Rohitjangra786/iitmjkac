@@ -451,6 +451,5 @@
             <a href="https://twitter.com/iitm_ipu" class="fa-twitter" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
             <a href="https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw" class="fa-youtube" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
         </div>
-        <div class="visitor">Visitors 1.2M+</div>
     </div>
 </footer>
