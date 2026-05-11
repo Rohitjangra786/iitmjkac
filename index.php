@@ -2246,21 +2246,26 @@ strong, b{
 .iitm-hero-new .hero-new-image{
     border-radius: 14px;
     overflow: hidden;
-    aspect-ratio: 16 / 11;
-    max-height: 320px;
-    background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
+    aspect-ratio: 4 / 5;
+    max-height: 460px;
+    background: #f5e9e9;
     box-shadow: 0 14px 30px rgba(0,0,0,.12);
     position: relative;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .iitm-hero-new .hero-new-image img{
     width: 100%;
     height: 100%;
-    object-fit: contain;        /* show the full image — no cropping */
+    object-fit: cover;
+    object-position: center 28%;
     display: block;
+}
+@media (max-width: 991.98px){
+    .iitm-hero-new .hero-new-image{
+        aspect-ratio: 16 / 10;
+        max-height: 280px;
+    }
+    .iitm-hero-new .hero-new-image img{ object-position: center 22%; }
 }
 @media (max-width: 991.98px){
     .iitm-hero-new{
@@ -3308,7 +3313,7 @@ nav.navbar .nav-item{
                 </div>
             </div>
             <div class="hero-new-image">
-                <img src="images/campus-hero.jpg" alt="IITM Janakpuri Campus" width="1400" height="1004" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='images/campus-hero.png'">
+                <img src="images/campus-hero.jpg" alt="IITM Janakpuri Campus" width="720" height="1280" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='images/campus-hero.png'">
             </div>
         </section>
 
@@ -4370,13 +4375,13 @@ try {
     <!-- Mobile-only Enquiry FAB (opens admission enquiry form modal) -->
     <button type="button" class="mobile-call-fab" data-bs-toggle="modal" data-bs-target="#enquiryModal" aria-label="Open admission enquiry form">✉️</button>
 
-    <!-- ============ IITM Mitra — dummy chatbot widget ============ -->
-    <button type="button" class="iitm-chatbot-fab" id="chatbotToggle" aria-label="Open IITM Mitra chatbot">
+    <!-- ============ IITM Mitra — dummy chatbot widget (hidden for now) ============ -->
+    <button type="button" class="iitm-chatbot-fab" id="chatbotToggle" aria-label="Open IITM Mitra chatbot" style="display:none !important;">
         <span class="cf-icon">💬</span>
         <span class="cf-pulse"></span>
         <span class="cf-label">IITM Mitra</span>
     </button>
-    <div class="iitm-chatbot-window" id="chatbotWindow" aria-hidden="true" role="dialog" aria-label="IITM Mitra chatbot">
+    <div class="iitm-chatbot-window" id="chatbotWindow" aria-hidden="true" role="dialog" aria-label="IITM Mitra chatbot" style="display:none !important;">
         <div class="cb-header">
             <div class="cb-brand">
                 <div class="cb-academic-robot" aria-hidden="true">
