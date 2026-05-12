@@ -1,4 +1,19 @@
-
+<?php
+/* Compute a web-relative path back to the project root (where naacheader.php lives),
+   so logo/image src attributes resolve correctly on pages inside subfolders
+   (e.g. course/programmes.php, admissions/*, etc.). */
+if (!isset($iitm_base_url)) {
+    $project_dir = realpath(__DIR__);
+    $page_dir    = realpath(dirname($_SERVER['SCRIPT_FILENAME']));
+    if ($page_dir && $project_dir && strpos($page_dir, $project_dir) === 0) {
+        $sub = substr($page_dir, strlen($project_dir));
+        $depth = ($sub === '' || $sub === DIRECTORY_SEPARATOR) ? 0 : substr_count(trim($sub, DIRECTORY_SEPARATOR), DIRECTORY_SEPARATOR) + 1;
+        $iitm_base_url = $depth > 0 ? str_repeat('../', $depth) : '';
+    } else {
+        $iitm_base_url = '';
+    }
+}
+?>
  <style>
     /* Single source-of-truth for the admission red gradient — change here once,
        every admission-themed section updates together (dynamic). Deep pure red,
@@ -642,43 +657,35 @@
     /* ============ Floating compact institute bar — appears when scrolling past the hero ============
        Body's `overflow-x: hidden` breaks position:sticky for descendants in several browsers,
        so we use a separate position:fixed element shown only when the original hero leaves the viewport. */
+    /* Pin the admission strip with position:fixed everywhere (sticky is broken by
+       body{overflow-x:hidden} on both desktop and mobile), reserve page space for it,
+       and dock the mini-header cleanly underneath without any padding-top void. */
+    .adm-announce-strip{
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    /* !important needed to beat the legacy `body{ padding-top: 0 !important }` above
+       that was kept around for the old mobile-topbar reset. */
+    body{
+        padding-top: var(--adm-strip-h, 46px) !important;
+    }
     .iitm-mini-header{
         position: fixed;
-        /* Desktop: docks just below the fixed admission strip (handled by media query below).
-           Mobile: sits at top with padding equal to strip height (strip is sticky there). */
-        top: 0;
+        top: var(--adm-strip-h, 46px);
         left: 0;
         right: 0;
         z-index: 1090;
         background: linear-gradient(135deg,#800000 0%,#a52a2a 55%,#5e0000 100%);
         color: #fff;
-        padding: var(--adm-strip-h, 46px) 0 4px;
+        padding: 5px 0;
         box-shadow: 0 6px 14px rgba(0,0,0,.22);
         transform: translateY(-110%);
         opacity: 0;
         transition: transform .28s ease, opacity .2s ease;
         pointer-events: none;
         font-family: Arial, Helvetica, sans-serif;
-    }
-    /* Desktop only — pin the admission strip with position:fixed (sticky is broken by
-       body{overflow-x:hidden}), reserve page space for it, and dock the mini-header
-       cleanly underneath without any padding-top void. */
-    @media (min-width: 992px){
-        .adm-announce-strip{
-            position: fixed !important;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-        /* !important needed to beat the legacy `body{ padding-top: 0 !important }` above
-           that was kept around for the old mobile-topbar reset. */
-        body{
-            padding-top: var(--adm-strip-h, 46px) !important;
-        }
-        .iitm-mini-header{
-            top: var(--adm-strip-h, 46px);
-            padding: 5px 0;       /* compact — no strip-height padding needed */
-        }
     }
     body.hero-shrunk .iitm-mini-header{
         transform: translateY(0);
@@ -738,7 +745,7 @@
     }
     /* Mobile: keep it but tighter, since adm-strip is already sticky */
     @media (max-width: 991.98px){
-        .iitm-mini-header{ padding: var(--adm-strip-h, 46px) 0 3px; }
+        .iitm-mini-header{ padding: 3px 0; }
         .iitm-mini-header .container{ gap: 8px; padding: 0 12px; }
         .iitm-mini-header .mini-logo{ height: 28px; padding: 1px 5px; }
         .iitm-mini-header .mini-title{ font-size: 12px; }
@@ -764,7 +771,7 @@
 <div class="iitm-mini-header" id="iitmMiniHeader" aria-hidden="true">
     <div class="container">
         <a href="https://www.iitmjanakpuri.com/" aria-label="IITM Janakpuri home">
-            <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM" class="mini-logo">
+            <img src="<?php echo $iitm_base_url; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM" class="mini-logo">
         </a>
         <h2 class="mini-title">INSTITUTE OF INFORMATION TECHNOLOGY &amp; MANAGEMENT</h2>
         <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="mini-cta">Apply Now →</a>
@@ -837,7 +844,7 @@
             <div class="row">
                 <div class="col-12 col-md-2 text-center text-md-start mb-2 mb-md-0">
 
-                   <a href="https://www.iitmjanakpuri.com/"> <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence" class="logo"></a>
+                   <a href="https://www.iitmjanakpuri.com/"> <img src="<?php echo $iitm_base_url; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence" class="logo"></a>
                 </div>
                 <div class="col-md-7">
                     <center>

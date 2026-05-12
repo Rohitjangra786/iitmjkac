@@ -298,15 +298,15 @@ h1, h2, h3, h4, h5, h6,
     letter-spacing: .2px;
 }
 
-/* Page hero */
+/* Page hero — slim */
 .prog-page-hero{
     max-width: min(1320px, 92vw);
-    margin: 28px auto 0;
-    padding: 36px 32px;
+    margin: 20px auto 0;
+    padding: 22px 26px;
     background: linear-gradient(135deg, #faf3f3 0%, #fff5f5 60%, #f5e8e8 100%);
     border: 1px solid rgba(128,0,0,.10);
-    border-radius: 18px;
-    box-shadow: 0 8px 24px rgba(128,0,0,.08);
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(128,0,0,.08);
     position: relative;
     overflow: hidden;
 }
@@ -319,12 +319,12 @@ h1, h2, h3, h4, h5, h6,
     pointer-events: none;
 }
 .prog-page-hero h1{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 800;
     color: #2b2b2b;
-    margin: 0 0 10px;
-    letter-spacing: -.5px;
-    line-height: 1.18;
+    margin: 0 0 6px;
+    letter-spacing: -.4px;
+    line-height: 1.15;
     position: relative;
 }
 .prog-page-hero h1::after{
@@ -345,79 +345,234 @@ h1, h2, h3, h4, h5, h6,
     position: relative;
 }
 
-/* Quick links sidebar — modernized */
+/* ============ Quick Links sidebar — redesigned ============ */
 .prog-quicklinks{
     background: #fff;
-    border: 1.5px solid #800000;
-    border-radius: 14px;
-    padding: 18px 18px;
-    box-shadow: 0 6px 16px rgba(128,0,0,.08);
+    border: 1px solid rgba(128,0,0,.18);
+    border-radius: 16px;
+    padding: 16px 16px 14px;
+    box-shadow: 0 8px 22px rgba(128,0,0,.10);
+    position: relative;
+    overflow: hidden;
+}
+.prog-quicklinks::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #800000 0%, #d62828 50%, #800000 100%);
+}
+.prog-quicklinks .pql-header{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 2px 0 14px;
+}
+.prog-quicklinks .pql-header .pql-icon{
+    width: 38px; height: 38px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #800000 0%, #a52a2a 100%);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(128,0,0,.25);
+    flex-shrink: 0;
 }
 .prog-quicklinks h3{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 800;
-    color: #800000;
-    text-transform: uppercase;
-    letter-spacing: .8px;
-    margin: 0 0 12px;
-    padding-bottom: 10px;
-    border-bottom: 1.5px solid rgba(128,0,0,.18);
-}
-.prog-quicklinks a{
-    display: block;
-    font-family: 'Inter', system-ui, sans-serif;
-    font-size: 13.5px;
-    font-weight: 600;
     color: #2b2b2b;
-    padding: 7px 0;
-    border-bottom: 1px dashed rgba(128,0,0,.12);
-    text-decoration: none !important;
-    transition: color .2s ease, padding-left .2s ease;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.2;
 }
-.prog-quicklinks a:last-child{ border-bottom: 0; }
-.prog-quicklinks a:hover{ color: #800000; padding-left: 4px; }
-.prog-quicklinks a::before{
-    content:"›";
-    color: #800000;
-    margin-right: 8px;
-    font-weight: 800;
+.prog-quicklinks .pql-sub{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #888;
+    margin: 2px 0 0;
+    line-height: 1.3;
 }
 
-/* ============ UG / PG section dividers ============ */
+.prog-quicklinks .pql-group{ margin: 0 0 12px; }
+.prog-quicklinks .pql-group-label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin: 0 0 8px;
+}
+.prog-quicklinks .pql-badge{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    background: #800000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(128,0,0,.25);
+}
+.prog-quicklinks .pql-chips{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+.prog-quicklinks .pql-chip{
+    display: block;
+    text-align: center;
+    padding: 9px 6px;
+    background: #fff5f5;
+    border: 1.5px solid rgba(128,0,0,.18);
+    border-radius: 9px;
+    color: #800000 !important;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none !important;
+    transition: all .2s ease;
+    letter-spacing: .2px;
+    line-height: 1.2;
+}
+.prog-quicklinks .pql-chip:hover{
+    background: #800000;
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(128,0,0,.25);
+    border-color: #800000;
+}
+
+.prog-quicklinks .pql-divider{
+    border-top: 1px dashed rgba(128,0,0,.20);
+    margin: 4px 0 10px;
+}
+
+.prog-quicklinks .pql-resources{ margin: 0 0 12px; }
+.prog-quicklinks .pql-resources a{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2b2b2b;
+    padding: 6px 0;
+    text-decoration: none !important;
+    border: 0;
+    transition: color .2s ease, transform .2s ease;
+}
+.prog-quicklinks .pql-resources a::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #800000;
+    border-radius: 50%;
+    flex-shrink: 0;
+    transition: transform .2s ease;
+}
+.prog-quicklinks .pql-resources a:hover{
+    color: #800000;
+    transform: translateX(3px);
+}
+.prog-quicklinks .pql-resources a:hover::before{
+    transform: scale(1.4);
+}
+
+.prog-quicklinks .pql-cta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: linear-gradient(135deg, #800000 0%, #a52a2a 100%);
+    border-radius: 10px;
+    color: #fff !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(128,0,0,.25);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.prog-quicklinks .pql-cta:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(128,0,0,.35);
+    color: #fff !important;
+}
+.prog-quicklinks .pql-cta .pql-cta-icon{
+    width: 32px; height: 32px;
+    background: rgba(255,255,255,.18);
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+.prog-quicklinks .pql-cta-body{ line-height: 1.15; }
+.prog-quicklinks .pql-cta-body strong{
+    display: block;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 14.5px;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+.prog-quicklinks .pql-cta-body span{
+    display: block;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 9.5px;
+    font-weight: 700;
+    opacity: .9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+/* ============ UG / PG section dividers (compact) ============ */
 .prog-level-section{
     max-width: min(1320px, 92vw);
-    margin: 30px auto 0;
+    margin: 22px auto 0;
 }
 .prog-level-header{
     display: flex;
     align-items: center;
-    gap: 14px;
-    margin: 0 0 14px;
-    padding: 14px 22px;
+    gap: 12px;
+    margin: 0 0 10px;
+    padding: 10px 18px;
     background: linear-gradient(135deg, #fff5f5 0%, #ffe9e9 100%);
-    border-left: 5px solid #800000;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(128,0,0,.08);
+    border-left: 4px solid #800000;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(128,0,0,.07);
 }
 .prog-level-header .plh-badge{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 56px;
-    padding: 6px 14px;
+    min-width: 48px;
+    padding: 4px 12px;
     background: #800000;
     color: #fff;
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 800;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
     border-radius: 50px;
-    box-shadow: 0 4px 10px rgba(128,0,0,.30);
+    box-shadow: 0 3px 8px rgba(128,0,0,.30);
 }
 .prog-level-header .plh-title{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 800;
     color: #2b2b2b;
     margin: 0;
@@ -425,7 +580,7 @@ h1, h2, h3, h4, h5, h6,
 }
 .prog-level-header .plh-meta{
     font-family: 'Inter', system-ui, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     color: #6b6b6b;
     margin-left: auto;
@@ -437,132 +592,133 @@ h1, h2, h3, h4, h5, h6,
     .prog-level-header .plh-meta{ margin-left: 0; flex-basis: 100%; }
 }
 
-/* Course cards (6) */
+/* Compact 3-up course-card grid (image on top, body below) */
 .prog-course-list{
     max-width: min(1320px, 92vw);
-    margin: 16px auto 24px;
+    margin: 12px auto 20px;
     display: grid;
-    gap: 18px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+@media (max-width: 991.98px){
+    .prog-course-list{ grid-template-columns: repeat(2, 1fr); gap: 14px; }
+}
+@media (max-width: 575.98px){
+    .prog-course-list{ grid-template-columns: 1fr; gap: 12px; }
 }
 .prog-course-card{
-    display: grid;
-    grid-template-columns: 360px 1fr;
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
     background: #fff;
-    border: 2px solid #800000;
-    border-radius: 16px;
+    border: 1.5px solid rgba(128,0,0,.18);
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(128,0,0,.10);
-    transition: transform .25s ease, box-shadow .25s ease;
+    box-shadow: 0 4px 14px rgba(128,0,0,.08);
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    position: relative;
 }
 .prog-course-card:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 16px 36px rgba(128,0,0,.20);
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(128,0,0,.18);
+    border-color: #800000;
 }
 .prog-course-card .pcc-image{
     width: 100%;
-    height: 100%;
-    min-height: 240px;
+    height: 150px;
     object-fit: cover;
     object-position: center;
     display: block;
-    border-right: 2px solid #800000;
+    border-bottom: 2px solid #800000;
 }
 .prog-course-card .pcc-body{
-    padding: 22px 26px 22px 0;
+    padding: 14px 16px 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 6px;
+    flex: 1 1 auto;
 }
 .prog-course-card .pcc-tag{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 800;
     color: #800000;
-    letter-spacing: 1.2px;
+    letter-spacing: .8px;
     text-transform: uppercase;
+    line-height: 1.3;
 }
 .prog-course-card .pcc-name{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 800;
     color: #2b2b2b;
     margin: 0;
-    line-height: 1.15;
+    line-height: 1.1;
+    letter-spacing: -.3px;
 }
 .prog-course-card .pcc-meta{
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 8px 0 4px;
+    gap: 5px;
+    margin: 4px 0 2px;
 }
 .prog-course-card .pcc-pill{
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 11px;
+    font-size: 10.5px;
     font-weight: 700;
     color: #800000;
     background: rgba(128,0,0,.08);
     border: 1px solid rgba(128,0,0,.20);
     border-radius: 50px;
-    padding: 4px 12px;
-    letter-spacing: .3px;
+    padding: 2.5px 9px;
+    letter-spacing: .2px;
+    line-height: 1.3;
 }
 .prog-course-card .pcc-desc{
     font-family: 'Inter', system-ui, sans-serif;
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: 12.5px;
+    line-height: 1.5;
     color: #4a4a4a;
-    margin: 6px 0 12px;
+    margin: 4px 0 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .prog-course-card .pcc-actions{
     display: flex;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
-    margin-top: 4px;
+    margin-top: auto;
+    padding-top: 4px;
 }
 .prog-course-card .pcc-btn{
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 9px 18px;
+    gap: 5px;
+    padding: 7px 14px;
     border-radius: 6px;
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-decoration: none !important;
-    border: 2px solid #800000;
+    border: 1.5px solid #800000;
     transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
 }
 .prog-course-card .pcc-btn.primary{ background: #800000; color: #fff; }
-.prog-course-card .pcc-btn.primary:hover{ background: #5e0000; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(128,0,0,.30); color: #fff; }
+.prog-course-card .pcc-btn.primary:hover{ background: #5e0000; transform: translateY(-1px); box-shadow: 0 6px 14px rgba(128,0,0,.30); color: #fff; }
 .prog-course-card .pcc-btn.outline{ background: #fff; color: #800000; }
-.prog-course-card .pcc-btn.outline:hover{ background: #fff5f5; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(128,0,0,.18); }
+.prog-course-card .pcc-btn.outline:hover{ background: #fff5f5; transform: translateY(-1px); box-shadow: 0 6px 14px rgba(128,0,0,.18); }
 .prog-course-card .pcc-faculty{
     font-family: 'Inter', system-ui, sans-serif;
-    font-size: 12.5px;
+    font-size: 11.5px;
     color: #6b6b6b;
-    margin-top: 8px;
+    margin: 8px 0 0;
+    padding-top: 8px;
+    border-top: 1px dashed rgba(128,0,0,.15);
+    line-height: 1.4;
 }
 .prog-course-card .pcc-faculty a{ color: #800000; font-weight: 700; text-decoration: none; }
 .prog-course-card .pcc-faculty a:hover{ text-decoration: underline; }
-@media (max-width: 767.98px){
-    .prog-course-card{
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-    .prog-course-card .pcc-image{
-        height: 200px;
-        min-height: auto;
-        border-right: 0;
-        border-bottom: 2px solid #800000;
-    }
-    .prog-course-card .pcc-body{ padding: 18px 18px 20px; }
-    .prog-course-card .pcc-name{ font-size: 22px; }
-    .prog-page-hero{ padding: 22px 18px; }
-    .prog-page-hero h1{ font-size: 24px; }
-    .prog-page-hero .prog-intro{ font-size: 13.5px; }
-}
 
 /* Page bottom CTA strip */
 .prog-bottom-cta{
@@ -643,18 +799,47 @@ h1, h2, h3, h4, h5, h6,
         </div>
         <div class="col-lg-4">
             <div class="prog-quicklinks">
-                <h3>Programme Quick Links</h3>
-                <a href="#ug-section" style="font-weight:800;color:#800000;">Undergraduate (UG)</a>
-                <a href="#bca">BCA Programme</a>
-                <a href="#bba">BBA Programme</a>
-                <a href="#bcom">B.Com (H) Programme</a>
-                <a href="#bjmc">BA (JMC) Programme</a>
-                <a href="#pg-section" style="font-weight:800;color:#800000;">Postgraduate (PG)</a>
-                <a href="#mba">MBA Programme</a>
-                <a href="#mca">MCA Programme</a>
-                <a href="https://iitmjanakpuri.com/academics/academics.php#syl">Syllabus</a>
-                <a href="../admissions/admissionprocedure.php">Admission Procedure</a>
-                <a href="../scholarships/scholarships.php#sch">In-House Scholarships</a>
+                <div class="pql-header">
+                    <span class="pql-icon" aria-hidden="true"><i class="fa fa-graduation-cap"></i></span>
+                    <div>
+                        <h3>Programme Quick Links</h3>
+                        <p class="pql-sub">Jump to any of our 6 programmes</p>
+                    </div>
+                </div>
+
+                <div class="pql-group">
+                    <div class="pql-group-label"><span class="pql-badge">UG</span> Undergraduate &middot; 4 programmes</div>
+                    <div class="pql-chips">
+                        <a href="#bca" class="pql-chip">BCA</a>
+                        <a href="#bba" class="pql-chip">BBA</a>
+                        <a href="#bcom" class="pql-chip">B.Com (H)</a>
+                        <a href="#bjmc" class="pql-chip">BA (JMC)</a>
+                    </div>
+                </div>
+
+                <div class="pql-group">
+                    <div class="pql-group-label"><span class="pql-badge">PG</span> Postgraduate &middot; 2 programmes</div>
+                    <div class="pql-chips">
+                        <a href="#mba" class="pql-chip">MBA</a>
+                        <a href="#mca" class="pql-chip">MCA</a>
+                    </div>
+                </div>
+
+                <div class="pql-divider"></div>
+
+                <div class="pql-resources">
+                    <a href="https://iitmjanakpuri.com/academics/academics.php#syl">Syllabus</a>
+                    <a href="../admissions/admissionprocedure.php">Admission Procedure</a>
+                    <a href="../scholarships/scholarships.php#sch">In-House Scholarships</a>
+                </div>
+
+                <a href="tel:01128525051" class="pql-cta" aria-label="Call admission helpline 011-28525051">
+                    <span class="pql-cta-icon" aria-hidden="true"><i class="fa fa-phone"></i></span>
+                    <div class="pql-cta-body">
+                        <strong>011-28525051</strong>
+                        <span>Admission Helpline</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

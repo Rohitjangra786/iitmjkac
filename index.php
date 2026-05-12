@@ -40,6 +40,15 @@ input, select, textarea, button{
     font-family: Arial, Helvetica, sans-serif !important;
     letter-spacing: 0 !important;
 }
+/* Restore icon-font families that the Arial site-wide override above clobbered.
+   Without this, every <i class="fa ..."> renders as a blank/letter glyph. */
+.fa, .fas, .far, .fal, .fad,
+[class^="fa-"], [class*=" fa-"]{
+    font-family: FontAwesome, "Font Awesome 5 Free", "Font Awesome 6 Free" !important;
+}
+.fab{ font-family: "Font Awesome 5 Brands", "Font Awesome 6 Brands" !important; }
+.glyphicon{ font-family: "Glyphicons Halflings" !important; }
+.material-icons{ font-family: "Material Icons" !important; }
 html,
 body * {
     box-sizing: border-box;
