@@ -144,15 +144,16 @@
 
     /* ---------- Brand column ---------- */
     .modern-footer .footer-brand img{
-        height: 52px;
+        height: 64px;
         width: auto;
-        max-width: 200px;
+        max-width: 100%;
         background: transparent;
         padding: 0;
         border-radius: 0;
         box-shadow: none;
-        margin-bottom: 14px;
+        margin: 0 auto 14px;
         display: block;
+        object-fit: contain;
         filter: brightness(0) invert(1) drop-shadow(0 3px 6px rgba(0,0,0,.30));
     }
     .modern-footer .footer-brand .brand-tag{
@@ -329,14 +330,20 @@
         transition: transform .2s ease, color .2s ease;
         line-height: 1;
     }
+    .modern-footer .footer-social a svg{
+        width: 1em;
+        height: 1em;
+        display: block;
+    }
     .modern-footer .footer-social a:hover{
         transform: translateY(-2px);
+        filter: brightness(1.15);
     }
-    .modern-footer .footer-social a.fa-facebook:hover  { color: #4ea3ff; }
-    .modern-footer .footer-social a.fa-instagram:hover { color: #ff7a59; }
-    .modern-footer .footer-social a.fa-linkedin:hover  { color: #4ea3ff; }
-    .modern-footer .footer-social a.fa-twitter:hover   { color: #6cc3ff; }
-    .modern-footer .footer-social a.fa-youtube:hover   { color: #ff5e5e; }
+    /* Brand colors on dark footer (Instagram keeps its own gradient) */
+    .modern-footer .footer-social a.fa-facebook  { color: #4ea3ff; }
+    .modern-footer .footer-social a.fa-linkedin  { color: #4ea3ff; }
+    .modern-footer .footer-social a.fa-twitter   { color: #ffffff; }
+    .modern-footer .footer-social a.fa-youtube   { color: #ff5e5e; }
 
     /* Reserve vertical space at the bottom of the footer so the fixed FABs always sit over
        the dark maroon footer area instead of a white gap below it. Mobile only. */
@@ -445,11 +452,34 @@
     <div class="footer-bottom">
         <div class="copy">&copy; <?php echo date('Y'); ?> IITM Janakpuri &middot; All rights reserved.</div>
         <div class="footer-social">
-            <a href="https://www.instagram.com/iitm_janakpuri/" class="fa-instagram" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.facebook.com/iitmjanakpurinewdelhi" class="fa-facebook" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/iitm-janakpuri-29678b100" class="fa-linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
-            <a href="https://twitter.com/iitm_ipu" class="fa-twitter" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw" class="fa-youtube" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/iitm_janakpuri/" class="fa-instagram" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <defs>
+                        <linearGradient id="ig-grad-ft" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#feda75"/>
+                            <stop offset="25%" stop-color="#fa7e1e"/>
+                            <stop offset="50%" stop-color="#d62976"/>
+                            <stop offset="75%" stop-color="#962fbf"/>
+                            <stop offset="100%" stop-color="#4f5bd5"/>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#ig-grad-ft)" d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.336 3.608 1.311.975.975 1.249 2.242 1.311 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.336 2.633-1.311 3.608-.975.975-2.242 1.249-3.608 1.311-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.336-3.608-1.311-.975-.975-1.249-2.242-1.311-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.336-2.633 1.311-3.608.975-.975 2.242-1.249 3.608-1.311C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.775.13 4.602.396 3.635 1.363c-.967.967-1.233 2.14-1.291 3.417C2.014 8.332 2 8.741 2 12c0 3.259.014 3.668.072 4.948.058 1.277.324 2.45 1.291 3.417.967.967 2.14 1.233 3.417 1.291 1.28.058 1.689.072 4.948.072s3.668-.014 4.948-.072c1.277-.058 2.45-.324 3.417-1.291.967-.967 1.233-2.14 1.291-3.417.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.324-2.45-1.291-3.417C19.398.396 18.225.13 16.948.072 15.668.014 15.259 0 12 0z"/>
+                    <path fill="url(#ig-grad-ft)" d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8z"/>
+                    <circle fill="url(#ig-grad-ft)" cx="18.406" cy="5.594" r="1.44"/>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/iitmjanakpurinewdelhi" class="fa-facebook" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854V15.47H7.078V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.491 0-1.956.925-1.956 1.874V12h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/iitm-janakpuri-29678b100" class="fa-linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://twitter.com/iitm_ipu" class="fa-twitter" target="_blank" rel="noopener" aria-label="X (formerly Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw" class="fa-youtube" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
         </div>
     </div>
 </footer>

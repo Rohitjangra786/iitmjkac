@@ -636,6 +636,113 @@
             flex-wrap: nowrap !important;
             margin: 0 !important;
         }
+
+    }
+
+    /* ============ Floating compact institute bar — appears when scrolling past the hero ============
+       Body's `overflow-x: hidden` breaks position:sticky for descendants in several browsers,
+       so we use a separate position:fixed element shown only when the original hero leaves the viewport. */
+    .iitm-mini-header{
+        position: fixed;
+        /* Desktop: docks just below the fixed admission strip (handled by media query below).
+           Mobile: sits at top with padding equal to strip height (strip is sticky there). */
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1090;
+        background: linear-gradient(135deg,#800000 0%,#a52a2a 55%,#5e0000 100%);
+        color: #fff;
+        padding: var(--adm-strip-h, 46px) 0 4px;
+        box-shadow: 0 6px 14px rgba(0,0,0,.22);
+        transform: translateY(-110%);
+        opacity: 0;
+        transition: transform .28s ease, opacity .2s ease;
+        pointer-events: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Desktop only — pin the admission strip with position:fixed (sticky is broken by
+       body{overflow-x:hidden}), reserve page space for it, and dock the mini-header
+       cleanly underneath without any padding-top void. */
+    @media (min-width: 992px){
+        .adm-announce-strip{
+            position: fixed !important;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        /* !important needed to beat the legacy `body{ padding-top: 0 !important }` above
+           that was kept around for the old mobile-topbar reset. */
+        body{
+            padding-top: var(--adm-strip-h, 46px) !important;
+        }
+        .iitm-mini-header{
+            top: var(--adm-strip-h, 46px);
+            padding: 5px 0;       /* compact — no strip-height padding needed */
+        }
+    }
+    body.hero-shrunk .iitm-mini-header{
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .iitm-mini-header .container{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-height: 0;
+    }
+    .iitm-mini-header .mini-logo{
+        height: 34px;
+        width: auto;
+        max-width: 110px;
+        object-fit: contain;
+        background: #fff;
+        border-radius: 6px;
+        padding: 2px 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.18);
+        flex-shrink: 0;
+        display: block;
+    }
+    .iitm-mini-header .mini-title{
+        font-size: 14.5px;
+        font-weight: 800;
+        letter-spacing: .2px;
+        margin: 0;
+        line-height: 1.15;
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0,0,0,.25);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .iitm-mini-header .mini-cta{
+        background: #fff;
+        color: #800000 !important;
+        font-weight: 800;
+        font-size: 12px;
+        padding: 5px 12px;
+        border-radius: 50px;
+        text-decoration: none !important;
+        box-shadow: 0 2px 6px rgba(0,0,0,.20);
+        flex-shrink: 0;
+        white-space: nowrap;
+        letter-spacing: .3px;
+        line-height: 1.2;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iitm-mini-header .mini-cta:hover{
+        transform: translateY(-1px);
+        box-shadow: 0 6px 14px rgba(0,0,0,.28);
+    }
+    /* Mobile: keep it but tighter, since adm-strip is already sticky */
+    @media (max-width: 991.98px){
+        .iitm-mini-header{ padding: var(--adm-strip-h, 46px) 0 3px; }
+        .iitm-mini-header .container{ gap: 8px; padding: 0 12px; }
+        .iitm-mini-header .mini-logo{ height: 28px; padding: 1px 5px; }
+        .iitm-mini-header .mini-title{ font-size: 12px; }
+        .iitm-mini-header .mini-cta{ font-size: 11px; padding: 4px 10px; }
     }
 </style>
 
@@ -652,6 +759,52 @@
         <button type="button" class="adm-announce-cta adm-announce-cta-enquiry" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
     </div>
 </div>
+
+<!-- Floating compact institute bar — appears when scrolling past the hero -->
+<div class="iitm-mini-header" id="iitmMiniHeader" aria-hidden="true">
+    <div class="container">
+        <a href="https://www.iitmjanakpuri.com/" aria-label="IITM Janakpuri home">
+            <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM" class="mini-logo">
+        </a>
+        <h2 class="mini-title">INSTITUTE OF INFORMATION TECHNOLOGY &amp; MANAGEMENT</h2>
+        <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="mini-cta">Apply Now →</a>
+    </div>
+</div>
+
+<script>
+(function(){
+    /* 1) Keep the admission-strip height in a CSS var so the mini-header lines up below it.
+       2) Toggle `body.hero-shrunk` when the original .hero-section leaves the viewport.
+          Using IntersectionObserver (not scrollY) is robust against header height changes,
+          mobile address-bar resize, and the body's overflow-x: hidden that breaks sticky. */
+    function measureStrip(){
+        var s = document.querySelector('.adm-announce-strip');
+        if (!s) return;
+        document.documentElement.style.setProperty('--adm-strip-h', s.offsetHeight + 'px');
+    }
+    window.addEventListener('resize', measureStrip, { passive: true });
+    measureStrip();
+    document.addEventListener('DOMContentLoaded', function(){
+        measureStrip();
+        var hero = document.querySelector('.hero-section');
+        if (!hero) return;
+        if ('IntersectionObserver' in window){
+            var io = new IntersectionObserver(function(entries){
+                entries.forEach(function(e){
+                    document.body.classList.toggle('hero-shrunk', !e.isIntersecting);
+                });
+            }, { rootMargin: '-40px 0px 0px 0px', threshold: 0 });
+            io.observe(hero);
+        } else {
+            /* Fallback for ancient browsers */
+            window.addEventListener('scroll', function(){
+                var r = hero.getBoundingClientRect();
+                document.body.classList.toggle('hero-shrunk', r.bottom < 60);
+            }, { passive: true });
+        }
+    });
+})();
+</script>
 
 <div class="top-admission-strip top-quick-bar">
     <div class="container">

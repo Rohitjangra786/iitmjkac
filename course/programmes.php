@@ -384,10 +384,63 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 800;
 }
 
+/* ============ UG / PG section dividers ============ */
+.prog-level-section{
+    max-width: min(1320px, 92vw);
+    margin: 30px auto 0;
+}
+.prog-level-header{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0 0 14px;
+    padding: 14px 22px;
+    background: linear-gradient(135deg, #fff5f5 0%, #ffe9e9 100%);
+    border-left: 5px solid #800000;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(128,0,0,.08);
+}
+.prog-level-header .plh-badge{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 56px;
+    padding: 6px 14px;
+    background: #800000;
+    color: #fff;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(128,0,0,.30);
+}
+.prog-level-header .plh-title{
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #2b2b2b;
+    margin: 0;
+    line-height: 1.2;
+}
+.prog-level-header .plh-meta{
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #6b6b6b;
+    margin-left: auto;
+    white-space: nowrap;
+}
+@media (max-width: 575.98px){
+    .prog-level-header{ flex-wrap: wrap; padding: 12px 14px; gap: 10px; }
+    .prog-level-header .plh-title{ font-size: 18px; }
+    .prog-level-header .plh-meta{ margin-left: 0; flex-basis: 100%; }
+}
+
 /* Course cards (6) */
 .prog-course-list{
     max-width: min(1320px, 92vw);
-    margin: 24px auto;
+    margin: 16px auto 24px;
     display: grid;
     gap: 18px;
 }
@@ -591,12 +644,14 @@ h1, h2, h3, h4, h5, h6,
         <div class="col-lg-4">
             <div class="prog-quicklinks">
                 <h3>Programme Quick Links</h3>
-                <a href="#mba">MBA Programme</a>
-                <a href="#mca">MCA Programme</a>
+                <a href="#ug-section" style="font-weight:800;color:#800000;">Undergraduate (UG)</a>
                 <a href="#bca">BCA Programme</a>
                 <a href="#bba">BBA Programme</a>
                 <a href="#bcom">B.Com (H) Programme</a>
                 <a href="#bjmc">BA (JMC) Programme</a>
+                <a href="#pg-section" style="font-weight:800;color:#800000;">Postgraduate (PG)</a>
+                <a href="#mba">MBA Programme</a>
+                <a href="#mca">MCA Programme</a>
                 <a href="https://iitmjanakpuri.com/academics/academics.php#syl">Syllabus</a>
                 <a href="../admissions/admissionprocedure.php">Admission Procedure</a>
                 <a href="../scholarships/scholarships.php#sch">In-House Scholarships</a>
@@ -605,48 +660,15 @@ h1, h2, h3, h4, h5, h6,
     </div>
 </section>
 
-<!-- ============ 6 course cards ============ -->
-<section class="prog-course-list">
-
-    <article class="prog-course-card" id="mba">
-        <img src="images/MBA.png" alt="MBA at IITM Janakpuri" class="pcc-image" loading="lazy">
-        <div class="pcc-body">
-            <span class="pcc-tag">Master of Business Administration</span>
-            <h2 class="pcc-name">MBA</h2>
-            <div class="pcc-meta">
-                <span class="pcc-pill">2 years</span>
-                <span class="pcc-pill">60 seats</span>
-                <span class="pcc-pill">AICTE · GGSIPU</span>
-                <span class="pcc-pill">IPU CET MBA</span>
-            </div>
-            <p class="pcc-desc">A 2-year AICTE-approved MBA, affiliated with GGSIPU. Specializations across Marketing, Finance, HR, Operations, IT &amp; Analytics and International Business — meticulously crafted to impart relevant knowledge, attributes and skills crucial for thriving in the corporate world.</p>
-            <div class="pcc-actions">
-                <a href="mba.php" class="pcc-btn primary">Read More</a>
-                <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
-            </div>
-            <p class="pcc-faculty">Programme Lead: Dr. Mandeep Singh · <a href="tel:+919560098709">+91 95600 98709</a></p>
-        </div>
-    </article>
-
-    <article class="prog-course-card" id="mca">
-        <img src="images/MCA.jpg" alt="MCA at IITM Janakpuri" class="pcc-image" loading="lazy">
-        <div class="pcc-body">
-            <span class="pcc-tag">Master of Computer Applications</span>
-            <h2 class="pcc-name">MCA</h2>
-            <div class="pcc-meta">
-                <span class="pcc-pill">2 years (NEP 2020)</span>
-                <span class="pcc-pill">60 seats</span>
-                <span class="pcc-pill">AICTE · GGSIPU</span>
-                <span class="pcc-pill">IPU CET MCA</span>
-            </div>
-            <p class="pcc-desc">A 2-year MCA accredited by GGSIPU, equipping students with the skills and knowledge required to succeed in a dynamic and competitive professional landscape. Hands-on labs, modern stack, and industry mentorship.</p>
-            <div class="pcc-actions">
-                <a href="mca.php" class="pcc-btn primary">Read More</a>
-                <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
-            </div>
-            <p class="pcc-faculty">Programme Lead: Mr. Ashish Nayyar · <a href="tel:+918796452755">+91 87964 52755</a></p>
-        </div>
-    </article>
+<!-- ============ Undergraduate Programmes (4) ============ -->
+<div class="prog-level-section" id="ug-section">
+    <div class="prog-level-header">
+        <span class="plh-badge">UG</span>
+        <h2 class="plh-title">Undergraduate Programmes</h2>
+        <span class="plh-meta">4 programmes &middot; 900 seats &middot; 3 years each</span>
+    </div>
+</div>
+<section class="prog-course-list" aria-labelledby="ug-section">
 
     <article class="prog-course-card" id="bca">
         <img src="images/BCA.png" alt="BCA at IITM Janakpuri" class="pcc-image" loading="lazy">
@@ -725,6 +747,58 @@ h1, h2, h3, h4, h5, h6,
                 <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
             </div>
             <p class="pcc-faculty">Programme Lead: Dr. Nivedita Sharma · <a href="tel:+917217872947">+91 72178 72947</a></p>
+        </div>
+    </article>
+
+</section>
+
+<!-- ============ Postgraduate Programmes (2) ============ -->
+<div class="prog-level-section" id="pg-section">
+    <div class="prog-level-header">
+        <span class="plh-badge">PG</span>
+        <h2 class="plh-title">Postgraduate Programmes</h2>
+        <span class="plh-meta">2 programmes &middot; 120 seats &middot; 2 years each &middot; AICTE-approved</span>
+    </div>
+</div>
+<section class="prog-course-list" aria-labelledby="pg-section">
+
+    <article class="prog-course-card" id="mba">
+        <img src="images/MBA.png" alt="MBA at IITM Janakpuri" class="pcc-image" loading="lazy">
+        <div class="pcc-body">
+            <span class="pcc-tag">Master of Business Administration</span>
+            <h2 class="pcc-name">MBA</h2>
+            <div class="pcc-meta">
+                <span class="pcc-pill">2 years</span>
+                <span class="pcc-pill">60 seats</span>
+                <span class="pcc-pill">AICTE · GGSIPU</span>
+                <span class="pcc-pill">IPU CET MBA</span>
+            </div>
+            <p class="pcc-desc">A 2-year AICTE-approved MBA, affiliated with GGSIPU. Specializations across Marketing, Finance, HR, Operations, IT &amp; Analytics and International Business — meticulously crafted to impart relevant knowledge, attributes and skills crucial for thriving in the corporate world.</p>
+            <div class="pcc-actions">
+                <a href="mba.php" class="pcc-btn primary">Read More</a>
+                <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
+            </div>
+            <p class="pcc-faculty">Programme Lead: Dr. Mandeep Singh · <a href="tel:+919560098709">+91 95600 98709</a></p>
+        </div>
+    </article>
+
+    <article class="prog-course-card" id="mca">
+        <img src="images/MCA.jpg" alt="MCA at IITM Janakpuri" class="pcc-image" loading="lazy">
+        <div class="pcc-body">
+            <span class="pcc-tag">Master of Computer Applications</span>
+            <h2 class="pcc-name">MCA</h2>
+            <div class="pcc-meta">
+                <span class="pcc-pill">2 years (NEP 2020)</span>
+                <span class="pcc-pill">60 seats</span>
+                <span class="pcc-pill">AICTE · GGSIPU</span>
+                <span class="pcc-pill">IPU CET MCA</span>
+            </div>
+            <p class="pcc-desc">A 2-year MCA accredited by GGSIPU, equipping students with the skills and knowledge required to succeed in a dynamic and competitive professional landscape. Hands-on labs, modern stack, and industry mentorship.</p>
+            <div class="pcc-actions">
+                <a href="mca.php" class="pcc-btn primary">Read More</a>
+                <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
+            </div>
+            <p class="pcc-faculty">Programme Lead: Mr. Ashish Nayyar · <a href="tel:+918796452755">+91 87964 52755</a></p>
         </div>
     </article>
 

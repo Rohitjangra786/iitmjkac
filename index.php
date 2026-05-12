@@ -23,33 +23,32 @@ echo '</script>';
 
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Modern fonts: Inter (body) + Poppins (headings/UI) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Bootstrap JS -->
+    <!-- Site-wide font: Arial (academic / professional look) -->
 
     <style>
-html,
-body * {
-    box-sizing: border-box;
-    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-html, body{
-    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-    color: #1f2937;
-    line-height: 1.55;
-    letter-spacing: .1px;
-}
+/* === Global font: Arial site-wide (academic / professional) ===
+   This rule wins over inline 'Inter'/'Poppins' declarations in this file and
+   all included partials (naacheader.php, naacfooter.php, n.php, etc.) thanks
+   to the universal selector + !important. */
+html, body, body *,
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .tgfmlt, .tgfmlt1,
 .card-title, .nt,
-.modal-title, .btn{
-    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif !important;
-    letter-spacing: .2px;
+.modal-title, .btn,
+input, select, textarea, button{
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0 !important;
+}
+html,
+body * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body{
+    color: #1f2937;
+    line-height: 1.55;
 }
 h1, h2, h3, .h1, .h2, .h3{
     font-weight: 700;
@@ -1022,8 +1021,7 @@ strong, b{
     line-height: 1 !important;
     border-radius: 0 !important;
     background: transparent !important;
-    color: #800000 !important;
-    font-size: 24px !important;
+    font-size: 28px !important;
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
@@ -1031,17 +1029,22 @@ strong, b{
     border: 0 !important;
     padding: 0 !important;
     text-decoration: none;
-    transition: transform .25s ease, color .25s ease;
+    transition: transform .25s ease, filter .25s ease;
+}
+.follow-us-icons .icons-gs a.s svg{
+    width: 1em;
+    height: 1em;
+    display: block;
 }
 .follow-us-icons .icons-gs a.s:hover{
     transform: translateY(-3px) scale(1.08);
+    filter: brightness(1.08) drop-shadow(0 4px 8px rgba(0,0,0,.18));
 }
-/* Hover: color shifts to brand color, no chunky background */
-.follow-us-icons .icons-gs a.instagram:hover{ color: #dc2743 !important; background: transparent !important; box-shadow: none !important; }
-.follow-us-icons .icons-gs a.facebook:hover { color: #1877f2 !important; background: transparent !important; box-shadow: none !important; }
-.follow-us-icons .icons-gs a.linkedin:hover { color: #0a66c2 !important; background: transparent !important; box-shadow: none !important; }
-.follow-us-icons .icons-gs a.twitter:hover  { color: #1da1f2 !important; background: transparent !important; box-shadow: none !important; }
-.follow-us-icons .icons-gs a.youtube:hover  { color: #ff0000 !important; background: transparent !important; box-shadow: none !important; }
+/* Brand colors applied by default (icons inherit via currentColor; Instagram uses its own gradient) */
+.follow-us-icons .icons-gs a.facebook { color: #1877f2 !important; }
+.follow-us-icons .icons-gs a.linkedin { color: #0a66c2 !important; }
+.follow-us-icons .icons-gs a.twitter  { color: #000000 !important; }
+.follow-us-icons .icons-gs a.youtube  { color: #ff0000 !important; }
 
 /* ============== Course-wise Admission Helpline cards (compact) ============== */
 .course-leads{
@@ -1448,7 +1451,7 @@ strong, b{
 .follow-us-icons .icons-gs a.instagram::after{ content: "Instagram"; }
 .follow-us-icons .icons-gs a.facebook::after { content: "Facebook"; }
 .follow-us-icons .icons-gs a.linkedin::after { content: "LinkedIn"; }
-.follow-us-icons .icons-gs a.twitter::after  { content: "Twitter"; }
+.follow-us-icons .icons-gs a.twitter::after  { content: "X"; }
 .follow-us-icons .icons-gs a.youtube::after  { content: "YouTube"; }
 .follow-us-icons .icons-gs a.s:hover::after{ color: #d62828; }
 
@@ -3284,7 +3287,7 @@ nav.navbar .nav-item{
         <section class="iitm-hero-new">
             <div class="hero-new-content">
                 <span class="hero-new-eyebrow">🎓 Admissions Open · Academic Year 2026-27</span>
-                <h1 class="hero-new-title">Transforming Education.<br>Building Industry Leaders.</h1>
+                <h1 class="hero-new-title">"Education : Empowering Minds, Transforming Futures."</h1>
                 <p class="hero-new-courses">MBA · MCA · BBA · BCA · B.Com (H) · BA (JMC)</p>
                 <p class="hero-new-tag">25+ years of academic excellence, industry-aligned programmes and holistic development.</p>
                 <div class="hero-new-actions">
@@ -4272,11 +4275,34 @@ try {
                 	<span class="follow-us-tagline">Stay connected with IITM Janakpuri</span>
                   <div class="icons-gs">
 
-	<a href="https://www.instagram.com/iitm_janakpuri/" class="s instagram" target="_blank" style="border-top-left-radius:4px;"><i class="fa fa-instagram"></i></a>
-  	<a href="https://www.facebook.com/iitmjanakpurinewdelhi" class="s facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/in/iitm-janakpuri-29678b100" class="s linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-  	<a href="https://twitter.com/iitm_ipu" class="s twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-  	<a href="https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw" class="s youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+	<a href="https://www.instagram.com/iitm_janakpuri/" class="s instagram" target="_blank" rel="noopener" aria-label="Instagram">
+		<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+			<defs>
+				<linearGradient id="ig-grad-fu" x1="0%" y1="100%" x2="100%" y2="0%">
+					<stop offset="0%" stop-color="#feda75"/>
+					<stop offset="25%" stop-color="#fa7e1e"/>
+					<stop offset="50%" stop-color="#d62976"/>
+					<stop offset="75%" stop-color="#962fbf"/>
+					<stop offset="100%" stop-color="#4f5bd5"/>
+				</linearGradient>
+			</defs>
+			<path fill="url(#ig-grad-fu)" d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.336 3.608 1.311.975.975 1.249 2.242 1.311 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.336 2.633-1.311 3.608-.975.975-2.242 1.249-3.608 1.311-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.336-3.608-1.311-.975-.975-1.249-2.242-1.311-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.336-2.633 1.311-3.608.975-.975 2.242-1.249 3.608-1.311C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.775.13 4.602.396 3.635 1.363c-.967.967-1.233 2.14-1.291 3.417C2.014 8.332 2 8.741 2 12c0 3.259.014 3.668.072 4.948.058 1.277.324 2.45 1.291 3.417.967.967 2.14 1.233 3.417 1.291 1.28.058 1.689.072 4.948.072s3.668-.014 4.948-.072c1.277-.058 2.45-.324 3.417-1.291.967-.967 1.233-2.14 1.291-3.417.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.324-2.45-1.291-3.417C19.398.396 18.225.13 16.948.072 15.668.014 15.259 0 12 0z"/>
+			<path fill="url(#ig-grad-fu)" d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8z"/>
+			<circle fill="url(#ig-grad-fu)" cx="18.406" cy="5.594" r="1.44"/>
+		</svg>
+	</a>
+  	<a href="https://www.facebook.com/iitmjanakpurinewdelhi" class="s facebook" target="_blank" rel="noopener" aria-label="Facebook">
+		<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854V15.47H7.078V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.491 0-1.956.925-1.956 1.874V12h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12z"/></svg>
+	</a>
+    <a href="https://www.linkedin.com/in/iitm-janakpuri-29678b100" class="s linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
+		<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+	</a>
+  	<a href="https://twitter.com/iitm_ipu" class="s twitter" target="_blank" rel="noopener" aria-label="X (formerly Twitter)">
+		<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+	</a>
+  	<a href="https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw" class="s youtube" target="_blank" rel="noopener" aria-label="YouTube">
+		<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+	</a>
                   </div>
                 </div>
             </div>
