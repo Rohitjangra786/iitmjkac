@@ -2258,9 +2258,9 @@ strong, b{
 .iitm-hero-new .hero-new-image{
     border-radius: 14px;
     overflow: hidden;
-    aspect-ratio: 4 / 5;
-    max-height: 460px;
-    background: #f5e9e9;
+    aspect-ratio: 1 / 1;            /* square — fits the admissions banner perfectly and shows the campus hero cropped sensibly */
+    max-height: 500px;
+    background: #1b3a73;            /* matches the admissions banner blue so any letterbox blends in */
     box-shadow: 0 14px 30px rgba(0,0,0,.12);
     position: relative;
     z-index: 1;
@@ -2272,12 +2272,106 @@ strong, b{
     object-position: center 28%;
     display: block;
 }
+
+/* ============ Hero horizontal slider ============ */
+.iitm-hero-new .hero-slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+.iitm-hero-new .hero-slides{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform .55s cubic-bezier(.4, .0, .2, 1);
+    will-change: transform;
+}
+.iitm-hero-new .hero-slide{
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.iitm-hero-new .hero-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;            /* show the whole image — no cropping of the admissions banner */
+    object-position: center center;
+    display: block;
+}
+/* Campus-hero portrait: cover to fill the square cleanly */
+.iitm-hero-new .hero-slide:nth-child(2) img{
+    object-fit: cover;
+    object-position: center 28%;
+}
+.iitm-hero-new .hero-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 7px;
+    z-index: 3;
+    padding: 5px 10px;
+    background: rgba(0,0,0,.28);
+    border-radius: 50px;
+    backdrop-filter: blur(4px);
+}
+.iitm-hero-new .hero-dots button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    background: rgba(255,255,255,.35);
+    padding: 0;
+    cursor: pointer;
+    transition: background .2s ease, transform .2s ease, width .25s ease;
+    line-height: 0;
+}
+.iitm-hero-new .hero-dots button.is-active{
+    background: #fff;
+    width: 20px;
+    border-radius: 4px;
+}
+.iitm-hero-new .hero-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 0;
+    background: rgba(0,0,0,.40);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity .25s ease, background .2s ease, transform .2s ease;
+    padding: 0;
+}
+.iitm-hero-new .hero-arrow.prev{ left: 8px; }
+.iitm-hero-new .hero-arrow.next{ right: 8px; }
+.iitm-hero-new .hero-slider:hover .hero-arrow{ opacity: 1; }
+.iitm-hero-new .hero-arrow:hover{
+    background: rgba(128,0,0,.85);
+    transform: translateY(-50%) scale(1.08);
+}
+
 @media (max-width: 991.98px){
     .iitm-hero-new .hero-new-image{
-        aspect-ratio: 16 / 10;
-        max-height: 280px;
+        aspect-ratio: 1 / 1;
+        max-height: 360px;
     }
-    .iitm-hero-new .hero-new-image img{ object-position: center 22%; }
+    .iitm-hero-new .hero-slide:nth-child(2) img{ object-position: center 22%; }
+    .iitm-hero-new .hero-arrow{ display: none; }
 }
 @media (max-width: 991.98px){
     .iitm-hero-new{
@@ -3325,7 +3419,22 @@ nav.navbar .nav-item{
                 </div>
             </div>
             <div class="hero-new-image">
-                <img src="images/campus-hero.jpg" alt="IITM Janakpuri Campus" width="720" height="1280" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='images/campus-hero.png'">
+                <div class="hero-slider" data-autoplay="4500">
+                    <div class="hero-slides" id="heroSlides">
+                        <div class="hero-slide">
+                            <img src="images/admissions-2026.jpg" alt="Admissions Open for Session 2026-27 at IITM Janakpuri" width="1080" height="1080" loading="eager" decoding="async" fetchpriority="high">
+                        </div>
+                        <div class="hero-slide">
+                            <img src="images/campus-hero.jpg" alt="IITM Janakpuri Campus" width="720" height="1280" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/campus-hero.png'">
+                        </div>
+                    </div>
+                    <button type="button" class="hero-arrow prev" id="heroPrev" aria-label="Previous slide">&#10094;</button>
+                    <button type="button" class="hero-arrow next" id="heroNext" aria-label="Next slide">&#10095;</button>
+                    <div class="hero-dots" id="heroDots" role="tablist" aria-label="Hero slider pagination">
+                        <button type="button" data-slide="0" class="is-active" aria-label="Slide 1" role="tab"></button>
+                        <button type="button" data-slide="1" aria-label="Slide 2" role="tab"></button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -4988,5 +5097,53 @@ try {
     </script>
 
     <script src="myscript.js"></script>
+    <script>
+    /* ============ Hero horizontal slider — auto-rotate, swipe, dots, arrows ============ */
+    (function(){
+        var slider = document.querySelector('.iitm-hero-new .hero-slider');
+        var slides = document.getElementById('heroSlides');
+        var dots   = document.getElementById('heroDots');
+        var prev   = document.getElementById('heroPrev');
+        var next   = document.getElementById('heroNext');
+        if (!slider || !slides || !dots) return;
+
+        var slideEls = slides.children;
+        var dotEls   = dots.querySelectorAll('button');
+        var total    = slideEls.length;
+        var idx      = 0;
+        var timer    = null;
+        var delay    = parseInt(slider.getAttribute('data-autoplay'), 10) || 4500;
+
+        function go(target){
+            idx = ((target % total) + total) % total;
+            slides.style.transform = 'translateX(' + (-idx * 100) + '%)';
+            for (var i = 0; i < dotEls.length; i++){
+                dotEls[i].classList.toggle('is-active', i === idx);
+            }
+        }
+        function play(){ stop(); timer = setInterval(function(){ go(idx + 1); }, delay); }
+        function stop(){ if (timer){ clearInterval(timer); timer = null; } }
+
+        Array.prototype.forEach.call(dotEls, function(d){
+            d.addEventListener('click', function(){ go(parseInt(d.getAttribute('data-slide'), 10)); play(); });
+        });
+        if (prev) prev.addEventListener('click', function(){ go(idx - 1); play(); });
+        if (next) next.addEventListener('click', function(){ go(idx + 1); play(); });
+        slider.addEventListener('mouseenter', stop);
+        slider.addEventListener('mouseleave', play);
+
+        /* Touch swipe support */
+        var startX = null, dx = 0;
+        slider.addEventListener('touchstart', function(e){ startX = e.touches[0].clientX; dx = 0; stop(); }, { passive: true });
+        slider.addEventListener('touchmove',  function(e){ if (startX !== null) dx = e.touches[0].clientX - startX; }, { passive: true });
+        slider.addEventListener('touchend',   function(){
+            if (Math.abs(dx) > 40) go(idx + (dx < 0 ? 1 : -1));
+            startX = null; dx = 0; play();
+        });
+
+        go(0);
+        play();
+    })();
+    </script>
 </body>
 </html>

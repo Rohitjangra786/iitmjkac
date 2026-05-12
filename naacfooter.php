@@ -451,7 +451,7 @@
     <!-- Bottom bar -->
     <div class="footer-bottom">
         <div class="copy">&copy; <?php echo date('Y'); ?> IITM Janakpuri &middot; All rights reserved.</div>
-        <div class="footer-social">
+        <div class="footer-social" id="footer-social-anchor">
             <a href="https://www.instagram.com/iitm_janakpuri/" class="fa-instagram" target="_blank" rel="noopener" aria-label="Instagram">
                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                     <defs>
