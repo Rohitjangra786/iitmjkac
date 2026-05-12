@@ -1,0 +1,16 @@
+---
+# cPanel Git Version Control deployment config.
+# Runs whenever you click "Deploy HEAD Commit" in cPanel → Git Version Control → Manage.
+#
+# IMPORTANT: verify DEPLOYPATH matches your actual cPanel document root before the first deploy.
+#   - cPanel username "iitmjkac" with the site at /home2/iitmjkac/public_html
+#   - If your host is different, change the path on the export line below
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/iitmjkac/public_html/
+    - /bin/mkdir -p $DEPLOYPATH
+
+    # Sync everything from the repo into public_html.
+    # `cp -Rf *` copies visible files/dirs only — hidden files like .git, .cpanel.yml,
+    # .gitignore stay out of public_html automatically.
+    - /bin/cp -Rf * $DEPLOYPATH
