@@ -828,7 +828,7 @@ if (!isset($iitm_base_url)) {
                 <span class="qb-icon"><i class="fa fa-users"></i></span>
                 <span class="qb-text">Alumni Portal</span>
             </a>
-            <a href="GRC_SGRC 2026-28_2.pdf" target="_blank" class="top-quick-card">
+            <a href="<?php echo $iitm_base_url; ?>GRC_SGRC 2026-28_2.pdf" target="_blank" class="top-quick-card">
                 <span class="qb-icon"><i class="fa fa-file-text-o"></i></span>
                 <span class="qb-text">GRC &amp; SGRC Constitution</span>
             </a>
@@ -870,7 +870,7 @@ if (!isset($iitm_base_url)) {
                             <a href="https://iitmjanakpuri-sdc.in/tracking/" target="_blank" style="color: white;">Grievance Redressal Portal</a>
                             </p>
                         <p><a href="https://www.alumniiitmjanakpuri.com/" target="_blank" style="color: white;">Alumni Portal</a></p>
-                        <p><a href="GRC_SGRC 2026-28_2.pdf" target="_blank" style="color: white;">Constitution of GRC and SGRC</a></p>
+                        <p><a href="<?php echo $iitm_base_url; ?>GRC_SGRC 2026-28_2.pdf" target="_blank" style="color: white;">Constitution of GRC and SGRC</a></p>
 
                 </div>
             </div>

@@ -387,7 +387,7 @@
 
             <!-- Brand + Address -->
             <div class="footer-brand">
-                <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence">
+                <img src="<?php echo isset($iitm_base_url) ? $iitm_base_url : ''; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence">
                 <span class="brand-tag">Janakpuri &middot; Est. 1999</span>
                 <p>Institute of Information Technology &amp; Management. A NAAC Grade 'A' &amp; NBA-accredited institute committed to nurturing future leaders.</p>
                 <a class="contact-line" href="https://maps.app.goo.gl/bvzrJ9wBiBPAYqor8" target="_blank" rel="noopener">

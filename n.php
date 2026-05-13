@@ -645,7 +645,7 @@
 <div class="offcanvas offcanvas-start mobile-sidebar" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel">
     <div class="offcanvas-header">
         <a href="https://www.iitmjanakpuri.com/" class="sidebar-brand" aria-label="IITM Home">
-            <img src="iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence" class="sidebar-logo">
+            <img src="<?php echo isset($iitm_base_url) ? $iitm_base_url : ''; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence" class="sidebar-logo">
             <span class="sidebar-brand-text">
                 <span class="institute">Janakpuri</span>
                 <span class="tagline">Est. 1999 · NAAC A · NBA</span>

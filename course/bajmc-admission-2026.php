@@ -356,7 +356,7 @@
                 </div>
                 <div class="hero-ctas">
                     <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="hbtn primary"><i class="fa fa-paper-plane"></i> Apply Now</a>
-                    <a href="syllabus/bajmcsyllabus.pdf" target="_blank" rel="noopener" class="hbtn outline"><i class="fa fa-download"></i> Download Brochure</a>
+                    <a href="syllabus/bajmcsyllabus.pdf" target="_blank" rel="noopener" class="hbtn outline"><i class="fa fa-download"></i> Download Syllabus</a>
                     <a href="https://wa.me/917217872947?text=Hi%2C%20I%20want%20free%20counselling%20for%20BA%20(JMC)%20Admission%202026." target="_blank" rel="noopener" class="hbtn outline"><i class="fab fa-whatsapp"></i> Book Free Counselling</a>
                 </div>
             </div>
@@ -616,7 +616,7 @@
             <p>Seats are limited and admissions are strictly based on entrance exam performance and counselling. Don&rsquo;t miss your chance to build a career in media and communication.</p>
             <div class="cta-row">
                 <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="hbtn primary"><i class="fa fa-paper-plane"></i> Apply Now</a>
-                <a href="syllabus/bajmcsyllabus.pdf" target="_blank" rel="noopener" class="hbtn outline"><i class="fa fa-download"></i> Download Brochure</a>
+                <a href="syllabus/bajmcsyllabus.pdf" target="_blank" rel="noopener" class="hbtn outline"><i class="fa fa-download"></i> Download Syllabus</a>
                 <a href="https://wa.me/917217872947?text=Hi%2C%20I%20want%20free%20counselling%20for%20BA%20(JMC)%20Admission%202026." target="_blank" rel="noopener" class="hbtn outline"><i class="fab fa-whatsapp"></i> Free Counselling</a>
             </div>
         </div>
@@ -873,6 +873,6 @@
 }
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS already loaded by n.php (5.3.0) — no need to reload here -->
 </body>
 </html>
