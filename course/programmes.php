@@ -928,8 +928,8 @@ h1, h2, h3, h4, h5, h6,
             </div>
             <p class="pcc-desc">A 3-year BA (JMC) (H) affiliated with GGSIPU, divided into 6 semesters. Equips students with the knowledge, understanding and skills to establish a strong foundation across journalism, mass communication, broadcast and digital media. In-house TV studio, radio &amp; audio production lab, editing suites.</p>
             <div class="pcc-actions">
-                <a href="bjmc.php" class="pcc-btn primary">Read More</a>
-                <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
+                <a href="bajmc-admission-2026.php" class="pcc-btn primary">Admission 2026 →</a>
+                <a href="bjmc.php" class="pcc-btn outline">Read More</a>
             </div>
             <p class="pcc-faculty">Programme Lead: Dr. Nivedita Sharma · <a href="tel:+917217872947">+91 72178 72947</a></p>
         </div>

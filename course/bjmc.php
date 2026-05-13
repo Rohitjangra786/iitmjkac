@@ -100,6 +100,15 @@ body * {
     <?php include('../naacheader.php'); ?>
     <?php include('../n.php'); ?>
 
+    <!-- Admission 2026 ribbon: routes prospective students to the new admission landing -->
+    <a href="bajmc-admission-2026.php" style="display:block;text-decoration:none;">
+        <div style="background:linear-gradient(135deg,#800000 0%,#5e0000 100%);color:#fff;padding:14px 20px;text-align:center;font-family:'Poppins',system-ui,sans-serif;font-weight:700;font-size:15px;letter-spacing:.3px;box-shadow:0 4px 14px rgba(128,0,0,.25);">
+            <i class="fa fa-bullhorn" aria-hidden="true" style="margin-right:8px;"></i>
+            BA (JMC) Admission 2026-27 is Open &mdash; Fees, FAQs, Recruiters &amp; Apply Now
+            <span style="display:inline-block;margin-left:10px;padding:4px 10px;background:#fff;color:#800000;border-radius:999px;font-size:12px;">View Details &nbsp;&rsaquo;</span>
+        </div>
+    </a>
+
     <div style="height: 5vh"></div>
     <div class="container">
         <div class="row">
