@@ -311,24 +311,40 @@
         border: 1px solid rgba(255,215,0,.20);
     }
 
-    /* Minimal flat social icons — no chunky backgrounds, just plain icons */
+    /* Social icons: one white strip behind ALL icons (a single rounded pill) */
     .modern-footer .footer-social{
-        display: flex;
-        gap: 16px;
+        display: inline-flex;
+        gap: 14px;
         align-items: center;
+        background: #ffffff;
+        padding: 8px 16px;
+        border-radius: 999px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.18);
     }
     .modern-footer .footer-social a{
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        width: 28px;
+        height: 28px;
         background: transparent;
         border: 0;
         padding: 0;
-        color: rgba(255,255,255,.80);
-        font-size: 17px;
+        font-size: 22px;
         text-decoration: none;
-        transition: transform .2s ease, color .2s ease;
+        transition: transform .2s ease;
         line-height: 1;
+    }
+    /* Kill FontAwesome's ::before injection + Arial->FA font override on these
+       anchors (the global rule in index.php targets [class^="fa-"]). Without
+       this, the FA glyph renders as a tofu next to the SVG. */
+    .modern-footer .footer-social a{
+        font-family: inherit !important;
+    }
+    .modern-footer .footer-social a::before,
+    .modern-footer .footer-social a::after{
+        content: none !important;
+        display: none !important;
     }
     .modern-footer .footer-social a svg{
         width: 1em;
@@ -337,13 +353,12 @@
     }
     .modern-footer .footer-social a:hover{
         transform: translateY(-2px);
-        filter: brightness(1.15);
     }
-    /* Brand colors on dark footer (Instagram keeps its own gradient) */
-    .modern-footer .footer-social a.fa-facebook  { color: #4ea3ff; }
-    .modern-footer .footer-social a.fa-linkedin  { color: #4ea3ff; }
-    .modern-footer .footer-social a.fa-twitter   { color: #ffffff; }
-    .modern-footer .footer-social a.fa-youtube   { color: #ff5e5e; }
+    /* Brand colors tuned for a white background */
+    .modern-footer .footer-social a.fa-facebook  { color: #1877f2; }
+    .modern-footer .footer-social a.fa-linkedin  { color: #0a66c2; }
+    .modern-footer .footer-social a.fa-twitter   { color: #000000; }
+    .modern-footer .footer-social a.fa-youtube   { color: #ff0000; }
 
     /* Reserve vertical space at the bottom of the footer so the fixed FABs always sit over
        the dark maroon footer area instead of a white gap below it. Mobile only. */

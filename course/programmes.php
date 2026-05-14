@@ -628,6 +628,14 @@ h1, h2, h3, h4, h5, h6,
     object-fit: cover;
     object-position: center;
     display: block;
+}
+/* BA (JMC) uses a wide admissions banner, not the pill template — let it
+   show in full (aspect-ratio preserved) instead of being cropped to 150px. */
+.prog-course-card#bjmc .pcc-image{
+    height: auto;
+    aspect-ratio: 1720 / 1291;
+    object-fit: cover;
+    background: #2a0509;
     border-bottom: 2px solid #800000;
 }
 .prog-course-card .pcc-body{
