@@ -6,7 +6,7 @@
 
     <!-- ============ SEO ============ -->
     <title>BA (JMC) / BJMC Admission 2026 — IITM Janakpuri, GGSIPU | Apply Now</title>
-    <meta name="description" content="BA (Journalism &amp; Mass Communication) Admission 2026 at IITM Janakpuri. 3-year degree, 4-year Honours, Honours with Research. Avg. ₹6 LPA placements, in-house TV studio, top media recruiters. GGSIPU CET / CUET based admission." />
+    <meta name="description" content="BA (Journalism &amp; Mass Communication) Admission 2026 at IITM Janakpuri. 3-year degree, 4-year Honours, Honours with Research. Avg. ₹4.5 LPA placements, in-house TV studio, top media recruiters. GGSIPU CET / CUET based admission." />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="https://iitmjanakpuri.com/course/bajmc-admission-2026.php" />
 
@@ -14,7 +14,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="IITM Janakpuri" />
     <meta property="og:title" content="BA (JMC) / BJMC Admission 2026 — IITM Janakpuri" />
-    <meta property="og:description" content="Build your career in media, journalism &amp; digital content. Admissions Open 2026-27 at IITM Janakpuri (GGSIPU). Avg ₹6 LPA placements, in-house studios." />
+    <meta property="og:description" content="Transform your creativity into a successful media career. Admissions Open 2026-27 at IITM Janakpuri (GGSIPU). Avg ₹4.5 LPA placements, in-house studios." />
     <meta property="og:image" content="https://iitmjanakpuri.com/course/images/BA(JMC).jpg" />
     <meta property="og:url" content="https://iitmjanakpuri.com/course/bajmc-admission-2026.php" />
     <!-- Twitter -->
@@ -347,14 +347,14 @@
         <div class="row align-items-center g-4">
             <div class="col-lg-8">
                 <span class="hero-eyebrow"><i class="fa fa-bullhorn me-1"></i> Admissions Open 2026-27</span>
-                <h1 class="hero-title">BA (Journalism &amp; Mass Communication) Admission 2026</h1>
-                <p class="hero-sub">Build your career in media, journalism &amp; digital content. Industry-focused training with hands-on production, internships and recruiters from India&rsquo;s leading media houses.</p>
+                <h1 class="hero-title">BA (Journalism &amp; Mass Communication) Admissions 2026</h1>
+                <p class="hero-sub">Transform your creativity into a successful media career. From hands-on training to newsrooms and digital platforms, build a career that speaks.</p>
                 <div class="hero-meta">
                     <span class="hero-pill">3-Year Degree</span>
                     <span class="hero-pill">4-Year Honours</span>
                     <span class="hero-pill">4-Year Honours with Research</span>
                     <span class="hero-pill">GGSIPU CET / CUET</span>
-                    <span class="hero-pill">Avg. ₹6 LPA</span>
+                    <span class="hero-pill">Avg. ₹4.5 LPA</span>
                 </div>
                 <div class="hero-ctas">
                     <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="hbtn primary"><i class="fa fa-paper-plane"></i> Apply Now</a>
@@ -369,7 +369,7 @@
                     <div class="kv"><span>Affiliation</span><b>GGSIPU</b></div>
                     <div class="kv"><span>Entrance</span><b>CET / CUET</b></div>
                     <div class="kv"><span>First-Year Fee</span><b>₹1.49 L (2025-26)</b></div>
-                    <div class="kv"><span>Avg. Placement</span><b>₹6 LPA</b></div>
+                    <div class="kv"><span>Avg. Placement</span><b>₹4.5 LPA</b></div>
                     <div class="kv"><span>Helpline</span><b><a href="tel:+917217872947" style="color:#fff">+91 72178 72947</a></b></div>
                 </div>
             </div>
@@ -395,7 +395,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="why-card">
                     <div class="why-icon"><i class="fa fa-rupee-sign"></i></div>
-                    <h3>Average Package ₹6 LPA</h3>
+                    <h3>Average Package ₹4.5 LPA</h3>
                     <p>Strong placements across television, print, digital media, advertising, PR and content houses.</p>
                 </div>
             </div>
@@ -417,7 +417,7 @@
                 <div class="why-card">
                     <div class="why-icon"><i class="fa fa-briefcase"></i></div>
                     <h3>Top Recruiters</h3>
-                    <p>News18, India TV, Red FM, Bharat Express, TV9, Aaj Tak, PR Pundit and more visit the campus every year.</p>
+                    <p>News18, India TV, Aaj Tak, TV9, Red FM, Bharat Express, PR Pundit, Amar Ujala, Punjab Kesari, Dainik Jagran and more visit the campus every year.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
@@ -475,16 +475,19 @@
 <section class="section">
     <div class="container">
         <div class="accent-bar"></div>
-        <h2 class="section-heading">Campus Placements</h2>
-        <p class="section-sub">Through IIPC, IITM ensures every student is holistically developed for a successful career. Recruiters include leading media organisations such as:</p>
+        <h2 class="section-heading">Campus Placements &amp; Internships</h2>
+        <p class="section-sub">Through IIPC, IITM ensures every student is holistically developed for a successful career. Our recruiters and internship partners include leading media organisations such as:</p>
         <div class="recruiter-row">
             <span class="recruiter-chip"><i class="fa fa-tv"></i> News18</span>
             <span class="recruiter-chip"><i class="fa fa-tv"></i> India TV</span>
+            <span class="recruiter-chip"><i class="fa fa-tv"></i> Aaj Tak</span>
+            <span class="recruiter-chip"><i class="fa fa-tv"></i> TV9</span>
             <span class="recruiter-chip"><i class="fa fa-broadcast-tower"></i> Red FM</span>
             <span class="recruiter-chip"><i class="fa fa-newspaper"></i> Bharat Express</span>
-            <span class="recruiter-chip"><i class="fa fa-tv"></i> TV9</span>
-            <span class="recruiter-chip"><i class="fa fa-tv"></i> Aaj Tak</span>
             <span class="recruiter-chip"><i class="fa fa-bullhorn"></i> PR Pundit</span>
+            <span class="recruiter-chip"><i class="fa fa-newspaper"></i> Amar Ujala</span>
+            <span class="recruiter-chip"><i class="fa fa-newspaper"></i> Punjab Kesari</span>
+            <span class="recruiter-chip"><i class="fa fa-newspaper"></i> Dainik Jagran</span>
         </div>
     </div>
 </section>
@@ -548,8 +551,8 @@
                 <ul class="check-list">
                     <li>Student societies — Drama, Media, Fashion, Literature.</li>
                     <li>Sports — Cricket, Football, Volleyball, TT, Chess, Badminton, Carrom, e-Sports.</li>
-                    <li>Annual fests — MediaX, Anugoonj, Fiesta for experiential learning.</li>
-                    <li>Media Studio, Apple-based Mac Café, Audio PCR, Video Studio, Editing Lab.</li>
+                    <li>Annual fests — MediaX, Fiesta for experiential learning.</li>
+                    <li>Media Studio, Apple-based iMac Café, Audio PCR, Video PCR, Editing Studio, Graphics &amp; Designing Lab.</li>
                     <li>Safe campus with 24/7 security &amp; CCTV.</li>
                 </ul>
             </div>
@@ -649,7 +652,7 @@
                 <div class="help-card h-100">
                     <div class="accent-bar"></div>
                     <h2 class="section-heading">Quick Overview</h2>
-                    <p style="font-size:15px; line-height:1.65; color:#3a3a3a;">BA (Journalism &amp; Mass Communication) is a 3-year degree, 4-year Honours and 4-year Honours with Research programme focused on media, journalism, digital content creation and communication skills. The course offers strong career opportunities in journalism, advertising, PR, filmmaking, AI in Media and digital media, with average placements around <b>₹6 LPA</b>.</p>
+                    <p style="font-size:15px; line-height:1.65; color:#3a3a3a;">BA (Journalism &amp; Mass Communication) is a 3-year degree, 4-year Honours and 4-year Honours with Research programme focused on media, journalism, digital content creation and communication skills. The course offers strong career opportunities in journalism, advertising, PR, filmmaking, AI in Media and digital media, with average placements around <b>₹4.5 LPA</b>.</p>
                 </div>
             </div>
         </div>
@@ -747,7 +750,7 @@
             </div>
             <div class="accordion-item">
                 <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q17">17. What is the average salary after BA (JMC) / BJMC?</button></h3>
-                <div id="q17" class="accordion-collapse collapse" data-bs-parent="#faqPlace"><div class="accordion-body">The average package is around ₹6 LPA, depending on your skills and specialisation.</div></div>
+                <div id="q17" class="accordion-collapse collapse" data-bs-parent="#faqPlace"><div class="accordion-body">The average package is around ₹4.5 LPA, depending on your skills and specialisation.</div></div>
             </div>
             <div class="accordion-item">
                 <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q18">18. What kind of jobs can I get after BA (JMC) / BJMC?</button></h3>
@@ -862,7 +865,7 @@
     {"@type":"Question","name":"What skills will I gain from BA (JMC) / BJMC?","acceptedAnswer":{"@type":"Answer","text":"Communication, content creation, media production, digital marketing and storytelling."}},
     {"@type":"Question","name":"Will I get to work on real media projects?","acceptedAnswer":{"@type":"Answer","text":"Yes — students regularly create news reports, podcasts, short films and photography projects."}},
     {"@type":"Question","name":"Is BA (JMC) / BJMC a good career option in 2026?","acceptedAnswer":{"@type":"Answer","text":"Yes — with the growth of digital media, content creation and online platforms, BA (JMC) / BJMC offers strong career opportunities."}},
-    {"@type":"Question","name":"What is the average salary after BA (JMC) / BJMC?","acceptedAnswer":{"@type":"Answer","text":"The average package is around ₹6 LPA, depending on your skills and specialisation."}},
+    {"@type":"Question","name":"What is the average salary after BA (JMC) / BJMC?","acceptedAnswer":{"@type":"Answer","text":"The average package is around ₹4.5 LPA, depending on your skills and specialisation."}},
     {"@type":"Question","name":"What kind of jobs can I get after BA (JMC) / BJMC?","acceptedAnswer":{"@type":"Answer","text":"You can work in journalism, digital marketing, PR, advertising, content writing, filmmaking and media production."}},
     {"@type":"Question","name":"Do companies come to campus for placements?","acceptedAnswer":{"@type":"Answer","text":"Yes — students get placement opportunities with reputed media organisations through campus drives organised by IIPC."}},
     {"@type":"Question","name":"Which companies hire BA (JMC) / BJMC students?","acceptedAnswer":{"@type":"Answer","text":"Students have been placed with companies including News18, India TV, Red FM and Bharat Express, among others."}},
