@@ -2543,7 +2543,7 @@ strong, b{
     z-index: 10;
 }
 .iitm-highlights-banner .hl-card img{
-    height: 110px;
+    height: 170px;
     width: auto;
     display: block;
     object-fit: cover;
@@ -2553,7 +2553,7 @@ strong, b{
     to   { transform: translateX(-50%); }
 }
 @media (max-width: 575.98px){
-    .iitm-highlights-banner .hl-card img{ height: 78px; }
+    .iitm-highlights-banner .hl-card img{ height: 120px; }
     .iitm-highlights-banner{ padding: 12px 0; margin: 18px auto; border-radius: 12px; }
 }
 
@@ -3544,46 +3544,42 @@ nav.navbar .nav-item{
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="8" aria-label="Slide 9"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="9" aria-label="Slide 10"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="10" aria-label="Slide 11"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="11" aria-label="Slide 12"></button>
 
     </div>
     <div class="carousel-inner">
 
-         <div class="carousel-item active">
-            <img src="sliderimages/12.png" class="d-block w-100" alt="Slide 1">
-        </div>
-       <div class="carousel-item">
-            <img src="sliderimages/13.png" class="d-block w-100" alt="Slide 2">
-        </div>
-         <div class="carousel-item">
-            <img src="sliderimages/14.png" class="d-block w-100" alt="Slide 3">
-        </div>
-         <div class="carousel-item">
-            <img src="sliderimages/15.png" class="d-block w-100" alt="Slide 4">
+        <div class="carousel-item active">
+            <img src="sliderimages/slide-01-stats.png" class="d-block w-100" alt="IITM Janakpuri at a glance — 2500+ Students, 120+ Faculty, 7600+ Alumni">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/16.png" class="d-block w-100" alt="Slide 5">
+            <img src="sliderimages/slide-02-infrastructure.jpg" class="d-block w-100" alt="Cutting-Edge Infrastructure and Facilities for BA (JMC)" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/17.png" class="d-block w-100" alt="Slide 6">
+            <img src="sliderimages/slide-03-mediax.jpg" class="d-block w-100" alt="Media X — Annual Media Fest of IITM" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/18.png" class="d-block w-100" alt="Our Academic Pride - BBA">
+            <img src="sliderimages/slide-04-career-connect.jpg" class="d-block w-100" alt="Career Connect Expo — Top Recruiters Associated with IITM" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/BCAIMAGEBANNERIITM.png" class="d-block w-100" alt="Our Academic Pride - BCA">
+            <img src="sliderimages/slide-05-pride-mba.jpg" class="d-block w-100" alt="Our Academic Pride — MBA" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/19.png" class="d-block w-100" alt="Our Academic Pride - B.Com(H)">
+            <img src="sliderimages/slide-06-pride-mca.jpg" class="d-block w-100" alt="Our Academic Pride — MCA" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/11.png" class="d-block w-100" alt="Slide 9">
+            <img src="sliderimages/slide-07-pride-bba.jpg" class="d-block w-100" alt="Our Academic Pride — BBA" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/TV Studio.png" class="d-block w-100" alt="Slide 10">
+            <img src="sliderimages/slide-08-pride-bca.jpg" class="d-block w-100" alt="Our Academic Pride — BCA" loading="lazy">
         </div>
         <div class="carousel-item">
-            <img src="sliderimages/nccc.jpeg" class="d-block w-100" alt="Slide 11">
+            <img src="sliderimages/slide-09-pride-bcom.jpg" class="d-block w-100" alt="Our Academic Pride — B.Com (H)" loading="lazy">
+        </div>
+        <div class="carousel-item">
+            <img src="sliderimages/slide-10-pride-bajmc.jpg" class="d-block w-100" alt="Our Academic Pride — BA (JMC)" loading="lazy">
+        </div>
+        <div class="carousel-item">
+            <img src="sliderimages/slide-11-highest-package.png" class="d-block w-100" alt="Highest Package across MBA, MCA, BBA, BCA, B.Com (H), BA (JMC)" loading="lazy">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -3600,33 +3596,31 @@ nav.navbar .nav-item{
 <section class="iitm-highlights-banner" aria-label="IITM Highlights">
     <div class="highlights-track">
         <div class="highlights-row">
-            <a href="sliderimages/12.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/12.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/13.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/13.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/14.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/14.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/15.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/15.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/16.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/16.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/17.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/17.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/18.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/18.png" alt="Academic Pride - BBA" loading="lazy"></a>
-            <a href="sliderimages/BCAIMAGEBANNERIITM.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/BCAIMAGEBANNERIITM.png" alt="Academic Pride - BCA" loading="lazy"></a>
-            <a href="sliderimages/19.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/19.png" alt="Academic Pride - B.Com" loading="lazy"></a>
-            <a href="sliderimages/11.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/11.png" alt="IITM Highlight" loading="lazy"></a>
-            <a href="sliderimages/TV Studio.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/TV Studio.png" alt="TV Studio" loading="lazy"></a>
-            <a href="sliderimages/nccc.jpeg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/nccc.jpeg" alt="NCC" loading="lazy"></a>
+            <a href="sliderimages/slide-01-stats.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-01-stats.png" alt="IITM at a Glance" loading="lazy"></a>
+            <a href="sliderimages/slide-02-infrastructure.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-02-infrastructure.jpg" alt="Infrastructure — BA (JMC)" loading="lazy"></a>
+            <a href="sliderimages/slide-03-mediax.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-03-mediax.jpg" alt="Media X — Annual Media Fest" loading="lazy"></a>
+            <a href="sliderimages/slide-04-career-connect.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-04-career-connect.jpg" alt="Career Connect Expo" loading="lazy"></a>
+            <a href="sliderimages/slide-05-pride-mba.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-05-pride-mba.jpg" alt="Academic Pride — MBA" loading="lazy"></a>
+            <a href="sliderimages/slide-06-pride-mca.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-06-pride-mca.jpg" alt="Academic Pride — MCA" loading="lazy"></a>
+            <a href="sliderimages/slide-07-pride-bba.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-07-pride-bba.jpg" alt="Academic Pride — BBA" loading="lazy"></a>
+            <a href="sliderimages/slide-08-pride-bca.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-08-pride-bca.jpg" alt="Academic Pride — BCA" loading="lazy"></a>
+            <a href="sliderimages/slide-09-pride-bcom.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-09-pride-bcom.jpg" alt="Academic Pride — B.Com (H)" loading="lazy"></a>
+            <a href="sliderimages/slide-10-pride-bajmc.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-10-pride-bajmc.jpg" alt="Academic Pride — BA (JMC)" loading="lazy"></a>
+            <a href="sliderimages/slide-11-highest-package.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-11-highest-package.png" alt="Highest Package per Program" loading="lazy"></a>
         </div>
         <!-- Duplicate row for seamless infinite loop -->
         <div class="highlights-row" aria-hidden="true">
-            <a href="sliderimages/12.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/12.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/13.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/13.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/14.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/14.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/15.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/15.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/16.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/16.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/17.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/17.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/18.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/18.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/BCAIMAGEBANNERIITM.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/BCAIMAGEBANNERIITM.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/19.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/19.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/11.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/11.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/TV Studio.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/TV Studio.png" alt="" loading="lazy"></a>
-            <a href="sliderimages/nccc.jpeg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/nccc.jpeg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-01-stats.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-01-stats.png" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-02-infrastructure.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-02-infrastructure.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-03-mediax.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-03-mediax.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-04-career-connect.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-04-career-connect.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-05-pride-mba.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-05-pride-mba.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-06-pride-mca.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-06-pride-mca.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-07-pride-bba.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-07-pride-bba.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-08-pride-bca.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-08-pride-bca.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-09-pride-bcom.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-09-pride-bcom.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-10-pride-bajmc.jpg" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-10-pride-bajmc.jpg" alt="" loading="lazy"></a>
+            <a href="sliderimages/slide-11-highest-package.png" class="hl-card" data-bs-toggle="modal" data-bs-target="#imgLightbox"><img src="sliderimages/slide-11-highest-package.png" alt="" loading="lazy"></a>
         </div>
     </div>
 </section>

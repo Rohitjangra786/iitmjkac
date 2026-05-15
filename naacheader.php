@@ -14,7 +14,19 @@ if (!isset($iitm_base_url)) {
     }
 }
 ?>
+<!-- Font Awesome 4 — required for header quick-links icons (briefcase / shield / users / file).
+     Loaded here so the header renders correctly on pages that don't include FA themselves. -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
  <style>
+    /* ============ Modal stacking — force on top of EVERYTHING ============
+       Site has sticky header at z-index 1100 and chat FABs at 1090–1097, which
+       sit above Bootstrap's default modal (1055) and backdrop (1050). The
+       admission-enquiry popup (and the highlights lightbox) were being hidden
+       behind those layers. Raising both backdrop + modal well above any other
+       fixed/sticky element on the site. */
+    .modal-backdrop{ z-index: 1200 !important; }
+    .modal{ z-index: 1210 !important; }
+
     /* Single source-of-truth for the admission red gradient — change here once,
        every admission-themed section updates together (dynamic). Deep pure red,
        no gold/orange tint, matching the "Explore IITM" / footer-side admission cards. */
