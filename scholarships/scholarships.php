@@ -207,12 +207,12 @@ body * {
                           <tr>
                               <td>i.</td>
                               <td>Merit Cum Means Linked Financial Assistance Scheme</td>
-                              <td><a href="http://www.iitmjanakpuri.com">www.iitmjanakpuri.com</a></td>
+                              <td><a href="pdfs/Merit-cum-Means - DHE.pdf" target="_blank" rel="noopener">View PDF</a></td>
                           </tr>
                           <tr>
                               <td>ii.</td>
                               <td>Economically Weaker Section (EWS) Scheme</td>
-                              <td><a href="http://www.iitmjanakpuri.com">www.iitmjanakpuri.com</a></td>
+                              <td><a href="pdfs/EWS GGSIPU.pdf" target="_blank" rel="noopener">View PDF</a></td>
                           </tr>
                       </tbody>
                   </table>
