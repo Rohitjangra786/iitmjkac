@@ -127,7 +127,7 @@ body * {
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-9">
-             <h1 class="Text-center">Institution of Medals, Prizes and Awards to the Outstanding Students and Scholars</h1>
+             <h1 class="text-start" style="color: #800000;">Institution of Medals, Prizes and Awards to the Outstanding Students and Scholars</h1>
         </div>
     </div>
     <div class="row">
@@ -140,117 +140,90 @@ body * {
                 <a class="dropdown-item" href="https://iitmjanakpuri.com/scholarships/scholarships.php">Scholarships</a>
         </div>
         <div class="col-md-9">
-    <div class="text-center mt-4">
-              <h3 class="text-justify" style="color: #800000;">Scholarships & Awards</h3>
+    <div class="text-start mt-4">
+              <h3 class="text-start" style="color: #800000;">Scholarships &amp; Awards</h3>
          <p class="text-justify tgfmlt2" style="color: #4b4b4b;">With a view to incentivize the future leaders who aspire to carve a niche for themselves in high echelons by dint of sheer industry and perseverance, IITM takes pride in offering the following Merit Scholarships:</p>
-              <h3 class="text-justify" style="color: #800000;">I. PRE-ADMISSION MERIT SCHOLARSHIPS</h3>
+              <h3 class="text-start" style="color: #800000;">I. PRE-ADMISSION MERIT SCHOLARSHIPS</h3>
               <p class="text-justify tgfmlt2" style="color: #4b4b4b;">One-time Pre-Admission Merit Scholarship, up to INR 1,00,000, is available based purely on three criteria: (i) a consistent academic record (previous transcripts required), (ii) achieving 95% or above in Class XII, and (iii) providing a clear written statement of career plans and goals in no more than 1000 words. Interested candidates are requested to apply at IITM. Shortlisted candidates will be interviewed and notified of their interview date well in advance before the commencement of GGSIPU's last and final preference-filling phase.</p>
-              <h3 class="text-justify" style="color: #800000;">II. IN-HOUSE MERIT SCHOLARSHIPS</h3>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">To acknowledge and encourage
-              brilliant academic performers, the Institute awards Merit Scholarships to
-              the students based on their academic performance in the University examinations. The details of scholarships are appended below:</p>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
-                  <ol class="committee-list">
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-9">
-                                      Annual Program-wise University Rank Holders, up to the first
-                                      three positions, provided the 2nd and 3rd rank holders are in
-                                      close proximity/within competitive range (maximum 0.5% marks deviation) of the 1st position holder.
-                                  </div>
-                                  <div class="col-md-3">
-                                      ₹ 25,000/- (Annual)
-                                  </div>
-                              </div>
-                          </div>
-                      </li>
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-9">
-                                      Program wise Institutional Toppers (Minimum 90% Marks).
-                                  </div>
-                                  <div class="col-md-3">
-                                      ₹ 15,000/- (Annual)
-                                  </div>
-                              </div>
-                          </div>
-                      </li>
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-9">
-                                      Program-wise University Toppers at the end of the program (IPU Gold Medal Awardees).
-                                  </div>
-                                  <div class="col-md-3">
-                                      Institutional Gold Medal
-                                  </div>
-                              </div>
-                          </div>
-                      </li>
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-9">
-                                      University Exemplary Performance awardees (10 CGPA).
-                                  </div>
-                                  <div class="col-md-3">
-                                      ₹ 10,000/- (Annual)
-                                  </div>
-                              </div>
-                          </div>
-                      </li>
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-9">
-                                     Annual Subject – wise University Toppers.
-                                  </div>
-                                  <div class="col-md-3">
-                                      ₹ 500/- (Semester-wise)
-                                  </div>
-                              </div>
-                          </div>
-                      </li>
-                  </ol>
-              </p>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-md note">
-                              <strong>Note: </strong><br/>
-                              a) It is important to note that the In-House Merit Scholarships cited at S.No. (i) & (v) above are applicable during the intermediary years
-                              only as these awardees during the terminal year are
-                              expected to vie for the University Gold Medal, and Institutional Gold Medal instituted by IITM (at S.No. iii).<br/><br/>
-                              b) A student shall be entitled only for one scholarship, i.e., the highest one he/she is eligible for.
-                          </div>
-                      </div>
-                  </div>
-              </p>
+              <h3 class="text-start" style="color: #800000;">II. IN-HOUSE MERIT SCHOLARSHIPS</h3>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">To acknowledge and encourage brilliant academic performers, the Institute awards Merit Scholarships to the students based on their academic performance in the University examinations. The details of scholarships are appended below:</p>
+
+              <div class="table-responsive">
+                  <table class="table table-bordered align-middle" style="color: #333;">
+                      <thead style="background-color: #800000; color: #fff;">
+                          <tr>
+                              <th scope="col" style="width: 6%; color: #fff;">S.No.</th>
+                              <th scope="col" style="color: #fff;">Scholarship Criteria</th>
+                              <th scope="col" style="width: 28%; color: #fff;">Award</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>i.</td>
+                              <td>Annual Program-wise University Rank Holders, up to the first three positions, provided the 2nd and 3rd rank holders are in close proximity/within competitive range (maximum 0.5% marks deviation) of the 1st position holder.</td>
+                              <td>&#8377; 25,000/- (Annual)</td>
+                          </tr>
+                          <tr>
+                              <td>ii.</td>
+                              <td>Program wise Institutional Toppers (Minimum 90% Marks).</td>
+                              <td>&#8377; 15,000/- (Annual)</td>
+                          </tr>
+                          <tr>
+                              <td>iii.</td>
+                              <td>Program-wise University Toppers at the end of the program (IPU Gold Medal Awardees).</td>
+                              <td>Institutional Gold Medal</td>
+                          </tr>
+                          <tr>
+                              <td>iv.</td>
+                              <td>University Exemplary Performance awardees (10 CGPA).</td>
+                              <td>&#8377; 10,000/- (Annual)</td>
+                          </tr>
+                          <tr>
+                              <td>v.</td>
+                              <td>Annual Subject &ndash; wise University Toppers.</td>
+                              <td>&#8377; 500/- (Semester-wise)</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+
+              <div class="text-justify tgfmlt2" style="color: #4b4b4b; margin-left: 0;">
+                  <strong>Note:</strong>
+                  <p style="margin-bottom: 8px;">a) It is important to note that the In-House Merit Scholarships cited at S.No. (i) &amp; (v) above are applicable during the intermediary years only as these awardees during the terminal year are expected to vie for the University Gold Medal, and Institutional Gold Medal instituted by IITM (at S.No. iii).</p>
+                  <p>b) A student shall be entitled only for one scholarship, i.e., the highest one he/she is eligible for.</p>
+              </div>
               <p class="text-justify tgfmlt2" style="color: #4b4b4b;">For more details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a></p>
-              <h3 class="text-justify" style="color: #800000;">III. MERIT CUM MEANS SCHOLARSHIP</h3>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
-                  <ol class="committee-list">
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          Merit Cum Means Linked Financial Assistance Scheme<br/>
-                          For details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a>
-                      </li>
-                      <li class="lisch" style="list-style-type: lower-roman;">
-                          Economically Weaker Section (EWS) Scheme<br/>
-                          For details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a>
-                      </li>
-                  </ol>
-              </p>
+              <h3 class="text-start" style="color: #800000;">III. MERIT CUM MEANS SCHOLARSHIP</h3>
+              <div class="table-responsive">
+                  <table class="table table-bordered align-middle" style="color: #333;">
+                      <thead style="background-color: #800000; color: #fff;">
+                          <tr>
+                              <th scope="col" style="width: 6%; color: #fff;">S.No.</th>
+                              <th scope="col" style="color: #fff;">Scheme</th>
+                              <th scope="col" style="width: 28%; color: #fff;">Details</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>i.</td>
+                              <td>Merit Cum Means Linked Financial Assistance Scheme</td>
+                              <td><a href="http://www.iitmjanakpuri.com">www.iitmjanakpuri.com</a></td>
+                          </tr>
+                          <tr>
+                              <td>ii.</td>
+                              <td>Economically Weaker Section (EWS) Scheme</td>
+                              <td><a href="http://www.iitmjanakpuri.com">www.iitmjanakpuri.com</a></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
               <p class="text-justify tgfmlt2" style="color: #4b4b4b;">The value of the awards/prizes, eligibility criteria, selection methods, and payment procedures are subject to the approval and formulation from time to time by MLSS. The categories in which medals, prizes and awards are established are outlined below, with an objective of acknowledging diverse aspects of intellectual growth and holistic development:</p>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
-                  <ol class="committee-list">
-                      <li class="lisch" style="list-style-type: lower-roman;">Academics</li>
-                      <li class="lisch" style="list-style-type: lower-roman;">Sports</li>
-                      <li class="lisch" style="list-style-type: lower-roman;">Curricular and Extra-Curricular</li>
-                      <li class="lisch" style="list-style-type: lower-roman;">Benevolent Prizes and Awards</li>
-                  </ol>
-              </p>
+              <ol class="committee-list" style="margin-left: 1.5em;">
+                  <li class="lisch" style="list-style-type: lower-roman;">Academics</li>
+                  <li class="lisch" style="list-style-type: lower-roman;">Sports</li>
+                  <li class="lisch" style="list-style-type: lower-roman;">Curricular and Extra-Curricular</li>
+                  <li class="lisch" style="list-style-type: lower-roman;">Benevolent Prizes and Awards</li>
+              </ol>
 </div>
     </div>
     </div>
