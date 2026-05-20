@@ -127,7 +127,7 @@ body * {
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-9">
-             <h1 class="Text-center">Merit Scholarships</h1>
+             <h1 class="Text-center">Institution of Medals, Prizes and Awards to the Outstanding Students and Scholars</h1>
         </div>
     </div>
     <div class="row">
@@ -141,49 +141,59 @@ body * {
         </div>
         <div class="col-md-9">
     <div class="text-center mt-4">
-       
-         <p class="text-justify tgfmlt2" style="color: #4b4b4b;">With the intention of incentivizing future 
-         leaders who aspire to establish themselves in prestigious positions 
-         through diligence and perseverance, IITM offers the following Merit Scholarships.</p>
-              <!--<h1 class="text-justify tgfmlt2" style="color: #4b4b4b;">PRE-ADMISSION MERIT SCHOLARSHIPS</h1>
-              <h2 class="text-justify tgfmlt2" style="color: #4b4b4b;">One-time Pre-Admission Merit Scholarships, up to INR 1,00,000 each, are accessible solely based on academic merit (prior transcripts), a distinct career plan, and leadership potential exhibited by the candidate during their interview. Shortlisted candidates will be duly informed of their interview date well in advance before commencement of GGSIPU's last and final preference-filling.</h2>-->
-              <h3 class="text-justify" style="color: #800000;">IN-HOUSE MERIT SCHOLARSHIPS</h3>
-              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">Acknowledging and encouraging 
-              brilliant academic performers, the Institute awards Merit Scholarships to 
-              students based on their academic performance in University examinations. The details of scholarships are appended below.</p>
+              <h3 class="text-justify" style="color: #800000;">Scholarships & Awards</h3>
+         <p class="text-justify tgfmlt2" style="color: #4b4b4b;">With a view to incentivize the future leaders who aspire to carve a niche for themselves in high echelons by dint of sheer industry and perseverance, IITM takes pride in offering the following Merit Scholarships:</p>
+              <h3 class="text-justify" style="color: #800000;">I. PRE-ADMISSION MERIT SCHOLARSHIPS</h3>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">One-time Pre-Admission Merit Scholarship, up to INR 1,00,000, is available based purely on three criteria: (i) a consistent academic record (previous transcripts required), (ii) achieving 95% or above in Class XII, and (iii) providing a clear written statement of career plans and goals in no more than 1000 words. Interested candidates are requested to apply at IITM. Shortlisted candidates will be interviewed and notified of their interview date well in advance before the commencement of GGSIPU's last and final preference-filling phase.</p>
+              <h3 class="text-justify" style="color: #800000;">II. IN-HOUSE MERIT SCHOLARSHIPS</h3>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">To acknowledge and encourage
+              brilliant academic performers, the Institute awards Merit Scholarships to
+              the students based on their academic performance in the University examinations. The details of scholarships are appended below:</p>
               <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
                   <ol class="committee-list">
-                      <li class="lisch" style="list-style-type: upper-roman;">
+                      <li class="lisch" style="list-style-type: lower-roman;">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-9">
-                                      Annual Program-wise university Rank Holders, up to the first 
-                                      three positions, provided the 2nd and 3rd rank holders are in 
-                                      close proximity/within competitive range of the 1st position holder.
+                                      Annual Program-wise University Rank Holders, up to the first
+                                      three positions, provided the 2nd and 3rd rank holders are in
+                                      close proximity/within competitive range (maximum 0.5% marks deviation) of the 1st position holder.
                                   </div>
                                   <div class="col-md-3">
-                                      ₹ 25000/- (Annual)
+                                      ₹ 25,000/- (Annual)
                                   </div>
                               </div>
                           </div>
                       </li>
-                      <li class="lisch" style="list-style-type: upper-roman;">
+                      <li class="lisch" style="list-style-type: lower-roman;">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-9">
-                                      Program-wise University Toppers (IPU Gold Medal Awardees).
+                                      Program wise Institutional Toppers (Minimum 90% Marks).
                                   </div>
                                   <div class="col-md-3">
-                                      Matshree Leelawati Gold Medal (5gms, 24K Gold)
+                                      ₹ 15,000/- (Annual)
                                   </div>
                               </div>
                           </div>
                       </li>
-                      <li class="lisch" style="list-style-type: upper-roman;">
+                      <li class="lisch" style="list-style-type: lower-roman;">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-9">
-                                      University Exemplary Performance awardees
+                                      Program-wise University Toppers at the end of the program (IPU Gold Medal Awardees).
+                                  </div>
+                                  <div class="col-md-3">
+                                      Institutional Gold Medal
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="lisch" style="list-style-type: lower-roman;">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-9">
+                                      University Exemplary Performance awardees (10 CGPA).
                                   </div>
                                   <div class="col-md-3">
                                       ₹ 10,000/- (Annual)
@@ -191,11 +201,11 @@ body * {
                               </div>
                           </div>
                       </li>
-                      <li class="lisch" style="list-style-type: upper-roman;">
+                      <li class="lisch" style="list-style-type: lower-roman;">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-9">
-                                     Annual Subject – wise University Toppers
+                                     Annual Subject – wise University Toppers.
                                   </div>
                                   <div class="col-md-3">
                                       ₹ 500/- (Semester-wise)
@@ -210,12 +220,36 @@ body * {
                       <div class="row">
                           <div class="col-md note">
                               <strong>Note: </strong><br/>
-                              It is important to note that the In-House Merit Scholarships cited at S.No. (i) & (iv) above are applicable during the intermediary years 
-                              only as these awardees during the terminal year are 
-                              expected to vie for the University Gold Medal and Matshree Leelawati Gold Medal instituted by IITM.
+                              a) It is important to note that the In-House Merit Scholarships cited at S.No. (i) & (v) above are applicable during the intermediary years
+                              only as these awardees during the terminal year are
+                              expected to vie for the University Gold Medal, and Institutional Gold Medal instituted by IITM (at S.No. iii).<br/><br/>
+                              b) A student shall be entitled only for one scholarship, i.e., the highest one he/she is eligible for.
                           </div>
                       </div>
                   </div>
+              </p>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">For more details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a></p>
+              <h3 class="text-justify" style="color: #800000;">III. MERIT CUM MEANS SCHOLARSHIP</h3>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
+                  <ol class="committee-list">
+                      <li class="lisch" style="list-style-type: lower-roman;">
+                          Merit Cum Means Linked Financial Assistance Scheme<br/>
+                          For details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a>
+                      </li>
+                      <li class="lisch" style="list-style-type: lower-roman;">
+                          Economically Weaker Section (EWS) Scheme<br/>
+                          For details, please visit: <a href="http://www.iitmjanakpuri.com">http://www.iitmjanakpuri.com</a>
+                      </li>
+                  </ol>
+              </p>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;">The value of the awards/prizes, eligibility criteria, selection methods, and payment procedures are subject to the approval and formulation from time to time by MLSS. The categories in which medals, prizes and awards are established are outlined below, with an objective of acknowledging diverse aspects of intellectual growth and holistic development:</p>
+              <p class="text-justify tgfmlt2" style="color: #4b4b4b;margin-left: 2em;">
+                  <ol class="committee-list">
+                      <li class="lisch" style="list-style-type: lower-roman;">Academics</li>
+                      <li class="lisch" style="list-style-type: lower-roman;">Sports</li>
+                      <li class="lisch" style="list-style-type: lower-roman;">Curricular and Extra-Curricular</li>
+                      <li class="lisch" style="list-style-type: lower-roman;">Benevolent Prizes and Awards</li>
+                  </ol>
               </p>
 </div>
     </div>
