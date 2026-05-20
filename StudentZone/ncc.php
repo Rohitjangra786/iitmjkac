@@ -112,7 +112,7 @@ body * {
                 <h2 class="text-center">About NCC</h2>
                 <p class="text-justify">
                    The National Cadet Corps (NCC) unit at the Institute of Information Technology and
-                   Management (IITM) was established with an initial strength of 23 enthusiastic 
+                   Management (IITM) was established with an initial strength of 27 enthusiastic 
                    cadets. Since its inception, the NCC unit has been committed to instilling discipline, 
                    leadership, and a sense of service among its cadets. The institute takes pride 
                    in nurturing the cadets' all-round development through various activities, 
@@ -135,8 +135,8 @@ body * {
                 “Duty and Unity”; “Unity and Discipline”. The final decision for selection of “Unity and Discipline” 
                 as motto for the NCC was taken in the 12th CAC meeting held on 12 Oct 1980.</p>
                 <p class="text-center">
-                    <img src="images/gautam.jpg" alt="Mr. Gautam Kumar" width="20%" height="20%"/>
-                    <h2 class="text-center">Mr. Gautam Kumar</h2>
+                    <img src="images/gautam.jpg" alt="Lt. Gautam Kumar" style="max-width:220px;width:100%;height:auto;object-fit:contain;display:block;margin:0 auto;"/>
+                    <h2 class="text-center">Lt. Gautam Kumar</h2>
                     <h3 class="text-center">Assistant Professor</h3>
                     <h3 class="text-center">ANO-NCC</h3>
                 </p>
