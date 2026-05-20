@@ -551,10 +551,10 @@ UGC- NET + JRF qualified</h3>
         <img src="images/commerce/vikass (1).jpg" class="card-img-top" alt="Waterfall" style="border-radius: 5px;" />
         <div class="card-body">
             <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem; font-size: 1rem;">
-                <strong>Dr. Vikas Bharara</strong>
+                <strong>Prof. (Dr.) Vikas Bharara</strong>
             </h5>
             <p class="card-text text-center">
-                <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem; font-size: 0.8rem;">Head - Commerce</h3>
+                <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem; font-size: 0.8rem;">Professor & Head - Commerce</h3>
                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem; font-size: 0.8rem;">M.Com, M.Phil, UGC-NET, Ph.D.</h3>
                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem; font-size: 0.8rem;">hod.commerce@iitmipu.ac.in</h3>
             </p>
