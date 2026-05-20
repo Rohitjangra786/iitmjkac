@@ -48,8 +48,8 @@ $ano_profile = [
     'sub'       => 'Assistant Professor &middot; IITM Janakpuri',
     'highlights'=> [
         'Commissioned Officer, NCC',
-        'OTA Gwalior trained',
-        'Mentor &mdash; 6 Delhi Battalion NCC, IITM Janakpuri Unit',
+        'OTA Kamptee trained',
+        'Mentor &mdash; 1 Delhi Battalion NCC, IITM Janakpuri Unit',
     ],
 ];
 ?>
