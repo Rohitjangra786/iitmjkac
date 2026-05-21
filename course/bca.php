@@ -451,6 +451,11 @@ Education and affiliated to a recognized examining body with a minimum of 50% ma
     
  <div style="height: 10vh"></div>
 
+    <?php
+        include('faqs/bca.php');
+        include('_faq-section.php');
+    ?>
+
    <?php
         include("../naacfooter.php");
     ?>

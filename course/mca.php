@@ -377,7 +377,12 @@ body * {
 
 
     </div>
-    
+
+    <?php
+        include('faqs/mca.php');
+        include('_faq-section.php');
+    ?>
+
     <?php
        include("../naacfooter.php");
     ?>

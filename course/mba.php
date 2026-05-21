@@ -447,7 +447,12 @@ India or England or the Institute of Company Secretaries of India.
                 </div>
             </div>
             </div>
-        
+
+    <?php
+        include('faqs/mba.php');
+        include('_faq-section.php');
+    ?>
+
     <?php
         include("../naacfooter.php");
     ?>

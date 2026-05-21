@@ -301,8 +301,13 @@ body * {
                </div>
            </div> 
     </div>
-    
-     <?php
+
+    <?php
+        include('faqs/bba.php');
+        include('_faq-section.php');
+    ?>
+
+    <?php
         include("../naacfooter.php");
     ?>
     <script src="myscript.js"></script>

@@ -343,6 +343,12 @@ body * {
     </div>
     
     <div style="height: 5vh;"></div>
+
+    <?php
+        include('faqs/bcom.php');
+        include('_faq-section.php');
+    ?>
+
  <?php
         include("../naacfooter.php");
     ?>
