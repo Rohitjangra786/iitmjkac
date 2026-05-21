@@ -143,42 +143,47 @@
     }
 
     /* ---------- Brand column ---------- */
+    .modern-footer .footer-brand{
+        text-align: left;
+    }
     .modern-footer .footer-brand img{
-        height: 64px;
+        height: 58px;
         width: auto;
         max-width: 100%;
         background: transparent;
         padding: 0;
         border-radius: 0;
         box-shadow: none;
-        margin: 0 auto 14px;
+        margin: 0 0 10px;
         display: block;
         object-fit: contain;
         filter: brightness(0) invert(1) drop-shadow(0 3px 6px rgba(0,0,0,.30));
     }
     .modern-footer .footer-brand .brand-tag{
-        font-size: 12px;
-        font-weight: 700;
-        color: #ffffff;
-        letter-spacing: .8px;
+        font-size: 11px;
+        font-weight: 800;
+        color: #ffd700;
+        letter-spacing: 1.6px;
         text-transform: uppercase;
-        margin: -8px 0 12px;
+        margin: 0 0 14px;
+        padding-bottom: 14px;
         display: block;
-        opacity: .92;
+        opacity: 1;
+        border-bottom: 1px solid rgba(255,215,0,.20);
     }
     .modern-footer .footer-brand p{
         font-size: 12.5px;
-        line-height: 1.55;
+        line-height: 1.6;
         color: #e8d6bf;
-        margin: 0 0 14px;
+        margin: 0 0 16px;
     }
 
     .modern-footer .contact-line{
         display: flex;
-        align-items: flex-start;
-        gap: 8px;
+        align-items: center;
+        gap: 10px;
         font-size: 12.5px;
-        margin-bottom: 7px;
+        margin-bottom: 9px;
         color: #f0e6d2;
         text-decoration: none;
         line-height: 1.45;
@@ -187,15 +192,24 @@
         flex-shrink: 0;
         color: #ffd700;
         font-size: 12px;
-        margin-top: 4px;
-        width: 14px;
+        width: 26px;
+        height: 26px;
+        line-height: 24px;
         text-align: center;
+        background: rgba(255,215,0,.10);
+        border: 1px solid rgba(255,215,0,.28);
+        border-radius: 50%;
+        transition: background .2s ease, color .2s ease, border-color .2s ease;
     }
     .modern-footer a.contact-line:hover{
         color: #fff;
         text-decoration: none;
     }
-    .modern-footer a.contact-line:hover i{ color: #fff; }
+    .modern-footer a.contact-line:hover i{
+        color: #fff;
+        background: rgba(255,215,0,.22);
+        border-color: rgba(255,215,0,.50);
+    }
 
     /* ---------- Link lists ---------- */
     .modern-footer ul.footer-links{

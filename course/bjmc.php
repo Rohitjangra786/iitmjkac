@@ -114,7 +114,7 @@ body * {
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-8">
-                <h1 class="text-center" style="color: #800000;">BAJMC(H) </h1>
+                <h1 class="text-center" style="color: #800000;">BA(JMC) H</h1>
             </div>
             
         </div>
@@ -125,8 +125,8 @@ body * {
                                     <a class="dropdown-item" href="https://iitmjanakpuri.com/course/bba.php">BBA(H)</a>
                                     <a class="dropdown-item" href="https://iitmjanakpuri.com/course/bca.php">BCA(H)</a>  
                                     <a class="dropdown-item" href="https://iitmjanakpuri.com/course/bcom.php">B.Com.(H)</a>
-                                    <a class="dropdown-item" href="https://iitmjanakpuri.com/course/bjmc.php">BAJMC(H)</a>   
-                                    <hr> 
+                                    <a class="dropdown-item" href="https://iitmjanakpuri.com/course/bjmc.php">BA(JMC) H</a>
+                                    <hr>
      <a href="https://iitmjanakpuri.com/course/syllabus/bajmcsyllabus.pdf" target="_blank" class="dropdown-item btn btn-primary tgfmlt"><i class="fa fa-download"></i> BA(JMC) Syllabus</a>
     
             </div>
