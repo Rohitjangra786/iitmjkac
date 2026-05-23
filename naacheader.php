@@ -774,8 +774,6 @@ if (!isset($iitm_base_url)) {
         <span class="adm-announce-eyebrow">🎓 Admissions Open</span>
         <span class="adm-announce-headline">Academic Year 2026-27</span>
         <span class="adm-announce-courses">MBA · MCA · BBA · BCA · B.Com (H) · BA (JMC)</span>
-        <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" class="adm-announce-cta">Apply Now →</a>
-        <button type="button" class="adm-announce-cta adm-announce-cta-enquiry" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
     </div>
 </div>
 
@@ -786,7 +784,6 @@ if (!isset($iitm_base_url)) {
             <img src="<?php echo $iitm_base_url; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM" class="mini-logo">
         </a>
         <h2 class="mini-title">INSTITUTE OF INFORMATION TECHNOLOGY &amp; MANAGEMENT</h2>
-        <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="mini-cta">Apply Now →</a>
     </div>
 </div>
 

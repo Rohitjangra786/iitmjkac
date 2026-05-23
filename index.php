@@ -813,7 +813,7 @@ strong, b{
 .explore-card.c3 .explore-icon{ background: linear-gradient(135deg,#588157,#a3b18a); }
 .explore-card.c4 .explore-icon{ background: linear-gradient(135deg,#7c5cff,#23c4ff); }
 .explore-card.c5 .explore-icon{ background: linear-gradient(135deg,#a00000,#800000); }
-.explore-card.c6 .explore-icon{ background: linear-gradient(135deg,#e63946,#d62828); }
+.explore-card.c6 .explore-icon{ background: linear-gradient(135deg,#ff9e00,#ff6d00); }
 
 .explore-card .explore-name{
     font-family: 'Poppins', system-ui, sans-serif;
@@ -3394,8 +3394,6 @@ nav.navbar .nav-item{
                 <p class="hero-new-courses">MBA · MCA · BBA · BCA · B.Com (H) · BA (JMC)</p>
                 <p class="hero-new-tag">25+ years of academic excellence, industry-aligned programmes and holistic development.</p>
                 <div class="hero-new-actions">
-                    <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="hero-new-btn primary">Apply Now →</a>
-                    <button type="button" class="hero-new-btn enquiry" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
                     <a href="course/programmes.php" class="hero-new-btn outline">Explore Programmes</a>
                 </div>
                 <div class="hero-new-helpers">
@@ -3630,7 +3628,6 @@ nav.navbar .nav-item{
     <h3>🎓 Admissions Open 2026-27</h3>
     <p>MBA · MCA · BBA · BCA · B.Com (H) · BA (JMC)</p>
     <div class="hero-actions">
-        <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" class="hero-btn">Apply Now</a>
         <a href="https://iitmjanakpuri.com/admissions/admissionprocedure.php" class="hero-btn outline">Procedure</a>
         <a href="tel:01128525051" class="hero-btn outline">📞 Helpline</a>
     </div>
@@ -3806,9 +3803,9 @@ nav.navbar .nav-item{
             <span class="explore-icon">🎭</span>
             <span class="explore-name">Campus Life</span>
         </a>
-        <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" class="explore-card c6">
-            <span class="explore-icon">✏️</span>
-            <span class="explore-name">Apply Now</span>
+        <a href="https://www.alumniiitmjanakpuri.com/" target="_blank" rel="noopener" class="explore-card c6">
+            <span class="explore-icon">🎓</span>
+            <span class="explore-name">Alumni Portal</span>
         </a>
     </div>
 </div>

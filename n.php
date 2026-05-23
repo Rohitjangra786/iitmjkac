@@ -505,9 +505,19 @@
         z-index: 1;
     }
 
+    /* Full-width container for the navbar so all 11 items fit in a single row */
+    nav.navbar > .container{
+        max-width: 100% !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
     nav.navbar .navbar-nav{
-        gap: 2px;
+        gap: 0;
         align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: space-between;
     }
     nav.navbar .navbar-nav .nav-item{ position: relative; }
 
@@ -516,15 +526,33 @@
         color: #ffffff !important;
         font-family: 'Poppins', system-ui, sans-serif !important;
         font-weight: 600 !important;
-        font-size: 13px !important;
-        letter-spacing: .55px !important;
-        padding: 16px 14px !important;
+        font-size: 11px !important;
+        letter-spacing: .2px !important;
+        padding: 14px 4px !important;
         text-transform: uppercase;
         background: transparent !important;
         position: relative;
         transition: color .25s ease, background .25s ease;
         border-radius: 0 !important;
         white-space: nowrap;
+    }
+    @media (min-width: 1200px){
+        nav.navbar .navbar-nav .nav-link{
+            font-size: 12px !important;
+            letter-spacing: .3px !important;
+            padding: 14px 8px !important;
+        }
+    }
+    @media (min-width: 1400px){
+        nav.navbar .navbar-nav .nav-link{
+            font-size: 13px !important;
+            padding: 16px 12px !important;
+            letter-spacing: .45px !important;
+        }
+    }
+    /* Tighter dropdown arrow so it doesn't add extra width on lg */
+    nav.navbar .navbar-nav .dropdown-toggle::after{
+        margin-left: 3px !important;
     }
 
     /* Hover / open state — bright white with subtle white-tinted bg + static underline */
@@ -860,6 +888,10 @@
                 </div>
             </div>
 
+            <div class="accordion-item">
+                <h2 class="accordion-header"><a class="accordion-button collapsed sb-direct-link" href="https://www.alumniiitmjanakpuri.com/" target="_blank" rel="noopener">Alumni Portal</a></h2>
+            </div>
+
         </div>
     </div>
 </div>
@@ -1126,7 +1158,9 @@
 
                     </ul>
                 </li>
-                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.alumniiitmjanakpuri.com/" target="_blank" rel="noopener">Alumni Portal</a>
+                </li>
 
             </ul>
         </div>

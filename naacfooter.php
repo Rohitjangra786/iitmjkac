@@ -400,17 +400,6 @@
 
 <footer class="modern-footer">
 
-    <!-- Admission CTA banner -->
-    <div class="footer-admission-banner">
-        <span class="fab-eyebrow">Admissions Open</span>
-        <h3 class="fab-headline">Academic Year 2026 - 27</h3>
-        <p class="fab-courses">MBA &middot; MCA &middot; BBA &middot; BCA &middot; B.Com (H) &middot; BA (JMC)</p>
-        <div class="fab-actions">
-            <a href="https://forms.gle/pV2QPG3CtNt6eWBc6" target="_blank" rel="noopener" class="fab-btn primary">Apply Now ›</a>
-            <a href="#enquiryModal" data-bs-toggle="modal" class="fab-btn outline">Talk to a Program Lead</a>
-        </div>
-    </div>
-
     <div class="footer-inner">
         <div class="footer-grid">
 
@@ -418,7 +407,7 @@
             <div class="footer-brand">
                 <img src="<?php echo isset($iitm_base_url) ? $iitm_base_url : ''; ?>iitm-1.png" onerror="this.onerror=null;this.src='https://www.iitmjanakpuri.com/logow.png';" alt="IITM — Nurturing Excellence">
                 <span class="brand-tag">Janakpuri &middot; Est. 1999</span>
-                <p>Institute of Information Technology &amp; Management. A NAAC Grade 'A' &amp; NBA-accredited institute committed to nurturing future leaders.</p>
+                <p>Institute of Information Technology &amp; Management.</p>
                 <a class="contact-line" href="https://maps.app.goo.gl/bvzrJ9wBiBPAYqor8" target="_blank" rel="noopener">
                     <i class="fa fa-map-marker"></i>
                     <span>D-29, Institutional Area, Janakpuri, New Delhi - 110058</span>
@@ -469,12 +458,6 @@
             </div>
 
         </div>
-    </div>
-
-    <!-- Accreditation strip -->
-    <div class="footer-accreditation">
-        <span class="acc-label">Accredited by</span>
-        NAAC Grade &lsquo;A&rsquo; &middot; NBA &middot; AICTE &middot; UGC 2(f) &middot; GGSIPU
     </div>
 
     <!-- Bottom bar -->
