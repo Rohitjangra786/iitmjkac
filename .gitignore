@@ -17,7 +17,8 @@
 # ── Large content images (gallery, uploads, event photos) ─────────
 upload/
 upload_new/
-sliderimages/
+sliderimages/*
+!sliderimages/slide-*
 fiesta2k25/
 events/images/
 campuslife/images/
