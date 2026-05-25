@@ -4,171 +4,355 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
 header("Pragma: no-cache");
 header("Expires: 0");
 
-// Check if the user is navigating back using JavaScript
-echo '<script>';
-echo 'if (window.performance && (window.performance.getEntriesByType("navigation")[0]?.type === "back_forward")) {';
-echo '   window.location.href = "http://iitmjanakpuri.com/index.php";';
-echo '}'; 
-echo '</script>';
-?>
+// Faculty data — edit this array to add / remove / update faculty
+$faculty = [
+    [
+        "name" => "Dr. Nivedita Sharma",
+        "designation" => "Head of the Department, Associate Professor",
+        "qual" => "BA, MA(JMC), MBA, Ph.D.",
+        "email" => "hod.bajmc@iitmipu.ac.in",
+        "img" => "images/commerce/Nivedita new.JPG"
+    ],
+    [
+        "name" => "Dr. Bal Krishna Mishra",
+        "designation" => "Assistant Professor",
+        "qual" => "BA, MJMC, NET, Ph.D.",
+        "email" => "balkrishna.mishra@iitmipu.ac.in",
+        "img" => "images/commerce/bkmishra_new.jpeg"
+    ],
+    [
+        "name" => "Dr. Rajnesh Kumar Pandey",
+        "designation" => "Assistant Professor",
+        "qual" => "Psychology (Honours), MAMC, Ph.D.",
+        "email" => "rajnesh.pandey@iitmipu.ac.in",
+        "img" => "images/commerce/rajnesh_new.jpeg"
+    ],
+    [
+        "name" => "Mr. Kishan",
+        "designation" => "Assistant Professor",
+        "qual" => "B.A(H), PGD in Radio & TV Journalism and Digital Marketing, MAMC, UGC NET & JRF, Pursuing PhD",
+        "email" => "kishan.kashyap@iitmipu.ac.in",
+        "img" => "images/commerce/IMG_20240724_172459.jpg"
+    ],
+    [
+        "name" => "Mr. Sahil Dhall",
+        "designation" => "Assistant Professor",
+        "qual" => "BJMC, MMC, Pursuing PhD",
+        "email" => "sahil.dhall@iitmipu.ac.in",
+        "img" => "images/commerce/WhatsApp Image 2024-07-25 at 2.41.14 PM.jpeg"
+    ],
+    [
+        "name" => "Mr. Suchivrat Arya",
+        "designation" => "Assistant Professor",
+        "qual" => "B.Sc. (EM), M.A. (JMC), UGC-NET, Pursuing PhD",
+        "email" => "suchivrat.arya@iitmipu.ac.in",
+        "img" => "images/commerce/suchivrat_new.jpeg"
+    ],
+    [
+        "name" => "Dr. Rahul Kumar",
+        "designation" => "Assistant Professor",
+        "qual" => "B.Sc.(Hons.), M.A. CMS, UGC NET, PhD",
+        "email" => "rahul.kumar@iitmipu.ac.in",
+        "img" => "images/commerce/rahul_new.jpeg"
+    ],
+    [
+        "name" => "Mr. Ayush Anjani",
+        "designation" => "Assistant Professor",
+        "qual" => "BJMC, MAJMC",
+        "email" => "ayush.anjani@iitmipu.ac.in",
+        "img" => "images/commerce/ayush_anjani.jpeg"
+    ],
+    [
+        "name" => "Mr. Shinjan Chatterjee",
+        "designation" => "Assistant Professor",
+        "qual" => "B.A, MAJMC",
+        "email" => "shinjan.chatterjee@iitmipu.ac.in",
+        "img" => "images/commerce/shinjan_chatterjee.jpeg"
+    ],
+    [
+        "name" => "Ms. Jyoti B",
+        "designation" => "Assistant Professor",
+        "qual" => "BA(JMC), MA(JMC), UGC NET",
+        "email" => "jyoti.b@iitmipu.ac.in",
+        "img" => "images/commerce/jyoti_b.jpeg"
+    ],
+    [
+        "name" => "Ms. Dipti Tiwari",
+        "designation" => "Assistant Professor",
+        "qual" => "B.A (Hons.) English, MJMC, UGC NET",
+        "email" => "dipti.tiwari@iitmipu.ac.in",
+        "img" => "images/commerce/dipti_tiwari.jpeg"
+    ],
+];
 
+// Classify each faculty into a designation group for the filter chips
+function fac_group($designation) {
+    $d = strtolower($designation);
+    if (strpos($d, 'head of the department') !== false) return 'hod';
+    if (strpos($d, 'professor') !== false && strpos($d, 'associate') === false && strpos($d, 'assistant') === false) return 'prof';
+    if (strpos($d, 'associate') !== false) return 'assoc';
+    if (strpos($d, 'assistant') !== false) return 'asst';
+    return 'other';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | BA(JMC)</title>
+    <title>IITM | School of Mass Communication - Faculty</title>
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-html,
-body * {
-    box-sizing: border-box;
-    font-family: georgia, 'Open Sans', sans-serif
-}
+        :root {
+            --maroon: #800000;
+            --maroon-dark: #5a0000;
+            --maroon-soft: #f7eaea;
+            --ink: #1f1f1f;
+            --muted: #6b6b6b;
+            --card-bg: #ffffff;
+            --page-bg: #f5f5f7;
+            --ring: rgba(128, 0, 0, 0.15);
+        }
+        html, body { background: var(--page-bg); font-family: 'Roboto', Georgia, sans-serif; color: var(--ink); }
+        body { margin: 0; padding: 0; }
 
-        p{
-            text-align: justify;
-        }
-        .logo {
-            height: 80px;
-            width: 150px;
-            margin-top: 10px;
-        }
-        .hero-section {
-            background-color: #800000;
+        .fac-hero {
+            background: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dark) 100%);
             color: #fff;
-            padding: 20px;
+            padding: 56px 20px 64px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .fac-hero::after {
+            content: "";
+            position: absolute; inset: 0;
+            background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+            background-size: 22px 22px;
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        .fac-hero h1 {
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            font-weight: 700;
+            margin: 0 0 8px;
+            letter-spacing: 0.3px;
+            position: relative; z-index: 1;
+        }
+        .fac-hero .lead {
+            font-size: 1.05rem;
+            opacity: 0.92;
+            margin: 0;
+            position: relative; z-index: 1;
+        }
+        .fac-hero .count-badge {
+            display: inline-block;
+            margin-top: 14px;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            position: relative; z-index: 1;
         }
 
-        .hero-title {
-            font-size: 28px;
-            font-weight: bold;
+        .fac-toolbar {
+            max-width: 1200px;
+            margin: -30px auto 0;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+            padding: 18px 20px;
+            position: relative;
+            z-index: 5;
         }
-
-        .value-added-section {
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #800000;
+        .fac-search { position: relative; }
+        .fac-search input {
+            width: 100%;
+            border: 1.5px solid #e6e6e6;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            line-height: 1.8;
+            padding: 12px 14px 12px 44px;
+            font-size: 1rem;
+            transition: border-color .2s, box-shadow .2s;
+            outline: none;
+            background: #fafafa;
+        }
+        .fac-search input:focus {
+            border-color: var(--maroon);
+            box-shadow: 0 0 0 4px var(--ring);
+            background: #fff;
+        }
+        .fac-search .icon {
+            position: absolute;
+            left: 14px; top: 50%;
+            transform: translateY(-50%);
+            color: var(--maroon);
+            font-size: 1.1rem;
+        }
+        .fac-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 14px;
+        }
+        .fac-chip {
+            border: 1.5px solid #e0e0e0;
+            background: #fff;
+            color: var(--ink);
+            border-radius: 999px;
+            padding: 7px 16px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all .18s ease;
+            font-weight: 500;
+        }
+        .fac-chip:hover { border-color: var(--maroon); color: var(--maroon); }
+        .fac-chip.active {
+            background: var(--maroon);
+            border-color: var(--maroon);
+            color: #fff;
+            box-shadow: 0 4px 12px rgba(128,0,0,0.25);
+        }
+        .fac-chip .count {
+            opacity: 0.75;
+            font-size: 0.8rem;
+            margin-left: 4px;
         }
 
-        .value-added-section h1 {
-            font-size: 24px;
-            color: #800000;
+        .fac-grid-wrap {
+            max-width: 1200px;
+            margin: 36px auto 40px;
+            padding: 0 16px;
+        }
+        .fac-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 22px;
+        }
+        @media (max-width: 1100px) { .fac-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 800px)  { .fac-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 480px)  { .fac-grid { grid-template-columns: 1fr; } }
+
+        .fac-card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+            border: 2px solid rgba(128, 0, 0, 0.35);
+            position: relative;
+        }
+        .fac-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 32px rgba(128,0,0,0.18);
+            border-color: var(--maroon);
+        }
+        .fac-photo {
+            position: relative;
+            height: 70px;
+            background: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dark) 100%);
+        }
+        .fac-avatar {
+            position: absolute;
+            left: 50%;
+            top: 22px;
+            transform: translateX(-50%);
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: #fff;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            overflow: hidden;
+            z-index: 2;
+            transition: transform .3s ease;
+        }
+        .fac-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+        .fac-card:hover .fac-avatar { transform: translateX(-50%) scale(1.05); }
+        .fac-badge {
+            position: absolute;
+            top: 10px; left: 10px;
+            background: rgba(255,255,255,0.92);
+            color: var(--maroon);
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 999px;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            z-index: 3;
+        }
+        .fac-body {
+            padding: 62px 16px 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex: 1;
             text-align: center;
-            margin-bottom: 20px;
         }
-
-        .value-added-section p {
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 15px;
+        .fac-name {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0;
+            line-height: 1.3;
         }
+        .fac-desg {
+            font-size: 0.84rem;
+            color: var(--maroon);
+            font-weight: 600;
+            margin: 0;
+        }
+        .fac-qual {
+            font-size: 0.82rem;
+            color: var(--muted);
+            line-height: 1.45;
+            margin: 4px 0 0;
+            text-align: center;
+        }
+        .fac-email {
+            margin-top: auto;
+            font-size: 0.8rem;
+            color: var(--maroon);
+            text-decoration: none;
+            word-break: break-word;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            border-top: 1px dashed #eee;
+            padding-top: 10px;
+            margin-top: 12px;
+        }
+        .fac-email:hover { text-decoration: underline; color: var(--maroon-dark); }
+        .fac-email i { font-size: 0.85rem; }
 
-     
-    .committee-list {
-        color: #800000;
-        list-style-position: outside; /* Optional for list styling */
-    }
+        .fac-empty {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--muted);
+        }
+        .fac-empty i { font-size: 2.4rem; color: #c8a5a5; margin-bottom: 10px; }
+        .fac-empty p { margin: 6px 0 0; font-size: 1rem; }
 
-    .committee-list li {
-        display: list-item;
-                color: #000;
-    }
-    p{
-        text-align: justify;
-        padding: 5px;
-    }
-
-    
-    .fac-member {
-  
-  background-color: #fffeee;
-  padding: 1rem 1rem 2rem 1rem;
-  box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
-  position: relative;
-  filter: brightness(120%);
-  opacity: 0.9;
-  transition: opacity 0.5s;
- 
-  margin-right:2rem;
-  padding:0;
-  width: 18rem;
-}
-
-.fac-member:hover {
-  opacity: 1;
-  box-shadow: 0 0 100px #ffff99; 
-  font-weight: bolder;
-}
-.c:hover{
-    background: rgba(128, 0, 0, 0.1);
-    transition: opacity 0.5s;
-}
-
-.card-img-overlay {
-  background-color: rgba(#000, 0.4);
-}
-.hv{
-    border: 2rem transparent solid;
-}
-.hv:hover{
-    transform:scale(0.95);
-    
-}
-hv:hover .ab{
-    transform:scale(0.95);
-    
-}
-.bg1{
-    background: rgb(106, 106, 106, 0.05);
-    padding-left: 1rem;
-}
-
-.img-fac
-{
-    min-width: 100%;
-    width: 100%;
-    object-fit:cover;
-    height: 55vh;
-    object-position:top;
-    bottom:0;
-    position:absolute;
-    margin-right: 1rem;
-    padding-right: 1rem;
-    padding-left: 0;
-    margin-left: 0;
-}
-.ab{
-    text-align: center;
-}
-
-
-
-.card-img-top {
-    height: 300px; /* Set the desired height for all images */
-    object-fit: cover; /* Maintain aspect ratio while covering the specified height */
-    border-radius: 5px;
-  }
-    .card-text h3:first-child {
-    font-size: 1rem; /* Set font size for the first line */
-  }
-  .card-text h3:nth-child(2),
-  .card-text h3:nth-child(3) {
-    font-size: 0.8rem; /* Set font size for the next lines */
-  }
+        @media (max-width: 600px) {
+            .fac-hero { padding: 40px 16px 50px; }
+            .fac-toolbar { margin: -24px 12px 0; padding: 14px; }
+        }
     </style>
 </head>
 <body>
@@ -176,171 +360,116 @@ hv:hover .ab{
     <?php include('../naacheader.php'); ?>
     <?php include('../n.php'); ?>
 
-      <div class="container">
-        
-            <h1 style="color:#800000; padding: 20px;">IITM School of Mass Communication</h1>
-   <div class="carousel-inner py-4">
-    <!-- Single item -->
-    <div class="carousel-item active">
-      <div class="container">
-          <!-- BA(JMC) Faculty -->
-           <div class="row">
-          <div class="col-lg-3">
-            <div class="card" style="height: 80%;width: 100%;border: 1px #fff solid;">
-              <img
-                src="images/commerce/Nivedita new.JPG"
-                class="card-img-top"
-                alt="Waterfall"
-                style="border-radius: 5px;" />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Dr. Nivedita Sharma</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Head of the Department </h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Associate Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">BA, MA(JMC), MBA, Ph.D. </h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">hod.bajmc@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card" style="height: 80%;width: 100%;border: 1px #fff solid;">
-              <img
-                src="images/commerce/bkm.jpeg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%; height: 70%;" style="border-radius: 5px;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Dr. Bal Krishna Mishra</strong></h5>
-                <p class="card-text">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">BA,MJMC, NET, Ph.D.</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">balkrishna.mishra@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-   
-   <!---- XXXX ---->
-            <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 1px #fff solid;">
-              <img
-                src="images/commerce/Image - Dr. Rajnesh Kumar Pandey.png"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;border-radius: 5px;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1rem;"><strong>Dr. Rajnesh Kumar Pandey</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Psychology (Honours), MAMC, Ph.D.</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">rajnesh.pandey@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
-              <img
-                src="images/commerce/IMG_20240724_172459.jpg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Mr. Kishan</strong></h5>
-                <p class="card-text">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">B.A(H), PGD in Radio & TV Journalism and Digital Marketing,MAMC, UGC NET &JRF, Pursuing PhD</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">kishan.kashyap@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-          
-      </div>    
-          
-          
-          
-          <div class="row">
-          <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
-              <img
-                src="images/commerce/WhatsApp Image 2024-07-25 at 2.41.14 PM.jpeg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Mr. Sahil Dhall</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">BJMC, MMC,  Pursuing PhD</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">sahil.dhall@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-           <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
-              <img
-                src="images/commerce/Suchivrat_Arya.jpg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Mr. Suchivrat Arya</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">B.Sc. (EM), M.A. (JMC), UGC-NET, Pursuing PhD</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">suchivrat.arya@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-        <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
-              <img
-                src="images/commerce/Dr_Rahul.jpeg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 0.5rem;font-size:1rem;"><strong>Dr. Rahul Kumar</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">B.Sc.(Hons.), M.A. CMS, UGC NET, PhD</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1rem;font-size:0.8rem;">rahul.kumar@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
-      
-       </div>   
-          
-          <!-- BA(JMC) Faculty Ends -->
-      
-        
-   <!--- YYYY -->
+    <section class="fac-hero">
+        <h1>IITM School of Mass Communication</h1>
+        <p class="lead">Meet the faculty of our BA(JMC) programme</p>
+        <span class="count-badge"><i class="fa fa-users"></i> &nbsp;<?php echo count($faculty); ?> Faculty Members</span>
+    </section>
 
+    <div class="fac-toolbar">
+        <div class="fac-search">
+            <i class="fa fa-search icon"></i>
+            <input type="text" id="facSearch" placeholder="Search faculty by name, designation or qualification..." autocomplete="off">
+        </div>
+        <?php
+            $groups = ['hod'=>0,'prof'=>0,'assoc'=>0,'asst'=>0];
+            foreach ($faculty as $m) { $g = fac_group($m['designation']); if(isset($groups[$g])) $groups[$g]++; }
+        ?>
+        <div class="fac-chips" id="facChips">
+            <button class="fac-chip active" data-filter="all">All <span class="count">(<?php echo count($faculty); ?>)</span></button>
+            <?php if ($groups['hod'] > 0): ?>
+                <button class="fac-chip" data-filter="hod">Head of Department <span class="count">(<?php echo $groups['hod']; ?>)</span></button>
+            <?php endif; ?>
+            <?php if ($groups['prof'] > 0): ?>
+                <button class="fac-chip" data-filter="prof">Professor <span class="count">(<?php echo $groups['prof']; ?>)</span></button>
+            <?php endif; ?>
+            <?php if ($groups['assoc'] > 0): ?>
+                <button class="fac-chip" data-filter="assoc">Associate Professor <span class="count">(<?php echo $groups['assoc']; ?>)</span></button>
+            <?php endif; ?>
+            <?php if ($groups['asst'] > 0): ?>
+                <button class="fac-chip" data-filter="asst">Assistant Professor <span class="count">(<?php echo $groups['asst']; ?>)</span></button>
+            <?php endif; ?>
+        </div>
     </div>
 
-   
-  
-  </div>
-  <!-- Inner -->
-</div></div></div>
+    <div class="fac-grid-wrap">
+        <div class="fac-grid" id="facGrid">
+            <?php foreach ($faculty as $m):
+                $group = fac_group($m['designation']);
+                $badge = '';
+                if ($group === 'hod') $badge = 'HoD';
+                elseif ($group === 'prof') $badge = 'Professor';
+                elseif ($group === 'assoc') $badge = 'Assoc. Professor';
+                elseif ($group === 'asst') $badge = 'Asst. Professor';
+                $haystack = strtolower($m['name'].' '.$m['designation'].' '.$m['qual']);
+            ?>
+            <article class="fac-card" data-group="<?php echo $group; ?>" data-search="<?php echo htmlspecialchars($haystack, ENT_QUOTES); ?>">
+                <div class="fac-photo">
+                    <?php if ($badge): ?><span class="fac-badge"><?php echo $badge; ?></span><?php endif; ?>
+                </div>
+                <div class="fac-avatar">
+                    <img src="<?php echo htmlspecialchars($m['img'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($m['name'], ENT_QUOTES); ?>" loading="lazy"
+                         onerror="this.src='images/commerce/avatar-placeholder.png'; this.onerror=null;">
+                </div>
+                <div class="fac-body">
+                    <h3 class="fac-name"><?php echo htmlspecialchars($m['name']); ?></h3>
+                    <p class="fac-desg"><?php echo htmlspecialchars($m['designation']); ?></p>
+                    <p class="fac-qual"><?php echo htmlspecialchars($m['qual']); ?></p>
+                    <a class="fac-email" href="mailto:<?php echo htmlspecialchars($m['email'], ENT_QUOTES); ?>">
+                        <i class="fa fa-envelope"></i><?php echo htmlspecialchars($m['email']); ?>
+                    </a>
+                </div>
+            </article>
+            <?php endforeach; ?>
+
+            <div class="fac-empty" id="facEmpty" style="display:none;">
+                <i class="fa fa-search"></i>
+                <p>No faculty match your search.</p>
+            </div>
+        </div>
     </div>
- 
-   <div style="height: 5vh"></div>
-    <?php
-        include("../naacfooter.php");
-    ?>
-    <script src="myscript.js"></script>
+
+    <?php include("../naacfooter.php"); ?>
+
+    <script>
+        (function(){
+            const search = document.getElementById('facSearch');
+            const chips  = document.getElementById('facChips');
+            const grid   = document.getElementById('facGrid');
+            const empty  = document.getElementById('facEmpty');
+            const cards  = grid.querySelectorAll('.fac-card');
+            let activeFilter = 'all';
+            let activeQuery  = '';
+
+            function applyFilter(){
+                let visible = 0;
+                cards.forEach(card => {
+                    const matchGroup = (activeFilter === 'all') || (card.dataset.group === activeFilter);
+                    const matchQuery = !activeQuery || card.dataset.search.indexOf(activeQuery) !== -1;
+                    if (matchGroup && matchQuery) {
+                        card.style.display = '';
+                        visible++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+                empty.style.display = (visible === 0) ? 'block' : 'none';
+            }
+
+            chips.addEventListener('click', e => {
+                const btn = e.target.closest('.fac-chip');
+                if (!btn) return;
+                chips.querySelectorAll('.fac-chip').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                activeFilter = btn.dataset.filter;
+                applyFilter();
+            });
+
+            search.addEventListener('input', () => {
+                activeQuery = search.value.trim().toLowerCase();
+                applyFilter();
+            });
+        })();
+    </script>
 </body>
-</html>                          
+</html>

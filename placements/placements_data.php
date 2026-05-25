@@ -1,0 +1,4528 @@
+<?php
+// Placement records data — edit batches here, plrecords.php renders them.
+// Keys: course code => batch label (e.g. "2024-26") => list of {enroll, name, company}
+return [
+    'MBA' => [
+        '2024-26' => [
+            [
+                'enroll' => '00113703924',
+                'name' => 'Shaan',
+                'company' => 'Digitar Media'
+            ],
+            [
+                'enroll' => '00313703924',
+                'name' => 'Devyani Midha',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '00413703924',
+                'name' => 'Garima Sharma',
+                'company' => 'Digital Peacock'
+            ],
+            [
+                'enroll' => '00813703924',
+                'name' => 'Varun Kumar',
+                'company' => 'Kipenzi Pets Private Limited'
+            ],
+            [
+                'enroll' => '00913703924',
+                'name' => 'Sakshi',
+                'company' => 'Infomerics Valuation and Rating Limited'
+            ],
+            [
+                'enroll' => '01013703924',
+                'name' => 'Meenu Tiwari',
+                'company' => 'Ecera System'
+            ],
+            [
+                'enroll' => '01413703924',
+                'name' => 'Pooja Singh',
+                'company' => 'Zoppar'
+            ],
+            [
+                'enroll' => '01513703924',
+                'name' => 'Aditi Gupta',
+                'company' => 'Digitar Media'
+            ],
+            [
+                'enroll' => '01713703924',
+                'name' => 'Nivedita Mahajan',
+                'company' => 'IIDE - The Digital School'
+            ],
+            [
+                'enroll' => '01813703924',
+                'name' => 'Naman Jain',
+                'company' => 'SB Dry Fruits Private Ltd.'
+            ],
+            [
+                'enroll' => '02013703924',
+                'name' => 'Deeksha Singh',
+                'company' => 'Alniche Lifesciences'
+            ],
+            [
+                'enroll' => '02313703924',
+                'name' => 'Anisha Bhandari',
+                'company' => 'Industrial Roller Company'
+            ],
+            [
+                'enroll' => '02513703924',
+                'name' => 'Abhay Shukla',
+                'company' => 'Infomerics Valuation and Rating Limited'
+            ],
+            [
+                'enroll' => '02813703924',
+                'name' => 'Vanshika Verma',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '03113703924',
+                'name' => 'Avantika Gaur',
+                'company' => 'Symmetrical Global Search Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03313703924',
+                'name' => 'Akshay Kumar',
+                'company' => '75way Technologies / City Union Bank'
+            ],
+            [
+                'enroll' => '03613703924',
+                'name' => 'Khushi Chauhan',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '03813703924',
+                'name' => 'Chanchal',
+                'company' => 'Aakash Educational Services Ltd.'
+            ],
+            [
+                'enroll' => '04013703924',
+                'name' => 'Shweta',
+                'company' => 'AML RightSource'
+            ],
+            [
+                'enroll' => '04213703924',
+                'name' => 'Aniket Kumar',
+                'company' => 'Alniche Lifesciences'
+            ],
+            [
+                'enroll' => '04413703924',
+                'name' => 'Ashish Kumar',
+                'company' => 'Ojasvi Associate'
+            ],
+            [
+                'enroll' => '04513703924',
+                'name' => 'Rishabh Sharma',
+                'company' => 'Ojasvi Associate'
+            ],
+            [
+                'enroll' => '04613703924',
+                'name' => 'Santosh Choudhary',
+                'company' => 'i-Process Services (India) Ltd.'
+            ],
+            [
+                'enroll' => '35213703924',
+                'name' => 'Aakash',
+                'company' => 'SK Associates'
+            ],
+            [
+                'enroll' => '35413703924',
+                'name' => 'Chaitanya Garg',
+                'company' => 'ANJ Trunkey Projects Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35613703924',
+                'name' => 'Priyam',
+                'company' => 'Agilish Telecom Private Limited'
+            ],
+            [
+                'enroll' => '50213703924',
+                'name' => 'Nikhil Mishra',
+                'company' => 'Federal Bank / City Union Bank'
+            ],
+            [
+                'enroll' => '52113703924',
+                'name' => 'Harshita Ahuja',
+                'company' => 'Jaro Education / AoN Consulting'
+            ]
+        ],
+        '2023-25' => [
+            [
+                'enroll' => '00113703924',
+                'name' => 'Shaan',
+                'company' => 'Digitar Media'
+            ],
+            [
+                'enroll' => '00313703924',
+                'name' => 'Devyani Midha',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '00413703924',
+                'name' => 'Garima Sharma',
+                'company' => 'Digital Peacock'
+            ],
+            [
+                'enroll' => '00813703924',
+                'name' => 'Varun Kumar',
+                'company' => 'Kipenzi Pets Private Limited'
+            ],
+            [
+                'enroll' => '00913703924',
+                'name' => 'Sakshi',
+                'company' => 'Infomerics Valuation and Rating Limited'
+            ],
+            [
+                'enroll' => '01013703924',
+                'name' => 'Meenu Tiwari',
+                'company' => 'Ecera System'
+            ],
+            [
+                'enroll' => '01413703924',
+                'name' => 'Pooja Singh',
+                'company' => 'Zoppar'
+            ],
+            [
+                'enroll' => '01513703924',
+                'name' => 'Aditi Gupta',
+                'company' => 'Digitar Media'
+            ],
+            [
+                'enroll' => '01713703924',
+                'name' => 'Nivedita Mahajan',
+                'company' => 'IIDE - The Digital School'
+            ],
+            [
+                'enroll' => '01813703924',
+                'name' => 'Naman Jain',
+                'company' => 'SB Dry Fruits Private Ltd.'
+            ],
+            [
+                'enroll' => '02013703924',
+                'name' => 'Deeksha Singh',
+                'company' => 'Alniche Lifesciences'
+            ],
+            [
+                'enroll' => '02313703924',
+                'name' => 'Anisha Bhandari',
+                'company' => 'Industrial Roller Company'
+            ],
+            [
+                'enroll' => '02513703924',
+                'name' => 'Abhay Shukla',
+                'company' => 'Infomerics Valuation and Rating Limited'
+            ],
+            [
+                'enroll' => '02813703924',
+                'name' => 'Vanshika Verma',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '03113703924',
+                'name' => 'Avantika Gaur',
+                'company' => 'Symmetrical Global Search Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03313703924',
+                'name' => 'Akshay Kumar',
+                'company' => '75way Technologies'
+            ],
+            [
+                'enroll' => '03613703924',
+                'name' => 'Khushi Chauhan',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '03813703924',
+                'name' => 'Chanchal',
+                'company' => 'Aakash Educational Services Ltd.'
+            ],
+            [
+                'enroll' => '04013703924',
+                'name' => 'Shweta',
+                'company' => 'AML RightSource'
+            ],
+            [
+                'enroll' => '04213703924',
+                'name' => 'Aniket Kumar',
+                'company' => 'Alniche Lifesciences'
+            ],
+            [
+                'enroll' => '04413703924',
+                'name' => 'Ashish Kumar',
+                'company' => 'Ojasvi Associate'
+            ],
+            [
+                'enroll' => '04513703924',
+                'name' => 'Rishabh Sharma',
+                'company' => 'Ojasvi Associate'
+            ],
+            [
+                'enroll' => '04613703924',
+                'name' => 'Santosh Choudhary',
+                'company' => 'i-Process Services (India) Ltd.'
+            ],
+            [
+                'enroll' => '35213703924',
+                'name' => 'Aakash',
+                'company' => 'SK Associates'
+            ],
+            [
+                'enroll' => '35413703924',
+                'name' => 'Chaitanya Garg',
+                'company' => 'ANJ Trunkey Projects Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35613703924',
+                'name' => 'Priyam',
+                'company' => 'Agilish Telecom Private Limited'
+            ],
+            [
+                'enroll' => '50213703924',
+                'name' => 'Nikhil Mishra',
+                'company' => 'Federal Bank'
+            ],
+            [
+                'enroll' => '52113703924',
+                'name' => 'Harshita Ahuja',
+                'company' => 'Jaro Education'
+            ]
+        ],
+        '2022-24' => [
+            [
+                'enroll' => '01113703922',
+                'name' => 'Aakriti Chauhan',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '04113703922',
+                'name' => 'Aishwarya Ashok',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01713703922',
+                'name' => 'Aman Yadav',
+                'company' => 'Bharat Fincare / City Union Bank'
+            ],
+            [
+                'enroll' => '35213703922',
+                'name' => 'Anany Sinha',
+                'company' => 'HDFC Bank'
+            ],
+            [
+                'enroll' => '01313703922',
+                'name' => 'Anisha Gambhir',
+                'company' => 'GV Global (Revinc)'
+            ],
+            [
+                'enroll' => '02613703922',
+                'name' => 'Ankit Ray',
+                'company' => 'Viral Pitch'
+            ],
+            [
+                'enroll' => '02913703922',
+                'name' => 'Ankur',
+                'company' => '"Bharat Fincare / NAB (National Australia Bank)"'
+            ],
+            [
+                'enroll' => '0073703922',
+                'name' => 'Avneesh Kumar',
+                'company' => 'Bharat Fincare'
+            ],
+            [
+                'enroll' => '02513703922',
+                'name' => 'Ayush Kumar',
+                'company' => 'ExamOnline / HDFC Bank'
+            ],
+            [
+                'enroll' => '02013703922',
+                'name' => 'Cheshta Arora',
+                'company' => 'GV Global (Revinc)'
+            ],
+            [
+                'enroll' => '00513703922',
+                'name' => 'Deepanshu Tyagi',
+                'company' => 'Hive AI'
+            ],
+            [
+                'enroll' => '02413703922',
+                'name' => 'Harsh',
+                'company' => 'Zindagi Technologies'
+            ],
+            [
+                'enroll' => '03913703922',
+                'name' => 'Hemant Berwal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01813703922',
+                'name' => 'Ishant Dhawan',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '03813703922',
+                'name' => 'Kamini Ghosh',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '02113703922',
+                'name' => 'Kirti Saini',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '00913703922',
+                'name' => 'Manish Pal',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '00613703922',
+                'name' => 'Manisha Chhilwal',
+                'company' => 'Hive AI'
+            ],
+            [
+                'enroll' => '35413703922',
+                'name' => 'Mayank Gothwal',
+                'company' => 'Federal Bank'
+            ],
+            [
+                'enroll' => '00213703922',
+                'name' => 'Mohammad Saood',
+                'company' => 'Hive AI / ICICI Securities'
+            ],
+            [
+                'enroll' => '00313703922',
+                'name' => 'Mohd Saami Naseer',
+                'company' => 'INJ Partners / Axis Bank'
+            ],
+            [
+                'enroll' => '04213703922',
+                'name' => 'Naitik Pandey',
+                'company' => '"GeeKen Seating Collection Pvt. Ltd. / City Union Bank "'
+            ],
+            [
+                'enroll' => '03213703922',
+                'name' => 'Namita Bajaj',
+                'company' => 'Infoedge'
+            ],
+            [
+                'enroll' => '03713703922',
+                'name' => 'Neeti Sharma',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '50413703922',
+                'name' => 'Neha Chauhan',
+                'company' => 'Infoedge'
+            ],
+            [
+                'enroll' => '03413703922',
+                'name' => 'Nidhi Pal',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '03613703922',
+                'name' => 'Paras Kumar',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01013703922',
+                'name' => 'Pooja Dhami',
+                'company' => 'Planetspark'
+            ],
+            [
+                'enroll' => '02713703922',
+                'name' => 'Revanth J',
+                'company' => 'Hive AI / ICICI Securities'
+            ],
+            [
+                'enroll' => '01913703922',
+                'name' => 'Ritik Bharti',
+                'company' => 'Planetspark'
+            ],
+            [
+                'enroll' => '03013703922',
+                'name' => 'Riya Chaudhary',
+                'company' => 'Johnson Controls India'
+            ],
+            [
+                'enroll' => '00113703922',
+                'name' => 'SaaniyaTanwar',
+                'company' => 'GV Global (Revinc)'
+            ],
+            [
+                'enroll' => '01213703922',
+                'name' => 'Sahil Batra',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '35513703922',
+                'name' => 'Saksham Rana',
+                'company' => 'City Union Bank / ICICI Securities'
+            ],
+            [
+                'enroll' => '35313703922',
+                'name' => 'Shruti Khurana',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01513703922',
+                'name' => 'Simran Rajora',
+                'company' => 'Axis Bank'
+            ],
+            [
+                'enroll' => '50313703922',
+                'name' => 'Simran Singh',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01613703922',
+                'name' => 'Sonika',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '50613703922',
+                'name' => 'Swati Sharma',
+                'company' => 'Intellipaat Software Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03113703922',
+                'name' => 'Tanu Jindal',
+                'company' => 'Viral Pitch'
+            ],
+            [
+                'enroll' => '02813703922',
+                'name' => 'Tarun Grover',
+                'company' => 'Planetspark'
+            ],
+            [
+                'enroll' => '03513703922',
+                'name' => 'Urvashi Arora',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '03313703922',
+                'name' => 'Zahara Alavi',
+                'company' => 'Spectrum Events Pvt. Ltd.'
+            ]
+        ],
+        '2021-23' => [
+            [
+                'enroll' => '00913703921',
+                'name' => 'Aakriti Kohli',
+                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+            ],
+            [
+                'enroll' => '03213703921',
+                'name' => 'Ankit Gupta',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '00513703921',
+                'name' => 'Chahat Malhotra',
+                'company' => 'Ienergizer'
+            ],
+            [
+                'enroll' => '02113703921',
+                'name' => 'Charu Bhatia',
+                'company' => '"India Mortgage Guarantee Corporation (IMGC) / TecTree Consulting"'
+            ],
+            [
+                'enroll' => '03913703921',
+                'name' => 'Divya Tomar',
+                'company' => 'Innovate MR'
+            ],
+            [
+                'enroll' => '01813703921',
+                'name' => 'Divya Verma',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01013703921',
+                'name' => 'Dristy Yadav',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01213703921',
+                'name' => 'Gurleen Kaur',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '02913703921',
+                'name' => 'Harsh Shokeen',
+                'company' => 'HDFC Bank'
+            ],
+            [
+                'enroll' => '01713703921',
+                'name' => 'Harsh Vardhan Dubey',
+                'company' => 'Federal Bank'
+            ],
+            [
+                'enroll' => '01413703921',
+                'name' => 'Jahnvi Singh',
+                'company' => 'City Union Bank / Dot Pe'
+            ],
+            [
+                'enroll' => '35413703921',
+                'name' => 'Jaskaran Singh Sagoo',
+                'company' => 'ICG Medical India Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03613703921',
+                'name' => 'Jatin Ahuja',
+                'company' => 'Saraswat Bank'
+            ],
+            [
+                'enroll' => '04313703921',
+                'name' => 'Jatin Pandey',
+                'company' => 'Home First Finance Pvt. Ltd'
+            ],
+            [
+                'enroll' => '04513703921',
+                'name' => 'Karan Verma',
+                'company' => '"Great Lakes E- Learning Services Pvt. Ltd. / Success Pact"'
+            ],
+            [
+                'enroll' => '35613703921',
+                'name' => 'Karishma',
+                'company' => 'Accenture'
+            ],
+            [
+                'enroll' => '04713703921',
+                'name' => 'Komal Chandra',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '00313703921',
+                'name' => 'Kritika Kalra',
+                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+            ],
+            [
+                'enroll' => '03813703921',
+                'name' => 'Kush Kumar Singh',
+                'company' => 'Byju\'s'
+            ],
+            [
+                'enroll' => '00413703921',
+                'name' => 'Madhu Kumari',
+                'company' => 'WSP Consultants India Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '01913703921',
+                'name' => 'Manali Paul',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01613703921',
+                'name' => 'Mayank Chawla',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '02413703921',
+                'name' => 'Mohd. Areeb',
+                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+            ],
+            [
+                'enroll' => '00113703921',
+                'name' => 'Palak Rohilla',
+                'company' => 'Phronesis Partners Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '04013703921',
+                'name' => 'Piyush Tanwar',
+                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+            ],
+            [
+                'enroll' => '03413703921',
+                'name' => 'Pragati Nayak',
+                'company' => 'Success Pact'
+            ],
+            [
+                'enroll' => '04413703921',
+                'name' => 'Preeti Roy',
+                'company' => 'Innovate MR'
+            ],
+            [
+                'enroll' => '03513703921',
+                'name' => 'Rida Khan',
+                'company' => 'ICICI Securities'
+            ],
+            [
+                'enroll' => '00213703921',
+                'name' => 'Rimjhim Garg',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '03713703921',
+                'name' => 'Saurabh Prakash',
+                'company' => 'Innovate MR'
+            ],
+            [
+                'enroll' => '03313703921',
+                'name' => 'Shivam Shahi',
+                'company' => 'IITM'
+            ],
+            [
+                'enroll' => '03013703921',
+                'name' => 'Shubham Kumar',
+                'company' => 'Axis Bank'
+            ],
+            [
+                'enroll' => '02813703921',
+                'name' => 'Shubham Singh',
+                'company' => 'Phronesis Partners Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35213703921',
+                'name' => 'Simarjeet Singh',
+                'company' => 'TecTree Consulting'
+            ],
+            [
+                'enroll' => '02313703921',
+                'name' => 'Sonia Negi',
+                'company' => 'Xerox Degrees'
+            ],
+            [
+                'enroll' => '01113703921',
+                'name' => 'Sourabh Kashyap',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '04113703921',
+                'name' => 'Sparsh Saini',
+                'company' => 'Internshala'
+            ],
+            [
+                'enroll' => '03113703921',
+                'name' => 'Sumit Pant',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '50213703921',
+                'name' => 'Surbhi',
+                'company' => 'Orbis Financial Corporation Limited'
+            ],
+            [
+                'enroll' => '35113703921',
+                'name' => 'Tanya Singh',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '00713703921',
+                'name' => 'Vaibhav Mudgal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00813703921',
+                'name' => 'Yuvakshi Goel',
+                'company' => 'Success Pact'
+            ]
+        ],
+        '2020-22' => [
+            [
+                'enroll' => '00113703920',
+                'name' => 'Aanchal Narula',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '00213703920',
+                'name' => 'Aashish Gupta',
+                'company' => 'Accenture'
+            ],
+            [
+                'enroll' => '00413703920',
+                'name' => 'Akanksha Yadav',
+                'company' => 'HONO'
+            ],
+            [
+                'enroll' => '00513703920',
+                'name' => 'Akash Aggarwal',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '00813703920',
+                'name' => 'Anjali Sharma',
+                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+            ],
+            [
+                'enroll' => '35113703920',
+                'name' => 'Ankur Shukla',
+                'company' => 'Legato Health Technologies / PlanetSpark'
+            ],
+            [
+                'enroll' => '01013703920',
+                'name' => 'Arpit Rai',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01113703920',
+                'name' => 'Ashish Pandey',
+                'company' => 'Toluna India'
+            ],
+            [
+                'enroll' => '01313703920',
+                'name' => 'Ashwin Krishna',
+                'company' => 'Corizo Edutech / L&T Finance'
+            ],
+            [
+                'enroll' => '01513703920',
+                'name' => 'Babita',
+                'company' => 'Success Pact'
+            ],
+            [
+                'enroll' => '01613703920',
+                'name' => 'Bharti Datt',
+                'company' => 'Aristotle Consultancy'
+            ],
+            [
+                'enroll' => '01713703920',
+                'name' => 'Bhawna Pardal',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '01913703920',
+                'name' => 'Garima',
+                'company' => 'Accenture'
+            ],
+            [
+                'enroll' => '50213703920',
+                'name' => 'Garvit Singh Shekhawat',
+                'company' => 'Astro Global / Vmak Research & Services Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35213703920',
+                'name' => 'Harsh Chawla',
+                'company' => 'Ernst & Young'
+            ],
+            [
+                'enroll' => '35313703920',
+                'name' => 'Himanshu Chaudhary',
+                'company' => 'HDFC Bank / TransUnion'
+            ],
+            [
+                'enroll' => '02313703920',
+                'name' => 'Kamal Kant Sharma',
+                'company' => 'JLL India'
+            ],
+            [
+                'enroll' => '02413703920',
+                'name' => 'Khushboo Sindhi',
+                'company' => 'Axis Bank / AU Small Finance Bank'
+            ],
+            [
+                'enroll' => '02513703920',
+                'name' => 'Komal Gupta',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '35413703920',
+                'name' => 'Kuljot Singh',
+                'company' => 'JLL India'
+            ],
+            [
+                'enroll' => '02613703920',
+                'name' => 'Madalsa Aggarwal',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '02713703920',
+                'name' => 'Mahima Kalra',
+                'company' => 'Axis Bank'
+            ],
+            [
+                'enroll' => '02813703920',
+                'name' => 'Naman Sharma',
+                'company' => 'PlanetSpark / Publicis Groupe'
+            ],
+            [
+                'enroll' => '02913703920',
+                'name' => 'Nitesh Khatri',
+                'company' => 'JLL India'
+            ],
+            [
+                'enroll' => '03013703920',
+                'name' => 'Nitin Bhandari',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '03213703920',
+                'name' => 'Pooja Ahlawat',
+                'company' => 'Success Pact'
+            ],
+            [
+                'enroll' => '03413703920',
+                'name' => 'Priya Dhingra',
+                'company' => 'Accenture'
+            ],
+            [
+                'enroll' => '35513703920',
+                'name' => 'Priya Saxena',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '03513703920',
+                'name' => 'Rinkal Rana',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '03613703920',
+                'name' => 'Rishabh Mishra',
+                'company' => 'Success Pact'
+            ],
+            [
+                'enroll' => '03813703920',
+                'name' => 'Saloni Tanwar',
+                'company' => 'Institute of Chartered Accountants of India (ICAI)'
+            ],
+            [
+                'enroll' => '04013703920',
+                'name' => 'Sarthak Gupta',
+                'company' => 'HCL Technologies'
+            ],
+            [
+                'enroll' => '04113703920',
+                'name' => 'Shivam Thapliyal',
+                'company' => 'Kotak Life Insurance'
+            ],
+            [
+                'enroll' => '04213703920',
+                'name' => 'Shivani Singh',
+                'company' => 'UpGrad / ANZ Support Services India Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '04313703920',
+                'name' => 'Shreya Singh',
+                'company' => 'ICICI Bank / Accenture'
+            ],
+            [
+                'enroll' => '04513703920',
+                'name' => 'Somya Pahuja',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '04613703920',
+                'name' => 'Sonal Kapoor',
+                'company' => 'GreenTree Advisory Services Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '04713703920',
+                'name' => 'Sonya Sharma',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '04913703920',
+                'name' => 'Srishti Vashisht',
+                'company' => 'Accenture / ICICI Bank'
+            ],
+            [
+                'enroll' => '05013703920',
+                'name' => 'Vibhor Bhatnagar',
+                'company' => 'ICICI Bank'
+            ],
+            [
+                'enroll' => '05113703920',
+                'name' => 'Yogesh Kumar',
+                'company' => 'UpGrad'
+            ]
+        ]
+    ],
+    'MCA' => [
+        '2024-26' => [
+            [
+                'enroll' => '01313704424',
+                'name' => 'Jyoti Yadav',
+                'company' => 'IRDE, DRDO'
+            ],
+            [
+                'enroll' => '01413704424',
+                'name' => 'Anandita Joshi',
+                'company' => 'Honda Motorcycle and Scooter India Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '01713704424',
+                'name' => 'Ritu Kanyal',
+                'company' => 'Ekal Sansthan'
+            ],
+            [
+                'enroll' => '02013704424',
+                'name' => 'Adarsh Maurya',
+                'company' => 'OneShopAI'
+            ],
+            [
+                'enroll' => '02313704424',
+                'name' => 'Manav Pahwa',
+                'company' => 'UIDAI'
+            ],
+            [
+                'enroll' => '02813704424',
+                'name' => 'Manpreet Singh',
+                'company' => 'OneShopAI'
+            ],
+            [
+                'enroll' => '20113704424',
+                'name' => 'Mayank Prasher',
+                'company' => 'OneShopAI'
+            ],
+            [
+                'enroll' => '20413704424',
+                'name' => 'Abhishek Singh',
+                'company' => 'Mindboat Solutions Pv. Ltd.'
+            ]
+        ],
+        '2023-25' => [
+            [
+                'enroll' => '02013704423',
+                'name' => 'Annu',
+                'company' => 'Mittal Software Labs'
+            ],
+            [
+                'enroll' => '00113704423',
+                'name' => 'Varun Bisoi',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '00413704423',
+                'name' => 'Nishtha Parashar',
+                'company' => 'IITM'
+            ],
+            [
+                'enroll' => '00913704423',
+                'name' => 'Tanisha Rao',
+                'company' => 'Busy Infotech'
+            ],
+            [
+                'enroll' => '01413704423',
+                'name' => 'Swikriti Gupta',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '02013704423',
+                'name' => 'Annu',
+                'company' => 'Mittal Software Labs'
+            ],
+            [
+                'enroll' => '02113704423',
+                'name' => 'Aryan Sharma',
+                'company' => 'Busy Infotech'
+            ],
+            [
+                'enroll' => '02513704423',
+                'name' => 'Pallavi Singh',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '02613704423',
+                'name' => 'Chehak Monga',
+                'company' => 'Entab Infotech'
+            ],
+            [
+                'enroll' => '02713704423',
+                'name' => 'Simran Kumari',
+                'company' => 'Taction Software'
+            ],
+            [
+                'enroll' => '03113704423',
+                'name' => 'Esha Mankotia',
+                'company' => 'Entab Infotech'
+            ],
+            [
+                'enroll' => '03213704423',
+                'name' => 'Varshitha Rao',
+                'company' => 'GALYTIX'
+            ],
+            [
+                'enroll' => '03313704423',
+                'name' => 'Remant Kumar',
+                'company' => 'Busy Infotech'
+            ],
+            [
+                'enroll' => '03413704423',
+                'name' => 'Nishita Raj',
+                'company' => 'CronJ IT Technologies Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03913704423',
+                'name' => 'Divjot Singh',
+                'company' => 'CronJ IT Technologies Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35213704423',
+                'name' => 'Sukhdev Kumar Mehta',
+                'company' => 'Schneider Electric Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '35313704423',
+                'name' => 'Sparsh Pant',
+                'company' => 'Hexaview Technologies'
+            ],
+            [
+                'enroll' => '70313704423',
+                'name' => 'Priyanka Kumari',
+                'company' => 'Punjab Bulls Technology Pvt. Ltd.'
+            ]
+        ]
+    ],
+    'BCA' => [
+        '2023-26' => [
+            [
+                'enroll' => '02413702023',
+                'name' => 'ACHAL VERMA',
+                'company' => 'Speed Enterprises'
+            ],
+            [
+                'enroll' => '35221102023',
+                'name' => 'AMAANI ARORA',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '02321102023',
+                'name' => 'ANSH NAGPAL',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '09613702023',
+                'name' => 'ARPIT KANSAL',
+                'company' => 'Matchbest Group'
+            ],
+            [
+                'enroll' => '03413702023',
+                'name' => 'AVANI MEHTA',
+                'company' => 'Fleetx.io'
+            ],
+            [
+                'enroll' => '02613702023',
+                'name' => 'BAKSHISH KAUR',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '03113702023',
+                'name' => 'CAPTAIN LOVEPREET SINGH',
+                'company' => 'Internshala'
+            ],
+            [
+                'enroll' => '01413702023',
+                'name' => 'CHIRAG JAIN',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '05321102023',
+                'name' => 'DEEPANSHI VATS',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '05213702023',
+                'name' => 'GIRDHAR MAHESHWARI',
+                'company' => 'ICICI Bank / Deloitte'
+            ],
+            [
+                'enroll' => '05521102023',
+                'name' => 'GURANSH SINGH BHAMRA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '01813702023',
+                'name' => 'HARSH WARDHAN ANAND',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06821102023',
+                'name' => 'HARSHIT ARORA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '02121102023',
+                'name' => 'HARSHIT CHAWLA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00213702023',
+                'name' => 'IQBAL SINGH',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '00821102023',
+                'name' => 'ISHAN KANDARI',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '35113702023',
+                'name' => 'ISHANI DUTTA',
+                'company' => 'ZOMATO (Eternal Ltd)'
+            ],
+            [
+                'enroll' => '07513702023',
+                'name' => 'JAISVI SINGH',
+                'company' => 'Genpact'
+            ],
+            [
+                'enroll' => '00321102023',
+                'name' => 'JASNAM KAUR',
+                'company' => 'Matchbest Group'
+            ],
+            [
+                'enroll' => '03221102023',
+                'name' => 'JATIN',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '04021102023',
+                'name' => 'JATIN DUA',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '02221102023',
+                'name' => 'JATIN YADAV',
+                'company' => 'ITC Hotels Limited'
+            ],
+            [
+                'enroll' => '02421102023',
+                'name' => 'JIYA',
+                'company' => 'Closerx.AI'
+            ],
+            [
+                'enroll' => '00221102023',
+                'name' => 'KANISHKA GARG',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '07521102023',
+                'name' => 'KARAN ASWAL',
+                'company' => 'Vcall Global Services Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '09913702023',
+                'name' => 'KASHISH GUPTA',
+                'company' => 'SAP Labs'
+            ],
+            [
+                'enroll' => '35321102023',
+                'name' => 'KAUSHIKA KAKRIA',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '35921102023',
+                'name' => 'KRISH ARORA',
+                'company' => 'Sagrados Pvt Ltd'
+            ],
+            [
+                'enroll' => '06421102023',
+                'name' => 'KRISH SEHGAL',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '08221102023',
+                'name' => 'PRATHAM SALUJA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '03421102023',
+                'name' => 'PRIYA GUPTA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '03321102023',
+                'name' => 'PUNEET KAUR',
+                'company' => 'ZOMATO (Eternal Ltd)'
+            ],
+            [
+                'enroll' => '05513702023',
+                'name' => 'RADHIEKA MATHUR',
+                'company' => 'Rentickle'
+            ],
+            [
+                'enroll' => '01721102023',
+                'name' => 'RAVNEET KAUR',
+                'company' => 'SunLife Global Solutions'
+            ],
+            [
+                'enroll' => '02721102023',
+                'name' => 'SEJJAL CHADHA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '01013702023',
+                'name' => 'SHIVAM SALUJA',
+                'company' => 'Pearl Academy'
+            ],
+            [
+                'enroll' => '05921102023',
+                'name' => 'SIDDHI MISHRA',
+                'company' => 'ZOMATO (Eternal Ltd)'
+            ],
+            [
+                'enroll' => '00421102023',
+                'name' => 'TANISHQ WADHWA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '02013702023',
+                'name' => 'TANIYA GUSAIN',
+                'company' => 'RSF Productions & Studios'
+            ],
+            [
+                'enroll' => '10521102023',
+                'name' => 'TANYA KAPOOR',
+                'company' => 'HCL Tech'
+            ],
+            [
+                'enroll' => '04113702023',
+                'name' => 'TUSHAR',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '02621102023',
+                'name' => 'TUSHAR SHARMA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '00621102023',
+                'name' => 'VEDAANT DEMBLA',
+                'company' => 'Matchbest Group'
+            ],
+            [
+                'enroll' => '05813702023',
+                'name' => 'VIKAS GULIA',
+                'company' => 'SAP Labs'
+            ],
+            [
+                'enroll' => '08013702023',
+                'name' => 'VIKRANT JHA',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '06721102023',
+                'name' => 'VIVEK KUMAR',
+                'company' => 'Seyuna Limited'
+            ],
+            [
+                'enroll' => '07813702023',
+                'name' => 'YASH FULARA',
+                'company' => 'QSPIDERS'
+            ],
+            [
+                'enroll' => '03621102023',
+                'name' => 'DEEPIKA VATS',
+                'company' => 'Infinity Eventz'
+            ]
+        ],
+        '2022-25' => [
+            [
+                'enroll' => '05513702022',
+                'name' => 'Aditya Raj',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '08213702022',
+                'name' => 'Advaith Shankar',
+                'company' => 'HCL Tech'
+            ],
+            [
+                'enroll' => '04013702022',
+                'name' => 'Agampreet Kaur',
+                'company' => 'Dentsu Global'
+            ],
+            [
+                'enroll' => '03021102022',
+                'name' => 'Akanksha Negi',
+                'company' => 'Wipro Ltd. / HCL Tech.'
+            ],
+            [
+                'enroll' => '08913702022',
+                'name' => 'Akash Chaurasiya',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '06613702022',
+                'name' => 'Aniket Nautiyal',
+                'company' => 'Infosys / HCL Tech.'
+            ],
+            [
+                'enroll' => '03221102022',
+                'name' => 'Ankita Gulati',
+                'company' => 'SAP Labs'
+            ],
+            [
+                'enroll' => '03013702022',
+                'name' => 'Ansh Gupta',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '08121102022',
+                'name' => 'Anshita Manocha',
+                'company' => 'HCL Tech'
+            ],
+            [
+                'enroll' => '02121102022',
+                'name' => 'Ashish Goyal',
+                'company' => 'Dentsu Global'
+            ],
+            [
+                'enroll' => '05421102022',
+                'name' => 'Asmeet Kaur',
+                'company' => 'Wipro Ltd. / HCL Tech.'
+            ],
+            [
+                'enroll' => '03213702022',
+                'name' => 'Bhavishya Verma',
+                'company' => 'Big Oh Notation Pvt Ltd'
+            ],
+            [
+                'enroll' => '3821102022',
+                'name' => 'Gaurvit',
+                'company' => 'Hive AI'
+            ],
+            [
+                'enroll' => '06021102022',
+                'name' => 'Hardik Verma',
+                'company' => 'HCLTech'
+            ],
+            [
+                'enroll' => '03721102022',
+                'name' => 'Harsh Gupta',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '07913702022',
+                'name' => 'Jasleen Kaur',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '09513702022',
+                'name' => 'Jyoti Singh',
+                'company' => 'Infosys / Deloitte'
+            ],
+            [
+                'enroll' => '07313702022',
+                'name' => 'Keshav Sinha',
+                'company' => 'SAP Labs'
+            ],
+            [
+                'enroll' => '04613702022',
+                'name' => 'Kushagra Kashyap',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '07713702022',
+                'name' => 'Md Arslaan',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '05821102022',
+                'name' => 'Mehak Gossain',
+                'company' => 'CISCO'
+            ],
+            [
+                'enroll' => '02721102022',
+                'name' => 'Mehak Taneja',
+                'company' => 'TCS / Deloitte'
+            ],
+            [
+                'enroll' => '00413702022',
+                'name' => 'Mridul Vaid',
+                'company' => 'Wipro Ltd. / TCS'
+            ],
+            [
+                'enroll' => '35713702022',
+                'name' => 'Nancy Dangi',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '01513702022',
+                'name' => 'Paras Taneja',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '06713702022',
+                'name' => 'Prashant',
+                'company' => 'Infonative Solutions'
+            ],
+            [
+                'enroll' => '35121102022',
+                'name' => 'Priyanka Sharma',
+                'company' => 'Wipro Ltd. / Infosys / HCL Tech.'
+            ],
+            [
+                'enroll' => '03113702022',
+                'name' => 'Riya Sharma',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '09713702022',
+                'name' => 'Shomiya Chaturvedi',
+                'company' => 'Dentsu Global'
+            ],
+            [
+                'enroll' => '07021102022',
+                'name' => 'Shrestha Sharma',
+                'company' => 'CISCO'
+            ],
+            [
+                'enroll' => '04321102022',
+                'name' => 'Simarjeet Singh',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '07613702022',
+                'name' => 'Simarjot Singh',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '08613702022',
+                'name' => 'Suraj',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '03513702022',
+                'name' => 'Tanisha Garg',
+                'company' => 'Green Publication / TCS'
+            ],
+            [
+                'enroll' => '00421102022',
+                'name' => 'Tanisha Jaggi',
+                'company' => 'HCLTech / TCS'
+            ],
+            [
+                'enroll' => '02613702022',
+                'name' => 'Tanya Maheshwari',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '36213702022',
+                'name' => 'Ujval Verma',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '07413702022',
+                'name' => 'Vaibhav Garg',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '02313702022',
+                'name' => 'Vanshika Gupta',
+                'company' => 'Green Publication / HCLTech'
+            ],
+            [
+                'enroll' => '03813702022',
+                'name' => 'Yash Wadhwa',
+                'company' => 'Times Internet'
+            ],
+            [
+                'enroll' => '05621102022',
+                'name' => 'Md Mosim',
+                'company' => 'Eventila Technologies Pvt. Ltd.'
+            ]
+        ],
+        '2021-24' => [
+            [
+                'enroll' => '03321102021',
+                'name' => 'ANKUR TIWARI',
+                'company' => 'DEPOTER'
+            ],
+            [
+                'enroll' => '04821102021',
+                'name' => 'ATUL BHARTI',
+                'company' => 'AMAZON'
+            ],
+            [
+                'enroll' => '07713702021',
+                'name' => 'DIVYANSH JHA',
+                'company' => 'SAP LABS'
+            ],
+            [
+                'enroll' => '02021102021',
+                'name' => 'GAUTAM KOHLI',
+                'company' => 'FEDERAL BANK /WIPRO LTD. / MICROLAND'
+            ],
+            [
+                'enroll' => '05813702021',
+                'name' => 'GURJEET SINGH OHRI',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '03013702021',
+                'name' => 'HARMANDEEP SINGH',
+                'company' => 'Hive.AI'
+            ],
+            [
+                'enroll' => '00613702021',
+                'name' => 'HARSH ARORA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '00813702021',
+                'name' => 'LAKSHAY CHAWLA',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '01321102021',
+                'name' => 'MANSHA MONGA',
+                'company' => 'WIPRO LTD. / MICROLAND / Galytix'
+            ],
+            [
+                'enroll' => '02013702021',
+                'name' => 'MIKUL JAIN',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '04913702021',
+                'name' => 'ROHIT PRAJAPATI',
+                'company' => 'INCEDO TECHNOLOGY'
+            ],
+            [
+                'enroll' => '00213702021',
+                'name' => 'SARTHAK KUMAR',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '03121102021',
+                'name' => 'VIBHOR BADOLA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '00621102021',
+                'name' => 'VIPIN SINGH KIROULA',
+                'company' => 'TCS'
+            ]
+        ],
+        '2020-23' => [
+            [
+                'enroll' => '00221102020',
+                'name' => 'ABHAY SINGH',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '00321102020',
+                'name' => 'ABHISHEK PRASAD',
+                'company' => 'HCL TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '00513702020',
+                'name' => 'ADITI AGARWAL',
+                'company' => 'HCL TECHNOLOGIES / TCS'
+            ],
+            [
+                'enroll' => '35113702020',
+                'name' => 'AGAM SINGH',
+                'company' => 'VDART (HCL TECHNOLOGIES)'
+            ],
+            [
+                'enroll' => '00821102020',
+                'name' => 'ANMOL GARG',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '01813702020',
+                'name' => 'AYUSH DUBEY',
+                'company' => 'HCL TECHNOLOGIES / TCS'
+            ],
+            [
+                'enroll' => '01321102020',
+                'name' => 'CHETNA SHARMA',
+                'company' => 'HCL TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '01821102020',
+                'name' => 'GANGA SHARMA',
+                'company' => 'SAP LABS'
+            ],
+            [
+                'enroll' => '02221102020',
+                'name' => 'HARSH MAHORI',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '02421102020',
+                'name' => 'HIMANSHU SHARMA',
+                'company' => 'TCS / VDART (HCL TECHNOLOGIES)'
+            ],
+            [
+                'enroll' => '02521102020',
+                'name' => 'ISHAN MEHRA',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '02921102020',
+                'name' => 'KSHITIZ SRIVASTAVA',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '04013702020',
+                'name' => 'MANJESH SINGH',
+                'company' => 'INCEDO TECHNOLOGIES / TCS'
+            ],
+            [
+                'enroll' => '03221102020',
+                'name' => 'NAKUL BATRA',
+                'company' => 'VDART (HCL TECHNOLOGIES)'
+            ],
+            [
+                'enroll' => '03321102020',
+                'name' => 'NEVIDITA',
+                'company' => 'UPGRAD / HCL TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '05313702020',
+                'name' => 'PRASHANT YADAV',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '05513702020',
+                'name' => 'PRATHAM PANDEY',
+                'company' => 'HEXAWARE TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '06113702020',
+                'name' => 'SACHIN SHARMA',
+                'company' => 'HCL TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '07113702020',
+                'name' => 'SIMRAN KHANNA',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '04621102020',
+                'name' => 'SPARSH PANT',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '07213702020',
+                'name' => 'SWATI TAHEEM',
+                'company' => 'DATOPIC TECHNOLOGIES PVT LTD'
+            ],
+            [
+                'enroll' => '04821102020',
+                'name' => 'TUSHAR ARORA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '07713702020',
+                'name' => 'UJJWAL YADAV',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ]
+        ],
+        '2019-22' => [
+            [
+                'enroll' => '02121102019',
+                'name' => 'Aarchi Agrawal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00421102019',
+                'name' => 'Adarsh Suman',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '01421102019',
+                'name' => 'Aditya Singh',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '00613702019',
+                'name' => 'Ajit Kumar Singh',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03313702019',
+                'name' => 'Aman Khandelwal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04721102019',
+                'name' => 'Anjali Gupta',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '05121102019',
+                'name' => 'Anurag Verma',
+                'company' => 'SAP Labs'
+            ],
+            [
+                'enroll' => '02321102019',
+                'name' => 'Arshi Khan',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03321102019',
+                'name' => 'Ayush Bhardwaj',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00913702019',
+                'name' => 'Ayush Priyadarshi',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '35113702019',
+                'name' => 'Bhavya Bablani',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '01221102019',
+                'name' => 'Bhumika Singh',
+                'company' => 'Wipro Technologies / Capgemini'
+            ],
+            [
+                'enroll' => '04021102019',
+                'name' => 'Chirag Tuli',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '03921102019',
+                'name' => 'Dhruv Samtani',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02713702019',
+                'name' => 'Drishti Bajpai',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02813702019',
+                'name' => 'Girik Nohani',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00921102019',
+                'name' => 'Harsh Jain',
+                'company' => 'Starworld Digital Pvt. Ltd. / SkyTrust IT Solutions'
+            ],
+            [
+                'enroll' => '02013702019',
+                'name' => 'Harsh Paliya',
+                'company' => 'PROVAR'
+            ],
+            [
+                'enroll' => '00821102019',
+                'name' => 'Harshika Goel',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '01121102019',
+                'name' => 'Himanshu Rawat',
+                'company' => 'Decimal Technologies'
+            ],
+            [
+                'enroll' => '35413702019',
+                'name' => 'Ishan Bablani',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '35613702019',
+                'name' => 'Japleen Kaur',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04313702019',
+                'name' => 'Jaspreet Singh',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02821102019',
+                'name' => 'Karthik Malhotra',
+                'company' => 'Amazon India'
+            ],
+            [
+                'enroll' => '02413702019',
+                'name' => 'Kawangun Singh Saluja',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '01321102019',
+                'name' => 'Kirti',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03421102019',
+                'name' => 'Kunal Goyal',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '03713702019',
+                'name' => 'Kushagra',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02221102019',
+                'name' => 'Lakshit',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '00313702019',
+                'name' => 'Lavisha Sehgal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03521102019',
+                'name' => 'Manan Khanna',
+                'company' => 'Amazon India / Capgemini'
+            ],
+            [
+                'enroll' => '35513702019',
+                'name' => 'Manavdeep Singh',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '02213702019',
+                'name' => 'Manavpreet Singh',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00521102019',
+                'name' => 'Manish Thakur',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '05221102019',
+                'name' => 'Mayank Tomar',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '35213702019',
+                'name' => 'Mehar Sahni',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '03721102019',
+                'name' => 'Mehul Verma',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '02521102019',
+                'name' => 'Mohit',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '01013702019',
+                'name' => 'Namrata sehgal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04921102019',
+                'name' => 'Nikhil Dhanda',
+                'company' => 'Decimal Technologies'
+            ],
+            [
+                'enroll' => '35421102019',
+                'name' => 'Nishant Gupta',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '01613702019',
+                'name' => 'Ojus Gupta',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00813702019',
+                'name' => 'Palak Saluja',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03621102019',
+                'name' => 'Parth Mutreja',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04513702019',
+                'name' => 'Pawan Singh Dangwal',
+                'company' => 'Deloitte / Wipro Technologies'
+            ],
+            [
+                'enroll' => '05021102019',
+                'name' => 'Piyush Kumar',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '00113702019',
+                'name' => 'Pranjal Sharma',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02913702019',
+                'name' => 'Prashant Rao',
+                'company' => 'Amazon India'
+            ],
+            [
+                'enroll' => '04913702019',
+                'name' => 'Priyanka Bisht',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '05313702019',
+                'name' => 'Rahul Sharma',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '02721102019',
+                'name' => 'Rhythm Budhiraja',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03113702019',
+                'name' => 'Ria Dudeja',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04521102019',
+                'name' => 'Rishabh Rathore',
+                'company' => 'Wipro Technologies / Capgemini'
+            ],
+            [
+                'enroll' => '04613702019',
+                'name' => 'Ritesh Thakur',
+                'company' => 'PROVAR'
+            ],
+            [
+                'enroll' => '04013702019',
+                'name' => 'Ritika',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '01721102019',
+                'name' => 'Ritika Budhiraja',
+                'company' => 'Deloitte / PROVAR'
+            ],
+            [
+                'enroll' => '03013702019',
+                'name' => 'Ronit Sharma',
+                'company' => 'Veersa Technologies'
+            ],
+            [
+                'enroll' => '04213702019',
+                'name' => 'Saloni Khurana',
+                'company' => 'Deloitte / Veersa Technologies'
+            ],
+            [
+                'enroll' => '00621102019',
+                'name' => 'Sanskar Bansal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04321102019',
+                'name' => 'Sarthak Bhardwaj',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00321102019',
+                'name' => 'Shivam Mehta',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04421102019',
+                'name' => 'Shivam Vij',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03613702019',
+                'name' => 'Siddharth',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02421102019',
+                'name' => 'Siddharth Singh',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '02313702019',
+                'name' => 'Smriti Mahajan',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '00721102019',
+                'name' => 'Tanishq Malik',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '03121102019',
+                'name' => 'Tannu Dubey',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '01821102019',
+                'name' => 'Tanya Nagpal',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '04821102019',
+                'name' => 'Tushar Bhadouria',
+                'company' => 'Capgemini'
+            ],
+            [
+                'enroll' => '01021102019',
+                'name' => 'Vaibhav Kumar',
+                'company' => 'Deloitte / Wipro Technologies'
+            ],
+            [
+                'enroll' => '35221102019',
+                'name' => 'Vinayak Sharma',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '01813702019',
+                'name' => 'Vipashchit Chaturvedi',
+                'company' => 'Decimal Technologies'
+            ],
+            [
+                'enroll' => '01413702019',
+                'name' => 'Vivek Sharma',
+                'company' => 'Deloitte'
+            ]
+        ]
+    ],
+    'BBA' => [
+        '2023-26' => [
+            [
+                'enroll' => '13521101723',
+                'name' => 'AANYA SINDHU',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01421101723',
+                'name' => 'AARUSHI MISHRA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '36821101723',
+                'name' => 'ABHINAV DAHIYA',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '11921101723',
+                'name' => 'ABHITANJAY ANGIRISH',
+                'company' => 'TrueBlue India / Wipro Ltd.'
+            ],
+            [
+                'enroll' => '11221101723',
+                'name' => 'ADITI KUMARI',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06513701723',
+                'name' => 'AKSHIT KALRA',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '08113701723',
+                'name' => 'ANISH GORANA',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '02021101723',
+                'name' => 'ANISHA ROUTRAY',
+                'company' => 'Times Internet'
+            ],
+            [
+                'enroll' => '01113701723',
+                'name' => 'ANNAIKA LAMBA',
+                'company' => 'Xero Degrees Cafe Private Limited'
+            ],
+            [
+                'enroll' => '11313701723',
+                'name' => 'ARJUN BHATIA',
+                'company' => 'IIDE-The Digital School'
+            ],
+            [
+                'enroll' => '71221101723',
+                'name' => 'ARNAV AGGARWAL',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '71121101723',
+                'name' => 'ARYAN KAUSHAL',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01413701723',
+                'name' => 'AYUSH CHOUDHARY',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '08821101723',
+                'name' => 'BHAVYA KHANNA',
+                'company' => 'Immigration Expert\'s'
+            ],
+            [
+                'enroll' => '03221101723',
+                'name' => 'BHOOMI DANGWAL',
+                'company' => 'Fleetx.io'
+            ],
+            [
+                'enroll' => '35321101723',
+                'name' => 'CHAITANYA SEHGAL',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '13013701723',
+                'name' => 'DANYAH KHAN',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06121101723',
+                'name' => 'DEEPANSH GUPTA',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '11421101723',
+                'name' => 'DEVANSHI CHHABRA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06821101723',
+                'name' => 'DIKSHA',
+                'company' => 'RightO Services Pvt .Ltd'
+            ],
+            [
+                'enroll' => '35413701723',
+                'name' => 'DIVNEET KAUR',
+                'company' => 'Genpact'
+            ],
+            [
+                'enroll' => '09121101723',
+                'name' => 'EKTA',
+                'company' => 'Righto Services Pvt Limited'
+            ],
+            [
+                'enroll' => '15113701723',
+                'name' => 'HIMA MANNAN',
+                'company' => 'Dream Ahead Tech Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03621101723',
+                'name' => 'HRISHABH RAJ',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '36421101723',
+                'name' => 'IKSHITA SRIVASTAVA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01513701723',
+                'name' => 'JIVESH BHUTANI',
+                'company' => 'Paytm'
+            ],
+            [
+                'enroll' => '02613701723',
+                'name' => 'KRITI SHARMA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '14413701723',
+                'name' => 'KUSHAGRA BADHWAR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04613701723',
+                'name' => 'MAANVI JAIN',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '05813701723',
+                'name' => 'MADHAV LEKHI',
+                'company' => 'Indian Estate Group'
+            ],
+            [
+                'enroll' => '12121101723',
+                'name' => 'MANAN SONI',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03321101723',
+                'name' => 'MOHNISH MEHTA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03913701723',
+                'name' => 'MUSKAN DAGAR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '05613701723',
+                'name' => 'NIRBHAY',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '08013701723',
+                'name' => 'NITI GUPTA',
+                'company' => 'SELIN CLUB'
+            ],
+            [
+                'enroll' => '04921101723',
+                'name' => 'NITYA NAYYAR',
+                'company' => 'Symmetrical Global Search Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '12321101723',
+                'name' => 'PALAK KATARIA',
+                'company' => 'Wipro Ltd. / SDDB Branding Solutions Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '04721101723',
+                'name' => 'PARIDHI KALRA',
+                'company' => 'Wipro Ltd. / Symmetrical Global Search Pvt Ltd India'
+            ],
+            [
+                'enroll' => '04113701723',
+                'name' => 'PRANAY JAIN',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '15513701723',
+                'name' => 'PRATHAM LAMBA',
+                'company' => 'Genpact / NTT Data'
+            ],
+            [
+                'enroll' => '00113701723',
+                'name' => 'PRIYANKA VERMA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '02213701723',
+                'name' => 'PRIYANSHU CHAUHAN',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '13021101723',
+                'name' => 'RAMAN GUPTA',
+                'company' => 'CirclePe'
+            ],
+            [
+                'enroll' => '02621101723',
+                'name' => 'RISHABH PANWAR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04213701723',
+                'name' => 'RITWIK GUPTA',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '09621101723',
+                'name' => 'RUDRA KAPOOR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01821101723',
+                'name' => 'RUSHIL SAINI',
+                'company' => 'Trabulous Private Limited'
+            ],
+            [
+                'enroll' => '12713701723',
+                'name' => 'SAKSHI',
+                'company' => 'UnitedLex India Private Limited'
+            ],
+            [
+                'enroll' => '02421101723',
+                'name' => 'SAKSHI CHHEDA',
+                'company' => 'Genpact'
+            ],
+            [
+                'enroll' => '07121101723',
+                'name' => 'SALONI KANSAL',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '06113701723',
+                'name' => 'SATYAM ARORA',
+                'company' => 'Jaro Education / Journey Routers'
+            ],
+            [
+                'enroll' => '01613701723',
+                'name' => 'SIYA KARAN',
+                'company' => 'ECHO INDIA'
+            ],
+            [
+                'enroll' => '14113701723',
+                'name' => 'SONAL GUPTA',
+                'company' => 'Krezig Consultants LLP Konnecting Korporates'
+            ],
+            [
+                'enroll' => '01521101723',
+                'name' => 'TAMANNA CHANDILA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04821101723',
+                'name' => 'TANVEER SINGH KUKREJA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '02921101723',
+                'name' => 'TISHA VERMA',
+                'company' => 'Brskly (Myinstapass Business Solutions Pvt. Ltd.)'
+            ],
+            [
+                'enroll' => '01721101723',
+                'name' => 'UMANG GUPTA',
+                'company' => 'Redcliffe Lifetech Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '08413701723',
+                'name' => 'VANSH ARORA',
+                'company' => 'Wipro Ltd. / Deloitte'
+            ],
+            [
+                'enroll' => '01913701723',
+                'name' => 'VANSHIKA KAPOOR',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '09821101723',
+                'name' => 'VANSHIKA SHARMA',
+                'company' => 'TrueBlue India'
+            ]
+        ],
+        '2022-25' => [
+            [
+                'enroll' => '10213701722',
+                'name' => 'Abhav Vijay Gupta',
+                'company' => 'Wipro Ltd. / Mindforce Research'
+            ],
+            [
+                'enroll' => '09321101722',
+                'name' => 'Abhishek Nair',
+                'company' => 'Wipro Ltd. / JLL Business Services'
+            ],
+            [
+                'enroll' => '01313701722',
+                'name' => 'Aditya Chauhan',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '04921101722',
+                'name' => 'Aditya Taneja',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '07313701722',
+                'name' => 'Advaitt Chandola',
+                'company' => 'Clairvolex / JLL Business Services'
+            ],
+            [
+                'enroll' => '02321101722',
+                'name' => 'Anant Pratosh Sharma',
+                'company' => 'HCL Tech.'
+            ],
+            [
+                'enroll' => '02013701722',
+                'name' => 'Ansh Bhatia',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '06513701722',
+                'name' => 'Anshul Arora',
+                'company' => 'R1RCM / JLL Business Services'
+            ],
+            [
+                'enroll' => '08321101722',
+                'name' => 'Anurag Bhatt',
+                'company' => 'Hike Education'
+            ],
+            [
+                'enroll' => '03813701722',
+                'name' => 'Arsh Gakhar',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '12013701722',
+                'name' => 'Arushi Bhardwaj',
+                'company' => 'Galytix / JLL Business Services'
+            ],
+            [
+                'enroll' => '08713701722',
+                'name' => 'Ashpreet Singh Khanuja',
+                'company' => 'MINDFORCE RESEARCH'
+            ],
+            [
+                'enroll' => '07821101722',
+                'name' => 'Bhavya Aggarwal',
+                'company' => 'British Telecom'
+            ],
+            [
+                'enroll' => '04813701722',
+                'name' => 'Charu Sharma',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '35313701722',
+                'name' => 'Charvi Pupneja',
+                'company' => 'Infonative Solutions'
+            ],
+            [
+                'enroll' => '00213701722',
+                'name' => 'Dhruv Gupta',
+                'company' => 'MINDFORCE RESEARCH / JLL Business Services'
+            ],
+            [
+                'enroll' => '35821101722',
+                'name' => 'Dhruv Vaid',
+                'company' => 'AIM India Pvt Ltd'
+            ],
+            [
+                'enroll' => '06021101722',
+                'name' => 'Diksha Plahania',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '07113701722',
+                'name' => 'Dushyant Chhabra',
+                'company' => 'Hike Education / Amazon / JLL Business Services'
+            ],
+            [
+                'enroll' => '02813701722',
+                'name' => 'Geetika Sharma',
+                'company' => 'Hike Education / Jaro Education'
+            ],
+            [
+                'enroll' => '00313701722',
+                'name' => 'Guramrit Kaur',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '10413701722',
+                'name' => 'Harsh Pal',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '10813701722',
+                'name' => 'Harshika Sadyora',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '07221101722',
+                'name' => 'Himanshu Bareja',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '02821101722',
+                'name' => 'Himen Thakur',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '04121101722',
+                'name' => 'Ishita Chhabra',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '00921101722',
+                'name' => 'Ishita Sangwal',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '35113701722',
+                'name' => 'Jiya Sachdeva',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03013701722',
+                'name' => 'Keshav Gupta',
+                'company' => 'R1RCM / Amazon / JLL Busienss Services'
+            ],
+            [
+                'enroll' => '00821101722',
+                'name' => 'Krishna Sharma',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '35213701722',
+                'name' => 'Kush Sharma',
+                'company' => 'TrueBlue India / Infollion Research Services Pvt Ltd'
+            ],
+            [
+                'enroll' => '09313701722',
+                'name' => 'Lakshita Sharma',
+                'company' => 'TrueBlue India / R1RCM / JLL Business Services'
+            ],
+            [
+                'enroll' => '01021101722',
+                'name' => 'Lavanya Sharma',
+                'company' => 'AXPONENT'
+            ],
+            [
+                'enroll' => '08121101722',
+                'name' => 'Lishika Lapsha',
+                'company' => 'British Telecom / Jaro Education'
+            ],
+            [
+                'enroll' => '04313701722',
+                'name' => 'Manya Wadhwa',
+                'company' => 'TrueBlue India / Wipro Ltd. / Mindforce Research'
+            ],
+            [
+                'enroll' => '07713701722',
+                'name' => 'Mehak Bablani',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '04421101722',
+                'name' => 'Muskan Bhardwaj',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '03613701722',
+                'name' => 'Nikhil Khattar',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '08613701722',
+                'name' => 'Ojas Ahuja',
+                'company' => 'Intellipaat / Infonative Solutions'
+            ],
+            [
+                'enroll' => '11913701722',
+                'name' => 'Parmeet Kaur',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '01513701722',
+                'name' => 'Parneet Kaur',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04821101722',
+                'name' => 'Pavit Singh',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '01413701722',
+                'name' => 'Pranjal Aneja',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '35913701722',
+                'name' => 'Pratyush Singh Negi',
+                'company' => 'Clairvolex'
+            ],
+            [
+                'enroll' => '05313701722',
+                'name' => 'Prisha Singh',
+                'company' => 'AXPONENT'
+            ],
+            [
+                'enroll' => '05613701722',
+                'name' => 'Priyal Verma',
+                'company' => 'TrueBlue India / Wipro Ltd.'
+            ],
+            [
+                'enroll' => '12113701722',
+                'name' => 'Raghav Khandelwal',
+                'company' => 'Infonative Solutions / JLL Business Services'
+            ],
+            [
+                'enroll' => '35513701722',
+                'name' => 'Rohan Gilhotra',
+                'company' => 'MINDFORCE RESEARCH'
+            ],
+            [
+                'enroll' => '04021101722',
+                'name' => 'Rohit Raj',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '00813701722',
+                'name' => 'Sahil Maheshwari',
+                'company' => 'Clairvolex / JLL Business Services'
+            ],
+            [
+                'enroll' => '00913701722',
+                'name' => 'Sahil Sharma',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '10713701722',
+                'name' => 'Sarthak Sharma',
+                'company' => 'INJ Partners'
+            ],
+            [
+                'enroll' => '06313701722',
+                'name' => 'Saryansh Jain',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '01013701722',
+                'name' => 'Shalini Pandey',
+                'company' => 'EduKyu Pvt. Ltd. / Infollion Research Services Pvt Ltd / HCL Tech.'
+            ],
+            [
+                'enroll' => '00721101722',
+                'name' => 'Shantanu Garg',
+                'company' => 'Clairvolex / INJ Partners'
+            ],
+            [
+                'enroll' => '00413701722',
+                'name' => 'Shruti Rohilla',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '70513701722',
+                'name' => 'Smriti Juneja',
+                'company' => 'TrueBlue India / Dentsu Global'
+            ],
+            [
+                'enroll' => '04413701722',
+                'name' => 'Suhani Gupta',
+                'company' => 'Clairvolex'
+            ],
+            [
+                'enroll' => '01613701722',
+                'name' => 'Talish',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06213701722',
+                'name' => 'Tanishka Negi',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '01713701722',
+                'name' => 'Tanya Saneja',
+                'company' => 'Amazon / Ernst & Young / Deloitte'
+            ],
+            [
+                'enroll' => '04713701722',
+                'name' => 'Tisha Ahuja',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '36813701722',
+                'name' => 'Vansh Behl',
+                'company' => 'MINDFORCE RESEARCH'
+            ],
+            [
+                'enroll' => '70321101722',
+                'name' => 'Vanshika Mahajan',
+                'company' => 'Wipro Ltd. / Amazon / R1RCM'
+            ],
+            [
+                'enroll' => '02613701722',
+                'name' => 'Varun Gupta',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '03313701722',
+                'name' => 'Vikram Kumar',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '08013701722',
+                'name' => 'Vinti Yadav',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '1721101722',
+                'name' => 'Yakshit Goel',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '08513701722',
+                'name' => 'Yashaswi Kaushal',
+                'company' => 'JLL Business Services'
+            ]
+        ],
+        '2021-24' => [
+            [
+                'enroll' => '10121101721',
+                'name' => 'ANKIT KUMAR THAKUR',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '09421101721',
+                'name' => 'ANUSHIKA GARG',
+                'company' => 'Wipro Ltd. / AON Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '36613701721',
+                'name' => 'ANUSHKA TYAGI',
+                'company' => 'AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '08713701721',
+                'name' => 'ARLEEN KAUR',
+                'company' => 'Incedo'
+            ],
+            [
+                'enroll' => '07121101721',
+                'name' => 'ARSHIT BHATNAGAR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00621101721',
+                'name' => 'ARYAN CHUGH',
+                'company' => 'Wipro Ltd. / JLL'
+            ],
+            [
+                'enroll' => '36213701721',
+                'name' => 'ARYAN SINGH',
+                'company' => 'AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '13613701721',
+                'name' => 'ASSNA SAKSHI',
+                'company' => 'AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '07613701721',
+                'name' => 'BHUMIKA JAIN',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '08321101721',
+                'name' => 'CHETAN KAILA',
+                'company' => 'Incedo / NAB (National Australia Bank)'
+            ],
+            [
+                'enroll' => '00513701721',
+                'name' => 'DEEKSHA BISHT',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03613701721',
+                'name' => 'DIVYANSH GUPTA',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '08813701721',
+                'name' => 'GEETIKA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01713701721',
+                'name' => 'GUNGUN DHINGRA',
+                'company' => 'JLL / AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '06613701721',
+                'name' => 'HARGUN SINGH ARORA',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '35413701721',
+                'name' => 'IHANSHU BHOLA',
+                'company' => 'British Telecom'
+            ],
+            [
+                'enroll' => '01221101721',
+                'name' => 'ISHIKA TANWAR',
+                'company' => 'AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '15713701721',
+                'name' => 'JAHANVI',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01313701721',
+                'name' => 'JASMINE ARORA',
+                'company' => 'City Union Bank / R1 RCM'
+            ],
+            [
+                'enroll' => '07713701721',
+                'name' => 'JIYA BAJAJ',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '01921101721',
+                'name' => 'KANISHKA NAGPAL',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '36313701721',
+                'name' => 'KHUSHI RAWAT',
+                'company' => 'HCL Tech'
+            ],
+            [
+                'enroll' => '09021101721',
+                'name' => 'KRISHI PASSI',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '10113701721',
+                'name' => 'KRITI GUPTA',
+                'company' => 'Wipro Ltd. / HCL Tech.'
+            ],
+            [
+                'enroll' => '02513701721',
+                'name' => 'KRITIKA KAIN',
+                'company' => 'British Telcom'
+            ],
+            [
+                'enroll' => '15613701721',
+                'name' => 'KUMKUM PAL',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '05721101721',
+                'name' => 'MANISH KUMAR',
+                'company' => 'R1 RCM'
+            ],
+            [
+                'enroll' => '02413701721',
+                'name' => 'MANISH RAWAT',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '02013701721',
+                'name' => 'MANSHA JAIN',
+                'company' => 'Wipro Ltd. / CASITA'
+            ],
+            [
+                'enroll' => '02813701721',
+                'name' => 'MUSKAN PANJWANI',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '05221101721',
+                'name' => 'NAMAN MEHTA',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01121101721',
+                'name' => 'NAMAN SHARMA',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '05213701721',
+                'name' => 'NAYNA TANWAR',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04321101721',
+                'name' => 'POOJA MAHANOT',
+                'company' => 'Wipro Ltd. / Capgemini'
+            ],
+            [
+                'enroll' => '36713701721',
+                'name' => 'POOJA PURI',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '13113701721',
+                'name' => 'PRABHJOT SINGH',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '09321101721',
+                'name' => 'PRATHAM DHINGRA',
+                'company' => 'R1 RCM'
+            ],
+            [
+                'enroll' => '10513701721',
+                'name' => 'PRATHAM VADHWA',
+                'company' => 'Hive.AI'
+            ],
+            [
+                'enroll' => '00313701721',
+                'name' => 'PREETI DEB',
+                'company' => 'Intellipaat'
+            ],
+            [
+                'enroll' => '35313701721',
+                'name' => 'PRIYANSHI DESWAL',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '09613701721',
+                'name' => 'PRIYANSHU PRASAD',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '05821101721',
+                'name' => 'PUSHKAR JAIN',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '05113701721',
+                'name' => 'RAHUL KAINTH',
+                'company' => 'UNIQLO INDIA'
+            ],
+            [
+                'enroll' => '13013701721',
+                'name' => 'RAVI KANT SHARMA',
+                'company' => 'Hive.AI'
+            ],
+            [
+                'enroll' => '12213701721',
+                'name' => 'RENUKA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '08021101721',
+                'name' => 'ROHAN KUMAR',
+                'company' => 'Federal Bank'
+            ],
+            [
+                'enroll' => '03521101721',
+                'name' => 'SANCHIT SINGHAL',
+                'company' => 'Wipro Ltd. / JLL'
+            ],
+            [
+                'enroll' => '50121101721',
+                'name' => 'SARTHAK GABA',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '12113701721',
+                'name' => 'SARTHAK RAWAT',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '06713701721',
+                'name' => 'SHAGUN VAISHNAV',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04921101721',
+                'name' => 'SHALEEN VATS',
+                'company' => 'Incedo'
+            ],
+            [
+                'enroll' => '11913701721',
+                'name' => 'SHIVANSH SACHDEVA',
+                'company' => 'R1 RCM'
+            ],
+            [
+                'enroll' => '00713701721',
+                'name' => 'SIMRAN KHURANA',
+                'company' => 'NAB (National Australia Bank)'
+            ],
+            [
+                'enroll' => '04313701721',
+                'name' => 'TANYA BHAYANA',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '13513701721',
+                'name' => 'TARIKA NANDWANI',
+                'company' => 'PlanetSpark'
+            ],
+            [
+                'enroll' => '07213701721',
+                'name' => 'UMANG KUKREJA',
+                'company' => 'AoN Consulting Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '05313701721',
+                'name' => 'VASUDHA',
+                'company' => 'Wipro Ltd. / JLL'
+            ],
+            [
+                'enroll' => '04221101721',
+                'name' => 'VED PRAKASH',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '00521101721',
+                'name' => 'VIDHI',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '10013701721',
+                'name' => 'VISHAKHA',
+                'company' => 'PlanetSpark / Hive.AI'
+            ],
+            [
+                'enroll' => '07321101721',
+                'name' => 'YASH SINGH NEGI',
+                'company' => 'JLL'
+            ]
+        ],
+        '2020-23' => [
+            [
+                'enroll' => '00113701720',
+                'name' => 'AANTARIKSH MALHOTRA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '00121101720',
+                'name' => 'AASHRIT MALIK',
+                'company' => 'CAREER LAUNCHER / MICROLAND'
+            ],
+            [
+                'enroll' => '00313701720',
+                'name' => 'ABHISHEK GUPTA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '00521101720',
+                'name' => 'ADITI BANSAL',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '00621101720',
+                'name' => 'ADITYA GUPTA',
+                'company' => 'ZONEMEDIA'
+            ],
+            [
+                'enroll' => '00721101720',
+                'name' => 'ADITYA GURUNG',
+                'company' => 'BYJU\'S'
+            ],
+            [
+                'enroll' => '00821101720',
+                'name' => 'AJAY PAL',
+                'company' => 'CITY UNION BANK / ZONEMEDIA'
+            ],
+            [
+                'enroll' => '00921101720',
+                'name' => 'AKASH SRIVASTAVA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '01121101720',
+                'name' => 'AMIT AGGARWAL',
+                'company' => 'NTT DATA'
+            ],
+            [
+                'enroll' => '01221101720',
+                'name' => 'ANISH GOEL',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '01321101720',
+                'name' => 'ANKIT GOMBER',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '01113701720',
+                'name' => 'ANKIT SHARMA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '01421101720',
+                'name' => 'ANKIT SURYAN',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '01213701720',
+                'name' => 'ANMOL ROHILLA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '35413701720',
+                'name' => 'ANSH BHARDWAJ',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '01521101720',
+                'name' => 'ANSHIKA ARORA',
+                'company' => 'GENPACT'
+            ],
+            [
+                'enroll' => '01513701720',
+                'name' => 'ANUJ ARORA',
+                'company' => 'NTT DATA'
+            ],
+            [
+                'enroll' => '01713701720',
+                'name' => 'ARPIT CHHABRA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '01721101720',
+                'name' => 'ARYAN AGGARWAL',
+                'company' => 'PHRONESIS PARTNERS PTE LTD.'
+            ],
+            [
+                'enroll' => '01921101720',
+                'name' => 'ARYAN SHARMA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02013701720',
+                'name' => 'ASHISH SANGWAN',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '02213701720',
+                'name' => 'ASHITA KAUNDAL',
+                'company' => 'GREEN TREE ADVISORY'
+            ],
+            [
+                'enroll' => '02021101720',
+                'name' => 'ATUL KUMAR',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '02313701720',
+                'name' => 'AYUSH MALIK',
+                'company' => 'GENPACT / UPGRAD'
+            ],
+            [
+                'enroll' => '02121101720',
+                'name' => 'BAVNEET SINGH',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02221101720',
+                'name' => 'BHAVYA BANSAL',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '02321101720',
+                'name' => 'BHAVYA KAPOOR',
+                'company' => 'GENPACT'
+            ],
+            [
+                'enroll' => '02413701720',
+                'name' => 'BHOOMI GUPTA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '02521101720',
+                'name' => 'CHARCHIT AGGRAWAL',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02513701720',
+                'name' => 'CHETNA MONGA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '02613701720',
+                'name' => 'DARSHANA CHAUDHARY',
+                'company' => 'GREEN TREE ADVISORY'
+            ],
+            [
+                'enroll' => '02721101720',
+                'name' => 'DEEPANSHU BHARDWAJ',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '02913701720',
+                'name' => 'DHRUV MAURYA',
+                'company' => 'NTT DATA'
+            ],
+            [
+                'enroll' => '03113701720',
+                'name' => 'DIKSHA GERLA',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '03221101720',
+                'name' => 'GAURI JAGGA',
+                'company' => 'ZONEMEDIA'
+            ],
+            [
+                'enroll' => '03713701720',
+                'name' => 'GUNJAN RAMDEY',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '03813701720',
+                'name' => 'GURLEEN KAUR',
+                'company' => 'CASITA'
+            ],
+            [
+                'enroll' => '04113701720',
+                'name' => 'HARSH TYAGI',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '04213701720',
+                'name' => 'HARSHIT BATRA',
+                'company' => 'UPGRAD'
+            ],
+            [
+                'enroll' => '04413701720',
+                'name' => 'HIMANSHI GUPTA',
+                'company' => 'NTT DATA'
+            ],
+            [
+                'enroll' => '04513701720',
+                'name' => 'HIMANSHI TULSANI',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '04613701720',
+                'name' => 'ISHA SINGH',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '03821101720',
+                'name' => 'ISHAN VIJAY VATSAL',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '03921101720',
+                'name' => 'ISHIKA BANSAL',
+                'company' => 'BYJU\'S'
+            ],
+            [
+                'enroll' => '04813701720',
+                'name' => 'KASHISH',
+                'company' => 'IGT SOLUTIONS'
+            ],
+            [
+                'enroll' => '05313701720',
+                'name' => 'KRISHIKA KATARIA',
+                'company' => 'BINDING MINDS'
+            ],
+            [
+                'enroll' => '04521101720',
+                'name' => 'MAHAK RAJPUT',
+                'company' => 'BYJU\'S'
+            ],
+            [
+                'enroll' => '04721101720',
+                'name' => 'MANAV GUPTA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '05813701720',
+                'name' => 'MANDEEP SINGH BHATI',
+                'company' => 'BINDING MINDS'
+            ],
+            [
+                'enroll' => '04921101720',
+                'name' => 'MARVIN KHERA',
+                'company' => 'HDFC BANK'
+            ],
+            [
+                'enroll' => '05221101720',
+                'name' => 'MUSKAN ARORA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '35621101720',
+                'name' => 'MUSKAN RAJPAL',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '06313701720',
+                'name' => 'NIKHIL SINGH BISHT',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '06613701720',
+                'name' => 'NISHTHA MAKKER',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '05521101720',
+                'name' => 'NITIN KUMAR',
+                'company' => 'CAREER LAUNCHER'
+            ],
+            [
+                'enroll' => '05621101720',
+                'name' => 'NIVEDITA TRIPATHY',
+                'company' => 'GENPACT'
+            ],
+            [
+                'enroll' => '05821101720',
+                'name' => 'PARAG NIMJE',
+                'company' => 'BRITISH TELECOM'
+            ],
+            [
+                'enroll' => '06913701720',
+                'name' => 'PRACHI PRIYA',
+                'company' => 'HDFC BANK'
+            ],
+            [
+                'enroll' => '06121101720',
+                'name' => 'PRIYANSHU LAKRA',
+                'company' => 'CITY UNION BANK / FEDERAL BANK'
+            ],
+            [
+                'enroll' => '07213701720',
+                'name' => 'PULKIT GUPTA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '07313701720',
+                'name' => 'RAGHAV ANEJA',
+                'company' => 'NTT DATA'
+            ],
+            [
+                'enroll' => '07121101720',
+                'name' => 'SAKSHI SINHA',
+                'company' => 'GREEN TREE ADVISORY'
+            ],
+            [
+                'enroll' => '36013701720',
+                'name' => 'SANA MONGA',
+                'company' => 'CVENT'
+            ],
+            [
+                'enroll' => '08513701720',
+                'name' => 'SANJANA GUGNANI',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '07621101720',
+                'name' => 'SARTHAK MALIK',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '08713701720',
+                'name' => 'SAUHARD SHANKAR SAHA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '09113701720',
+                'name' => 'SHREYANSH BHAGWAT',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '09121101720',
+                'name' => 'UJJWAL GAUTAM',
+                'company' => 'BINDING MINDS / UPGRAD'
+            ],
+            [
+                'enroll' => '09321101720',
+                'name' => 'UTKARSH MAGOO',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '10013701720',
+                'name' => 'UTTKKARSH CHANANA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '09421101720',
+                'name' => 'VAIBHAV RAI',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '09521101720',
+                'name' => 'VANSH KAPOOR',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '09921101720',
+                'name' => 'VISHESH VERMA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '10313701720',
+                'name' => 'YASH SINGH LINGWAL',
+                'company' => 'NATWEST'
+            ]
+        ],
+        '2019-22' => [
+            [
+                'enroll' => '01213701719',
+                'name' => 'Anish Mutreja',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '07813701719',
+                'name' => 'Archie Gupta',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03113701719',
+                'name' => 'Arjun Singh',
+                'company' => 'JLL / Amazon India'
+            ],
+            [
+                'enroll' => '00721101719',
+                'name' => 'Arpit Jain',
+                'company' => 'Polestar Solutions & Services'
+            ],
+            [
+                'enroll' => '08121101719',
+                'name' => 'Aryan Dawar',
+                'company' => 'GreenTree Advisory Services'
+            ],
+            [
+                'enroll' => '04213701719',
+                'name' => 'Avishi Gupta',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '36121101719',
+                'name' => 'Bhawna Taneja',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '35813701719',
+                'name' => 'Deepanshu',
+                'company' => 'Wise FinServ'
+            ],
+            [
+                'enroll' => '07221101719',
+                'name' => 'Disha Ahlawat',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '05413701719',
+                'name' => 'Divij Chhabra',
+                'company' => 'Wipro Ltd. / ARCHER & BULL'
+            ],
+            [
+                'enroll' => '09113701719',
+                'name' => 'Divyam Suri',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '07313701719',
+                'name' => 'Divyansh Khurana',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '06713701719',
+                'name' => 'Diya Vinaik',
+                'company' => 'TravClan'
+            ],
+            [
+                'enroll' => '02413701719',
+                'name' => 'Garv Julka',
+                'company' => 'Upgrad / Publicis Global Delivery'
+            ],
+            [
+                'enroll' => '05813701719',
+                'name' => 'Gurman Singh Chawla',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '08313701719',
+                'name' => 'Harsh Sharma',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01821101719',
+                'name' => 'Harshit Gupta',
+                'company' => 'HDFC Bank'
+            ],
+            [
+                'enroll' => '00713701719',
+                'name' => 'Hemant Dhasmana',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '04121101719',
+                'name' => 'Himansh Arora',
+                'company' => 'Byju\'s'
+            ],
+            [
+                'enroll' => '09821101719',
+                'name' => 'Hitesh Manocha',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '09913701719',
+                'name' => 'Ishika Singh',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06913701719',
+                'name' => 'Jayshree Biswal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00221101719',
+                'name' => 'Kavya Joshi',
+                'company' => 'Clevernist'
+            ],
+            [
+                'enroll' => '03821101719',
+                'name' => 'Khyati Arora',
+                'company' => 'Wise FinServ / AU Small Finance Bank'
+            ],
+            [
+                'enroll' => '00413701719',
+                'name' => 'Kritika Chauhan',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '06313701719',
+                'name' => 'Malika Arora',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '02021101719',
+                'name' => 'Manya',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '00813701719',
+                'name' => 'Mayank Kathuria',
+                'company' => 'Wipro Ltd. / Clevernist'
+            ],
+            [
+                'enroll' => '07821101719',
+                'name' => 'Mayank Makkar',
+                'company' => 'Incedo Technologies'
+            ],
+            [
+                'enroll' => '04721101719',
+                'name' => 'Meenal Bansal',
+                'company' => 'Jaro Education / Amazon India'
+            ],
+            [
+                'enroll' => '35721101719',
+                'name' => 'Mehak Sharma',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '08113701719',
+                'name' => 'Mukul Kharb',
+                'company' => 'Wise FinServ'
+            ],
+            [
+                'enroll' => '03313701719',
+                'name' => 'Nushant Sethi',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '07921101719',
+                'name' => 'P M Hari Govind',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '05313701719',
+                'name' => 'Piyush Suneja',
+                'company' => 'Clevernist'
+            ],
+            [
+                'enroll' => '02113701719',
+                'name' => 'Pranav Mago',
+                'company' => 'TrueBlue India / JLL'
+            ],
+            [
+                'enroll' => '09521101719',
+                'name' => 'Pranay Jain',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '36221101719',
+                'name' => 'Priyanshi Agarwal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00321101719',
+                'name' => 'Priyanshu Maheshwari',
+                'company' => 'AU Small Finance Bank'
+            ],
+            [
+                'enroll' => '08013701719',
+                'name' => 'Rahul Dhingra',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '01713701719',
+                'name' => 'Rhytham Arora',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '07721101719',
+                'name' => 'Ritika Thakur',
+                'company' => 'Concentrix'
+            ],
+            [
+                'enroll' => '07521101719',
+                'name' => 'Riya Arora',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '09121101719',
+                'name' => 'Riya Rajwar',
+                'company' => 'MOGI / Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '06113701719',
+                'name' => 'Rohan Khurana',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '09421101719',
+                'name' => 'Ruhani Munjal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '09313701719',
+                'name' => 'Sakshima Girotra',
+                'company' => 'Incedo Technologies'
+            ],
+            [
+                'enroll' => '06513701719',
+                'name' => 'Samarth Ojha',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01421101719',
+                'name' => 'Sanjana Bhateja',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01021101719',
+                'name' => 'Sanya Chabbra',
+                'company' => 'TrueBlue India / JLL'
+            ],
+            [
+                'enroll' => '06213701719',
+                'name' => 'Satwikk Panigrahy',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '02621101719',
+                'name' => 'Sejal Dandriyal',
+                'company' => 'Upgrad'
+            ],
+            [
+                'enroll' => '01613701719',
+                'name' => 'Sheshank Gautam',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '08213701719',
+                'name' => 'Shivam Malhotra',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '05913701719',
+                'name' => 'Siddhant Khandelwal',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '00521101719',
+                'name' => 'Sourav Chamoli',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03921101719',
+                'name' => 'Sourav Dua',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '07421101719',
+                'name' => 'Srishti Gupta',
+                'company' => 'MOGI'
+            ],
+            [
+                'enroll' => '02913701719',
+                'name' => 'Stuti Rawat',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '01413701719',
+                'name' => 'Tushar Chhabra',
+                'company' => 'PwC India'
+            ],
+            [
+                'enroll' => '03213701719',
+                'name' => 'Vaanyaa Oberoi',
+                'company' => 'Amazon India / TrueBlue India'
+            ],
+            [
+                'enroll' => '09321101719',
+                'name' => 'Vansh Kapoor',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '05613701719',
+                'name' => 'Vanshika Arora',
+                'company' => 'Amazon India'
+            ],
+            [
+                'enroll' => '03513701719',
+                'name' => 'Vijay Kumar',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '05921101719',
+                'name' => 'Viraj Gahlot',
+                'company' => 'Wipro Ltd. / City Union Bank'
+            ],
+            [
+                'enroll' => '00921101719',
+                'name' => 'Vishal Anand',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '05421101719',
+                'name' => 'Yash Raj Singh',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '08221101719',
+                'name' => 'Yashika',
+                'company' => 'NR Consulting'
+            ],
+            [
+                'enroll' => '00421101719',
+                'name' => 'Yatharth Ratra',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04613701719',
+                'name' => 'Yatika Sharma',
+                'company' => 'Wise FinServ'
+            ]
+        ]
+    ],
+    'BCOM' => [
+        '2023-26' => [
+            [
+                'enroll' => '35521188823',
+                'name' => 'ABHINAV JAISWAL',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '02113788823',
+                'name' => 'ANANYA DADHWAL',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '72121188823',
+                'name' => 'ANUKRITI',
+                'company' => 'AoN Consulting'
+            ],
+            [
+                'enroll' => '00713788823',
+                'name' => 'CHETANYA THUKRAL',
+                'company' => 'Evalueserve'
+            ],
+            [
+                'enroll' => '00313788823',
+                'name' => 'HARDIK SHARMA',
+                'company' => 'Evalueserve'
+            ],
+            [
+                'enroll' => '00913788823',
+                'name' => 'ISHA BHALLA',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '70313788823',
+                'name' => 'ISHYA SHERAWAT',
+                'company' => 'TrueBlue India'
+            ],
+            [
+                'enroll' => '70913788823',
+                'name' => 'JESSICA',
+                'company' => 'Zomato / Masters\' Union / Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00513788823',
+                'name' => 'JIYA DAGAR',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '01121188823',
+                'name' => 'KANIKA',
+                'company' => 'Wipro Ltd. / Masters\' Union'
+            ],
+            [
+                'enroll' => '02621188823',
+                'name' => 'KANISHKA',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '01413788823',
+                'name' => 'KASHVI BINDAL',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '02013788823',
+                'name' => 'KRISH MAHAJAN',
+                'company' => 'Siemetic'
+            ],
+            [
+                'enroll' => '70713788823',
+                'name' => 'MEGHA',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '00413788823',
+                'name' => 'RIDHI ANAND',
+                'company' => 'NTT Data / Deloitte'
+            ],
+            [
+                'enroll' => '03213788823',
+                'name' => 'RUDRANK',
+                'company' => 'Evalueserve'
+            ],
+            [
+                'enroll' => '02413788823',
+                'name' => 'SHASHANK',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '70521188823',
+                'name' => 'SHRUTI JAIN',
+                'company' => 'AoN Consulting'
+            ],
+            [
+                'enroll' => '70613788823',
+                'name' => 'SNEHA SINGH',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '01313788823',
+                'name' => 'SUMIT JHA',
+                'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '35213788823',
+                'name' => 'TANYA KALRA',
+                'company' => 'Zomato / TrueBlue India'
+            ],
+            [
+                'enroll' => '03713788823',
+                'name' => 'TISHA ARORA',
+                'company' => 'Masters\' Union'
+            ],
+            [
+                'enroll' => '71313788823',
+                'name' => 'YASHIKA',
+                'company' => 'Zomato / Wipro Ltd.'
+            ]
+        ],
+        '2022-25' => [
+            [
+                'enroll' => '02313788822',
+                'name' => 'Aayushi Rawat',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '02913788822',
+                'name' => 'Ankita Sharma',
+                'company' => 'Wipro Ltd. / JLL Business Services'
+            ],
+            [
+                'enroll' => '01421188822',
+                'name' => 'Ayushi Tiwary',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '03221188822',
+                'name' => 'Charanpreet Singh',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '01121188822',
+                'name' => 'Dia Bahl',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '01413788822',
+                'name' => 'Divya Bhandari',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '00321188822',
+                'name' => 'Divyansh Kumar',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '02421188822',
+                'name' => 'Garvit Babbar',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '01313788822',
+                'name' => 'Gaurav Mahana',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '02413788822',
+                'name' => 'Granth Khandelwal',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '03421188822',
+                'name' => 'Hardik Taneja',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '01621188822',
+                'name' => 'Hemant Pahuja',
+                'company' => 'R1RCM / CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '02813788822',
+                'name' => 'Jiya Sain',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '70513788822',
+                'name' => 'Kaanha Grover',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '35413788822',
+                'name' => 'Kanika',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '00713788822',
+                'name' => 'Kanishka Pruthi',
+                'company' => 'TrueBlue India / Wipro Ltd. / CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '01921188822',
+                'name' => 'Luvya Popli',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '00913788822',
+                'name' => 'Mannat Kaushik',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '01821188822',
+                'name' => 'Mayank',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '01513788822',
+                'name' => 'Mehak',
+                'company' => 'Wipro Ltd. / JLL Business Services'
+            ],
+            [
+                'enroll' => '01021188822',
+                'name' => 'Mehak Singhal',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '35313788822',
+                'name' => 'Preksha Sachdeva',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '36121188822',
+                'name' => 'Rashi Gupta',
+                'company' => 'CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '01113788822',
+                'name' => 'Seeta Dutta',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '03013788822',
+                'name' => 'Shivali Vohra',
+                'company' => 'Deloitte / JLL Business Services'
+            ],
+            [
+                'enroll' => '01521188822',
+                'name' => 'Shivansh Dhawan',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '01913788822',
+                'name' => 'Shreya Sharma',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '01213788822',
+                'name' => 'Simar Arora',
+                'company' => 'JLL Business Services'
+            ],
+            [
+                'enroll' => '03321188822',
+                'name' => 'Simarpreet Singh',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '70413788822',
+                'name' => 'Tanya',
+                'company' => 'Wipro Ltd. / CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '35721188822',
+                'name' => 'Vani Grover',
+                'company' => 'R1RCM / CLAIRVOLEX'
+            ],
+            [
+                'enroll' => '35113788822',
+                'name' => 'Vanshika Dhawan',
+                'company' => 'Wipro Ltd. / Amazon'
+            ]
+        ],
+        '2021-24' => [
+            [
+                'enroll' => '03621188821',
+                'name' => 'Aastha Bhojwani',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00321188821',
+                'name' => 'Abhinav Malhotra',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '04113788821',
+                'name' => 'Anurag Singh',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '03513788821',
+                'name' => 'Ashmit Mahajan',
+                'company' => 'Wipro Ltd. / Amazon'
+            ],
+            [
+                'enroll' => '02221188821',
+                'name' => 'Ayushi Bhardwaj',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '02121188821',
+                'name' => 'Deepak Kansal',
+                'company' => 'Intellipat'
+            ],
+            [
+                'enroll' => '35221188821',
+                'name' => 'Divyansh Chawla',
+                'company' => 'Hive.ai'
+            ],
+            [
+                'enroll' => '02813788821',
+                'name' => 'Gunjan Garg',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '03013788821',
+                'name' => 'Harshit Khurana',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '04613788821',
+                'name' => 'Himanshu Tewatia',
+                'company' => 'R1 RCM'
+            ],
+            [
+                'enroll' => '04221188821',
+                'name' => 'Jatin Sharma',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '03821188821',
+                'name' => 'K B Gokul Venkatraman',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '04121188821',
+                'name' => 'Kanika Agarwal',
+                'company' => 'Intellipat'
+            ],
+            [
+                'enroll' => '02421188821',
+                'name' => 'Kashish',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '04013788821',
+                'name' => 'Maanshikha Sangwan',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '01313788821',
+                'name' => 'Mugdha Bhalla',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01621188821',
+                'name' => 'Neha Chauhan',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '02921188821',
+                'name' => 'Neha Goyal',
+                'company' => 'R1 RCM'
+            ],
+            [
+                'enroll' => '00821188821',
+                'name' => 'Nikhil Grover',
+                'company' => 'Epic Investment Partners'
+            ],
+            [
+                'enroll' => '00813788821',
+                'name' => 'Pooja Arora',
+                'company' => 'Wipro Ltd. / JLL'
+            ],
+            [
+                'enroll' => '03313788821',
+                'name' => 'Saith Sansar',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '03813788821',
+                'name' => 'Saksham Manav',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '00313788821',
+                'name' => 'Saloni Indra',
+                'company' => 'NatWest Group'
+            ],
+            [
+                'enroll' => '00721188821',
+                'name' => 'Sambhav Kumar',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '01713788821',
+                'name' => 'Shaurya Verma',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '02521188821',
+                'name' => 'Vishakha Pant',
+                'company' => 'HCL Tech'
+            ],
+            [
+                'enroll' => '00713788821',
+                'name' => 'Yash Goel',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '02913788821',
+                'name' => 'Yash Kumar Singh',
+                'company' => 'Jaro Education'
+            ]
+        ],
+        '2020-23' => [
+            [
+                'enroll' => '00221188820',
+                'name' => 'ABHIMANYU BATRA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '00421188820',
+                'name' => 'ANURAG PANDEY',
+                'company' => 'HDFC BANK / BYJU\'S'
+            ],
+            [
+                'enroll' => '00521188820',
+                'name' => 'ANURAG VAZIRANI',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '00821188820',
+                'name' => 'AYUSH ARYA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '01213788820',
+                'name' => 'CHEHAK KHERA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '01121188820',
+                'name' => 'DEEPTI SHARMA',
+                'company' => 'ZONEMEDIA'
+            ],
+            [
+                'enroll' => '01321188820',
+                'name' => 'GAUTAM SINGH RAWAT',
+                'company' => 'WIPRO LTD. / HDFC BANK'
+            ],
+            [
+                'enroll' => '02013788820',
+                'name' => 'KARTIK MAHAJAN',
+                'company' => 'INCEDO TECHNOLOGIES'
+            ],
+            [
+                'enroll' => '02313788820',
+                'name' => 'KHUSHI KHANDELWAL',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '01921188820',
+                'name' => 'KUNAL KUMAR',
+                'company' => 'GENPACT'
+            ],
+            [
+                'enroll' => '02513788820',
+                'name' => 'KUSHAGRA',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02121188820',
+                'name' => 'MAYANK SHEKHAR',
+                'company' => 'CITY UNION BANK / BYJU\'S'
+            ],
+            [
+                'enroll' => '02713788820',
+                'name' => 'NAMAN DUTT',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02813788820',
+                'name' => 'NIDHI GUPTA',
+                'company' => 'HDFC BANK'
+            ],
+            [
+                'enroll' => '02913788820',
+                'name' => 'NIDHI SINGH',
+                'company' => 'CITY UNION BANK'
+            ],
+            [
+                'enroll' => '02521188820',
+                'name' => 'PAYAL SINGHANIA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '03413788820',
+                'name' => 'PRAPTI NARULA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '02821188820',
+                'name' => 'PRAVIR BAWA',
+                'company' => 'WIPRO LTD.'
+            ],
+            [
+                'enroll' => '03021188820',
+                'name' => 'RAGHAV',
+                'company' => 'WIPRO LTD. / GENPACT'
+            ],
+            [
+                'enroll' => '03713788820',
+                'name' => 'RONIT SABHARWAL',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '35513788820',
+                'name' => 'ROUNAK CHOPRA',
+                'company' => 'NATWEST'
+            ],
+            [
+                'enroll' => '03821188820',
+                'name' => 'SHUBHAM BHARGAVA',
+                'company' => 'HDFC BANK / BYJU\'S'
+            ],
+            [
+                'enroll' => '04213788820',
+                'name' => 'SURYANSH KAUSHIK',
+                'company' => 'CITY UNION BANK / FEDERAL BANK'
+            ],
+            [
+                'enroll' => '04313788820',
+                'name' => 'SUYASH DUBEY',
+                'company' => 'BYJU\'S'
+            ],
+            [
+                'enroll' => '04413788820',
+                'name' => 'TANMAY',
+                'company' => 'CITY UNION BANK / FEDERAL BANK'
+            ],
+            [
+                'enroll' => '04221188820',
+                'name' => 'TITHI CHANDA',
+                'company' => 'PHRONESIS PARTNERS PTE LTD.'
+            ],
+            [
+                'enroll' => '35521188820',
+                'name' => 'URVASHI SALUJA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '04513788820',
+                'name' => 'UTKARSH',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '04713788820',
+                'name' => 'VANSHIKA SAXENA',
+                'company' => 'JLL INDIA'
+            ],
+            [
+                'enroll' => '05113788820',
+                'name' => 'YUKTA PASRICHA',
+                'company' => 'JARO EDUCATION'
+            ]
+        ],
+        '2019-22' => [
+            [
+                'enroll' => '00421188819',
+                'name' => 'Aakash Sharma',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '04121188819',
+                'name' => 'Aarushi chauhan',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '04321188819',
+                'name' => 'Aditya Choudhary',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '03221188819',
+                'name' => 'Akshit Yadav',
+                'company' => 'AU Small Finance Bank'
+            ],
+            [
+                'enroll' => '01221188819',
+                'name' => 'Aman Pandey',
+                'company' => 'Jaro Education / HDFC Bank'
+            ],
+            [
+                'enroll' => '01121188819',
+                'name' => 'Ashish Khatri',
+                'company' => 'Amazon India'
+            ],
+            [
+                'enroll' => '02813788819',
+                'name' => 'Bhabya',
+                'company' => 'Upgrad'
+            ],
+            [
+                'enroll' => '04221188819',
+                'name' => 'Bhanu Nagpal',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '01313788819',
+                'name' => 'Bhuvan Sahgal',
+                'company' => 'HDFC Bank'
+            ],
+            [
+                'enroll' => '02513788819',
+                'name' => 'Bibhav Kirti Choudhary',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '35613788819',
+                'name' => 'Charu khanna',
+                'company' => 'Publicis Groupe'
+            ],
+            [
+                'enroll' => '03913788819',
+                'name' => 'Hardik Mediratta',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '04613788819',
+                'name' => 'Harsh Sharma',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '04113788819',
+                'name' => 'Muskan Tiwari',
+                'company' => 'PwC India'
+            ],
+            [
+                'enroll' => '00821188819',
+                'name' => 'Rhea Thapar',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '02021188819',
+                'name' => 'Sajan vij',
+                'company' => 'Natwest Group (RBS)'
+            ],
+            [
+                'enroll' => '35221188819',
+                'name' => 'Saksham Arora',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00921188819',
+                'name' => 'Sharanjot Singh',
+                'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '02713788819',
+                'name' => 'Tushar Garg',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '02913788819',
+                'name' => 'Veeral Batham',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '05013788819',
+                'name' => 'Vinay Garg',
+                'company' => 'AU Small Finance Bank / ImpactGuru'
+            ],
+            [
+                'enroll' => '35421188819',
+                'name' => 'Vinay Sejwal',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
+                'enroll' => '00721188819',
+                'name' => 'Yamini Sharma',
+                'company' => 'TrueBlue India / JLL'
+            ],
+            [
+                'enroll' => '03313788819',
+                'name' => 'Yash dhiman',
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '01321188819',
+                'name' => 'Yash Saluja',
+                'company' => 'PwC India'
+            ],
+            [
+                'enroll' => '35113788819',
+                'name' => 'Yashica Garg',
+                'company' => 'Incedo Technologies / Natwest Group (RBS)'
+            ]
+        ]
+    ],
+    'BJMC' => [
+        '2023-26' => [
+            [
+                'enroll' => '00113702423',
+                'name' => 'Sachi',
+                'company' => 'Boost Media'
+            ],
+            [
+                'enroll' => '00613702423',
+                'name' => 'Jhanvi vats',
+                'company' => 'B.I.G. Media Communications'
+            ],
+            [
+                'enroll' => '00713702423',
+                'name' => 'Dhriti Gulati',
+                'company' => 'PR Pundit Public Relations Pvt Ltd'
+            ],
+            [
+                'enroll' => '01213702423',
+                'name' => 'Shreya',
+                'company' => 'Wittyviral'
+            ],
+            [
+                'enroll' => '01313702423',
+                'name' => 'Arhaan',
+                'company' => 'SkyFish Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '01613702423',
+                'name' => 'Praganya',
+                'company' => 'Vantage Experiential Events'
+            ],
+            [
+                'enroll' => '03813702423',
+                'name' => 'Nandini',
+                'company' => 'FABLES'
+            ],
+            [
+                'enroll' => '36013702323',
+                'name' => 'Rishi',
+                'company' => 'ClientsMagnet.in'
+            ],
+            [
+                'enroll' => '36213702423',
+                'name' => 'Himani',
+                'company' => 'FABLES'
+            ],
+            [
+                'enroll' => '70313702423',
+                'name' => 'Rishita Saxena',
+                'company' => 'DNP NEWS NETWORK'
+            ],
+            [
+                'enroll' => '35113702423',
+                'name' => 'Ruhani Arora',
+                'company' => 'Techcurators'
+            ],
+            [
+                'enroll' => '00413702423',
+                'name' => 'Prisha Srivastava',
+                'company' => 'Troovy foods'
+            ],
+            [
+                'enroll' => '02313702423',
+                'name' => 'Sanyam Pahuja',
+                'company' => 'Purple Patch Events (Mantran)'
+            ]
+        ]
+    ]
+];
