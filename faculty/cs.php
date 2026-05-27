@@ -1,5 +1,5 @@
 <?php
-// Faculty data — edit this array to add / remove / update faculty
+// Faculty data — edit this array to add / remove / update faculty details. Each faculty is an associative array with keys:
 $faculty = [
     [
         "name" => "Prof.(Dr.) G.K. Wadhwani",
