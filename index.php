@@ -16,22 +16,17 @@ echo '</script>';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Best Management College in Delhi NCR | IT College in Delhi </title>
-    <meta name="Ranked as the best management college in Delhi NCR & IT College in Delhi, IITM Janakpuri brings 25+ years of excellence & offers industry-aligned programmes.">
-    
-    
-    <!--Devd---->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJX8PS9941"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta name="description" content="Ranked as the best management college in Delhi NCR & IT College in Delhi, IITM Janakpuri brings 25+ years of excellence & offers industry-aligned programmes.">
 
-  gtag('config', 'G-VJX8PS9941');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJX8PS9941"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-
-
+      gtag('config', 'G-VJX8PS9941');
+    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

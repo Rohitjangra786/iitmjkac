@@ -14,24 +14,17 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> MCA top College in Delhi NCR | Best MCA College in Delhi </title>
-    <meta name="description" content="IITM Janakpuri, one of the MCA top Colleges in Delhi NCR and Best MCA College in Delhi, equips students with advanced IT skills and career-ready expertise. ">
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ============ SEO ============ -->
-    <title>MCA at IITM Janakpuri — 2 Years, GGSIPU-Affiliated</title>
-    <meta name="description" content="Master of Computer Applications (MCA) at IITM Janakpuri — a two-year programme accredited by Guru Gobind Singh Indraprastha University with focus on research, consultancy and analytics." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/mca.php" />
+    <title> MCA top College in Delhi NCR | Best MCA College in Delhi </title>
+    <meta name="description" content="IITM Janakpuri, one of the MCA top Colleges in Delhi NCR and Best MCA College in Delhi, equips students with advanced IT skills and career-ready expertise. ">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/mca.php">
 
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">
-    <meta name="theme-color" content="#800000" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
+    <meta name="theme-color" content="#800000">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

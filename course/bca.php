@@ -14,21 +14,14 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Top BCA College in Delhi NCR | Best BCA Hons College in Delhi</title>
-    <meta name="description" content="IITM Janakpuri being a top BCA College in Delhi NCR offers a 4-year program with practical training, industrial projects, and skill development.  ">
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
 
     <!-- ============ SEO ============ -->
-    <title>BCA (Honours) at IITM Janakpuri — 4 Years, GGSIPU, NEP-2020</title>
-    <meta name="description" content="Bachelor of Computer Applications (BCA Honours) at IITM Janakpuri, affiliated to GGSIPU. 4-year programme with NEP-2020 multiple entry/exit, 120+120 intake, specialisations in Data Science, AI, Cyber Security and Web Development." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/bca.php" />
+    <title>Top BCA College in Delhi NCR | Best BCA Hons College in Delhi</title>
+    <meta name="description" content="IITM Janakpuri being a top BCA College in Delhi NCR offers a 4-year program with practical training, industrial projects, and skill development.  ">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/bca.php">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">

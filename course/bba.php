@@ -14,24 +14,17 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">    
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Best BBA College in Delhi NCR | Top BBA Hons College in Delhi </title>
-    <meta name="description" content="IITM Janakpuri, the best College for BBA in Delhi NCR and a top BBA Hons College in Delhi, focuses on career-ready learning, leadership & entrepreneurial development. ">
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ============ SEO ============ -->
-    <title>BBA (Honours) at IITM Janakpuri — 4 Years, GGSIPU, NEP-2020</title>
-    <meta name="description" content="Bachelor of Business Administration (BBA Honours) at IITM Janakpuri, affiliated to GGSIPU. 4-year programme with NEP-2020 multiple entry/exit, 180+180 intake, industrial placement and a research project." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/bba.php" />
+    <title>Best BBA College in Delhi NCR | Top BBA Hons College in Delhi </title>
+    <meta name="description" content="IITM Janakpuri, the best College for BBA in Delhi NCR and a top BBA Hons College in Delhi, focuses on career-ready learning, leadership & entrepreneurial development. ">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/bba.php">
 
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">
-    <meta name="theme-color" content="#800000" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
+    <meta name="theme-color" content="#800000">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

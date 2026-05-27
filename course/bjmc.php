@@ -14,22 +14,14 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Top BJMC College in Delhi | Best College for BJMC in Delhi</title>
-
-    <meta name="description" content="Ranked as the best College for BJMC in Delhi, IITM Janakpuri, a top BJMC College offers industry-aligned BJMC programs with internships & media projects.">
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
 
     <!-- ============ SEO ============ -->
-    <title>BA (JMC) / BJMC (Honours) at IITM Janakpuri — 4 Years, GGSIPU</title>
-    <meta name="description" content="BA (Journalism &amp; Mass Communication) / BJMC at IITM Janakpuri — affiliated to GGSIPU. 4-year programme with NEP-2020 multiple entry/exit, intake of 120, in-house TV/audio studios and strong media-industry placements." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/bjmc.php" />
+    <title>Top BJMC College in Delhi | Best College for BJMC in Delhi</title>
+    <meta name="description" content="Ranked as the best College for BJMC in Delhi, IITM Janakpuri, a top BJMC College offers industry-aligned BJMC programs with internships & media projects.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/bjmc.php">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">

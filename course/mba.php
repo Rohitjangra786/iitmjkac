@@ -14,22 +14,14 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Best MBA College in Delhi | Top MBA College in Delhi NCR</title>
-<meta name="description" content="Choose IITM Janakpuri, the best MBA College in Delhi and top MBA College in Delhi NCR, for a two-year AICTE-approved MBA program emphasizing industry projects. ">
-
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
 
     <!-- ============ SEO ============ -->
-    <title>MBA (General) at IITM Janakpuri — 2 Years, GGSIPU, AICTE-Approved</title>
-    <meta name="description" content="Two-year MBA (General) at IITM Janakpuri, affiliated to GGSIPU and approved by AICTE. Outcome-Based Education with MOOC, AI/ML enabled assignments, summer industrial training and rich electives in HR, Marketing, Finance, Operations and IT." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/mba.php" />
+    <title>Best MBA College in Delhi | Top MBA College in Delhi NCR</title>
+    <meta name="description" content="Choose IITM Janakpuri, the best MBA College in Delhi and top MBA College in Delhi NCR, for a two-year AICTE-approved MBA program emphasizing industry projects. ">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/mba.php">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">

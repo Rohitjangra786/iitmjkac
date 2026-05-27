@@ -14,24 +14,17 @@ echo '</script>';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Best BCom College in Delhi NCR | Top BCom College in Delhi</title>
-<meta name="description" content="IITM Janakpuri, the Best BCom College in Delhi NCR and Top BCom College in Delhi, offers BCom (Hons) with industry-aligned programs, internships & skill development.">
-=======
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ============ SEO ============ -->
-    <title>B.Com (Honours) at IITM Janakpuri — GGSIPU, NEP-2020 Multiple Exit</title>
-    <meta name="description" content="Bachelor of Commerce (Honours) at IITM Janakpuri, affiliated to GGSIPU. 3-year Degree / 4-year Honours / 4-year Honours with Research under NEP-2020, with intake of 60+60 across two shifts." />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://iitmjanakpuri.com/course/bcom.php" />
+    <title>Best BCom College in Delhi NCR | Top BCom College in Delhi</title>
+    <meta name="description" content="IITM Janakpuri, the Best BCom College in Delhi NCR and Top BCom College in Delhi, offers BCom (Hons) with industry-aligned programs, internships & skill development.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://iitmjanakpuri.com/course/bcom.php">
 
     <link rel="icon" type="image/png" href="../upload_new/gallery/logom.png" sizes="16x16">
-    <meta name="theme-color" content="#800000" />
->>>>>>> 0439a16c45fd010566f174701d1e7f0cf857423f
+    <meta name="theme-color" content="#800000">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
