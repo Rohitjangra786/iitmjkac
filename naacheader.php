@@ -16,7 +16,22 @@ if (!isset($iitm_base_url)) {
 ?>
 <!-- Font Awesome 4 — required for header quick-links icons (briefcase / shield / users / file).
      Loaded here so the header renders correctly on pages that don't include FA themselves. -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+     <!--Devd---->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJX8PS9941"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VJX8PS9941');
+</script>
+
+
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
  <style>
     /* ============ Modal stacking — force on top of EVERYTHING ============
        Site has sticky header at z-index 1100 and chat FABs at 1090–1097, which

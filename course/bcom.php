@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | B.Com.(H)</title>
+    <title>Best BCom College in Delhi NCR | Top BCom College in Delhi</title>
+<meta name="description" content="IITM Janakpuri, the Best BCom College in Delhi NCR and Top BCom College in Delhi, offers BCom (Hons) with industry-aligned programs, internships & skill development.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

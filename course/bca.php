@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | BCA</title>
+    <title>Top BCA College in Delhi NCR | Best BCA Hons College in Delhi</title>
+    <meta name="description" content="IITM Janakpuri being a top BCA College in Delhi NCR offers a 4-year program with practical training, industrial projects, and skill development.  ">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

@@ -17,7 +17,9 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | MBA</title>
+    <title>Best MBA College in Delhi | Top MBA College in Delhi NCR</title>
+<meta name="description" content="Choose IITM Janakpuri, the best MBA College in Delhi and top MBA College in Delhi NCR, for a two-year AICTE-approved MBA program emphasizing industry projects. ">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

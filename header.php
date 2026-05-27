@@ -28,6 +28,25 @@
     ga('create', 'UA-104385558-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+
+<!--=====new google analytics=====-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJX8PS9941"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VJX8PS9941');
+</script>
+
+
+
+
+
+
+
 </head>
 <body ng-app="iitm">
 <?php

@@ -13,11 +13,12 @@ echo '</script>';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | BBA</title>
+    <title>Best BBA College in Delhi NCR | Top BBA Hons College in Delhi </title>
+    <meta name="description" content="IITM Janakpuri, the best College for BBA in Delhi NCR and a top BBA Hons College in Delhi, focuses on career-ready learning, leadership & entrepreneurial development. ">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | MCA</title>
+    <title> MCA top College in Delhi NCR | Best MCA College in Delhi </title>
+    <meta name="description" content="IITM Janakpuri, one of the MCA top Colleges in Delhi NCR and Best MCA College in Delhi, equips students with advanced IT skills and career-ready expertise. ">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

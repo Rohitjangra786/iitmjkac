@@ -17,8 +17,9 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | BA (JMC) | Top BAJMC College of IP University | IPU | Top BAJMC College in IPU | mass communication colleges in IPU | Top BAJMC College in IP University | Best Journalism College in Delhi | Top BAJMC College in Delhi | BJMC | Media Hub | Journalism Courses near me |
-    Best Mass Communication Colleges in Delhi | IITm Delhi | Top BJMC Colleges | BJMC ke liye IITM kaisa college hai| IITM me bjmc ka placement kaisa hai | Top Placements in BAJMC | IITM BAJMC placements | Placements in BJMC | How are the BJMC placements of IITM </title>
+    <title>Top BJMC College in Delhi | Best College for BJMC in Delhi</title>
+
+    <meta name="description" content="Ranked as the best College for BJMC in Delhi, IITM Janakpuri, a top BJMC College offers industry-aligned BJMC programs with internships & media projects.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
