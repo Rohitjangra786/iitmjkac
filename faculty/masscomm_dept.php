@@ -28,13 +28,6 @@ $faculty = [
         "img" => "images/commerce/rajnesh_new.jpeg"
     ],
     [
-        "name" => "Mr. Kishan",
-        "designation" => "Assistant Professor",
-        "qual" => "B.A(H), PGD in Radio & TV Journalism and Digital Marketing, MAMC, UGC NET & JRF, Pursuing PhD",
-        "email" => "kishan.kashyap@iitmipu.ac.in",
-        "img" => "images/commerce/IMG_20240724_172459.jpg"
-    ],
-    [
         "name" => "Mr. Sahil Dhall",
         "designation" => "Assistant Professor",
         "qual" => "BJMC, MMC, Pursuing PhD",
@@ -56,20 +49,6 @@ $faculty = [
         "img" => "images/commerce/rahul_new.jpeg"
     ],
     [
-        "name" => "Mr. Ayush Anjani",
-        "designation" => "Assistant Professor",
-        "qual" => "BJMC, MAJMC",
-        "email" => "ayush.anjani@iitmipu.ac.in",
-        "img" => "images/commerce/ayush_anjani.jpeg"
-    ],
-    [
-        "name" => "Mr. Shinjan Chatterjee",
-        "designation" => "Assistant Professor",
-        "qual" => "B.A, MAJMC",
-        "email" => "shinjan.chatterjee@iitmipu.ac.in",
-        "img" => "images/commerce/shinjan_chatterjee.jpeg"
-    ],
-    [
         "name" => "Ms. Jyoti B",
         "designation" => "Assistant Professor",
         "qual" => "BA(JMC), MA(JMC), UGC NET",
@@ -83,6 +62,20 @@ $faculty = [
         "email" => "dipti.tiwari@iitmipu.ac.in",
         "img" => "images/commerce/dipti_tiwari.jpeg"
     ],
+    [
+        "name" => "Mr. Ayush Anjani",
+        "designation" => "Studio Incharge",
+        "qual" => "BJMC, MAJMC",
+        "email" => "ayush.anjani@iitmipu.ac.in",
+        "img" => "images/commerce/ayush_anjani.jpeg"
+    ],
+    [
+        "name" => "Mr. Shinjan Chatterjee",
+        "designation" => "Studio Incharge",
+        "qual" => "B.A, MAJMC",
+        "email" => "shinjan.chatterjee@iitmipu.ac.in",
+        "img" => "images/commerce/shinjan_chatterjee.jpeg"
+    ],
 ];
 
 // Classify each faculty into a designation group for the filter chips
@@ -92,6 +85,7 @@ function fac_group($designation) {
     if (strpos($d, 'professor') !== false && strpos($d, 'associate') === false && strpos($d, 'assistant') === false) return 'prof';
     if (strpos($d, 'associate') !== false) return 'assoc';
     if (strpos($d, 'assistant') !== false) return 'asst';
+    if (strpos($d, 'incharge') !== false) return 'studio';
     return 'other';
 }
 ?>
@@ -372,7 +366,7 @@ function fac_group($designation) {
             <input type="text" id="facSearch" placeholder="Search faculty by name, designation or qualification..." autocomplete="off">
         </div>
         <?php
-            $groups = ['hod'=>0,'prof'=>0,'assoc'=>0,'asst'=>0];
+            $groups = ['hod'=>0,'prof'=>0,'assoc'=>0,'asst'=>0,'studio'=>0];
             foreach ($faculty as $m) { $g = fac_group($m['designation']); if(isset($groups[$g])) $groups[$g]++; }
         ?>
         <div class="fac-chips" id="facChips">
@@ -389,6 +383,9 @@ function fac_group($designation) {
             <?php if ($groups['asst'] > 0): ?>
                 <button class="fac-chip" data-filter="asst">Assistant Professor <span class="count">(<?php echo $groups['asst']; ?>)</span></button>
             <?php endif; ?>
+            <?php if ($groups['studio'] > 0): ?>
+                <button class="fac-chip" data-filter="studio">Studio Incharge <span class="count">(<?php echo $groups['studio']; ?>)</span></button>
+            <?php endif; ?>
         </div>
     </div>
 
@@ -401,6 +398,7 @@ function fac_group($designation) {
                 elseif ($group === 'prof') $badge = 'Professor';
                 elseif ($group === 'assoc') $badge = 'Assoc. Professor';
                 elseif ($group === 'asst') $badge = 'Asst. Professor';
+                elseif ($group === 'studio') $badge = 'Studio Incharge';
                 $haystack = strtolower($m['name'].' '.$m['designation'].' '.$m['qual']);
             ?>
             <article class="fac-card" data-group="<?php echo $group; ?>" data-search="<?php echo htmlspecialchars($haystack, ENT_QUOTES); ?>">

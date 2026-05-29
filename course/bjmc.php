@@ -47,6 +47,7 @@ echo '</script>';
         letter-spacing: -0.01em;
     }
     .bjmc-page a{ color: #800000; }
+    .bjmc-page a.adm-ribbon{ color:#fff; }
     .bjmc-page p{ font-size: 15.5px; line-height: 1.7; color: #303030; }
     .bjmc-page .navigation{ display: none !important; }
 
@@ -389,7 +390,7 @@ echo '</script>';
                     <span class="hero-pill">4 Years · 8 Semesters</span>
                     <span class="hero-pill">NEP-2020 Multiple Entry / Exit</span>
                     <span class="hero-pill">GGSIPU Affiliated</span>
-                    <span class="hero-pill">Intake 120</span>
+                    <span class="hero-pill">Intake 180</span>
                     <span class="hero-pill">CET / CUET</span>
                 </div>
             </div>
@@ -399,7 +400,7 @@ echo '</script>';
                     <div class="kv"><span>Duration</span><b>4 Years</b></div>
                     <div class="kv"><span>Affiliation</span><b>GGSIPU</b></div>
                     <div class="kv"><span>Shift</span><b>Single Shift</b></div>
-                    <div class="kv"><span>Intake</span><b>120</b></div>
+                    <div class="kv"><span>Intake</span><b>180</b></div>
                     <div class="kv"><span>Entrance</span><b>CET / CUET</b></div>
                     <div class="kv"><span>Reservation</span><b>85% Delhi / 15% Outside</b></div>
                 </div>
@@ -471,7 +472,7 @@ echo '</script>';
                 <div class="fact-card">
                     <div class="fact-icon"><i class="fa fa-users"></i></div>
                     <h3>Student Intake</h3>
-                    <p>120 students in a single shift. 10% Management Quota; 85% Delhi / 15% Outside Delhi on remaining seats.</p>
+                    <p>180 students in a single shift. 10% Management Quota; 85% Delhi / 15% Outside Delhi on remaining seats.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">

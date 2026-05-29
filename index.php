@@ -3673,7 +3673,7 @@ nav.navbar .nav-item{
         <div class="lead-card l3">
             <div class="lead-badge">BBA</div>
             <div class="lead-info">
-                <div class="lead-course">Bachelor of Business Admin</div>
+                <div class="lead-course">Bachelor of Business Administration</div>
                 <div class="lead-name">Dr. Deepali Saluja</div>
                 <a href="tel:+918796452756" class="lead-phone">+91 87964 52756</a>
             </div>
@@ -3683,7 +3683,7 @@ nav.navbar .nav-item{
         <div class="lead-card l4">
             <div class="lead-badge">B.Com<br>(H)</div>
             <div class="lead-info">
-                <div class="lead-course">B.Com (Hons.)</div>
+                <div class="lead-course">Bachelor of Commerce (Honours)</div>
                 <div class="lead-name">Dr. Raghav Jain</div>
                 <a href="tel:+918796452757" class="lead-phone">+91 87964 52757</a>
             </div>
