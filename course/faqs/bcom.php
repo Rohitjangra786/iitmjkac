@@ -7,7 +7,7 @@ $course_faq_intro   = 'Answers to the most-asked questions about IITM\'s B.Com (
 $course_faqs = [
     ['q' => 'How can I take admission in IITM (Information Campus) for B.Com (Hons.)?', 'a' => 'Admission is conducted through GGSIP University centralized counselling as per university norms. Apply through: https://ipuadmissions.nic.in/ and https://www.ipu.ac.in/'],
     ['q' => 'Which entrance exams are accepted for admission?', 'a' => 'Admissions are based on IPU CET and CUET scores.'],
-    ['q' => 'What is the eligibility criteria for B.Com (Hons.)?', 'a' => 'Candidates must have passed Class 12 with at least 50% marks in five subjects. Delhi category students should have completed Class 12 from Delhi.'],
+    ['q' => 'What is the eligibility criteria for B.Com (Hons.)?', 'a' => '50% in aggregate in 10+2 examination / Senior School Certificate Examination of C.B.S.E. as minimum marks for admission to B.Com with a pass in five subjects (one language and four elective subjects) or an examination recognized as equivalent to that.'],
     ['q' => 'Are extracurricular activities conducted?', 'a' => 'Yes, students actively participate in cultural events, debates, competitions, seminars, clubs, and inter-college activities.'],
     ['q' => 'Is there any stream restriction for admission?', 'a' => 'No, students from any stream can apply for B.Com (Hons.).'],
     ['q' => 'Can I get direct admission without an entrance exam?', 'a' => 'Limited management quota seats may be available as per university rules for candidates who have cleared IPU CET/ CUET'],
@@ -17,7 +17,7 @@ $course_faqs = [
     ['q' => 'Is the fee refundable?', 'a' => 'Yes, fee refund is processed according to college and university refund policies.'],
     ['q' => 'Are scholarships available?', 'a' => 'Yes, scholarships are available based on merit, financial need, and government schemes. Details: https://iitmjanakpuri.com/scholarships/scholarships.php'],
     ['q' => 'Does the college support education loans?', 'a' => 'Yes, the college provides required documents and support for education loan applications.'],
-    ['q' => 'What subjects are taught in B.Com (Hons.)?', 'a' => 'Subjects include Financial Accounting, Business Law, Economics, Taxation, Auditing, Cost Accounting, Marketing, Finance, and Business Analytics.'],
+    ['q' => 'What subjects are taught in B.Com (Hons.)?', 'a' => 'Subjects include Management Accounting, Income Tax Law, Goods & Services Tax (GST), and Business Statistics.'],
     ['q' => 'Are specialization options available?', 'a' => 'Students get exposure to Finance, Accounting, Banking, Taxation, Marketing, and Entrepreneurship through electives and multidisciplinary subjects.'],
     ['q' => 'Is there any choice in subjects?', 'a' => 'Yes, students can choose elective and multidisciplinary courses as per GGSIPU curriculum and NEP guidelines.'],
     ['q' => 'Is the Multiple Entry-Exit option available?', 'a' => 'Yes, IITM follows NEP 2020 guidelines with Certificate, Diploma, Degree, and Honours exit options after each stage of study.'],
