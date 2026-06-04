@@ -141,7 +141,6 @@
                             <option value="MBA|9560098709|Dr. Mandeep Singh">MBA</option>
                             <option value="BA (JMC)|7217872947|Dr. Nivedita Sharma">BA (JMC)</option>
                         </select>
-                        <div class="form-help">You'll be connected directly to the selected course lead via WhatsApp.</div>
                     </div>
                     <div class="form-group">
                         <label for="enq-exam">Entrance Exam</label>
