@@ -219,22 +219,27 @@
                         <input type="tel" class="form-control" id="enq-phone" name="phone" required pattern="[0-9]{10}" autocomplete="tel" placeholder="10-digit mobile number">
                     </div>
                     <div class="form-group">
-                        <label for="enq-course">Course of Interest</label>
-                        <select class="form-select" id="enq-course" name="course" required>
-                            <option value="" disabled selected>Select a course</option>
-                            <option value="BCA|8796283551|Ms. Leena Gupta">BCA</option>
-                            <option value="MCA|8796452755|Mr. Ashish Nayyar">MCA</option>
-                            <option value="BBA|8796452756|Dr. Deepali Saluja">BBA</option>
-                            <option value="B.Com (H)|8796452757|Dr. Raghav Jain">B.Com (H)</option>
-                            <option value="MBA|9560098709|Dr. Mandeep Singh">MBA</option>
-                            <option value="BA (JMC)|7217872947|Dr. Nivedita Sharma">BA (JMC)</option>
-                        </select>
+                        <label id="courseLabel">Course of Interest</label>
+                        <div class="ms-select" id="courseSelect">
+                            <button type="button" class="form-select ms-toggle is-placeholder" id="courseToggle" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="courseLabel">
+                                <span class="ms-text">Select a course</span>
+                            </button>
+                            <div class="ms-menu" role="listbox" aria-multiselectable="false">
+                                <label class="ms-option"><input type="radio" name="course" value="BCA|8796283551|Ms. Leena Gupta"><span>BCA</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="MCA|8796452755|Mr. Ashish Nayyar"><span>MCA</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="BBA|8796452756|Dr. Deepali Saluja"><span>BBA</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="B.Com (H)|8796452757|Dr. Raghav Jain"><span>B.Com (H)</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="MBA|9560098709|Dr. Mandeep Singh"><span>MBA</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="BA (JMC)|7217872947|Dr. Nivedita Sharma"><span>BA (JMC)</span></label>
+                            </div>
+                        </div>
+                        <div class="form-help ms-error" id="courseError" style="display:none;">Please select your course of interest.</div>
                     </div>
                     <div class="form-group">
                         <label id="examLabel">Entrance Exam &amp; Rank</label>
                         <div class="ms-select" id="examSelect">
                             <button type="button" class="form-select ms-toggle is-placeholder" id="examToggle" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="examLabel">
-                                <span id="examText">Select entrance exam</span>
+                                <span id="examText" class="ms-text">Select entrance exam</span>
                             </button>
                             <div class="ms-menu" id="examMenu" role="listbox" aria-multiselectable="false">
                                 <label class="ms-option"><input type="radio" name="exam" value="NIMCET-MCA"><span>NIMCET-MCA</span></label>
@@ -251,12 +256,30 @@
                                 <label class="ms-option"><input type="radio" name="exam" value="None"><span>None</span></label>
                             </div>
                         </div>
-                        <input type="text" class="form-control exam-rank-input" id="enq-rank" name="rank" required autocomplete="off" placeholder="Rank / score (e.g. AIR 1240)" aria-label="Entrance exam rank">
+                        <input type="text" class="form-control exam-rank-input" id="enq-rank" name="rank" required autocomplete="off" placeholder="Rank / score" aria-label="Entrance exam rank">
                         <div class="form-help ms-error" id="examError" style="display:none;">Please select your entrance exam.</div>
                     </div>
                     <div class="form-group">
-                        <label>Other Exam &amp; Rank <span class="opt-tag">(optional)</span></label>
-                        <input type="text" class="form-control" id="enq-exam2" name="exam2" autocomplete="off" placeholder="Other exam — if not listed above" aria-label="Other exam name">
+                        <label id="exam2Label">Other Exam &amp; Rank <span class="opt-tag">(optional)</span></label>
+                        <div class="ms-select" id="exam2Select">
+                            <button type="button" class="form-select ms-toggle is-placeholder" id="exam2Toggle" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="exam2Label">
+                                <span class="ms-text">Select entrance exam</span>
+                            </button>
+                            <div class="ms-menu" role="listbox" aria-multiselectable="false">
+                                <label class="ms-option"><input type="radio" name="exam2" value="NIMCET-MCA"><span>NIMCET-MCA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CAT - MBA"><span>CAT - MBA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CMAT - MBA"><span>CMAT - MBA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET- MCA"><span>CET- MCA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET - MBA"><span>CET - MBA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CUET - PG"><span>CUET - PG</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET-BCA"><span>CET-BCA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET-BBA"><span>CET-BBA</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET - B.Com(H)"><span>CET - B.Com(H)</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CET- BA(JMC)"><span>CET- BA(JMC)</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="CUET - UG"><span>CUET - UG</span></label>
+                                <label class="ms-option"><input type="radio" name="exam2" value="None"><span>None</span></label>
+                            </div>
+                        </div>
                         <input type="text" class="form-control exam-rank-input" id="enq-rank2" name="rank2" autocomplete="off" placeholder="Rank / score" aria-label="Other exam rank">
                     </div>
                     <button type="submit" class="btn-submit-enquiry">
@@ -275,41 +298,54 @@
     var form    = document.getElementById('enquiryForm');
     if (!modalEl || !form) return;
 
-    // ---- Entrance Exam single-select (dropdown that reveals radio options) ----
-    var examSelect = document.getElementById('examSelect');
-    var examMenu   = document.getElementById('examMenu');
-    var examToggle = document.getElementById('examToggle');
-    var examText   = document.getElementById('examText');
-    var examError  = document.getElementById('examError');
-    var examBoxes  = examMenu ? examMenu.querySelectorAll('input[name="exam"]') : [];
+    // ---- Reusable single-select dropdown that reveals radio options ----
+    function initRadioSelect(rootId, placeholder, errorEl){
+        var root = document.getElementById(rootId);
+        if (!root) return null;
+        var menu   = root.querySelector('.ms-menu');
+        var toggle = root.querySelector('.ms-toggle');
+        var text   = root.querySelector('.ms-text');
+        var radios = menu.querySelectorAll('input[type="radio"]');
 
-    function examPicked(){ return examMenu.querySelector('input[name="exam"]:checked'); }
-    function openExam(open){
-        examSelect.classList.toggle('open', open);
-        examToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    }
-    function updateExamLabel(){
-        var picked = examPicked();
-        examText.textContent = picked ? picked.value : 'Select entrance exam';
-        examToggle.classList.toggle('is-placeholder', !picked);
-    }
-    if (examSelect){
-        examToggle.addEventListener('click', function(){
-            openExam(!examSelect.classList.contains('open'));
-        });
-        examBoxes.forEach(function(cb){
-            cb.addEventListener('change', function(){
-                updateExamLabel();
-                examSelect.classList.remove('is-invalid');
-                examError.style.display = 'none';
-                openExam(false); // single choice — collapse once picked
+        function picked(){ return menu.querySelector('input:checked'); }
+        function open(o){
+            root.classList.toggle('open', o);
+            toggle.setAttribute('aria-expanded', o ? 'true' : 'false');
+        }
+        function refresh(){
+            var p = picked();
+            text.textContent = p ? p.parentNode.querySelector('span').textContent : placeholder;
+            toggle.classList.toggle('is-placeholder', !p);
+        }
+        function setInvalid(bad){
+            root.classList.toggle('is-invalid', bad);
+            if (errorEl) errorEl.style.display = bad ? 'block' : 'none';
+        }
+        toggle.addEventListener('click', function(){ open(!root.classList.contains('open')); });
+        radios.forEach(function(r){
+            r.addEventListener('change', function(){
+                refresh();
+                setInvalid(false);
+                open(false); // single choice — collapse once picked
             });
         });
         // Close when clicking outside the widget
         document.addEventListener('mousedown', function(e){
-            if (!examSelect.contains(e.target)) openExam(false);
+            if (!root.contains(e.target)) open(false);
         });
+
+        return {
+            value:    function(){ var p = picked(); return p ? p.value : ''; },
+            isPicked: function(){ return !!picked(); },
+            setInvalid: setInvalid,
+            openFocus: function(){ open(true); toggle.focus(); },
+            reset:    function(){ refresh(); setInvalid(false); open(false); }
+        };
     }
+
+    var courseSelect = initRadioSelect('courseSelect', 'Select a course', document.getElementById('courseError'));
+    var examSelect   = initRadioSelect('examSelect', 'Select entrance exam', document.getElementById('examError'));
+    var exam2Select  = initRadioSelect('exam2Select', 'Select entrance exam', null); // optional secondary exam
 
     // Auto-show the enquiry modal once per browser session, ~1.8s after page is interactive
     window.addEventListener('load', function(){
@@ -326,26 +362,25 @@
     // Form submit → open WhatsApp with pre-filled message to the selected course lead
     form.addEventListener('submit', function(e){
         e.preventDefault();
-        var examSel = examPicked();
-        var examOK  = !!examSel;
-        if (!examOK){
-            examSelect.classList.add('is-invalid');
-            examError.style.display = 'block';
-        }
-        if (!form.checkValidity() || !examOK){
+        var courseOK = courseSelect && courseSelect.isPicked();
+        var examOK   = examSelect && examSelect.isPicked();
+        if (courseSelect) courseSelect.setInvalid(!courseOK);
+        if (examSelect)   examSelect.setInvalid(!examOK);
+        if (!form.checkValidity() || !courseOK || !examOK){
             form.classList.add('was-validated');
             if (!form.checkValidity()) form.reportValidity();
-            else if (!examOK){ openExam(true); examToggle.focus(); }
+            else if (!courseOK) courseSelect.openFocus();
+            else if (!examOK)   examSelect.openFocus();
             return;
         }
         var name   = form.name.value.trim();
         var email  = form.email.value.trim();
         var phone  = form.phone.value.trim();
-        var parts  = form.course.value.split('|'); // [course, leadPhone, leadName]
+        var parts  = courseSelect.value().split('|'); // [course, leadPhone, leadName]
         var course = parts[0], leadPhone = parts[1], leadName = parts[2];
-        var exam   = examSel.value;
+        var exam   = examSelect.value();
         var rank   = form.rank.value.trim();
-        var exam2  = form.exam2.value.trim();
+        var exam2  = exam2Select ? exam2Select.value() : '';
         var rank2  = form.rank2.value.trim();
 
         var msg =
@@ -370,10 +405,9 @@
         var modal = bootstrap.Modal.getInstance(modalEl);
         if (modal) modal.hide();
         form.reset();
-        openExam(false);
-        updateExamLabel();
-        examSelect.classList.remove('is-invalid');
-        examError.style.display = 'none';
+        if (courseSelect) courseSelect.reset();
+        if (examSelect)   examSelect.reset();
+        if (exam2Select)  exam2Select.reset();
     });
 })();
 </script>
