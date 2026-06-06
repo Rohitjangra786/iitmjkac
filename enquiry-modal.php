@@ -80,6 +80,31 @@
     margin-top: 2px;
     line-height: 1.3;
 }
+.enquiry-modal-content .exam-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 14px;
+    margin-top: 2px;
+}
+.enquiry-modal-content label.exam-option{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3a3a3a;
+    text-transform: none;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+.enquiry-modal-content label.exam-option input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    flex: 0 0 auto;
+    accent-color: #800000;
+    cursor: pointer;
+}
 .btn-submit-enquiry{
     width: 100%;
     background: linear-gradient(135deg,#22c55e,#16a34a);
@@ -143,22 +168,22 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="enq-exam">Entrance Exam</label>
-                        <select class="form-select" id="enq-exam" name="exam" required>
-                            <option value="" disabled selected>Select entrance exam</option>
-                            <option value="NIMCET-MCA">NIMCET-MCA</option>
-                            <option value="CAT - MBA">CAT - MBA</option>
-                            <option value="CMAT - MBA">CMAT - MBA</option>
-                            <option value="CET- MCA">CET- MCA</option>
-                            <option value="CET - MBA">CET - MBA</option>
-                            <option value="CUET - PG">CUET - PG</option>
-                            <option value="CET-BCA">CET-BCA</option>
-                            <option value="CET-BBA">CET-BBA</option>
-                            <option value="CET - B.Com(H)">CET - B.Com(H)</option>
-                            <option value="CET- BA(JMC)">CET- BA(JMC)</option>
-                            <option value="CUET - UG">CUET - UG</option>
-                            <option value="None">None</option>
-                        </select>
+                        <label>Entrance Exam</label>
+                        <div class="exam-group">
+                            <label class="exam-option"><input type="checkbox" name="exam" value="NIMCET-MCA"> NIMCET-MCA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CAT - MBA"> CAT - MBA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CMAT - MBA"> CMAT - MBA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET- MCA"> CET- MCA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET - MBA"> CET - MBA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CUET - PG"> CUET - PG</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET-BCA"> CET-BCA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET-BBA"> CET-BBA</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET - B.Com(H)"> CET - B.Com(H)</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CET- BA(JMC)"> CET- BA(JMC)</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="CUET - UG"> CUET - UG</label>
+                            <label class="exam-option"><input type="checkbox" name="exam" value="None"> None</label>
+                        </div>
+                        <div class="form-help">Select all that apply.</div>
                     </div>
                     <button type="submit" class="btn-submit-enquiry">
                         <span>Send Enquiry on WhatsApp</span>
@@ -176,6 +201,14 @@
     var form    = document.getElementById('enquiryForm');
     if (!modalEl || !form) return;
 
+    // Entrance Exam is a checkbox group (at least one required). Clear the
+    // "select at least one" error as soon as the user ticks any box.
+    var examBoxes = form.querySelectorAll('input[name="exam"]');
+    var firstExam = examBoxes[0];
+    examBoxes.forEach(function(cb){
+        cb.addEventListener('change', function(){ if (firstExam) firstExam.setCustomValidity(''); });
+    });
+
     // Auto-show the enquiry modal once per browser session, ~1.8s after page is interactive
     window.addEventListener('load', function(){
         try {
@@ -191,6 +224,9 @@
     // Form submit → open WhatsApp with pre-filled message to the selected course lead
     form.addEventListener('submit', function(e){
         e.preventDefault();
+        // Require at least one entrance-exam checkbox before the native validity check
+        var examChecked = form.querySelectorAll('input[name="exam"]:checked');
+        if (firstExam) firstExam.setCustomValidity(examChecked.length ? '' : 'Please select at least one entrance exam.');
         if (!form.checkValidity()){
             form.classList.add('was-validated');
             form.reportValidity();
@@ -201,7 +237,7 @@
         var phone  = form.phone.value.trim();
         var parts  = form.course.value.split('|'); // [course, leadPhone, leadName]
         var course = parts[0], leadPhone = parts[1], leadName = parts[2];
-        var exam   = form.exam.value;
+        var exam   = Array.prototype.map.call(examChecked, function(n){ return n.value; }).join(', ');
 
         var msg =
             'Hello ' + leadName + ',\n\n' +

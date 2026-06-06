@@ -3654,7 +3654,7 @@ nav.navbar .nav-item{
     <div class="placement-grid">
         <div class="placement-card featured">
             <span class="pkg-course">Highest</span>
-            <span class="pkg-value">22.30<small>&nbsp;LPA</small></span>
+            <span class="pkg-value">22<small>&nbsp;LPA</small></span>
             <span class="pkg-label">BCA Top Package</span>
         </div>
         <div class="placement-card">
@@ -3669,7 +3669,7 @@ nav.navbar .nav-item{
         </div>
         <div class="placement-card">
             <span class="pkg-course">BBA</span>
-            <span class="pkg-value">6.70<small>&nbsp;LPA</small></span>
+            <span class="pkg-value">9<small>&nbsp;LPA</small></span>
             <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
@@ -3679,7 +3679,7 @@ nav.navbar .nav-item{
         </div>
         <div class="placement-card">
             <span class="pkg-course">BA (JMC)</span>
-            <span class="pkg-value">4.50<small>&nbsp;LPA</small></span>
+            <span class="pkg-value">6<small>&nbsp;LPA</small></span>
             <span class="pkg-label">Highest</span>
         </div>
     </div>
@@ -4707,7 +4707,7 @@ try {
                 { match: /(fee|fees|cost|tuition|price|payment|kitna|kitne)/i,
                   reply: "💰 For full fee structure check the <b>Fee Details PDF</b> in the Admissions section, or call <b>011-28525051</b>." },
                 { match: /(placement|package|salary|job|career|recruit|company)/i,
-                  reply: "💼 <b>Placement Highlights:</b><br>• 🏆 Highest: <b>22.30 LPA</b> (BCA)<br>• MBA: 13.36 LPA<br>• Ranked <b>Top 19 B-School</b> — Times 2026<br>• 530+ industry mentors" },
+                  reply: "💼 <b>Placement Highlights:</b><br>• 🏆 Highest: <b>22 LPA</b> (BCA)<br>• MBA: 13.36 LPA<br>• Ranked <b>Top 19 B-School</b> — Times 2026<br>• 530+ industry mentors" },
                 { match: /(library|opac|catalogue|reading.?material|library.?facili|book|journal)/i,
                   reply: "📖 <b>IITM Library</b> offers e-books, e-journals, OPAC, open-access resources &amp; advisory support.<br>🔗 <a href='https://www.iitmjanakpuri.com/Library/' target='_blank'>Library Home</a> · <a href='https://www.iitmjanakpuri.com/Library/about-library.php' target='_blank'>About</a> · <a href='https://www.iitmjanakpuri.com/Library/opac.php' target='_blank'>OPAC</a> · <a href='https://www.iitmjanakpuri.com/Library/resources.php' target='_blank'>Resources</a><br>🕘 Mon–Fri 8 AM – 6 PM · Sat 10 AM – 5 PM" },
                 { match: /(contact|phone|number|helpline|reach|call|email|mail)/i,

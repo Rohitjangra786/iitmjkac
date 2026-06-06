@@ -17,7 +17,7 @@ $course_faqs = [
     ['q' => 'Is the fee refundable?', 'a' => 'Yes, fee refund is processed according to college and university refund policies.'],
     ['q' => 'Are scholarships available?', 'a' => 'Yes, scholarships are available based on merit, financial need, and government schemes. Details: https://iitmjanakpuri.com/scholarships/scholarships.php'],
     ['q' => 'Does the college support education loans?', 'a' => 'Yes, the college provides required documents and support for education loan applications.'],
-    ['q' => 'What subjects are taught in B.Com (Hons.)?', 'a' => 'Subjects include Management Accounting, Income Tax Law, Goods & Services Tax (GST), and Business Statistics.'],
+    ['q' => 'What subjects are taught in B.Com (Hons.)?', 'a' => 'Subjects include Financial Accounting, Management Accounting, Cost Accounting, Business Law, Income Tax Law, Goods & Services Tax (GST), Business Statistics, Economics, Auditing, Marketing, Finance, and Business Analytics.'],
     ['q' => 'Are specialization options available?', 'a' => 'Students get exposure to Finance, Accounting, Banking, Taxation, Marketing, and Entrepreneurship through electives and multidisciplinary subjects.'],
     ['q' => 'Is there any choice in subjects?', 'a' => 'Yes, students can choose elective and multidisciplinary courses as per GGSIPU curriculum and NEP guidelines.'],
     ['q' => 'Is the Multiple Entry-Exit option available?', 'a' => 'Yes, IITM follows NEP 2020 guidelines with Certificate, Diploma, Degree, and Honours exit options after each stage of study.'],
