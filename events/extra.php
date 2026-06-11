@@ -172,43 +172,15 @@ html, body{ margin:0; }
 .ec-page .ec-panel tbody td:last-child{ white-space:nowrap; color:#6a5a2a; font-weight:600; font-size:13.5px; }
 .ec-no-results td{ text-align:center !important; padding:26px !important; color:#999 !important; font-style:italic; background:#fff !important; }
 
-/* ---- highlights / carousel ---- */
-.ec-highlights{ margin-top:44px; }
-.ec-highlights .ec-section-title{ margin-bottom:18px; }
-.ec-carousel{
-  background:var(--ec-grad); border-radius:18px; padding:12px;
-  box-shadow:0 16px 40px rgba(128,0,0,.20); border:1px solid rgba(255,255,255,.15);
-}
-.ec-carousel #my-carousel{ max-width:100%; margin:0 auto; }
-.ec-carousel .carousel-inner{ max-width:100%; border-radius:12px; overflow:hidden; }
-.ec-carousel .carousel-item > .row{
-  background:transparent !important; align-items:center; margin:0; min-height:300px;
-}
-.ec-carousel .center{ text-align:center; }
-.ec-carousel .carousel-image{
-  width:100%; height:300px; object-fit:cover; border-radius:10px; display:block;
-}
-.ec-carousel .carousel-item h1{
-  font-family:'Poppins',sans-serif; font-size:1.55rem !important; font-weight:800 !important;
-  color:#fff !important; text-align:center; margin:0 0 6px !important; text-shadow:0 2px 8px rgba(0,0,0,.3);
-}
-.ec-carousel .carousel-item h2{
-  font-size:1.02rem !important; color:var(--ec-gold-soft) !important; text-align:center;
-  font-weight:600; letter-spacing:.4px;
-}
-.ec-carousel .carousel-item .col-md.center{ padding:18px; }
-.ec-carousel .carousel-control-prev, .ec-carousel .carousel-control-next{ width:6%; opacity:.85; }
-.ec-carousel .carousel-indicators{ margin-bottom:6px; }
-.ec-carousel .carousel-indicators [data-bs-slide-to]{
-  width:10px; height:10px; border-radius:50%; border:0; background:rgba(255,255,255,.5); opacity:1;
-}
-.ec-carousel .carousel-indicators .active{ background:var(--ec-gold) !important; }
-
+/* ---- mobile-first refinements ---- */
 @media (max-width:767px){
   .ec-hero-title{ font-size:25px; }
-  .ec-carousel .carousel-image{ height:200px; }
-  .ec-carousel .carousel-item h1{ font-size:1.15rem !important; }
-  .ec-carousel .carousel-item h2{ font-size:.9rem !important; }
+
+  /* keep the year tables readable and overflow-free on phones */
+  .ec-page .ec-panel thead th{ padding:10px 8px; font-size:11px; }
+  .ec-page .ec-panel tbody td{ padding:9px 8px; font-size:12.5px; }
+  .ec-page .ec-panel tbody td:first-child{ width:34px; }
+  .ec-page .ec-panel tbody td:last-child{ white-space:normal; }
 }
     </style>
 </head>
@@ -649,152 +621,6 @@ html, body{ margin:0; }
           </div>
         </section>
 
-        <!-- Event highlights -->
-        <section class="ec-highlights">
-          <h2 class="ec-section-title">Event Highlights</h2>
-          <div class="ec-carousel">
-            <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
-              </div>
-              <div class="carousel-inner">
-      <div class="carousel-item active">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/fare.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center" style="overflow-wrap: break-word;">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;text-align: center;">Farewell Party</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : May 10, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/dental.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">Free Dental Camp</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : May 08, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/annual.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">Annual Day</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : April 26, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/litter.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">Litter-Less Campaign</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : April 15, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/resumecl.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">Resume Clinic </h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : April 10, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/leader.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">Leadership Talks, Season 2- MotivAction </h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : March 28, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/holi.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;"> Eco-Friendly Holi campaign</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : March 22-24, 2024</h2>
-             </div>
-      </div>
-     </div>
-     
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/sapm.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;"> Case Study × Management Sapiens - Annual Fest </h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : March 15-16, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/techno24.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;"> Techno-Sapiens - Annual Fest</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : March 15-16, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item">
-          <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/commpav.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;"> CommParv - Annual Fest</h1>
-                 <h2 style="color: #fff; font-size: 1.2rem; text-align: center;">Date : March 15-16, 2024</h2>
-             </div>
-      </div>
-     </div>
-     
-
-    
-  </div>
-
-  
-              <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </section>
 
       </main>
     </div>

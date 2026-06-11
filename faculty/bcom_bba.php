@@ -158,7 +158,7 @@ $bcom_faculty = [
         "img" => "images/commerce/vikass (1).jpg"
     ],
     [
-        "name" => "Dr. Geeta Mahajan",
+        "name" => "Prof. Dr. Geeta Mahajan",
         "designation" => "Professor",
         "qual" => "B.Com., M.Com., B.Fellow ICA, Ph.D.",
         "email" => "geeta@iitmipu.ac.in",

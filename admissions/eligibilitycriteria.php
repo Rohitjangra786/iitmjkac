@@ -100,6 +100,35 @@ body * {
             background-color: #fffacd; /* Light yellow background */
         }
         p{line-height: 1.4rem;}
+
+        /* ---- Mobile-first: stack the eligibility table into labelled cards ---- */
+        @media (max-width: 767px){
+            .elig-table thead, .elig-table tr:first-child{ display:none; } /* hide the Courses/Eligibility/Process header row */
+            .elig-table, .elig-table tbody, .elig-table tr, .elig-table td{
+                display:block; width:100%;
+            }
+            .elig-table tr{
+                margin-bottom:18px; border:1px solid #e3c9c9; border-radius:10px;
+                overflow:hidden; box-shadow:0 4px 12px rgba(128,0,0,.08);
+                background:#fff !important;
+            }
+            .elig-table td{
+                border:0 !important; padding:12px 14px !important;
+                background:transparent !important; line-height:1.45rem;
+            }
+            .elig-table td:first-child{
+                background:#800000 !important; color:#fff !important;
+                font-weight:700; text-align:center; font-size:16px;
+            }
+            .elig-table td:nth-of-type(2)::before{ content:"Eligibility Criteria"; }
+            .elig-table td:nth-of-type(3)::before{ content:"Admission Process"; }
+            .elig-table td:nth-of-type(2)::before,
+            .elig-table td:nth-of-type(3)::before{
+                display:block; font-weight:700; color:#800000;
+                font-size:12.5px; text-transform:uppercase; letter-spacing:.4px;
+                margin-bottom:6px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -114,16 +143,15 @@ body * {
    
     <div class="container">
         <div class="row">
-             <div class="col-md-3" style="padding: 5px; background-color: #add8e6; height: 200px;">
+             <div class="col-md-3" style="padding: 5px; background-color: #add8e6;">
                <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                     <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
                     <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/docs/FEE_Details.pdf" target="_blank">Fee Details (UG & PG)</a>
-                    <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/faqs.php">FAQs</a>
                     <a class="dropdown-item" href="https://forms.gle/m7tJHZE7cEkZXEGu5">Enquiry</a>
                     <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/management.php">Online Fees Payment</a>
             </div>
             <div class="col-md-9">
-                <table class="table table-striped table-hover" style="color: #4b4b4b;">
+                <table class="table table-striped table-hover elig-table" style="color: #4b4b4b;">
 				<tr>
 					<th class="text-center" width="15%">Courses</th>
 					<th class="text-center">Eligibility Criteria</th>
