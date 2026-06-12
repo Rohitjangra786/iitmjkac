@@ -259,11 +259,6 @@ p{
   .ec-page .ec-panel tbody td:nth-child(2){ white-space:normal; }
 }
 
-/* ---- legacy photo carousel (kept) ---- */
-.carousel-inner{ max-width:70vw; margin:0 auto; transition:transform 0.3s cubic-bezier(0.4,0.0,0.2,1); }
-.carousel-item img{ max-height:300px; width:auto; margin:0 auto; }
-.carousel-image{ width:80%; height:auto; object-fit:cover; margin:0 auto; }
-.carousel-item{ width:70vw; margin-left:0; }
     </style>
 </head>
 <body>
@@ -634,100 +629,7 @@ p{
     </div>
   </div>
 </div>
-    <div style="height: 10vh;"></div>
-              <div style="margin:0;width:100%;">
-                   <div class="container">
-                             <div class="row">
-                  <div id="my-carousel5" class="carousel slide carousel-fade" data-ride="carousel" style="margin-right: auto;margin-left: auto;">
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-        <li data-target="#my-carousel5" data-slide-to="0" class="active"></li>
-        <li data-target="#my-carousel5" data-slide-to="1"></li>
-        <li data-target="#my-carousel5" data-slide-to="2"></li>
-    </ol>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-      <div class="carousel-item active" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/workshops/icc.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder;margin-top:2rem;color: #fff; font-size: 1.5rem; text-align: center;">Workshop <br>on<br> Enacting Gender Equity:<br> Understanding and Applying <br>Regulation 16 and<br> AICTE Standards </h1>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue:</strong> IITM Janakpuri, New Delhi</h2>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> April 30, 2024</h2>
-             </div>
-      </div>
-     </div>
-       <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/workshops/wm.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder;margin-top:2rem;color: #fff; font-size: 1.5rem; text-align: center;">Workshop on <br>Mastering the Art of News:<br> Techniques and Strategies <br>for Effective Reporting <br>( Beyond Curriculum)</h1>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue:</strong> IITM Janakpuri, New Delhi</h2>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> March 18, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/workshops/wm2.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder;margin-top:2rem;color: #fff; font-size: 1.5rem; text-align: center;">Workshop on <br>Digital Verification <br>by<br> Google News Initiative <br>and Data Leads</h1>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue:</strong> IITM Janakpuri, New Delhi</h2>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> March 13, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/workshops/wm3.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder;margin-top:2rem;color: #fff; font-size: 1.5rem; text-align: center;">Workshop on<br> "Data Analytics using python" </h1>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue:</strong> IITM Janakpuri, New Delhi</h2>
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> March 14, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <!--<div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md">
-                <img class="d-block carousel-image img-responsive" src="images/workshops/nnn.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md center">
-                 <h1 class="tgfmlt" style="font-weight:bolder;margin-top:2rem;">Workshop cum Competition  on “Mock Stock” </h1>
-                 <h2 class="tgfmlt" style=""><strong>Venue:</strong> IITM Janakpuri, New Delhi</h2>
-                 <h2 class="tgfmlt" style=""></strong>Date:</strong> November 20, 2023</h2>
-             </div>
-      </div>
-     </div>-->
-     
-    
-   
-  </div>
-
-  <!-- Left and right controls -->
-   <a class="carousel-control-prev" href="#my-carousel5" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#my-carousel5" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-              </div>
-            </div>
-</div>
-<div style="height: 5vh"></div>
+    <div style="height: 5vh"></div>
     <?php
         include("../naacfooter.php");
     ?>

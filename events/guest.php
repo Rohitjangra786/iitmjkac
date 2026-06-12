@@ -259,11 +259,6 @@ p{
   .ec-page .ec-panel tbody td:nth-child(2){ white-space:normal; }
 }
 
-/* ---- legacy photo carousel (kept) ---- */
-.carousel-inner{ max-width:70vw; margin:0 auto; transition:transform 0.3s cubic-bezier(0.4,0.0,0.2,1); }
-.carousel-item img{ max-height:300px; width:auto; margin:0 auto; }
-.carousel-image{ width:80%; height:auto; object-fit:cover; margin:0 auto; }
-.carousel-item{ width:70vw; margin-left:0; }
     </style>
 </head>
 <body>
@@ -753,123 +748,7 @@ p{
     </div>
   </div>
 </div>
-    <div style="height: 10vh;"></div>
-              <div style="margin:0;width:100%;">
-                   <div class="container">
-                            <div class="row">
-                  <div id="my-carousel1" class="carousel slide carousel-fade" data-ride="carousel" style="margin-right: auto;margin-left: auto;">
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-        <li data-target="#my-carousel1" data-slide-to="0" class="active"></li>
-        <li data-target="#my-carousel1" data-slide-to="1"></li>
-        <li data-target="#my-carousel1" data-slide-to="2"></li>
-    </ol>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-      
-      <div class="carousel-item active" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/bank.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem;margin-left:0; ">Guest Lecture  on <br>"Central Bank Digital Currency"</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> May 17, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/insta.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem; text-align: center;">Guest Lecture on <br>Instagram marketing</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> May 8, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/alumni1.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem; text-align: center;">Alumni Talk on <br>"Financial Horizons: <br>Managing Wealth and <br>Exploring Career in Finance"</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> April 13, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/alumni2.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.3rem; text-align: center;">Alumni Talk on <br>"Bridging the Industry-Academia Gap: <br>Insights from a Data Analyst"</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> April 12, 2024</h2>
-             </div>
-      </div>
-     </div>
-     <div class="carousel-item " style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/gl3.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem; text-align: center;">Guest Lecture on <br>Newsroom and Writing <br>for Various Medium</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> April 10, 2024</h2>
-             </div>
-      </div>
-     </div>
-      <div class="carousel-item " style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/gl4.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem; text-align: center;">Fundamental Rights and <br>the Media's Role <br>in Upholding Freedom of <br>Expression</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> April 12, 2024</h2>
-             </div>
-      </div>
-     </div>
-    <div class="carousel-item" style="margin-left:0;width: 70vw;">
-        <div class="row" style="background: #800000;">
-             <div class="col-md-2">
-                <img class="d-block carousel-image img-responsive" src="images/cor.jpg" alt="Business Plan">
-             </div>
-             <div class="col-md-10 center">
-                 <h1 class="tgfmlt" style="font-weight:bolder; margin-top: 2rem; color: #fff; font-size: 1.4rem; text-align: center;">Guest Lecture on <br>'Viksit Bharat: <br>Initiatives for <br>Sustainable Development'</h1>
-                 
-                 <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"></strong>Date:</strong> March 27, 2024</h2>
-             </div>
-      </div>
-     </div>
-     
-  </div>
-
-  <!-- Left and right controls -->
-   <a class="carousel-control-prev" href="#my-carousel1" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#my-carousel1" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-              </div>
-            </div>
-</div>
-<div style="height: 5vh"></div>
+    <div style="height: 5vh"></div>
     <?php
         include("../naacfooter.php");
     ?>

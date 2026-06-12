@@ -270,11 +270,6 @@ p{
   .ec-page .ec-panel tbody td:nth-child(2){ white-space:normal; }
 }
 
-/* ---- legacy photo carousel (kept) ---- */
-.carousel-inner{ max-width:70vw; margin:0 auto; transition:transform 0.3s cubic-bezier(0.4,0.0,0.2,1); }
-.carousel-item img{ max-height:300px; width:auto; margin:0 auto; }
-.carousel-image{ width:80%; height:auto; object-fit:cover; margin:0 auto; }
-.carousel-item{ width:70vw; margin-left:0; }
     </style>
 </head>
 <body>
@@ -719,97 +714,7 @@ p{
     </div>
   </div>
 </div>
-    <div style="height: 10vh;"></div>
-              <div style="margin: 0; width: 100%;">
-    <div class="container">
-        <div class="row">
-            <div id="my-carousel2" class="carousel slide carousel-fade" data-ride="carousel" style="margin-right: auto; margin-left: auto;">
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#my-carousel2" data-slide-to="0" class="active"></li>
-                    <li data-target="#my-carousel2" data-slide-to="1"></li>
-                    <li data-target="#my-carousel2" data-slide-to="2"></li>
-                    <li data-target="#my-carousel2" data-slide-to="3"></li>
-                </ol>
-
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row" style="background: #800000;">
-                            <div class="col-md">
-                                <img class="d-block carousel-image img-responsive" src="images/icacia.jpg" alt="ICACIA Conference">
-                            </div>
-                            <div class="col-md center">
-                                <h1 class="tgfmlt" style="font-weight: bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">
-                                    International Conference on Advances in Computational Intelligence and Applications (ICACIA)
-                                </h1>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue: </strong> IITM Janakpuri</h2>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Date:</strong> June 21-22, 2024</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="row" style="background: #800000;">
-                            <div class="col-md-3">
-                                <img class="d-block carousel-image img-responsive" src="images/interna.jpg" alt="National Conference">
-                            </div>
-                            <div class="col-md-9 center">
-                                <h1 class="tgfmlt" style="font-weight: bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">
-                                    National Conference <br>on<br> Multidisciplinary Studies
-                                </h1>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue: </strong> Apeejay School of Management, Dwarka</h2>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Date:</strong> May 03, 2024</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="row" style="background: #800000;">
-                            <div class="col-md-3">
-                                <img class="d-block carousel-image img-responsive" src="images/waters.jpg" alt="Water Conservation Webinar">
-                            </div>
-                            <div class="col-md-9 center">
-                                <h1 class="tgfmlt" style="font-weight: bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">
-                                    National Webinar <br>on<br> Water Conservation
-                                </h1>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue: </strong> IITM Janakpuri, New Delhi</h2>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Date:</strong> April 12, 2024</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="row" style="background: #800000;">
-                            <div class="col-md-2">
-                                <img class="d-block carousel-image img-responsive" src="images/conference/co.jpg" alt="NEP2020 Conference">
-                            </div>
-                            <div class="col-md-10 center">
-                                <h3 class="tgfmlt" style="font-weight: bolder; margin-top: 2rem; color: #fff; font-size: 1.5rem; text-align: center;">
-                                    Two Days ICSSR Sponsored National Conference on "NEP2020: A Paradigm Shift in Media Education and ensuring quality with the Global Framework of the G20”
-                                </h3>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Venue: </strong> IITM Janakpuri, New Delhi</h2>
-                                <h2 class="tgfmlt" style="color: #fff; font-size: 1.2rem; text-align: center;"><strong>Date:</strong> January 22-23, 2024</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#my-carousel2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#my-carousel2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-</div>
-              </div>
-            </div>
-</div>
-<div style="height: 5vh"></div>
+    <div style="height: 5vh"></div>
     <?php
         include("../naacfooter.php");
     ?>
