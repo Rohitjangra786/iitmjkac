@@ -236,6 +236,22 @@ p{
         <tr><td>28</td><td>11-09-2025</td><td>CALM in Chaos: Change & Conflict</td><td>Mr. Manish Jha</td></tr>
         <tr><td>29</td><td>31-10-2025</td><td>RAW – The Unfiltered Talk Series</td><td>Industry Experts Panel</td></tr>
         <tr><td>30</td><td>11-11-2025</td><td>Stigma of Mental Illness in Society</td><td>Dr. Sonam Arora</td></tr>
+        <tr><td>31</td><td>18-03-2025</td><td>Basics of Excel and MS Word</td><td>CA Rohit Kumar</td></tr>
+        <tr><td>32</td><td>08-08-2025</td><td>Bridge Course: Business Mathematics</td><td>Ms. Akansha</td></tr>
+        <tr><td>33</td><td>08-08-2025</td><td>Fundamentals of Accounting</td><td>Ms. Shweta Aneja</td></tr>
+        <tr><td>34</td><td>26-08-2025 to 27-08-2025</td><td>Transforming Imaginations into Pixels</td><td>Ms. Srishti Manchanda; Mr. Sameer Ashraf; Mr. Mayank Midham; Ms. Aditi Singh</td></tr>
+        <tr><td>35</td><td>13-09-2025</td><td>Workshop on Cyber Crime and Security</td><td>Adv. Piyush Tandon</td></tr>
+        <tr><td>36</td><td>16-09-2025</td><td>Dealing in Project Finance</td><td>CA Vishal Goel</td></tr>
+        <tr><td>37</td><td>25-09-2025 to 26-09-2025</td><td>Two Days Workshop on Life Skills</td><td>Mr. Keshav Bhatia</td></tr>
+        <tr><td>38</td><td>15-10-2025</td><td>Stress Management through Yoga and Pranayam</td><td>Dr. Gopal Singh Latwal</td></tr>
+        <tr><td>39</td><td>21-10-2025</td><td>Psychometric Testing for Students</td><td>Dr. Sonam Arora</td></tr>
+        <tr><td>40</td><td>07-11-2025 to 08-11-2025</td><td>Theatre for Communication Excellence</td><td>Dr. Sandhya R.</td></tr>
+        <tr><td>41</td><td>11-11-2025</td><td>Workshop on Modern Creator Path</td><td>Ms. Mehak Kapoor</td></tr>
+        <tr><td>42</td><td>19-02-2026</td><td>Resume Building</td><td>Mr. Pawan Kumar</td></tr>
+        <tr><td>43</td><td>26-02-2026</td><td>Importance of Media Membership & Ethics in Media Industry</td><td>Mr. Suchivrat Arya</td></tr>
+        <tr><td>44</td><td>16-03-2026</td><td>CV Building Workshop</td><td>Dr. Mandeep Singh</td></tr>
+        <tr><td>45</td><td>17-03-2026</td><td>AI and Technology in Investment, Resume Building, Startup Execution</td><td>Jaipuriya Institute of Management</td></tr>
+        <tr><td>46</td><td>13-04-2026</td><td>GD Interview Skill Builder</td><td>Mr. Tijendra Sharma</td></tr>
    
 
                 

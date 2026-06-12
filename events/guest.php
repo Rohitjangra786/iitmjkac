@@ -137,6 +137,40 @@ p{
             
               
                <div class="table-container">
+                  <h1>Guest Lectures (2025-26)</h1>
+          <table class="table table-striped table-hover">
+             <thead class="table-dark">
+                <tr>
+                    <th>S. No.</th>
+                    <th>Date</th>
+                    <th>Type of Activity</th>
+                    <th>Resource Person(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>05.08.2025</td><td>BBA Orientation Programme</td><td></td></tr>
+                <tr><td>2</td><td>05.08.2025</td><td>MBA Orientation Programme</td><td></td></tr>
+                <tr><td>3</td><td>04-08.08.2025</td><td>Deeksharambh</td><td>Mr. Shams Tahir Khan, Dr. Salini Rosaline</td></tr>
+                <tr><td>4</td><td>06-08.08.2025</td><td>Deeksharambh</td><td>Ms. Saguna Khajuria</td></tr>
+                <tr><td>5</td><td>25.08.2025</td><td>Smart Finance, Smart Future</td><td>Mr. Manoj Gupta</td></tr>
+                <tr><td>6</td><td>15.09.2025</td><td>Financial Discipline</td><td>Ms. Himani Lath</td></tr>
+                <tr><td>7</td><td>24.09.2025</td><td>Mastering GD & PI</td><td>Dr. Pavithra Ganesh</td></tr>
+                <tr><td>8</td><td>13.10.2025</td><td>Session on Digital Marketing Trends</td><td>Dr. Parul Manchanda</td></tr>
+                <tr><td>9</td><td>28.10.2025-01.11.2025</td><td>Subject Expert Lecture Series</td><td>Department of Management Studies</td></tr>
+                <tr><td>10</td><td>29.10.2025</td><td>Extension Lecture</td><td>Ms. Disha Garg, Dr. Ruhee Mittal</td></tr>
+                <tr><td>11</td><td>06.11.2025</td><td>Fire Safety and Preparedness Session</td><td>Mr. Amit Kumar</td></tr>
+                <tr><td>12</td><td>10.11.2025</td><td>Writing Skills for Media</td><td>Ms. Anshu Naithani</td></tr>
+                <tr><td>13</td><td>13.11.2025</td><td>Aptitude Enhancement for Placement Success</td><td>Mr. Navneet Anand</td></tr>
+                <tr><td>14</td><td>17.02.2026</td><td>Anchoring and Reporting in Television News Channel</td><td>Mr. Suchivrat Arya</td></tr>
+                <tr><td>15</td><td>20.02.2026</td><td>Digital Marketing and Meta Ads</td><td>Mr. Karan Sethia</td></tr>
+                <tr><td>16</td><td>23.02.2026</td><td>Education to Employment</td><td>Mr. Satyamedh Nandedkar</td></tr>
+                <tr><td>17</td><td>12.03.2026</td><td>AI and Robotics in Marketing</td><td>Mr. Neeraj Maddheshya</td></tr>
+                <tr><td>18</td><td>09.04.2026</td><td>Awareness Session on E-Waste</td><td>Mr. Vivek Vishal</td></tr>
+                <tr><td>19</td><td>18.04.2026</td><td>Crafting a Brand Identity</td><td>Mr. Rashid Ali</td></tr>
+                <tr><td>20</td><td>21.04.2026</td><td>Performance Market</td><td>Mr. Pankaj Arya</td></tr>
+            </tbody>
+        </table>
+
                   <h1>Guest Lectures (2024-25)</h1>
           <table class="table table-striped table-hover">
              <thead class="table-dark">

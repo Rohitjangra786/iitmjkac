@@ -148,8 +148,30 @@ p{
             
               
                <div class="table-container">
-                   
-                <h1>Industrial Visits - YUVK (2024-25)</h1>
+
+                <h1>Industrial Visits (2025-26)</h1>
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>S. No.</th>
+                    <th>Type of Activity</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Visit to News 18</td><td>29.07.2024</td></tr>
+                <tr><td>2</td><td>India TV (Aap Ki Adalat)</td><td>20.08.2025</td></tr>
+                <tr><td>3</td><td>Visit to India TV</td><td>11.09.2025</td></tr>
+                <tr><td>4</td><td>India TV, Yudh</td><td>25.10.2025</td></tr>
+                <tr><td>5</td><td>Visit to ATAL Incubation Center, GGSIPU</td><td>29.10.2025</td></tr>
+                <tr><td>6</td><td>Visit to NCUI</td><td>06.11.2025</td></tr>
+                <tr><td>7</td><td>Photo Walk at Humayun's Tomb & Sunder Nursery</td><td>12.11.2025</td></tr>
+                <tr><td>8</td><td>Bharat Ka Share Bazaar</td><td>18.11.2025</td></tr>
+                <tr><td>9</td><td>Educational Visit under YUVAK</td><td>24.01.2026</td></tr>
+                <tr><td>10</td><td>Photowalk at Delhi 6</td><td>11.04.2026</td></tr>
+            </tbody>
+        </table>
+        <h1>Industrial Visits - YUVK (2024-25)</h1>
         <table class="table table-striped table-hover">
             <thead class="table-dark">
                 <tr>

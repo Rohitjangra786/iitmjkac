@@ -271,6 +271,19 @@ p{
         <tr><td>41</td><td>17-11-2025</td><td>Overview of Investigating Journalism</td><td>Mr. Kanaiya Jha (Dainik Jagran)</td></tr>
         <tr><td>42</td><td>31-01-2026</td><td>News Sources in Sports Journalism: Structure, Access and Authenticity</td><td>Dr. Rajesh Kumar (University of Jharkhand)</td></tr>
         <tr><td>43</td><td>31-01-2026</td><td>Viral Justice & Digital Vigilantism</td><td>Dr. Sumant Kumar (Alliance University, Bangalore)</td></tr>
+        <tr><td>44</td><td>29-10-2025</td><td>Seminar on Summer Training Project Competition</td><td>Dr. Latika Malhotra</td></tr>
+        <tr><td>45</td><td>29-01-2026</td><td>Beyond the Resume</td><td>Mr. Tanishq Rawat</td></tr>
+        <tr><td>46</td><td>10-02-2026</td><td>Campus to Corporate</td><td>Ms. Neha; Ms. Shivani Mangla</td></tr>
+        <tr><td>47</td><td>12-02-2026</td><td>Union Budget 26-27</td><td>Dr. Amita Pathania</td></tr>
+        <tr><td>48</td><td>12-02-2026</td><td>Union Budget 26-27 on IT Sector</td><td>Ms. Divya Gupta</td></tr>
+        <tr><td>49</td><td>12-02-2026</td><td>Inside the Model United Nations Conference</td><td>Ms. Paridhi Rajput</td></tr>
+        <tr><td>50</td><td>13-02-2026</td><td>Union Budget 26-27</td><td>Dr. Amita Pathania</td></tr>
+        <tr><td>51</td><td>16-02-2026</td><td>AI & the Future of Corporate Leadership</td><td>Mr. Nihar Suryavanshi</td></tr>
+        <tr><td>52</td><td>24-02-2026</td><td>Financial Fitness for Next Gen</td><td>Dr. Sharan Kumar</td></tr>
+        <tr><td>53</td><td>27-02-2026</td><td>Seminar on Sensationalism vs Public Interest</td><td>Mr. Vikas Kumar</td></tr>
+        <tr><td>54</td><td>17-03-2026</td><td>Mock Personal Interview</td><td>Mr. Gaurav Joshi; Ms. Dwishojoyee Banerjee</td></tr>
+        <tr><td>55</td><td>13-04-2026</td><td>Global Certification Session</td><td>Prof. (Dr.) Deepali Saluja</td></tr>
+        <tr><td>56</td><td>18-04-2026</td><td>Mock Press Conference</td><td>Mr. Suchivrat Arya</td></tr>
     </tbody>
 </table>
                  
