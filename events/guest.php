@@ -97,6 +97,173 @@ p{
             width: auto;
             margin: 0 auto;
         }
+        </style>
+    <!-- Poppins (theme font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+    <style>
+/* ============================================================
+   Events pages - refined maroon theme (matches extra.php)
+   Scoped under .ec-page so the shared header/nav are untouched.
+   ============================================================ */
+:root{
+  --ec-maroon:#800000; --ec-maroon-dark:#5e0000; --ec-maroon-light:#a52a2a;
+  --ec-gold:#c9a227; --ec-gold-soft:#e7c65a; --ec-cream:#faf7f2;
+  --ec-ink:#2b2b2b; --ec-grad:linear-gradient(135deg,#800000 0%,#a52a2a 55%,#5e0000 100%);
+}
+.ec-page, .ec-page *{ font-family:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif; }
+.ec-page{
+  background:
+     radial-gradient(circle at 0% 0%, rgba(201,162,39,.06), transparent 40%),
+     radial-gradient(circle at 100% 18%, rgba(128,0,0,.05), transparent 45%),
+     var(--ec-cream);
+  color:var(--ec-ink); padding:0 0 14px;
+}
+.ec-page p{ text-align:justify; }
+.ec-container{ padding-top:28px; padding-bottom:10px; }
+
+/* ---- page hero ---- */
+.ec-hero{ text-align:center; margin:6px auto 30px; }
+.ec-eyebrow{
+  display:inline-block; font-size:11.5px; font-weight:700; letter-spacing:2.4px;
+  text-transform:uppercase; color:var(--ec-maroon);
+  background:rgba(128,0,0,.07); border:1px solid rgba(128,0,0,.18);
+  padding:5px 16px; border-radius:50px; margin:0 0 14px;
+}
+.ec-hero-title{
+  font-size:34px; font-weight:800; color:var(--ec-maroon-dark);
+  letter-spacing:.3px; margin:0; line-height:1.14;
+}
+.ec-hero-rule{
+  display:block; width:92px; height:4px; margin:15px auto 0; border-radius:4px;
+  background:linear-gradient(90deg,var(--ec-gold),var(--ec-maroon));
+}
+
+/* ---- sidebar ---- */
+.ec-sidebar-col{ margin-bottom:24px; }
+.ec-sidebar{
+  background:#fff; border:1px solid rgba(128,0,0,.12); border-radius:16px;
+  overflow:hidden; box-shadow:0 10px 30px rgba(128,0,0,.07);
+  position:sticky; top:120px;
+}
+.ec-sidebar-title{
+  background:var(--ec-grad); color:#fff; font-size:14px; font-weight:700;
+  letter-spacing:.7px; text-transform:uppercase; margin:0; padding:14px 18px;
+  border-bottom:3px solid var(--ec-gold);
+}
+.ec-side-link{
+  display:block; padding:12px 18px; color:#4a3b3b; text-decoration:none;
+  font-size:14px; font-weight:500; border-bottom:1px solid rgba(128,0,0,.07);
+  border-left:3px solid transparent; transition:all .2s ease;
+}
+.ec-side-link:last-child{ border-bottom:0; }
+.ec-side-link:hover{
+  background:#fbf4f4; color:var(--ec-maroon); border-left-color:var(--ec-gold);
+  padding-left:22px; text-decoration:none;
+}
+.ec-side-link.active{
+  background:#fbf1f1; color:var(--ec-maroon-dark); font-weight:700;
+  border-left-color:var(--ec-maroon);
+}
+
+/* ---- intro card ---- */
+.ec-intro{ display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:32px; }
+.ec-intro--single{ grid-template-columns:1fr; }
+@media (max-width:767px){ .ec-intro{ grid-template-columns:1fr; } }
+.ec-card{
+  background:#fff; border:1px solid rgba(128,0,0,.10); border-left:5px solid var(--ec-gold);
+  border-radius:14px; padding:20px 22px; box-shadow:0 8px 24px rgba(128,0,0,.06);
+}
+.ec-card-title{
+  font-size:18px; font-weight:700; color:var(--ec-maroon); margin:0 0 10px;
+  display:flex; align-items:center; gap:9px;
+}
+.ec-card-title::before{
+  content:""; width:9px; height:9px; border-radius:50%; background:var(--ec-gold); flex:0 0 auto;
+}
+.ec-card p{ font-size:13.5px; line-height:1.72; color:#444; margin:0; }
+
+/* ---- events explorer ---- */
+.ec-section-title{
+  font-size:21px; font-weight:800; color:var(--ec-maroon-dark); margin:0;
+  position:relative; padding-left:14px;
+}
+.ec-section-title::before{
+  content:""; position:absolute; left:0; top:3px; bottom:3px; width:5px;
+  border-radius:4px; background:linear-gradient(var(--ec-gold),var(--ec-maroon));
+}
+.ec-events-head{
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  flex-wrap:wrap; margin-bottom:16px;
+}
+.ec-search{ position:relative; display:flex; align-items:center; }
+.ec-search-ico{ position:absolute; left:14px; font-size:13px; opacity:.55; pointer-events:none; }
+.ec-search-input{
+  width:260px; max-width:62vw; padding:10px 16px 10px 38px; font-size:14px;
+  font-family:inherit; border:1.5px solid rgba(128,0,0,.20); border-radius:50px;
+  background:#fff; color:var(--ec-ink); outline:none; transition:border-color .2s, box-shadow .2s;
+}
+.ec-search-input:focus{ border-color:var(--ec-gold); box-shadow:0 0 0 3px rgba(201,162,39,.20); }
+.ec-count{ font-size:12.5px; color:#8a6d2f; font-weight:600; margin-left:12px; white-space:nowrap; }
+
+/* ---- year tabs ---- */
+.ec-tabs{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }
+.ec-tab{
+  font-family:inherit; font-size:14px; font-weight:600; color:var(--ec-maroon);
+  background:#fff; border:1.5px solid rgba(128,0,0,.20); border-radius:50px;
+  padding:8px 20px; cursor:pointer; transition:all .2s ease; letter-spacing:.3px;
+}
+.ec-tab:hover{ border-color:var(--ec-maroon); background:#fbf1f1; }
+.ec-tab.active{
+  background:var(--ec-grad); color:#fff; border-color:transparent;
+  box-shadow:0 6px 16px rgba(128,0,0,.28);
+}
+
+/* ---- panels + tables ---- */
+.ec-panel{ display:none; }
+.ec-panel.active{ display:block; animation:ecFade .25s ease; }
+@keyframes ecFade{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;} }
+
+.ec-subhead{
+  font-size:16px; font-weight:700; color:var(--ec-maroon-dark);
+  margin:26px 0 12px; padding-left:12px; border-left:4px solid var(--ec-gold);
+}
+.ec-panel .ec-subhead:first-child{ margin-top:0; }
+
+.ec-page .ec-panel table{
+  width:100%; border-collapse:separate; border-spacing:0; background:#fff;
+  border-radius:14px; overflow:hidden; box-shadow:0 10px 30px rgba(128,0,0,.08); margin:0;
+}
+.ec-page .ec-panel thead th{
+  background:var(--ec-grad) !important; color:#fff !important; font-weight:600;
+  font-size:13px; letter-spacing:.4px; text-transform:uppercase;
+  padding:13px 16px; border:0 !important; border-bottom:3px solid var(--ec-gold) !important; text-align:left;
+}
+.ec-page .ec-panel tbody td{
+  padding:11px 16px; font-size:14px; color:#3a3a3a; border:0 !important;
+  border-bottom:1px solid rgba(128,0,0,.07) !important; vertical-align:middle; background:transparent !important;
+}
+.ec-page .ec-panel tbody tr:nth-child(odd) td{ background:#fbf6f2 !important; }
+.ec-page .ec-panel tbody tr:hover td{ background:#f3e2d8 !important; }
+.ec-page .ec-panel tbody td:first-child{ font-weight:700; color:var(--ec-maroon); width:66px; text-align:center; }
+.ec-page .ec-panel tbody td:nth-child(2){ white-space:nowrap; color:#6a5a2a; font-weight:600; font-size:13.5px; }
+.ec-no-results td{ text-align:center !important; padding:26px !important; color:#999 !important; font-style:italic; background:#fff !important; }
+
+/* ---- mobile-first refinements ---- */
+@media (max-width:767px){
+  .ec-hero-title{ font-size:25px; }
+  .ec-page .ec-panel thead th{ padding:10px 8px; font-size:11px; }
+  .ec-page .ec-panel tbody td{ padding:9px 8px; font-size:12.5px; }
+  .ec-page .ec-panel tbody td:first-child{ width:34px; }
+  .ec-page .ec-panel tbody td:nth-child(2){ white-space:normal; }
+}
+
+/* ---- legacy photo carousel (kept) ---- */
+.carousel-inner{ max-width:70vw; margin:0 auto; transition:transform 0.3s cubic-bezier(0.4,0.0,0.2,1); }
+.carousel-item img{ max-height:300px; width:auto; margin:0 auto; }
+.carousel-image{ width:80%; height:auto; object-fit:cover; margin:0 auto; }
+.carousel-item{ width:70vw; margin-left:0; }
     </style>
 </head>
 <body>
@@ -105,39 +272,63 @@ p{
     <?php include('../n.php'); ?>
 
 
-<div style="height: 5vh;"></div>
-<div class="container">
+<div class="ec-page">
+  <div class="container ec-container">
+
+    <!-- Page header -->
+    <header class="ec-hero">
+      <span class="ec-eyebrow">Campus Life</span>
+      <h1 id="iipc" class="ec-hero-title">Guest Lectures</h1>
+      <span class="ec-hero-rule"></span>
+    </header>
+
     <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-            <h1 id="iipc">Guest Lectures</h1>
+      <!-- Sidebar -->
+      <aside class="col-lg-3 ec-sidebar-col">
+        <nav class="ec-sidebar" aria-label="Events sections">
+          <h2 class="ec-sidebar-title">Events</h2>
+          <a class="ec-side-link" href="https://iitmjanakpuri.com/events/extra.php">Extra &amp; Co-Curricular Events</a>
+          <a class="ec-side-link active" href="https://iitmjanakpuri.com/events/guest.php">Guest Lectures</a>
+          <a class="ec-side-link" href="https://iitmjanakpuri.com/events/conference.php">Conference / Seminars / Webinars</a>
+          <a class="ec-side-link" href="https://iitmjanakpuri.com/events/fdp.php">FDP</a>
+          <a class="ec-side-link" href="https://iitmjanakpuri.com/events/industrialvisits.php">Industrial Visits</a>
+          <a class="ec-side-link" href="https://iitmjanakpuri.com/events/workshops.php">Workshops</a>
+          <a class="ec-side-link" href="https://www.iitmjanakpuri.com/events/fiesta.php">Fiesta</a>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <main class="col-lg-9 ec-main">
+
+        <!-- Intro -->
+        <div class="ec-intro ec-intro--single">
+          <article class="ec-card">
+            <h2 class="ec-card-title">Overview</h2>
+            <p>Distinguished personalities from both the academia and the corporate sphere are invited to impart their valuable insights to the students, thereby enhancing their learning journey and broadening their understanding of the global business environment.</p>
+          </article>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3" style="padding: 5px; background-color: #add8e6;height: 250px;">
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/extra.php">Extra & Co-Curricular Events</a>
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/guest.php">Guest Lectures</a>
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/conference.php">Conference/Seminars/Webinars</a>
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/fdp.php">FDP</a>
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/industrialvisits.php">Industrial Visits</a>
-              <a class="dropdown-item" href="https://iitmjanakpuri.com/events/workshops.php">Workshops</a>
-              <a class="dropdown-item" href="https://www.iitmjanakpuri.com/events/fiesta.php">Fiesta</a>
-        </div>
-        <div class="col-md-9">
-            
-          <div class="underline"></div>
-           <div class="container">
-              
-              <p class="text-justify" style="color: #4b4b4b;">Distinguished personalities from both the academia and the corporate 
-              sphere are invited to impart their valuable insights to the students, 
-              thereby enhancing their learning journey and broadening their understanding of the global business environment.</p>
-              
-              
-              <hr class="hr-maroon"/>
-            
-              
-               <div class="table-container">
-                  <h1>Guest Lectures (2025-26)</h1>
+
+        <!-- Event records -->
+        <section class="ec-events">
+          <div class="ec-events-head">
+            <h2 class="ec-section-title">Guest Lectures by Year</h2>
+            <div class="ec-search">
+              <span class="ec-search-ico" aria-hidden="true">&#128269;</span>
+              <input type="text" id="eventSearch" class="ec-search-input" placeholder="Search events..." autocomplete="off" aria-label="Search events">
+              <span class="ec-count" id="eventCount"></span>
+            </div>
+          </div>
+
+          <div class="ec-tabs" role="tablist">
+            <button class="ec-tab active" type="button" data-year="2025-26">2025-26</button>
+            <button class="ec-tab" type="button" data-year="2024-25">2024-25</button>
+            <button class="ec-tab" type="button" data-year="2023-24">2023-24</button>
+            <button class="ec-tab" type="button" data-year="2022-23">2022-23</button>
+            <button class="ec-tab" type="button" data-year="2021-22">2021-22</button>
+          </div>
+
+          <div class="ec-panels">
+            <div class="ec-panel active" data-year="2025-26">
           <table class="table table-striped table-hover">
              <thead class="table-dark">
                 <tr>
@@ -171,7 +362,8 @@ p{
             </tbody>
         </table>
 
-                  <h1>Guest Lectures (2024-25)</h1>
+                              </div>
+            <div class="ec-panel" data-year="2024-25">
           <table class="table table-striped table-hover">
              <thead class="table-dark">
                 <tr>
@@ -284,7 +476,8 @@ p{
         </table>
 
                    
-        <h1>Guest Lectures (2023-24)</h1>
+                    </div>
+            <div class="ec-panel" data-year="2023-24">
           <table class="table table-striped table-hover">
              <thead class="table-dark">
                 <tr>
@@ -391,7 +584,8 @@ p{
 </tbody>
         </table>
 
-        <h1>Guest Lectures (2022-23)</h1>
+                    </div>
+            <div class="ec-panel" data-year="2022-23">
           <table class="table table-striped table-hover">
              <thead class="table-dark">
                 <tr>
@@ -442,7 +636,8 @@ p{
 </tbody>
         </table>
 
-        <h1>Guest Lectures (2021-22)</h1>
+                    </div>
+            <div class="ec-panel" data-year="2021-22">
           <table class="table table-striped table-hover">
              <thead class="table-dark">
                 <tr>
@@ -551,7 +746,13 @@ p{
                 
              </tbody>
         </table>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
+  </div>
+</div>
     <div style="height: 10vh;"></div>
               <div style="margin:0;width:100%;">
                    <div class="container">
@@ -664,24 +865,74 @@ p{
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-
 </div>
-
-             
               </div>
-         
-
-</div>
-</div>
-</div>
-        </div>
-    </div>
+            </div>
 </div>
 <div style="height: 5vh"></div>
     <?php
         include("../naacfooter.php");
     ?>
 
+    <script>
+(function(){
+  var page = document.querySelector('.ec-page');
+  if(!page) return;
+  var tabs   = page.querySelectorAll('.ec-tab');
+  var panels = page.querySelectorAll('.ec-panel');
+  var search = document.getElementById('eventSearch');
+  var countEl = document.getElementById('eventCount');
+
+  // inject a hidden "no results" row into each table
+  panels.forEach(function(panel){
+    var tbody = panel.querySelector('tbody');
+    if(!tbody) return;
+    var head = panel.querySelector('thead tr');
+    var cols = head ? head.children.length : 3;
+    var tr = document.createElement('tr');
+    tr.className = 'ec-no-results';
+    var td = document.createElement('td');
+    td.colSpan = cols;
+    td.textContent = 'No events match your search.';
+    tr.appendChild(td);
+    tr.style.display = 'none';
+    tbody.appendChild(tr);
+  });
+
+  function activePanel(){ return page.querySelector('.ec-panel.active'); }
+
+  function applyFilter(){
+    var panel = activePanel();
+    if(!panel) return;
+    var q = (search ? search.value : '').trim().toLowerCase();
+    var shown = 0, total = 0;
+    panel.querySelectorAll('tbody tr').forEach(function(tr){
+      if(tr.classList.contains('ec-no-results')) return;
+      total++;
+      var match = q === '' || tr.textContent.toLowerCase().indexOf(q) !== -1;
+      tr.style.display = match ? '' : 'none';
+      if(match) shown++;
+    });
+    panel.querySelectorAll('.ec-no-results').forEach(function(nr){
+      nr.style.display = (shown === 0) ? '' : 'none';
+    });
+    if(countEl) countEl.textContent = q ? (shown + ' of ' + total + ' events') : (total + ' events');
+  }
+
+  function selectTab(year){
+    tabs.forEach(function(t){ t.classList.toggle('active', t.getAttribute('data-year') === year); });
+    panels.forEach(function(p){ p.classList.toggle('active', p.getAttribute('data-year') === year); });
+    if(search) search.value = '';
+    applyFilter();
+  }
+
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){ selectTab(t.getAttribute('data-year')); });
+  });
+  if(search) search.addEventListener('input', applyFilter);
+  applyFilter();
+})();
+</script>
     <script src="myscript.js"></script>
 </body>
 </html>
