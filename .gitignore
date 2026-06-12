@@ -13,6 +13,7 @@
 # ── PDF documents (large content assets, not source code) ─────────
 *.pdf
 *.PDF
+!admissions/docs/FEE_Details.pdf
 
 # ── Large content images (gallery, uploads, event photos) ─────────
 upload/
