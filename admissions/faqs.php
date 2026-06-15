@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | FAQs - Admissions</title>
+    <title> Admission FAQs & Queries | IITM Janakpuri Delhi </title>
+    <meta name="description" content="Find answers to admission FAQs at IITM Janakpuri about eligibility, courses, fees, application process, placements, and campus facilities.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

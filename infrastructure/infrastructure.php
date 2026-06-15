@@ -17,8 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM |Infrastructure</title>
-
+    <title> Campus Infrastructure | IITM Janakpuri </title>
+    <meta name="description" content="Discover world-class infrastructure at IITM Janakpuri featuring smart classrooms, labs, libraries, and modern learning facilities.">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 

@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | Management Quota</title>
+    <title>Admission Open for Management & IT Programs | IITM Janakpuri </title>
+<meta name="description" content="Apply now for management and IT programs at IITM Janakpuri. Explore career-focused courses, expert faculty, and modern learning facilities.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
