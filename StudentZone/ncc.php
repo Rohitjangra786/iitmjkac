@@ -58,8 +58,9 @@ $ano_profile = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>National Cadet Corps (NCC) — IITM Janakpuri | 6 Delhi Battalion</title>
-    <meta name="description" content="National Cadet Corps (NCC) at IITM Janakpuri — 6 Delhi Battalion unit. Discipline, leadership and service training under ANO Lt. Gautam Kumar.">
+    <title>NCC Activities & Programs | IITM Janakpuri </title>
+    <meta name="description" content="Discover NCC activities at IITM Janakpuri that promote leadership, discipline, teamwork, community service, and personality development.">
+   
     <link rel="canonical" href="https://iitmjanakpuri.com/StudentZone/ncc.php">
     <meta name="theme-color" content="#800000">
 

@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | Events</title>
+    <title>Extra-Curricular Activities & Events | IITM Janakpuri </title>
+    <meta name="description" content="Discover extra-curricular activities at IITM Janakpuri that encourage leadership, creativity, teamwork, skill development, and student engagement.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

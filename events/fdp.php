@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | FDP</title>
+    <title>Faculty Development Programmes | IITM Janakpuri  </title>
+    <meta name="description" content="Explore Faculty Development Programmes at IITM Janakpuri designed to enhance teaching skills, research capabilities, and academic excellence.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

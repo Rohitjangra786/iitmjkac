@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | Fiesta</title>
+    <title>Fiesta Annual Fest & Events | IITM Janakpuri  </title>
+    <meta name="description" content="Experience Fiesta at IITM Janakpuri, an annual celebration featuring cultural performances, competitions, talent showcases, and student activities.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

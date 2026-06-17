@@ -280,7 +280,8 @@ $total = count($bba_faculty) + count($bcom_faculty);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | B.Com.(H) & BBA - Faculty</title>
+    <title> BBA & BCom Faculty Experts | IITM Janakpuri  </title>
+    <meta name="description" content="Explore the BBA and BCom faculty at IITM Janakpuri offering industry-focused learning, academic excellence, and student mentorship.">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>

@@ -17,7 +17,8 @@ echo '</script>';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ED Cell - IITM Janakpuri</title>
+    <title>Entrepreneurship Development Cell | IITM Janakpuri </title>
+    <meta name="description" content="The Entrepreneurship Development Cell at IITM Janakpuri encourages innovation, startup culture, business skills, and entrepreneurial learning among students.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">

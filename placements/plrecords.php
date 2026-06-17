@@ -29,7 +29,8 @@ $totalBatches = array_sum(array_map('count', $placements));
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>IITM | Placement Records</title>
+    <title> Placement Records & Success Rate | IITM Janakpuri </title>
+    <meta name="description" content="Explore placement records at IITM Janakpuri highlighting student achievements, recruiter participation, and successful career outcomes.">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
