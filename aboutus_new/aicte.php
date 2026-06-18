@@ -134,10 +134,10 @@ p{
         <ul class="eoa-links">
             <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension of Approval (EoA) 2025-26.PDF" target="_blank">Extension of Approval (EoA) 2025-26</a></li>
             <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202024-25%20NE.PDF" target="_blank">Extension of Approval (EoA) 2024-25</a></li>
-            <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202023-24%20NE.PDF" target="_blank">Extension of Approval (EoA) 2023-24</a></li>
+            <!--<li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202023-24%20NE.PDF" target="_blank">Extension of Approval (EoA) 2023-24</a></li>
             <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202022-23%20NE.PDF" target="_blank">Extension of Approval (EoA) 2022-23</a></li>
             <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202021-22%20NE.PDF" target="_blank">Extension of Approval (EoA) 2021-22</a></li>
-            <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202020-21%20NE.PDF" target="_blank">Extension of Approval (EoA) 2020-21</a></li>
+            <li><a href="http://iitmjanakpuri.com/aboutus_new/ai/Extension%20of%20Approval%20(EoA)%202020-21%20NE.PDF" target="_blank">Extension of Approval (EoA) 2020-21</a></li>-->
         </ul>
     </div>
     <?php
