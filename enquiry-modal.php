@@ -298,6 +298,27 @@
     var form    = document.getElementById('enquiryForm');
     if (!modalEl || !form) return;
 
+    // ---- Google Sheet capture ----------------------------------------------
+    // Every enquiry is also saved to the admission Google Sheet so the team has
+    // a record even when the student never completes the WhatsApp send.
+    // Paste the Apps Script Web App /exec URL here (see ENQUIRY-SHEET-SETUP.md).
+    var SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyjRfZK6qnla8dUJFnU-jJC-K2Bu47YCInYo9zG-bT-dCZhSMm34o5W1q19vfmIdtQ8/exec';
+
+    function saveToSheet(data){
+        // Not configured yet — skip silently so the WhatsApp flow still works.
+        if (!SHEET_ENDPOINT || SHEET_ENDPOINT.indexOf('PASTE_') === 0) return;
+        try {
+            var body = new URLSearchParams(data).toString();
+            fetch(SHEET_ENDPOINT, {
+                method:  'POST',
+                mode:    'no-cors', // Apps Script sends no CORS headers; fire-and-forget
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+                body:    body,
+                keepalive: true     // let it finish even as we open the WhatsApp tab
+            }).catch(function(){ /* network hiccup — never block the user */ });
+        } catch (_) { /* very old browser — skip silently */ }
+    }
+
     // ---- Reusable single-select dropdown that reveals radio options ----
     function initRadioSelect(rootId, placeholder, errorEl){
         var root = document.getElementById(rootId);
@@ -382,6 +403,21 @@
         var rank   = form.rank.value.trim();
         var exam2  = exam2Select ? exam2Select.value() : '';
         var rank2  = form.rank2.value.trim();
+
+        // Save the lead to the admission Google Sheet BEFORE opening WhatsApp,
+        // so it is captured even if the student never sends the WhatsApp message.
+        saveToSheet({
+            name:   name,
+            phone:  phone,
+            email:  email,
+            course: course,
+            lead:   leadName,
+            exam:   exam,
+            rank:   rank,
+            exam2:  exam2,
+            rank2:  rank2,
+            page:   location.href
+        });
 
         var msg =
             'Hello ' + leadName + ',\n\n' +
