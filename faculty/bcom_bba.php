@@ -209,7 +209,7 @@ $bcom_faculty = [
     [
         "name" => "Ms. Divya Gupta",
         "designation" => "Assistant Professor",
-        "qual" => "B.Com(H), M.Com, NET",
+        "qual" => "B.Com(H), M.Com, MBA, NET",
         "email" => "divya.gupta@iitmipu.ac.in",
         "img" => "images/commerce/Ms. Divya Gupta.jpg"
     ],
