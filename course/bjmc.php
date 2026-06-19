@@ -380,11 +380,12 @@ echo '</script>';
         <div class="row align-items-center g-4">
             <div class="col-lg-8">
                 <span class="hero-eyebrow"><i class="fa fa-graduation-cap me-1"></i> Programme of Study</span>
-                <h1 class="hero-title">BA (Journalism &amp; Mass Communication) — Honours</h1>
+                <h1 class="hero-title">BA (Journalism &amp; Mass Communication) — Honours in Delhi</h1>
                 <p class="hero-sub">
                     A four-year programme affiliated to Guru Gobind Singh Indraprastha University,
                     cultivating thought-leaders in journalism, broadcasting, digital media and advertising
-                    through Outcome-Based Education, experiential learning and on-field reporting.
+                    through Outcome-Based Education, experiential learning and on-field reporting. Recognized as one of the best Journalism and Mass Communication (BJMC) colleges in Delhi, IITM offers a curriculum designed to prepare students for diverse media careers.
+
                 </p>
                 <div class="hero-meta">
                     <span class="hero-pill">4 Years · 8 Semesters</span>
@@ -434,13 +435,16 @@ echo '</script>';
             Outcome-Based Education (OBE) philosophy. The program is meticulously designed to provide
             students with a robust understanding of the ever-evolving media landscape while equipping them
             with the essential skills to excel in various domains of journalism and mass communication.
+       IITM Janakpuri (Information Campus) is widely regarded as a top BJMC college in Delhi, ensuring students receive both academic excellence and practical exposure.
+       
+       
         </p>
         <p>
             Going beyond traditional learning, the course fosters creativity, critical thinking, and
             ethical practices in media, empowering students to become thought leaders in the industry.
             The program emphasizes experiential and self-directed learning through workshops, on-field
             reporting, media productions, and AI-driven projects. Key highlights include industry-oriented
-            activities such as internships with leading media houses, hands-on training in studios,
+            activities such as BJMC programs with internships & media projects, hands-on training in studios,
             participation in live news productions, and supplementary value-added courses to enhance
             professional competencies.
         </p>
@@ -625,6 +629,8 @@ echo '</script>';
             experiences, students gain a deep understanding of journalism, broadcasting, digital media,
             and more. This approach equips them with the skills to produce ethical, engaging content and
             address contemporary media challenges, preparing them to excel in the evolving media industry.
+             As a best college for BJMC in Delhi NCR, the institute nurtures students to excel in journalism, 
+             mass media and communication.
         </p>
 
         <h2 class="section-heading" style="margin-top:36px;">Pedagogy</h2>
@@ -636,6 +642,7 @@ echo '</script>';
             is a cornerstone of this approach. These methodologies encompass lectures, assignments,
             role-plays, group discussions, media simulations, group work, seminars, and skill enhancement
             workshops.
+            Through BJMC programs with internships & media projects, learners cultivate storytelling, analytical, and communication skills essential for the modern media landscape.
         </p>
         <p>
             Students actively engage in a variety of media activities such as live reporting, anchoring,
