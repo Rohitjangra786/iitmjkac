@@ -320,6 +320,27 @@ echo '</script>';
         .section{ padding: 40px 0; }
     }
     </style>
+
+
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "Master of Business Administration (General)",
+"description": "Choose IITM Janakpuri, the best MBA College in Delhi and top MBA College in Delhi NCR, for a two-year AICTE-approved MBA program emphasizing industry projects.",
+"provider": {
+"@type": "Organization",
+"name": "IITM Janakpuri",
+"sameAs": "https://iitmjanakpuri.com/course/mba.php"
+}
+}
+</script>
+
+
+
+
+
 </head>
 <body class="mba-page">
 

@@ -361,6 +361,26 @@ echo '</script>';
         .section{ padding: 40px 0; }
     }
     </style>
+
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "BA (Journalism & Mass Communication) — Honours",
+"description": "Ranked as the best College for BJMC in Delhi, IITM Janakpuri, a top BJMC College offers industry-aligned BJMC programs with internships & media projects.",
+"provider": {
+"@type": "Organization",
+"name": "IITM Janakpuri",
+"sameAs": "https://iitmjanakpuri.com/course/bjmc.php"
+}
+}
+</script>
+
+
+
+
+
 </head>
 <body class="bjmc-page">
 

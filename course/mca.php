@@ -104,6 +104,28 @@ echo '</script>';
 
     @media (max-width:768px){ .mca-hero{ padding:40px 0 44px; } .section{ padding:40px 0; } }
     </style>
+
+
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "Master of Computer Applications (MCA)",
+"description": "IITM Janakpuri, one of the MCA top Colleges in Delhi NCR and Best MCA College in Delhi, equips students with advanced IT skills and career-ready expertise.",
+"provider": {
+"@type": "Organization",
+"name": "IITM Janakpuri",
+"sameAs": "https://iitmjanakpuri.com/course/mca.php"
+}
+}
+</script>
+
+
+
+
+
+
 </head>
 <body class="mca-page">
 
