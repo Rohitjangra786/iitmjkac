@@ -116,9 +116,9 @@ echo '</script>';
         <div class="row align-items-center g-4">
             <div class="col-lg-8">
                 <span class="hero-eyebrow"><i class="fa fa-graduation-cap me-1"></i> Programme of Study</span>
-                <h1 class="hero-title">Master of Computer Applications (MCA)</h1>
+                <h1 class="hero-title">Master of Computer Applications  (Best MCA College in Delhi) </h1>
                 <p class="hero-sub">
-                    A two-year postgraduate programme accredited by Guru Gobind Singh Indraprastha
+                    IITM Janakpuri (Information Campus), the best MCA college in Delhi offers a two-year postgraduate programme accredited by Guru Gobind Singh Indraprastha
                     University, equipping students with the technical depth and professional skills to
                     excel in research, consultancy and analytics roles.
                 </p>
@@ -165,7 +165,7 @@ echo '</script>';
         <div class="accent-bar"></div>
         <h2 class="section-heading">About the Programme</h2>
         <p>
-            The two-year MCA program is accredited by Guru Gobind Singh Indraprastha University. Its
+           IITM Janakpuri, a MCA top college in Delhi NCR, offers a two-year MCA program is accredited by Guru Gobind Singh Indraprastha University. Its
             primary objective is to equip students with the necessary skills and knowledge to succeed in
             a dynamic and competitive professional landscape. Through innovative pedagogy, deliberate
             inquiry, rigorous skill development, and meaningful discourse among peers, the program
@@ -266,7 +266,8 @@ echo '</script>';
         <p>
             The primary educational objective of the Institute is to stimulate the cognitive processes,
             thereby fostering creativity, innovation, and research endeavors that culminate in the
-            generation of knowledge.
+            generation of knowledge. IITM Janakpuri, a top MCA college in Delhi NCR, upholds this vision by nurturing academic rigor and industry-relevant learning outcomes.
+
         </p>
 
         <h2 class="section-heading" style="margin-top:36px;">Pedagogy</h2>
@@ -301,7 +302,8 @@ echo '</script>';
         <p>
             The institute places a high priority on aiding students in attaining academic excellence while
             cultivating the skills essential for proficient leadership and teamwork. Consequently, students
-            are thoroughly prepared to meet the demands of the fiercely competitive corporate environment.
+            are thoroughly prepared to meet the demands of the fiercely competitive corporate environment, making the MCA course in Delhi offered at IITM highly relevant to industry expectations.
+
         </p>
         <p>
             The skill enhancement programs facilitate the acquisition of skills by students to identify
