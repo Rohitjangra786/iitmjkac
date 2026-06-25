@@ -332,9 +332,9 @@ echo '</script>';
         <div class="row align-items-center g-4">
             <div class="col-lg-8">
                 <span class="hero-eyebrow"><i class="fa fa-graduation-cap me-1"></i> Programme of Study</span>
-                <h1 class="hero-title">Master of Business Administration (General)</h1>
+                <h1 class="hero-title">Master of Business Administration (MBA General in Delhi)</h1>
                 <p class="hero-sub">
-                    A two-year MBA programme affiliated to Guru Gobind Singh Indraprastha University and
+                    IITM Janakpuri (Information Campus), the best MBA college in Delhi, offers a two-year MBA programme affiliated to Guru Gobind Singh Indraprastha University and
                     approved by AICTE — built on Outcome-Based Education with experiential learning, MOOCs,
                     AI/ML-enabled assignments and summer industrial training.
                 </p>
@@ -381,7 +381,7 @@ echo '</script>';
         <div class="accent-bar"></div>
         <h2 class="section-heading">About the Programme</h2>
         <p>
-            The two-year MBA (General) programme is affiliated with Guru Gobind Singh Indraprastha
+            The two-year MBA (General) programme at IITM Janakpuri (Information Campus), the top MBA college in Delhi NCR, is affiliated with Guru Gobind Singh Indraprastha
             University and approved by AICTE. The program runs with Outcome Based Education (OBE)
             philosophy. The program, meticulously crafted, aims to impart participants with relevant
             knowledge, essential attributes, and necessary skills crucial for thriving in the corporate
@@ -597,7 +597,7 @@ echo '</script>';
         <div class="accent-bar"></div>
         <h2 class="section-heading">Academic Excellence</h2>
         <p>
-            The primary educational objective of the Institute is to stimulate the cognitive processes,
+            The primary educational objective of IITM Janakpuri (Information Campus), offering the best MBA course in Delhi NCR, is to stimulate the cognitive processes,
             thereby fostering creativity, innovation, and research endeavors that culminate in the
             generation of knowledge.
         </p>
@@ -633,11 +633,11 @@ echo '</script>';
         <h2 class="section-heading">Skill Development</h2>
         <p>
             The institute places a high priority on aiding students in attaining academic excellence while
-            cultivating the skills essential for proficient leadership and teamwork. Consequently, students
+            cultivating the skills essential for proficient leadership and teamwork at IITM Janakpuri, MBA college in New Delhi. Consequently, students
             are thoroughly prepared to meet the demands of the fiercely competitive corporate environment.
         </p>
         <p>
-            The skill enhancement programs facilitate the acquisition of skills by students to identify and
+            The skill enhancement programs, along with transparent MBA fees structure, facilitate the acquisition of skills by students to identify and
             address complex management issues. These skills imparted to the students aim to aid them in
             navigating through unforeseen and challenging business, economic, and social changes in the
             future.
