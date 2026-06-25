@@ -138,6 +138,7 @@ echo '</script>';
                     <div class="kv"><span>Intake</span><b>180 + 180</b></div>
                     <div class="kv"><span>Entrance</span><b>CET / CUET</b></div>
                     <div class="kv"><span>Reservation</span><b>85% Delhi / 15% Outside</b></div>
+                    <div class="kv"><span>Fee</span><b><a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank" style="color:#fff;text-decoration:underline">View Fee Details</a></b></div>
                 </div>
             </div>
         </div>

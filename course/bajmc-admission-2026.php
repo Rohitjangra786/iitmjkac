@@ -368,6 +368,7 @@
                     <div class="kv"><span>Duration</span><b>3 / 4 yrs</b></div>
                     <div class="kv"><span>Affiliation</span><b>GGSIPU</b></div>
                     <div class="kv"><span>Entrance</span><b>CET / CUET</b></div>
+                    <div class="kv"><span>Fee</span><b><a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank" style="color:#fff;text-decoration:underline">View Fee Details</a></b></div>
                     <div class="kv"><span>First-Year Fee</span><b>₹1.49 L (2025-26)</b></div>
                     <div class="kv"><span>Avg. Placement</span><b>₹4.5 LPA</b></div>
                     <div class="kv"><span>Helpline</span><b><a href="tel:+917217872947" style="color:#fff">+91 72178 72947</a></b></div>

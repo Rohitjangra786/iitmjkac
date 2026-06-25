@@ -106,7 +106,7 @@ body * {
           <div class="col-md-3" style="padding: 5px; background-color: #add8e6;">
                <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                     <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
-                    <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/docs/FEE_Details.pdf" target="_blank">Fee Details (UG & PG)</a>
+                    <a class="dropdown-item" href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG & PG)</a>
                     <a class="dropdown-item" href="https://forms.gle/m7tJHZE7cEkZXEGu5">Enquiry</a>
                     <a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/fee.php">Online Fees Payment</a>
             </div>
@@ -127,7 +127,7 @@ body * {
             <a href="docs/Check List_u1.pdf" target="_blank">List of Documents</a><br>
             <a href="https://iitmjanakpuri.com/admissions/docs/PG 2026-27.pdf">Admission Brochure-PG</a><br>
             <a href="https://iitmjanakpuri.com/admissions/docs/UG 2026-27.pdf">Admission Brochure-UG</a><br>
-            <a href="https://iitmjanakpuri.com/admissions/docs/FEE_Details.pdf" target="_blank">Fee Details</a>
+            <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details</a>
             
         </div>
          </div>

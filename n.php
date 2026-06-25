@@ -727,7 +727,7 @@
                         <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2025-26</a>
                         <a href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                         <a href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
-                        <a href="https://iitmjanakpuri.com/admissions/docs/FEE_Details.pdf" target="_blank">Fee Details (UG &amp; PG)</a>
+                        <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG &amp; PG)</a>
 
                         <span class="sub-label">Calendar &amp; Time Tables</span>
                         <a href="https://iitmjanakpuri.com/admissions/academic_calendar.php">Academic Calendar</a>
@@ -955,7 +955,7 @@
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2025-26</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a></li>
-                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/docs/FEE_Details.pdf" target="_blank">Fee Details (UG & PG)</a></li>
+                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG & PG)</a></li>
                             <!--<li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/enquiry.php">Enquiry</a></li>-->
                             </ul>
                         </li>

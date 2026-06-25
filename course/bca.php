@@ -381,6 +381,7 @@ echo '</script>';
                     <div class="kv"><span>Shifts</span><b>First &amp; Second Shift</b></div>
                     <div class="kv"><span>Entrance</span><b>CET / CUET</b></div>
                     <div class="kv"><span>Reservation</span><b>85% Delhi / 15% Outside</b></div>
+                    <div class="kv"><span>Fee</span><b><a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank" style="color:#fff;text-decoration:underline">View Fee Details</a></b></div>
                     <div class="kv"><span>Specialisations</span><b>Data Science · Artificial Intelligence · Cyber Security · Web Development</b></div>
                 </div>
             </div>

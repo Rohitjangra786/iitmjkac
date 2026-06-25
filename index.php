@@ -494,9 +494,10 @@ strong, b{
     margin: 8px auto 0;
 }
 .placement-section .placement-title p{
-    color: #6b6b6b;
+    color: #4b4b4b;
     font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 500;
     margin: 6px 0 0;
 }
 
@@ -3412,7 +3413,7 @@ nav.navbar .nav-item{
 
 
             <a href="https://iitmjanakpuri.com/direct-file/Anugoonj Prelims 2026 Zone 4 Brochure.pdf" target="_blank">Anugoonj Prelims Zone IV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     -->        <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details for Academic Year 2025-26 (First Year)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     -->        <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details for Academic Year 2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/direct-file/counselor.pdf">Contact Your Counsellor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
             <!-- <a href="https://iitmjanakpuri.com/fiesta2k25/">Fiesta 2K25</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -3652,10 +3653,10 @@ nav.navbar .nav-item{
         <p>Highest packages by program · Highest offer of the year</p>
     </div>
     <div class="placement-grid">
-        <div class="placement-card featured">
-            <span class="pkg-course">Highest</span>
+        <div class="placement-card">
+            <span class="pkg-course">BCA</span>
             <span class="pkg-value">22<small>&nbsp;LPA</small></span>
-            <span class="pkg-label">BCA Top Package</span>
+            <span class="pkg-label">Highest</span>
         </div>
         <div class="placement-card">
             <span class="pkg-course">MBA</span>

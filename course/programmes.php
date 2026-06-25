@@ -858,7 +858,7 @@ h1, h2, h3, h4, h5, h6,
     <div class="prog-level-header">
         <span class="plh-badge">UG</span>
         <h2 class="plh-title">Undergraduate Programmes</h2>
-        <span class="plh-meta">4 programmes &middot; 900 seats &middot; 3 years each</span>
+        <span class="plh-meta">4 programmes &middot; 900 seats &middot; 4 years each</span>
     </div>
 </div>
 <section class="prog-course-list" aria-labelledby="ug-section">
@@ -869,12 +869,12 @@ h1, h2, h3, h4, h5, h6,
             <span class="pcc-tag">Bachelor of Computer Applications (Honours)</span>
             <h2 class="pcc-name">BCA</h2>
             <div class="pcc-meta">
-                <span class="pcc-pill">3 years</span>
+                <span class="pcc-pill">4 years</span>
                 <span class="pcc-pill">240 seats</span>
                 <span class="pcc-pill">GGSIPU</span>
                 <span class="pcc-pill">IPU CET BCA</span>
             </div>
-            <p class="pcc-desc">A 3-year BCA (H) affiliated with GGSIPU. Innovative pedagogy preparing students for the competitive professional sphere — programming, software development, web technologies and data fundamentals.</p>
+            <p class="pcc-desc">A 4-year BCA (H) affiliated with GGSIPU. Innovative pedagogy preparing students for the competitive professional sphere — programming, software development, web technologies and data fundamentals.</p>
             <div class="pcc-actions">
                 <a href="bca.php" class="pcc-btn primary">Read More</a>
                 <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
@@ -889,12 +889,12 @@ h1, h2, h3, h4, h5, h6,
             <span class="pcc-tag">Bachelor of Business Administration (Honours)</span>
             <h2 class="pcc-name">BBA</h2>
             <div class="pcc-meta">
-                <span class="pcc-pill">3 years</span>
+                <span class="pcc-pill">4 years</span>
                 <span class="pcc-pill">360 seats</span>
                 <span class="pcc-pill">GGSIPU</span>
                 <span class="pcc-pill">IPU CET BBA</span>
             </div>
-            <p class="pcc-desc">A 3-year BBA (H) affiliated with GGSIPU. Designed to furnish students with robust conceptual knowledge and critical thinking skills necessary for the effective management of integrated business operations.</p>
+            <p class="pcc-desc">A 4-year BBA (H) affiliated with GGSIPU. Designed to furnish students with robust conceptual knowledge and critical thinking skills necessary for the effective management of integrated business operations.</p>
             <div class="pcc-actions">
                 <a href="bba.php" class="pcc-btn primary">Read More</a>
                 <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
@@ -909,12 +909,12 @@ h1, h2, h3, h4, h5, h6,
             <span class="pcc-tag">Bachelor of Commerce (Honours)</span>
             <h2 class="pcc-name">B.Com (H)</h2>
             <div class="pcc-meta">
-                <span class="pcc-pill">3 years</span>
+                <span class="pcc-pill">4 years</span>
                 <span class="pcc-pill">120 seats</span>
                 <span class="pcc-pill">GGSIPU</span>
-                <span class="pcc-pill">6 semesters</span>
+                <span class="pcc-pill">8 semesters</span>
             </div>
-            <p class="pcc-desc">A 3-year B.Com (Honours) affiliated with GGSIPU, divided into 6 semesters. Imparts the requisite knowledge, understanding and skills that establish the fundamental framework for all disciplines within the field of Commerce.</p>
+            <p class="pcc-desc">A 4-year B.Com (Honours) affiliated with GGSIPU, divided into 8 semesters. Imparts the requisite knowledge, understanding and skills that establish the fundamental framework for all disciplines within the field of Commerce.</p>
             <div class="pcc-actions">
                 <a href="bcom.php" class="pcc-btn primary">Read More</a>
                 <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
@@ -929,12 +929,12 @@ h1, h2, h3, h4, h5, h6,
             <span class="pcc-tag">Journalism &amp; Mass Communication (Honours)</span>
             <h2 class="pcc-name">BA (JMC)</h2>
             <div class="pcc-meta">
-                <span class="pcc-pill">3 years</span>
+                <span class="pcc-pill">4 years</span>
                 <span class="pcc-pill">180 seats</span>
                 <span class="pcc-pill">GGSIPU</span>
                 <span class="pcc-pill">TV studio · Radio lab</span>
             </div>
-            <p class="pcc-desc">A 3-year BA (JMC) (H) affiliated with GGSIPU, divided into 6 semesters. Equips students with the knowledge, understanding and skills to establish a strong foundation across journalism, mass communication, broadcast and digital media. In-house TV studio, radio &amp; audio production lab, editing suites.</p>
+            <p class="pcc-desc">A 4-year BA (JMC) (H) affiliated with GGSIPU, divided into 8 semesters. Equips students with the knowledge, understanding and skills to establish a strong foundation across journalism, mass communication, broadcast and digital media. In-house TV studio, radio &amp; audio production lab, editing suites.</p>
             <div class="pcc-actions">
                 <a href="bajmc-admission-2026.php" class="pcc-btn primary">Admission 2026 →</a>
                 <a href="bjmc.php" class="pcc-btn outline">Read More</a>
@@ -1069,7 +1069,7 @@ h1, h2, h3, h4, h5, h6,
                        <div class="card-body">
                              <p class="card-text">
                                 <p class="tab-heading tgfmlt" style="color: #4b4b4b;" id="bca">BCA</p>
-                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The BCA program, spanning three years in duration, holds affiliation with Guru Gobind Singh Indraprastha University. Its primary objective revolves around the cultivation of students via innovative pedagogical methodologies, geared towards equipping them for the competitive landscape of the professional sphere. </h3>
+                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The BCA program, spanning four years in duration, holds affiliation with Guru Gobind Singh Indraprastha University. Its primary objective revolves around the cultivation of students via innovative pedagogical methodologies, geared towards equipping them for the competitive landscape of the professional sphere. </h3>
                                 <button class="tgfmlt read-button" onclick="location.href = 'bca.php';">Read More</button>
                              </p>
                        </div>
@@ -1090,7 +1090,7 @@ h1, h2, h3, h4, h5, h6,
                        <div class="card-body">
                              <p class="card-text">
                                  <p class="tab-heading tgfmlt" style="color: #4b4b4b;" id="bba">BBA</p>
-                               <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The three-year Bachelor of Business Administration - BBA program is affiliated with Guru Gobind Singh Indraprastha University. Its design is meticulously crafted to furnish students with robust conceptual knowledge and critical thinking skills necessary for the effective management of integrated business operations. </h3>
+                               <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The four-year Bachelor of Business Administration - BBA program is affiliated with Guru Gobind Singh Indraprastha University. Its design is meticulously crafted to furnish students with robust conceptual knowledge and critical thinking skills necessary for the effective management of integrated business operations. </h3>
                                <button class="tgfmlt read-button" onclick="location.href = 'bba.php';">Read More</button>
                              </p>
                        </div>
@@ -1110,7 +1110,7 @@ h1, h2, h3, h4, h5, h6,
                        <div class="card-body">
                              <p class="card-text">
                                 <p class="tab-heading tgfmlt" style="color: #4b4b4b;" id="bcom">B.Com.(H)</p>
-                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The three-year Bachelor of Commerce (Honours) program is affiliated with Guru Gobind Singh Indraprastha University and is divided into six semesters. The primary objective of the program is to impart students with the requisite knowledge, understanding, and skills that establish the fundamental framework for all disciplines within the field of Commerce.</h3>
+                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The four-year Bachelor of Commerce (Honours) program is affiliated with Guru Gobind Singh Indraprastha University and is divided into eight semesters. The primary objective of the program is to impart students with the requisite knowledge, understanding, and skills that establish the fundamental framework for all disciplines within the field of Commerce.</h3>
                                 <button class="tgfmlt read-button" onclick="location.href = 'bcom.php';">Read More</button>
                              </p>
                        </div>
@@ -1131,7 +1131,7 @@ h1, h2, h3, h4, h5, h6,
                        <div class="card-body">
                              <p class="card-text">
                                 <p class="tab-heading tgfmlt" style="color: #4b4b4b;" id="bjmc">BA(JMC)</p>
-                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The three-year Bachelor of Arts in Journalism and Mass Communication BA(JMC) program is affiliated with Guru Gobind Singh Indraprastha University and is divided into six semesters. The primary objective of the program is to equip students with the knowledge, understanding, and skills necessary to establish a strong foundation across various disciplines within the field of Journalism.</h3>
+                                <h3 class="tgfmlt2 text-justify" style="color: #4b4b4b;">The four-year Bachelor of Arts in Journalism and Mass Communication BA(JMC) program is affiliated with Guru Gobind Singh Indraprastha University and is divided into eight semesters. The primary objective of the program is to equip students with the knowledge, understanding, and skills necessary to establish a strong foundation across various disciplines within the field of Journalism.</h3>
                                         <button class="tgfmlt read-button" onclick="location.href = 'bjmc.php';">Read More</button>
                              </p>
                        </div>
