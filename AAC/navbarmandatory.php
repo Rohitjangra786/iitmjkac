@@ -62,64 +62,64 @@
             <ul class="navbar-nav ml-auto multi-line">
                 <!-- Line 1 -->
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/mandatorydisclosure.php#institute">A. Institute Information</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php#institute">A. Institute Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/academicprogrammes.php">B. Details of Academic Programmes</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/academicprogrammes.php">B. Details of Academic Programmes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/accreditationstatus.php">1. Status of Accreditation</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/accreditationstatus.php">1. Status of Accreditation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/teachersavailability.php">2. Status of Teachers Availability</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/teachersavailability.php">2. Status of Teachers Availability</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/teachingquality.php">3. Quality of Teachers and Teaching</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/teachingquality.php">3. Quality of Teachers and Teaching</a>
                 </li>
                 <!-- Line 2 -->
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/institutionalsupport.php">4. Institutional Support for Faculty Development</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/institutionalsupport.php">4. Institutional Support for Faculty Development</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/grievanceredressal.php">5. Framework of students' Grievance Redressal Mechanism</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/grievanceredressal.php">5. Framework of students' Grievance Redressal Mechanism</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/universityexaminations.php">6. Institutional Support for University Examination</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/universityexaminations.php">6. Institutional Support for University Examination</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/librarystatus.php">7. Status of Library</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/librarystatus.php">7. Status of Library</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/labstatus.php">8. Status of Laboratories</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/labstatus.php">8. Status of Laboratories</a>
                 </li>
                 <!-- Line 3 -->
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/cocurricular.php">9. Co-curricular Activities</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/cocurricular.php">9. Co-curricular Activities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/institutepublications.php">10. Publications of the Institutions</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/institutepublications.php">10. Publications of the Institutions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/personalitiesdevelopment.php">11. Students Personalities Development</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/personalitiesdevelopment.php">11. Students Personalities Development</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/placementstatus.php">12. Status of Placement</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/placementstatus.php">12. Status of Placement</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/institutionparameters.php">13. General Parameters about the Institutions</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/institutionparameters.php">13. General Parameters about the Institutions</a>
                 </li>
                 <!-- Line 4 -->
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/facilitiesavailable.php">14. Facilities Available in the Institute</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/facilitiesavailable.php">14. Facilities Available in the Institute</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/deficienciesremoval.php">15. Removal Completion of Identified Deficiencies</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/deficienciesremoval.php">15. Removal Completion of Identified Deficiencies</a>
                 </li>
           <!--      <li class="nav-item">
                     <a class="nav-link color-white tgfmlt sl1" href="#">Summary of Marks</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/mandatory/timeschedule.php">Adherence of Time Schedule</a>
+                    <a class="nav-link color-white tgfmlt sl1" href="http://www.iitmjanakpuri.com/AAC/timeschedule.php">Adherence of Time Schedule</a>
                 </li>-->
          <!--        <li class="nav-item">
                     <a class="nav-link color-white tgfmlt sl1" href="#">Deficiencies Identified</a>
