@@ -18,6 +18,11 @@ echo '</script>';
     <title>Best Management College in Delhi NCR | IT College in Delhi </title>
     <meta name="description" content="Ranked as the best management college in Delhi NCR & IT College in Delhi, IITM Janakpuri brings 25+ years of excellence & offers industry-aligned programmes.">
 
+
+    <link rel="canonical" href="https://www.iitmjanakpuri.com/" />
+
+
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJX8PS9941"></script>
     <script>

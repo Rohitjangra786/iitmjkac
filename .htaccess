@@ -1,0 +1,15 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+#################################################
+# Redirect index.php to /
+#################################################
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ https://www.iitmjanakpuri.com/ [R=301,L]
+
+#################################################
+# Force HTTPS + WWW
+#################################################
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.iitmjanakpuri\.com$ [NC]
+RewriteRule ^(.*)$ https://www.iitmjanakpuri.com/$1 [R=301,L]
