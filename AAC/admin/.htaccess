@@ -1,7 +1,0 @@
-# AAC Document Manager — protect internals.
-Options -Indexes
-
-# Block direct web access to server-side includes / credentials.
-<FilesMatch "^(config\.php|config\.sample\.php|inc\.php|documents\.php)$">
-    Require all denied
-</FilesMatch>
