@@ -1,0 +1,11 @@
+# Academic Audit Cell (AAC) — this section moved from /mandatory/ to /AAC/.
+# 301-redirect the old mandatory-disclosure page URLs to their new home so that
+# bookmarks, search-engine results and older navbars keep working.
+#
+# NOTE: the accreditation PDFs under /mandatory/pdf/ (NAAC, NBA, NIRF, DTTE) are
+# gitignored / uploaded directly on the server and are intentionally NOT moved,
+# so only *.php requests are redirected — everything else is served as-is.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.+\.php)$ /AAC/$1 [R=301,L]
+</IfModule>
