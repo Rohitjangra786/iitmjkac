@@ -855,7 +855,7 @@
                 <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sb-mand">Mandatory Disclosure</button></h2>
                 <div id="sb-mand" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
                     <div class="accordion-body">
-                        <a href="https://iitmjanakpuri.com/mandatory/mandatorydisclosure.php">Academic Audit</a>
+                        <a href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php">Academic Audit</a>
                         <a href="https://www.iitmjanakpuri.com/aboutus_new/aicte.php">AICTE</a>
                         <a href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MBA_2025-26.pdf" target="_blank">Mandatory Disclosure for MBA</a>
                         <a href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MCA_2025-26.pdf" target="_blank">Mandatory Disclosure for MCA</a>
@@ -1120,12 +1120,12 @@
                        Mandatory Disclosure
                     </a>
                     <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/mandatorydisclosure.php">Academic Audit</a></li>
+                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php">Academic Audit</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/aboutus_new/aicte.php">AICTE</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MBA_2025-26.pdf" target="_blank">Mandatory Disclosure for MBA</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MCA_2025-26.pdf" target="_blank">Mandatory Disclosure for MCA</a></li>
                         <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/mandatory/pdf/NOC_DTTE_2025-26.pdf" target="_blank">DTTE</a></li>
-                        <!--<li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/mandatory/mandatorydisclosure.php">Academic Audit</a></li>-->
+                        <!--<li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/AAC/mandatorydisclosure.php">Academic Audit</a></li>-->
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/mandatory/pdf/naac.pdf" target="_blank">NAAC</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/mandatory/pdf/NBA Letter.pdf" target="_blank">NBA</a></li>
                             <!--<li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/IITMNBA/">NBA</a></li>-->

@@ -265,23 +265,23 @@ nav {
                 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="mandatoryDisclosureDropdown" role="button">Mandatory Disclosure</a>
     <div class="dropdown-menu custom-dropdown">
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/mandatorydisclosure.php#institute">Institute Information</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/academicprogrammes.php">Details of Academic Programmes</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/accreditationstatus.php">Status of Accreditation</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/teachersavailability.php">Status of Teachers Availability</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/teachingquality.php">Quality of Teachers and Teaching</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/institutionalsupport.php">Institutional Support for Faculty Development</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/grievanceredressal.php">Grievance Redressal Mechanism</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/universityexaminations.php">Institutional Support for University Examination</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/librarystatus.php">Status of Library</a>
-        <a class="dropdown-item" href="https://iitmjanakpuri.com/mandatory/labstatus.php">Status of Laboratories</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/cocurricular.php">Co-curricular Activities</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/institutepublications.php">Publications of the Institutions</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/personalitiesdevelopment.php">Students Personalities Development</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/placementstatus.php">Status of Placement</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/institutionparameters.php">Parameters about the Institutions</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/facilitiesavailable.php">Facilities Available in the Institute</a>
-        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/mandatory/deficienciesremoval.php">Removal Completion of Identified Deficiencies</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php#institute">Institute Information</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/academicprogrammes.php">Details of Academic Programmes</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/accreditationstatus.php">Status of Accreditation</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/teachersavailability.php">Status of Teachers Availability</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/teachingquality.php">Quality of Teachers and Teaching</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/institutionalsupport.php">Institutional Support for Faculty Development</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/grievanceredressal.php">Grievance Redressal Mechanism</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/universityexaminations.php">Institutional Support for University Examination</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/librarystatus.php">Status of Library</a>
+        <a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/labstatus.php">Status of Laboratories</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/cocurricular.php">Co-curricular Activities</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/institutepublications.php">Publications of the Institutions</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/personalitiesdevelopment.php">Students Personalities Development</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/placementstatus.php">Status of Placement</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/institutionparameters.php">Parameters about the Institutions</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/facilitiesavailable.php">Facilities Available in the Institute</a>
+        <a class="dropdown-item" href="http://www.iitmjanakpuri.com/AAC/deficienciesremoval.php">Removal Completion of Identified Deficiencies</a>
         <!-- Additional dropdown items can be added here -->
     </div>
 </li>

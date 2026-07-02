@@ -165,13 +165,13 @@ a.sl: hover{
                 <a class="nav-link color-white tgfmlt sl1" href="https://www.iitmjanakpuri.com/IITMNBA/pages/policy/policy.html" target="_blank">Policy</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link color-white tgfmlt sl1" href="https://www.iitmjanakpuri.com/mandatory/mandatorydisclosure.php">Mandatory Disclosure-Academic Audit</a>
+                <a class="nav-link color-white tgfmlt sl1" href="https://www.iitmjanakpuri.com/AAC/mandatorydisclosure.php">Mandatory Disclosure-Academic Audit</a>
             </li> 
           <!--<li class="nav-item">
                 <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/scholarships/scholarships.php">Scholarships</a>
             </li>
           <li class="nav-item">
-                <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/mandatory/mandatorydisclosure.php">Mandatory Disclosure</a>
+                <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php">Mandatory Disclosure</a>
             </li>-->
             <li class="nav-item">
              <!--   <a class="nav-link color-white tgfmlt" onmouseover="somelinks(this)" onmouseout="normallinks(this)" href="#"><i class="fa fa-fw fa-search"></i></a> -->
