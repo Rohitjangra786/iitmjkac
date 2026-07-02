@@ -1,6 +1,9 @@
 # Claude Code memory
 .claude/
 
+# AAC Document Manager — real admin credentials (created on the server; never commit)
+AAC/admin/config.php
+
 # ── Video files ───────────────────────────────────────────────────
 *.mp4
 *.mov
