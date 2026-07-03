@@ -24,6 +24,7 @@ echo '</script>';
 
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <link rel="canonical" href="https://www.iitmjanakpuri.com/aboutus_new/aboutus.php" />
     <!-- Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
     <style>

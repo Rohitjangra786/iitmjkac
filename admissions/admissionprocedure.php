@@ -19,7 +19,7 @@ echo '</script>';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Admission Procedure | IITM Janakpuri </title>
 <meta name="description" content="Learn the admission procedure at IITM Janakpuri including eligibility, application steps, document requirements, and selection process.">
-
+ <link rel="canonical" href="https://www.iitmjanakpuri.com/admissions/admissionprocedure.php" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
