@@ -1214,6 +1214,40 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 </script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function () {
+    const prodHost = /(^|\.)iitmjanakpuri\.com$/i;
+    if (prodHost.test(window.location.hostname)) {
+        return;
+    }
+
+    const rewrite = (value) => {
+        if (!value) return value;
+        try {
+            const url = new URL(value, window.location.origin);
+            if (prodHost.test(url.hostname)) {
+                return url.pathname + url.search + url.hash;
+            }
+        } catch (err) {
+            // Ignore invalid or script-only hrefs.
+        }
+        return value;
+    };
+
+    const patchLinks = () => {
+        document.querySelectorAll('a[href]').forEach((anchor) => {
+            const current = anchor.getAttribute('href');
+            const next = rewrite(current);
+            if (next !== current) {
+                anchor.setAttribute('href', next);
+            }
+        });
+    };
+
+    document.addEventListener('DOMContentLoaded', patchLinks);
+    window.addEventListener('load', patchLinks);
+})();
+</script>
 <!--     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->

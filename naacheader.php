@@ -27,6 +27,40 @@ if (!isset($iitm_base_url)) {
 <!-- Font Awesome 4 — required for header quick-links icons (briefcase / shield / users / file).
      Loaded here so the header renders correctly on pages that don't include FA themselves. -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script>
+(function () {
+    const prodHost = /(^|\.)iitmjanakpuri\.com$/i;
+    if (prodHost.test(window.location.hostname)) {
+        return;
+    }
+
+    const rewrite = (value) => {
+        if (!value) return value;
+        try {
+            const url = new URL(value, window.location.origin);
+            if (prodHost.test(url.hostname)) {
+                return url.pathname + url.search + url.hash;
+            }
+        } catch (err) {
+            // Ignore invalid or script-only hrefs.
+        }
+        return value;
+    };
+
+    const patchLinks = () => {
+        document.querySelectorAll('a[href]').forEach((anchor) => {
+            const current = anchor.getAttribute('href');
+            const next = rewrite(current);
+            if (next !== current) {
+                anchor.setAttribute('href', next);
+            }
+        });
+    };
+
+    document.addEventListener('DOMContentLoaded', patchLinks);
+    window.addEventListener('load', patchLinks);
+})();
+</script>
  <style>
     /* ============ Modal stacking — force on top of EVERYTHING ============
        Site has sticky header at z-index 1100 and chat FABs at 1090–1097, which

@@ -2,14 +2,17 @@
 RewriteEngine On
 
 #################################################
-# Redirect index.php to /
+# Keep the production site canonical, but don't force local/LAN previews
+# away from the current host.
 #################################################
+RewriteCond %{HTTP_HOST} ^(www\.)?iitmjanakpuri\.com$ [NC]
 RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
 RewriteRule ^index\.php$ https://www.iitmjanakpuri.com/ [R=301,L]
 
 #################################################
 # Force HTTPS + WWW
 #################################################
+RewriteCond %{HTTP_HOST} ^(www\.)?iitmjanakpuri\.com$ [NC]
 RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} !^www\.iitmjanakpuri\.com$ [NC]
 RewriteRule ^(.*)$ https://www.iitmjanakpuri.com/$1 [R=301,L]

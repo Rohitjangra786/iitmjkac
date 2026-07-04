@@ -7,7 +7,7 @@ header("Expires: 0");
 // Check if the user is navigating back using JavaScript
 echo '<script>';
 echo 'if (window.performance && (window.performance.getEntriesByType("navigation")[0]?.type === "back_forward")) {';
-echo '   window.location.href = "http://iitmjanakpuri.com/index.php";';
+echo '   window.location.href = window.location.origin + "/index.php";';
 echo '}';
 echo '</script>';
 ?>
