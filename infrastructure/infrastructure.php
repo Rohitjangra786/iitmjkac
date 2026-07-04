@@ -21,7 +21,7 @@ echo '</script>';
     <meta name="description" content="Discover world-class infrastructure at IITM Janakpuri featuring smart classrooms, labs, libraries, and modern learning facilities.">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
+ <link rel="canonical" href="https://www.iitmjanakpuri.com/infrastructure/infrastructure.php" />
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Material Symbols -->

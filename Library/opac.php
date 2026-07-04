@@ -17,7 +17,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+     <link rel="canonical" href="https://www.iitmjanakpuri.com/Library/opac.php" />
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 

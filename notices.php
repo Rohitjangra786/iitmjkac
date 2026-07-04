@@ -70,6 +70,10 @@ try {
         }
         
     </style>
+
+     <link rel="canonical" href="https://www.iitmjanakpuri.com/notices.php" />
+
+     
 </head>
 <body>
     <div class="hero-section">

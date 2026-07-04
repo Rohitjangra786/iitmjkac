@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
+     <link rel="canonical" href="https://www.iitmjanakpuri.com/Library/edatabases.php" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
