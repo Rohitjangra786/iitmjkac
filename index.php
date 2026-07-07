@@ -40,6 +40,35 @@ echo '</script>';
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Site-wide font: Arial (academic / professional look) -->
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollegeOrUniversity",
+  "name": "Institute Of Information Technology & Management",
+  "alternateName": "IITM JANAKPURI",
+  "url": "https://www.iitmjanakpuri.com/",
+  "logo": "https://www.iitmjanakpuri.com/iitm-1.png",
+  "sameAs": [
+    "https://www.facebook.com/iitmjanakpurinewdelhi",
+    "https://twitter.com/iitm_ipu",
+    "https://www.instagram.com/iitm_janakpuri/",
+    "https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw",
+    "https://www.linkedin.com/in/iitm-janakpuri-29678b100",
+    "https://en.wikipedia.org/wiki/Institute_of_Information_Technology_and_Management",
+    "https://www.iitmjanakpuri.com/"
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+
     <style>
 /* === Global font: Arial site-wide (academic / professional) ===
    This rule wins over inline 'Inter'/'Poppins' declarations in this file and
