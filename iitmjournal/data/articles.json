@@ -1357,6 +1357,72 @@
     },
     {
         "vol": 8,
+        "issue": 2,
+        "year": 2017,
+        "period": "July-December",
+        "sortKey": 201707,
+        "slug": "v8i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Impact of Promotional Strategies on Consumer Buying Behaviour for Apparels",
+                "authors": "Pooja Kunwar and Hrudanand Misra",
+                "doi": "",
+                "pages": "3-19",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "An Enquiry into India’s Export Market and Product Diversification",
+                "authors": "Rashmi Taneja and Rakesh Mohan Joshi",
+                "doi": "",
+                "pages": "20-28",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Measuring Destination Brand Personality of Jaipur as a Destination Brand",
+                "authors": "Kirti Singh Dahiya and D.K. Batra",
+                "doi": "",
+                "pages": "29-37",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Boys Vs Girls: Pestering Strategies of Children in India",
+                "authors": "Asha Chauhan and Ravindra",
+                "doi": "",
+                "pages": "38-44",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Virtual Teams Vs Face to Face Teams: A Comparative Study on Performance Indices",
+                "authors": "Shikha Matta",
+                "doi": "",
+                "pages": "45-55",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "A Comparative Analysis of South Indian Bank’s Performance Post Implementation of Information Technology: An Empirical Analysis",
+                "authors": "Titto Varghese and Sneju Sajan",
+                "doi": "",
+                "pages": "56-59",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "The Impact of Marketing Mix Strategy on Hospital’s Performance Measured by Patient’s Satisfaction (An Empirical Study on Santokba Durlabhji Memorial Hospital, Jaipur)",
+                "authors": "Ankita Jain and Varsha Choudhary",
+                "doi": "",
+                "pages": "70-78",
+                "pdf": "IITM Journal 2009-2017/2017/Vol.8 No.2 July-Dec 2017/Article 7.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 8,
         "issue": 1,
         "year": 2017,
         "period": "January-June",
