@@ -103,6 +103,23 @@ echo '</script>';
 
     @media (max-width:768px){ .bba-hero{ padding:40px 0 44px; } .section{ padding:40px 0; } }
     </style>
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Course",
+"name": "Bachelor of Business Administration (BBA Honours)",
+"description": "IITM Janakpuri, the best College for BBA in Delhi NCR and a top BBA Hons College in Delhi, focuses on career-ready learning, leadership & entrepreneurial development.",
+"provider": {
+"@type": "Organization",
+"name": "IITM Janakpuri",
+"sameAs": "https://iitmjanakpuri.com/course/bba.php"
+}
+}
+</script>
+
+
+
 </head>
 <body class="bba-page">
 
@@ -115,9 +132,9 @@ echo '</script>';
         <div class="row align-items-center g-4">
             <div class="col-lg-8">
                 <span class="hero-eyebrow"><i class="fa fa-graduation-cap me-1"></i> Programme of Study</span>
-                <h1 class="hero-title">Bachelor of Business Administration (BBA Honours)</h1>
+                <h1 class="hero-title">Bachelor of Business Administration (BBA Honours in Delhi NCR)</h1>
                 <p class="hero-sub">
-                    A four-year programme affiliated to Guru Gobind Singh Indraprastha University,
+                    IITM Janakpuri (Information Campus), the best BBA college in Delhi NCR, offers a four-year programme affiliated to Guru Gobind Singh Indraprastha University,
                     equipping students with the foundational knowledge and skills to manage complex
                     business processes across Banking, FMCG, Manufacturing, Telecom, Logistics and more.
                 </p>
@@ -166,7 +183,7 @@ echo '</script>';
         <h2 class="section-heading">About the Programme</h2>
         <p>
             The Guru Gobind Singh Indraprastha University has a four-year Bachelor of Business
-            Administration (BBA) program. This program focuses on equipping students with basic knowledge
+            Administration (BBA) program. IITM Janakpuri (Information Campus), the top BBA (Hons.) college in Delhi NCR (4 years), is among the institutions affiliated with the university delivering this program. This program focuses on equipping students with basic knowledge
             and skills that are critical in managing the complex business processes. This program has a
             very specific aim of creating such professionals, who are capable of working not only in
             Banking, but also in various other industries including but not limited to Banking, FMCGs,
@@ -298,7 +315,7 @@ echo '</script>';
         <div class="accent-bar"></div>
         <h2 class="section-heading">Skill Development</h2>
         <p>
-            The BBA program at IITM focuses specifically to nurture academic as well as professional
+            The BBA program at IITM, widely regarded as the best BBA (Hons.) college in Delhi,  focuses specifically to nurture academic as well as professional
             excellence. It helps the students to apply theoretical knowledge in real-world business
             scenarios. The philosophy of <strong>"Learning by Doing"</strong> guides the development of
             core IT, management, professional, soft, and thinking skills, including:
