@@ -1357,6 +1357,80 @@
     },
     {
         "vol": 7,
+        "issue": 2,
+        "year": 2016,
+        "period": "July-December",
+        "sortKey": 201607,
+        "slug": "v7i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Effects of Emotional Dissonance and Display of Positive Emotions on Employees Intention to Quit: A Study of Indian Service Firms",
+                "authors": "Subhash C. Kundu, Nidhi Gaba and Neha Gahlawat",
+                "doi": "",
+                "pages": "3-11",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "A Study of Indian Banking Sector using Fundamental Analysis",
+                "authors": "R.K. Sharma and Amit Chaudhary",
+                "doi": "",
+                "pages": "12-23",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "A Study on Relationship between Non-Performing Assets (NPAs) and Advances of Selected Public Sector Banks",
+                "authors": "Renu Choudhary and Vandana Jain",
+                "doi": "",
+                "pages": "24-37",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Restaurant Image Parameters and its Importance in Building Children’s Perception for Multinational Fast Food Restaurants",
+                "authors": "Daisy Kurien, Jitendra Sharma and Siddharth Das",
+                "doi": "",
+                "pages": "38-47",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Goods and Service Tax (GST): Its Impact and Effect on the Economy",
+                "authors": "Geetu Tuteja, Suraj Nathani and Ruchika Gupta",
+                "doi": "",
+                "pages": "48-54",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Assessing the Processing Effect of Indian Tourism’s Advertisements",
+                "authors": "Annu Dahiya and Rajiv Kumar",
+                "doi": "",
+                "pages": "55-62",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "The Role of Consumer Innovativeness on Consumer Perceived Risk towards Online Shopping",
+                "authors": "Nidhi Sharma and Siddharth Das",
+                "doi": "",
+                "pages": "63-76",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Women Entrepreneurs: Journey Towards Success",
+                "authors": "Neha Gahlawat",
+                "doi": "",
+                "pages": "77-78",
+                "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.2 July-Dec 2016/Article 8.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 7,
         "issue": 1,
         "year": 2016,
         "period": "January-June",
