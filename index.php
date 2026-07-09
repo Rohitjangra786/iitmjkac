@@ -45,21 +45,28 @@ echo '</script>';
 {
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
+  "@id": "https://www.iitmjanakpuri.com/#organization",
   "name": "Institute Of Information Technology & Management",
   "alternateName": "IITM JANAKPURI",
   "url": "https://www.iitmjanakpuri.com/",
-  "logo": "https://www.iitmjanakpuri.com/iitm-1.png",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.iitmjanakpuri.com/iitm-1.png"
+  },
+  "image": "https://www.iitmjanakpuri.com/iitm-1.png",
   "sameAs": [
     "https://www.facebook.com/iitmjanakpurinewdelhi",
     "https://twitter.com/iitm_ipu",
     "https://www.instagram.com/iitm_janakpuri/",
     "https://www.youtube.com/channel/UCRfsFwiKcTStwUIf2vISxCw",
     "https://www.linkedin.com/in/iitm-janakpuri-29678b100",
-    "https://en.wikipedia.org/wiki/Institute_of_Information_Technology_and_Management",
-    "https://www.iitmjanakpuri.com/"
+    "https://en.wikipedia.org/wiki/Institute_of_Information_Technology_and_Management"
   ]
 }
 </script>
+
+
+
 
 
 
