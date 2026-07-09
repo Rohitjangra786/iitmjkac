@@ -1,4 +1,3 @@
-
 <?php
 // Disable browser caching
 header("Cache-Control: no-cache, no-store, must-revalidate");
