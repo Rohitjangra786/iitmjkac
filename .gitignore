@@ -33,7 +33,13 @@ alumni/magazines/
 journals1/
 journals2/
 academics/images/
-academics/unmesh/
+!academics/unmesh/
+academics/unmesh/*
+!academics/unmesh/January_2026.pdf
+!academics/unmesh/February_2026.pdf
+!academics/unmesh/March_2026.pdf
+!academics/unmesh/April_2026.pdf
+!academics/unmesh/May_2026.pdf
 academics/p/
 IITMNBAAB/doc/
 IITMNBAAB/New page/PDFs/
