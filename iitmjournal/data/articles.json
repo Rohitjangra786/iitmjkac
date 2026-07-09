@@ -1836,6 +1836,330 @@
         ]
     },
     {
+        "vol": 6,
+        "issue": 2,
+        "year": 2015,
+        "period": "July-December",
+        "sortKey": 201507,
+        "slug": "v6i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Sustainable Business Practices in Banking Sector",
+                "authors": "Mukta Mani",
+                "doi": "",
+                "pages": "3-7",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Endowing Service Quality - A Critical Analysis of Public Sector Banks in India",
+                "authors": "Sunita Jatav and Alok Mittal",
+                "doi": "",
+                "pages": "8-19",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "A Case Study on the Emerging Market for Leading Premium Sports Luxury Car Manufacturers in India",
+                "authors": "Sonam Sachdeva, Roopam Sachdeva and Anmol Krishan Sachdeva",
+                "doi": "",
+                "pages": "20-27",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "An Analysis of Indian Banks During the Financial Crisis: A Study Under the CAMEL Framework",
+                "authors": "Sakshi Sharma",
+                "doi": "",
+                "pages": "28-37",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Urban Housing Policy in India: A Lesson from International Experience",
+                "authors": "Niranjan Chichuan",
+                "doi": "",
+                "pages": "38-51",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "A Comparative Analysis of Student Satisfaction towards Service Quality of Post Graduate Management Institution: A Case Study of Delhi Metropolitan City",
+                "authors": "Gopal Singh Latwal",
+                "doi": "",
+                "pages": "52-63",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "An Internal Persepective of Employer Branding at Bharti Airtel Limited",
+                "authors": "Ruchika and Nikita",
+                "doi": "",
+                "pages": "64-72",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Materialism and its Role on Consumer Intentions to Purchase Counterfeit Fashion Products: A Study of Consumers of Rajasthan",
+                "authors": "Satish Agarwal and Savita Panwar",
+                "doi": "",
+                "pages": "73-77",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.2 July-Dec 2015/Article 8.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 6,
+        "issue": 1,
+        "year": 2015,
+        "period": "January-June",
+        "sortKey": 201501,
+        "slug": "v6i1",
+        "articles": [
+            {
+                "no": 1,
+                "title": "FIRe: Firefox for Computer Security Incident Reporting and Coordination",
+                "authors": "Ashutosh Bahuguna",
+                "doi": "",
+                "pages": "3-11",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Nine Steps to Indian Security, Confidentiality Privacy & Technology in Cyber Space",
+                "authors": "Rajeev Kumar Singh",
+                "doi": "",
+                "pages": "12-16",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Security Vulnerabilities in 'Future of the Web' IPv6 Protocol Suite",
+                "authors": "Navneet Kaur Popli and Anup Girdhar",
+                "doi": "",
+                "pages": "17-20",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "A Study to Examine Cyber Forensic: Trends and Patterns in India",
+                "authors": "Shruti Verma and Saurabh Mehta",
+                "doi": "",
+                "pages": "21-25",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "General View on the Aspects of Cryptography",
+                "authors": "Amit Kumar and Sonia Kumari",
+                "doi": "",
+                "pages": "26-32",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "A Scalable Server Architecture for Mobile Presence Services in Social Network Applications",
+                "authors": "A. Radha Krishna and K. Chandra Sekharaiah",
+                "doi": "",
+                "pages": "33-39",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "\"Aadhar\" Management System",
+                "authors": "Ameer Ulla Siddiqui and Hare Krishna Singh",
+                "doi": "",
+                "pages": "40-43",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "A Survey on Honeypots Security",
+                "authors": "Amit Kumar and Sonia Kumari",
+                "doi": "",
+                "pages": "44-50",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Security Features of User's for Online Social Networks",
+                "authors": "A. Radha Krishna and K. Chandra Sekharaiah",
+                "doi": "",
+                "pages": "51-58",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Cyber Security in India: Problems and Prospects",
+                "authors": "Sushma Devi and Mohd. Aarif Rather",
+                "doi": "",
+                "pages": "59-68",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "An Analysis on Improvement of Website Ranking Using Joomla",
+                "authors": "Kirti Nigam Satyam Saxena and Nargish Gupta",
+                "doi": "",
+                "pages": "69-72",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 11.pdf"
+            },
+            {
+                "no": 12,
+                "title": "Network Security - Authentication Methods and Firewall",
+                "authors": "Minal Dhankar",
+                "doi": "",
+                "pages": "73-79",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 12.pdf"
+            },
+            {
+                "no": 13,
+                "title": "Cyber Security in Biometrics Using Fingerprints",
+                "authors": "Priyanka Rattan and Ritika Kapoor",
+                "doi": "",
+                "pages": "80-85",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 13.pdf"
+            },
+            {
+                "no": 14,
+                "title": "The Online Murder: Death via Hacked Internet Connected Technologies",
+                "authors": "Nishtha Girotra and Raghunatha Sethupathy",
+                "doi": "",
+                "pages": "86-89",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 14.pdf"
+            },
+            {
+                "no": 15,
+                "title": "Future Towards Danger: The Terror of Cyber Attacks",
+                "authors": "Kanika Sharma and Tanvi Bhalla",
+                "doi": "",
+                "pages": "90-94",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 15.pdf"
+            },
+            {
+                "no": 16,
+                "title": "Method for Storing User Password Securely",
+                "authors": "Gunjan Jha and Navneet Popli",
+                "doi": "",
+                "pages": "95-99",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 16.pdf"
+            },
+            {
+                "no": 17,
+                "title": "Security Issues in Bluetooth Technology - A Review",
+                "authors": "Menal and Sumeet Gill",
+                "doi": "",
+                "pages": "100-103",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 17.pdf"
+            },
+            {
+                "no": 18,
+                "title": "Detection of Terrorism Activities Using Face Recognition Technique",
+                "authors": "Garima Bhatia and Mansi",
+                "doi": "",
+                "pages": "104-111",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 18.pdf"
+            },
+            {
+                "no": 19,
+                "title": "Cloud Security: A Concerning Issue",
+                "authors": "Apurva Aggarwal and Shalini Sharma",
+                "doi": "",
+                "pages": "112-115",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 19.pdf"
+            },
+            {
+                "no": 20,
+                "title": "Hand Recognition System Design",
+                "authors": "Harleen Kaur and Simranjeet Kaur",
+                "doi": "",
+                "pages": "116-119",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 20.pdf"
+            },
+            {
+                "no": 21,
+                "title": "Infrared Thermal Imaging",
+                "authors": "Amit Sharma and Nidhi Jindal",
+                "doi": "",
+                "pages": "120-122",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 21.pdf"
+            },
+            {
+                "no": 22,
+                "title": "Cyber Forensic: Introducing A New Approach to Studying Cyber Forensic and Various Tools to Prevent Cybercrimes",
+                "authors": "B. Vanlalsiama and Nitesh Jha",
+                "doi": "",
+                "pages": "123-128",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 22.pdf"
+            },
+            {
+                "no": 23,
+                "title": "Cyber Crime and Information Warfare The New Arenas for WAR",
+                "authors": "Anwesha Pathak and Rohit Sharma",
+                "doi": "",
+                "pages": "129-134",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 23.pdf"
+            },
+            {
+                "no": 24,
+                "title": "Legislation Vulnerabilities, Threats and Counter Measures in Wireless Network Security",
+                "authors": "Kushagra Dhingra and Ankit Verma",
+                "doi": "",
+                "pages": "135-139",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 24.pdf"
+            },
+            {
+                "no": 25,
+                "title": "Cyber Ethics in Security Application in the Modern Era of Internet",
+                "authors": "Megha Sharma, Sanchit Mittal and Ankit Verma",
+                "doi": "",
+                "pages": "140-143",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 25.pdf"
+            },
+            {
+                "no": 26,
+                "title": "Comparison of AES and DES Algorithm",
+                "authors": "Shruti Kumari and Gautam Kumar",
+                "doi": "",
+                "pages": "144-146",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 26.pdf"
+            },
+            {
+                "no": 27,
+                "title": "Social Networking Security Loopholes",
+                "authors": "Shelly Taneja and Shalini Rawat",
+                "doi": "",
+                "pages": "147-151",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 27.pdf"
+            },
+            {
+                "no": 28,
+                "title": "Cloud Computing: Vulnerabilities, Privacy and Legislation",
+                "authors": "Amit Kiran Priyam Lizmary Cherian",
+                "doi": "",
+                "pages": "152-156",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 28.pdf"
+            },
+            {
+                "no": 29,
+                "title": "The Exigency in Accretion of Cyber Warfare Legislation",
+                "authors": "Raman Solanki and Ankit Verma",
+                "doi": "",
+                "pages": "157-163",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 29.pdf"
+            },
+            {
+                "no": 30,
+                "title": "Cyber Terrorism - An International Phenomena and An Eminent Threat",
+                "authors": "Biny Pal Singh and Ankit Verma",
+                "doi": "",
+                "pages": "164-168",
+                "pdf": "IITM Journal 2009-2017/2015/Vol.6 No.1 Jan-June 2015/Article 30.pdf"
+            }
+        ]
+    },
+    {
         "vol": 5,
         "issue": 2,
         "year": 2014,
