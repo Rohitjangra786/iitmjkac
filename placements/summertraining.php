@@ -110,8 +110,7 @@ body * {
                 <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/recruiters.php">Recruiters Speak</a>
                 <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/plrecords.php">Placement Records</a>
                 <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/summertraining.php">Summer Training Records</a>
-                <a class="dropdown-item" href="https://www.iitminternware.com/">Internship Cell</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/images/IITM%20Brochure%20(final).pdf">Brochure</a>
+                <a class="dropdown-item" href="https://www.iitminternware.com/" target="_blank" rel="noopener noreferrer">Internship Cell</a>
         </div>
         <div class="col-md-9">
              <!-- MBA Summer Training Records   -->
