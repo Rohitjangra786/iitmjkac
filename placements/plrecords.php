@@ -248,8 +248,7 @@ $totalBatches = array_sum(array_map('count', $placements));
         <a href="recruiters.php">Recruiters Speak</a>
         <a href="plrecords.php" class="current">Placement Records</a>
         <a href="summertraining.php">Summer Training</a>
-        <a href="https://www.iitminternware.com/">Internship Cell</a>
-        <a href="images/IITM%20Brochure%20(final).pdf" target="_blank">Brochure</a>
+        <a href="https://www.iitminternware.com/" target="_blank" rel="noopener noreferrer">Internship Cell</a>
     </nav>
 
     <div class="pl-toolbar">
@@ -258,14 +257,13 @@ $totalBatches = array_sum(array_map('count', $placements));
             <input type="text" id="plSearch" placeholder="Search by student name, enrollment, or company..." autocomplete="off">
         </div>
         <div class="pl-course-chips" id="courseChips">
-            <button class="pl-chip active" data-course="all">All <span class="count">(<?php echo $totalRecords; ?>)</span></button>
+            <button class="pl-chip active" data-course="all">All</button>
             <?php foreach ($placements as $course => $batches):
                 $count = 0;
                 foreach ($batches as $b => $r) $count += count($r);
             ?>
             <button class="pl-chip" data-course="<?php echo htmlspecialchars($course, ENT_QUOTES); ?>">
                 <?php echo htmlspecialchars($courseLabels[$course] ?? $course); ?>
-                <span class="count">(<?php echo $count; ?>)</span>
             </button>
             <?php endforeach; ?>
         </div>
@@ -290,7 +288,6 @@ $totalBatches = array_sum(array_map('count', $placements));
                 <?php foreach ($batchKeys as $i => $batch): ?>
                 <button class="pl-year <?php echo $i === 0 ? 'active' : ''; ?>" data-batch="<?php echo htmlspecialchars($batch, ENT_QUOTES); ?>">
                     <?php echo htmlspecialchars($batch); ?>
-                    <span class="yc">(<?php echo count($batches[$batch]); ?>)</span>
                 </button>
                 <?php endforeach; ?>
             </div>
@@ -300,7 +297,6 @@ $totalBatches = array_sum(array_map('count', $placements));
                 <table class="pl-table">
                     <thead>
                         <tr>
-                            <th class="col-no">#</th>
                             <th class="col-enr">Enrollment No.</th>
                             <th class="col-name">Student Name</th>
                             <th class="col-comp">Company</th>
@@ -311,7 +307,6 @@ $totalBatches = array_sum(array_map('count', $placements));
                             $search = strtolower(($r['enroll'] ?? '') . ' ' . ($r['name'] ?? '') . ' ' . ($r['company'] ?? ''));
                         ?>
                         <tr data-search="<?php echo htmlspecialchars($search, ENT_QUOTES); ?>">
-                            <td class="col-no"><?php echo $i + 1; ?></td>
                             <td class="col-enr"><?php echo htmlspecialchars($r['enroll']); ?></td>
                             <td class="col-name"><?php echo htmlspecialchars($r['name']); ?></td>
                             <td class="col-comp"><?php echo htmlspecialchars($r['company']); ?></td>
