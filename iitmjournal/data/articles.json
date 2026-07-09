@@ -1834,5 +1834,233 @@
                 "pdf": "IITM Journal 2009-2017/2016/Vol.7 No.1 Jan-June 2016/Article 23.pdf"
             }
         ]
+    },
+    {
+        "vol": 5,
+        "issue": 2,
+        "year": 2014,
+        "period": "July-December",
+        "sortKey": 201407,
+        "slug": "v5i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Effective Packaging: A Stimulation to Buying Behavior with Respect to Food & Beverages",
+                "authors": "N. Malati, Ruchika and Bhavya Garg",
+                "doi": "",
+                "pages": "3-11",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Consumer Expenditure Behaviour of Households in Rural Haryana: A Decadal Analysis",
+                "authors": "Shveta Singh and Urmila",
+                "doi": "",
+                "pages": "12-20",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Managing Social Security of Global Workforce",
+                "authors": "Renu Sharma",
+                "doi": "",
+                "pages": "21-25",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Synergy between Women Entrepreneurship and Empowerment",
+                "authors": "Archana Sehgal",
+                "doi": "",
+                "pages": "26-31",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Emotional Intelligence: An Empirical Study of Indian Managers in IT Industry",
+                "authors": "Abhiruchi Singh Verma",
+                "doi": "",
+                "pages": "32-39",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Facilitating E-Learning through Mobile Ad Hoc Networks",
+                "authors": "Deepshikha Aggarwal",
+                "doi": "",
+                "pages": "40-47",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "A Review on Effectiveness of Relevance Feedback",
+                "authors": "Jasvinder Singh and Navin Rajpal",
+                "doi": "",
+                "pages": "48-55",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Bidirectional Associative Memory Classifier for Personalized Recommendations for Farmers",
+                "authors": "Suyashi Vasisth and Kavita Srivastava",
+                "doi": "",
+                "pages": "56-61",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Challenges and Risks of Social Networking in Mobile Commerce",
+                "authors": "Jyoti Batra Arora",
+                "doi": "",
+                "pages": "62-66",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Experiential Learning: An Innovative Learning Horizon",
+                "authors": "Nidhi Srivastava and Nidhi Grover",
+                "doi": "",
+                "pages": "67-77",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.2 July-Dec 2014/Article 10.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 5,
+        "issue": 1,
+        "year": 2014,
+        "period": "January-June",
+        "sortKey": 201401,
+        "slug": "v5i1",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Study on Cross Site Scripting Attack",
+                "authors": "Jasvinder Singh",
+                "doi": "",
+                "pages": "3-15",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Comparative Analysis of Anomaly Detection Approaches for IDS",
+                "authors": "Ruby Dahiya",
+                "doi": "",
+                "pages": "16-25",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Lightweight Cyber Security in Pervasive Computing Environment",
+                "authors": "Shukun Tokas and Vanita Kareer",
+                "doi": "",
+                "pages": "26-29",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Analysis of Cyber Criminology and Intruder: An Attempt to Explore Cyber Menace",
+                "authors": "Kanika Jethwani and Supriya Jolly",
+                "doi": "",
+                "pages": "30-34",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "A Statistical Dimensional Reduction Approach for Face Recognition",
+                "authors": "Suman Misra, Deepak Gaur and Yaduvir Singh",
+                "doi": "",
+                "pages": "35-41",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Internet Based User Profiling is a Threat to Privacy: Proactive Safe User Profiling Mechanism",
+                "authors": "Monika Pathak and Sukhdev Singh",
+                "doi": "",
+                "pages": "42-47",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Analysis of SQL Injection Attack",
+                "authors": "Jasvinder Singh",
+                "doi": "",
+                "pages": "48-55",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Panoramic View of Cyber Ethics",
+                "authors": "Rama Srivastava",
+                "doi": "",
+                "pages": "56-62",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Study on Agents Based Meta-Heuristic Approach for Cyber Security Defense Mechanism",
+                "authors": "Suruchi Sinha and Shukun Tokas",
+                "doi": "",
+                "pages": "63-66",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Access Control in Multi Tenant and Diverse Cloud Computing Environment",
+                "authors": "Anjali Chhabra, Vanita Kareer and D. Santhadevi",
+                "doi": "",
+                "pages": "67-71",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Review on Cryptographic Measures for Information Security in Cloud",
+                "authors": "D. Santhadevi, Anjali Chhabra and Suruchi Sinha",
+                "doi": "",
+                "pages": "72-77",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 11.pdf"
+            },
+            {
+                "no": 12,
+                "title": "A Study of Security Threats and Issues in Cloud Computing",
+                "authors": "Nidhi Grover",
+                "doi": "",
+                "pages": "78-86",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 12.pdf"
+            },
+            {
+                "no": 13,
+                "title": "Issues and Challenges in Securing the Cloud Environment: A Literature Review",
+                "authors": "Surbhi Gaur and Savleen Kaur",
+                "doi": "",
+                "pages": "87-97",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 13.pdf"
+            },
+            {
+                "no": 14,
+                "title": "Study of Securing in Cloud, Virtual and Big Data Infrastructure",
+                "authors": "Harsh Arora",
+                "doi": "",
+                "pages": "98-104",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 14.pdf"
+            },
+            {
+                "no": 15,
+                "title": "A Study on Data Mining and Knowledge Discovery in Cyber Security",
+                "authors": "Ashish Kumar Nayyar",
+                "doi": "",
+                "pages": "105-113",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 15.pdf"
+            },
+            {
+                "no": 16,
+                "title": "A Study of Cyber Security in Web Environment",
+                "authors": "Leena Chopra and Tripti Lamba",
+                "doi": "",
+                "pages": "114-120",
+                "pdf": "IITM Journal 2009-2017/2014/Vol.5 No.1 Jan-June 2014/Article 16.pdf"
+            }
+        ]
     }
 ]
