@@ -11,82 +11,102 @@ echo '   window.location.href = "http://iitmjanakpuri.com/index.php";';
 echo '}'; 
 echo '</script>';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Placement Partners | IITM Janakpuri  </title>
-<meta name="description" content="Explore placement partners at IITM Janakpuri connecting students with internships, industry exposure, recruitment opportunities, and career growth.">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Placement Partners | IITM Janakpuri</title>
+    <meta name="description" content="Explore placement partners at IITM Janakpuri connecting students with internships, industry exposure, recruitment opportunities, and career growth.">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Material Symbols -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-html,
-body * {
-    box-sizing: border-box;
-    font-family: georgia, 'Open Sans', sans-serif
-}
+        :root {
+            --maroon: #800000;
+            --maroon-dark: #5a0000;
+            --maroon-soft: #f7eaea;
+            --ink: #1f1f1f;
+            --muted: #6b6b6b;
+            --card-bg: #ffffff;
+            --page-bg: #f5f5f7;
+            --ring: rgba(128, 0, 0, 0.15);
+        }
+        html, body { background: var(--page-bg); font-family: 'Roboto', Georgia, sans-serif; color: var(--ink); }
+        body { margin: 0; padding: 0; }
+        h1, h2, h3 { font-family: 'Roboto', sans-serif; }
 
-        p{
-            text-align: justify;
-        }
-        .logo {
-            height: 80px;
-            width: 150px;
-            margin-top: 10px;
-        }
-        .hero-section {
-            background-color: #800000;
+        /* Hero */
+        .pl-hero {
+            background: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dark) 100%);
             color: #fff;
-            padding: 20px;
+            padding: 56px 20px 70px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
-
-        .hero-title {
-            font-size: 28px;
-            font-weight: bold;
+        .pl-hero::after {
+            content: ""; position: absolute; inset: 0;
+            background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+            background-size: 22px 22px; opacity: 0.6; pointer-events: none;
         }
-
-        .value-added-section {
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #800000;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            line-height: 1.8;
+        .pl-hero h1 {
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            font-weight: 700; margin: 0 0 8px;
+            letter-spacing: 0.3px; position: relative; z-index: 1;
         }
+        .pl-hero .lead { font-size: 1.05rem; opacity: 0.92; margin: 0; position: relative; z-index: 1; }
 
-        .value-added-section h1 {
-            font-size: 24px;
-            color: #800000;
-            text-align: center;
-            margin-bottom: 20px;
+        /* Subnav */
+        .pl-subnav {
+            max-width: 1200px; margin: 24px auto 0; padding: 0 16px;
+            display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
         }
-
-        .value-added-section p {
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 15px;
+        .pl-subnav a {
+            background: #fff; color: var(--ink);
+            border: 1.5px solid #e0e0e0; border-radius: 999px;
+            padding: 7px 16px; font-size: 0.88rem; font-weight: 500;
+            text-decoration: none; transition: all .18s ease;
         }
+        .pl-subnav a:hover { border-color: var(--maroon); color: var(--maroon); }
+        .pl-subnav a.current { background: var(--maroon); color: #fff; border-color: var(--maroon); }
 
-
-    .committee-list {
-        color: #800000;
-        list-style-position: inside; /* Optional for list styling */
-    }
-
-    .committee-list li {
-        display: list-item;
-                color: #800000;
-    }
+        /* Content Grid */
+        .pl-wrap { max-width: 1200px; margin: 24px auto 60px; padding: 0 16px; }
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .partner-card {
+            background: #fff;
+            border: 1px solid #ececec;
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            transition: all 0.25s ease;
+        }
+        .partner-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(128,0,0,0.08);
+            border-color: var(--maroon);
+        }
+        .partner-card img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            filter: grayscale(10%) contrast(90%);
+            transition: filter 0.25s ease;
+        }
+        .partner-card:hover img {
+            filter: none;
+        }
     </style>
 </head>
 <body>
@@ -94,148 +114,38 @@ body * {
     <?php include('../naacheader.php'); ?>
     <?php include('../n.php'); ?>
 
-<div style="height: 5vh;"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
-            <h1>Placement Partners</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3" style="padding: 5px; background-color: #add8e6;height: 250px;">
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/placements.php">IIPC</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/partners.php">Placement Partners</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/recruiters.php">Recruiters Speak</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/plrecords.php">Placement Records</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/summertraining.php">Summer Training Records</a>
-                <a class="dropdown-item" href="https://www.iitminternware.com/">Internship Cell</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/images/IITM%20Brochure%20(final).pdf">Brochure</a>
-        </div>
-        <div class="col-md-9">
-             
-               
-             
-              <div class="container">
-               <div id="carouselExampleSlidesOnly_pp" class="carousel slide" data-ride="carousel">
-                   
-                   <!-- Indicators -->
-  <ol class="carousel-indicators">
-        <li data-target="#carouselExampleSlidesOnly_pp" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleSlidesOnly_pp" data-slide-to="1"></li>
-        <li data-target="#carouselExampleSlidesOnly_pp" data-slide-to="2"></li>
-    </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                       <div class="row mt-30">
-    <div class="col-md-3 mb-3">
-        <img src="../placementpartners/pp1.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Second image and content goes here -->
-                <img src="../placementpartners/pp2.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Third image and content goes here -->
-                <img src="../placementpartners/pp3.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Fourth image and content goes here -->
-                <img src="../placementpartners/pp4.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-</div>
+    <section class="pl-hero">
+        <h1>Placement Partners</h1>
+        <p class="lead">Connecting our students with top-tier global brands and industry leaders</p>
+    </section>
 
+    <nav class="pl-subnav" aria-label="Placement sub-navigation">
+        <a href="placements.php">IIPC</a>
+        <a href="partners.php" class="current">Placement Partners</a>
+        <a href="recruiters.php">Recruiters Speak</a>
+        <a href="plrecords.php">Placement Records</a>
+        <a href="summertraining.php">Summer Training</a>
+        <a href="https://www.iitminternware.com/" target="_blank" rel="noopener noreferrer">Internship Cell</a>
+    </nav>
 
-                    </div>
-                    <div class="carousel-item">
-                          <div class="row mt-30">
-    <div class="col-md-3 mb-3">
-        <img src="../placementpartners/pp5.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Second image and content goes here -->
-                <img src="../placementpartners/pp6.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Third image and content goes here -->
-                <img src="../placementpartners/pp7.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-    <div class="col-md-3 mb-3">
-        <!-- Fourth image and content goes here -->
-                <img src="../placementpartners/pp8.png" class="img-responsive partner" style="margin-right: 1rem;">
-   
-    </div>
-</div>
-                       
-                    </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                  <!-- Left and right controls -->
- <!-- Left and right controls -->
-
-<a class="carousel-control-prev" href="#carouselExampleSlidesOnly_pp" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#carouselExampleSlidesOnly_pp" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-</a>
+    <div class="pl-wrap">
+        <div class="partners-grid">
+            <?php
+            $partners = [
+                'pp1.png', 'pp2.png', 'pp3.png', 'pp4.png',
+                'pp5.png', 'pp6.png', 'pp7.png', 'pp8.png',
+                'pp9.png', 'pp10.png'
+            ];
+            foreach ($partners as $logo):
+            ?>
+            <div class="partner-card">
+                <img src="../placementpartners/<?php echo $logo; ?>" alt="Placement Partner Logo" class="img-fluid">
             </div>
-              </div>
-              
-             
-              
-          
+            <?php endforeach; ?>
         </div>
     </div>
-</div>
-      
-       <div style="height: 5vh"></div>
-    <?php
-        include("../naacfooter.php");
-    ?>
 
+    <?php include("../naacfooter.php"); ?>
 
-
-      <section class="about-us">
-        <div class="section-header">
-
-         
-          
-          
-        
-          
-          
-      
-        </div>
-  
-
-
-
-         
-          
-          
-        
-          
-          
-      
-        </div>
-      </section>
-
-    <script src="myscript.js"></script>
 </body>
 </html>
