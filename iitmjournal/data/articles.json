@@ -2598,5 +2598,185 @@
                 "pdf": "IITM Journal 2009-2017/2013/Vol.4 No.1 Jan-June 2013/Article 14.pdf"
             }
         ]
+    },
+    {
+        "vol": 3,
+        "issue": 2,
+        "year": 2012,
+        "period": "July-December",
+        "sortKey": 201207,
+        "slug": "v3i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "The Effect of Developmental and Reward Based Activities on Employees Job Satisfaction: A Regression Analysis",
+                "authors": "Manmohan Chaudhary and Bilal Mustafa Khan",
+                "doi": "",
+                "pages": "3-10",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "RDF Semantics Approach to Database Technology in the Semantic Web",
+                "authors": "Beena Mahar",
+                "doi": "",
+                "pages": "11-18",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Trends in the Packaged Food Industry: A Macro Perspective",
+                "authors": "Manoj Kumar and Renu Sharma",
+                "doi": "",
+                "pages": "19-23",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Modern Pioneering Approaches to Agri-Business Management",
+                "authors": "Sarita Das",
+                "doi": "",
+                "pages": "24-35",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Comparative Study of K-Means and Rough K-Means Algorithms",
+                "authors": "Prerna Mahajan and Ujjawal Rawlley",
+                "doi": "",
+                "pages": "36-44",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Comparative Study of Existing HR Policies in Selected Organizations of IT Industry",
+                "authors": "Mandeep Singh",
+                "doi": "",
+                "pages": "45-54",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Fast Fourier Transformation of Satellite Image",
+                "authors": "Ruchi Kawatra and Sapna Arora",
+                "doi": "",
+                "pages": "55-59",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Study of Inbuilt Activation Functions of Neural Networks Using Matlab",
+                "authors": "Monika Aggarwal",
+                "doi": "",
+                "pages": "60-71",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Application Domain and Security Schemes for Cluster Based Wireless Sensor Networks",
+                "authors": "Poonam Malik and Manisha Gupta",
+                "doi": "",
+                "pages": "72-77",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.2 July-Dec 2012/Article 9.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 3,
+        "issue": 1,
+        "year": 2012,
+        "period": "January-June",
+        "sortKey": 201201,
+        "slug": "v3i1",
+        "articles": [
+            {
+                "no": 1,
+                "title": "An Empirical Study on Customer-Retailer Relationship in Rural Market",
+                "authors": "A.P. Sharma and Rajesh Bajaj",
+                "doi": "",
+                "pages": "3-12",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "People's Republic of China (PRC) and India FTA: A Review of Experiences and the Road Ahead",
+                "authors": "Alka Sanjeev and Preeti Sharma",
+                "doi": "",
+                "pages": "13-20",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Mobile Computing and its Applications",
+                "authors": "Braharnpal Singh",
+                "doi": "",
+                "pages": "21-24",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Mitigating Green House Gases (GHG) Emission through Clean Development Mechanism (CDM): Present Status of India in Global Perspectives",
+                "authors": "Gyanesh Kumar Sinha, Chandan Bhar and J.K. Pattanayak",
+                "doi": "",
+                "pages": "25-33",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Direct Tax Code and Taxation Challenges in India",
+                "authors": "Jitendra Kumar",
+                "doi": "",
+                "pages": "34-38",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "High Performance Computing through Parallel Processing and Multicore Processors: A Conceptual View",
+                "authors": "Pooja Saigal",
+                "doi": "",
+                "pages": "39-44",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Affine Arthmetic & It's Application in Octree Generation",
+                "authors": "Prashant K. Gupta",
+                "doi": "",
+                "pages": "45-51",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Multi-Agency Approach Exhibiting the Penetration of Self Help Group (SHGS) - Bank Linkage in India: A Macro Perspective",
+                "authors": "Priyanka Murria",
+                "doi": "",
+                "pages": "52-68",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Customer Life Time Value: A Recent Phenomenon",
+                "authors": "Rashmi and Neeraj Kumar",
+                "doi": "",
+                "pages": "69-71",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Linking Compensation to Employees' Satisfaction Level - A Comparative Study of Selected Public and Private Sector Banks in India",
+                "authors": "Renu Sharma",
+                "doi": "",
+                "pages": "72-80",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Impact of Commodity Futures on Spot Prices Using Selected Agricultural Commodities in India",
+                "authors": "Sunitha Ravi and P.K. Gupta",
+                "doi": "",
+                "pages": "81-88",
+                "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 11.pdf"
+            }
+        ]
     }
 ]
