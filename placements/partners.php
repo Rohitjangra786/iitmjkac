@@ -131,15 +131,27 @@ echo '</script>';
     <div class="pl-wrap">
         <div class="partners-grid">
             <?php
-            $partners = [
-                'pp1.png', 'pp2.png', 'pp3.png', 'pp4.png',
-                'pp5.png', 'pp6.png', 'pp7.png', 'pp8.png',
-                'pp9.png', 'pp10.png'
-            ];
-            foreach ($partners as $logo):
+            // Dynamically scan the placementpartners directory for recruiter logos
+            $dir = __DIR__ . '/../placementpartners';
+            $logos = [];
+            if (is_dir($dir)) {
+                $files = glob($dir . '/*.{jpg,jpeg,png,gif,webp,JPG,JPEG,PNG,GIF,WEBP}', GLOB_BRACE);
+                foreach ($files as $file) {
+                    $name = basename($file);
+                    // Filter out legacy pp1.png ... pp10.png files
+                    if (preg_match('/^pp\d+\.png$/i', $name)) {
+                        continue;
+                    }
+                    $logos[] = $name;
+                }
+                // Sort alphabetically for a neat layout
+                natcasesort($logos);
+            }
+            
+            foreach ($logos as $logo):
             ?>
             <div class="partner-card">
-                <img src="../placementpartners/<?php echo $logo; ?>" alt="Placement Partner Logo" class="img-fluid">
+                <img src="../placementpartners/<?php echo htmlspecialchars($logo); ?>" alt="Placement Partner Logo" class="img-fluid">
             </div>
             <?php endforeach; ?>
         </div>
