@@ -2974,5 +2974,103 @@
                 "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 11.pdf"
             }
         ]
+    },
+    {
+        "vol": 1,
+        "issue": 2,
+        "year": 2010,
+        "period": "January-June",
+        "sortKey": 201001,
+        "slug": "v1i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "To GISNIC: A low Cost GIS Tool From NIC",
+                "authors": "Vinay Kumar",
+                "doi": "",
+                "pages": "3-11",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "World Economic Recession- Lessons to be Learnt",
+                "authors": "C.P. Chawla",
+                "doi": "",
+                "pages": "12-15",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "A Plan to Guide the Direction of Sucess for the Asian Scond Largest Kulk Bird Sanctuary, North Dinajpur, West Bengal",
+                "authors": "Tamal Basu Roy",
+                "doi": "",
+                "pages": "16-21",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "A Study of Indian Tourism Sector- Prospects & Growth",
+                "authors": "Sukhvinder Singh",
+                "doi": "",
+                "pages": "22-26",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Factor Affecting the Insurance Purchase Decision and the Extent of Health Insurance Purchage in India: An Analysis",
+                "authors": "Sweta",
+                "doi": "",
+                "pages": "27-36",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Historical Perspective of Service Marketing in Banking",
+                "authors": "Sarmistha Sarma",
+                "doi": "",
+                "pages": "37-45",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Emperical Study of Working Condition of Labour in Gurka Industry in Kanpur City",
+                "authors": "Vikas and Gopal Singh Latwal",
+                "doi": "",
+                "pages": "46-52",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Topical Trends in Association Rule Mining",
+                "authors": "Ritika Wasan",
+                "doi": "",
+                "pages": "53-57",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "A Gap Analysis of Customer Expectation & Perception towards Service Quality Provided by Private Hospitals in Sirsa City of Haryana",
+                "authors": "Anamika T. Chopra",
+                "doi": "",
+                "pages": "58-66",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Organizational Stress Management as a Necessity in Modern Times: A perspective",
+                "authors": "Tanushree and Neha Sharma",
+                "doi": "",
+                "pages": "67-73",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Evaluate Analysis on Resurgence of FDI Flow in India and China: Issues and Challenges",
+                "authors": "Gaura Nautiyal",
+                "doi": "",
+                "pages": "74-80",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 11.pdf"
+            }
+        ]
     }
 ]
