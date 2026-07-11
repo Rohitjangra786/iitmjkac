@@ -724,7 +724,7 @@
                         <a href="https://iitmjanakpuri.com/course/bjmc.php">BAJMC (H)</a>
 
                         <span class="sub-label">Admissions</span>
-                        <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2025-26</a>
+                        <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2026-27</a>
                         <a href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                         <a href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
                         <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG &amp; PG)</a>
