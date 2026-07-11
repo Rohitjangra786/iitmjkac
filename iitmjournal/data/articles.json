@@ -3072,5 +3072,111 @@
                 "pdf": "IITM Journal 2009-2017/2010/Vol.1 No.2 Jan-June 2010/Article 11.pdf"
             }
         ]
+    },
+    {
+        "vol": 1,
+        "issue": 1,
+        "year": 2009,
+        "period": "July-December",
+        "sortKey": 200907,
+        "slug": "v1i1",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Education in India through Information and Communication Technology",
+                "authors": "Rajesh Bhat",
+                "doi": "",
+                "pages": "3-6",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "E-governance in India Needs New Project Management Paradigm",
+                "authors": "Vinay Kumar",
+                "doi": "",
+                "pages": "7-15",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "The 3PL Industry in India: A Review of Challenges and Opportunities",
+                "authors": "S.L. Gupta and Shikha Rastogi",
+                "doi": "",
+                "pages": "16-29",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Reliability and Risk Analyasis with Uncertainty Considerations",
+                "authors": "Mayukh Maitra",
+                "doi": "",
+                "pages": "30-33",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Determinants of Profitability: The Case of Indian Public Sector Power Industries",
+                "authors": "S. Saxena, Sambhavana Gupta and Bhavat Garg",
+                "doi": "",
+                "pages": "34-39",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Economics Fluctuations and Inflation: An Indian Scenario",
+                "authors": "Rachita Rana",
+                "doi": "",
+                "pages": "40-48",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Computational Efficiency in Data Analysis",
+                "authors": "Sandhya Maitra",
+                "doi": "",
+                "pages": "49-52",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Cost Benefit Analysis of Implementing IPV6",
+                "authors": "Ganesh Wadhwani",
+                "doi": "",
+                "pages": "53-57",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Emerging Challenges of Entrepreneurial Growth in Indian MSMEs (Micro, Small & Medium Enterprises)",
+                "authors": "Rama Srivastava and Sheela Bhargava",
+                "doi": "",
+                "pages": "58-66",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Levy of Tax on Cash Withdrawal: Logic and Rationality",
+                "authors": "Sunil Kumar, Vijita Aggrawal and Sambhav Garg",
+                "doi": "",
+                "pages": "67-70",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Students’ Preference on the Use of Cell Phone Services: A Pragmetic Approach",
+                "authors": "Gopal Singh Latwal",
+                "doi": "",
+                "pages": "71-87",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 11.pdf"
+            },
+            {
+                "no": 12,
+                "title": "Innovations in Indian Banking: A study",
+                "authors": "Jagbir Ahlawat",
+                "doi": "",
+                "pages": "88-95",
+                "pdf": "IITM Journal 2009-2017/2009/Vol.1 No.1 July - Dec 2009/Article 12.pdf"
+            }
+        ]
     }
 ]
