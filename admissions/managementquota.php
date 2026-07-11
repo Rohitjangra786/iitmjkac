@@ -229,7 +229,7 @@ input[type=submit] {
 			            	</div>
 			            	<div class="col-sm-6 text-center">
 			            		<p></p>
-			            		<a href="./docs/manage.pdf" target="_blank" class="btn btn-danger">Offline Application Form</a>
+			            		<a href="#" class="btn btn-danger">Offline Application Form</a>
 			            	</div>
 			            	<div style="height: 5vh;"></div>
 			            	<div class="row">
@@ -240,7 +240,7 @@ input[type=submit] {
 			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BCA</a></p>
 			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - B.Com(H)</a></p>
 			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BBA</a></p>
-			            <p><a href="http://www.iitmjanakpuri.com/direct-file/MQPaymentNotice.pdf">Notice-Payment for Management Quota Admission</a></p>
+
 			            	    </div>
 			            	   <!-- <div class="col-md-4">
 			            	        <h3>Bank Details (For Payment)</h3>
