@@ -2778,5 +2778,103 @@
                 "pdf": "IITM Journal 2009-2017/2012/Vol.3 No.1 Jan-June 2012/Article 11.pdf"
             }
         ]
+    },
+    {
+        "vol": 2,
+        "issue": 2,
+        "year": 2011,
+        "period": "January-June",
+        "sortKey": 201101,
+        "slug": "v2i2",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Favoritism at Work Place: An Empirical Study of its Effects on Team Performance",
+                "authors": "Ritu Arora",
+                "doi": "",
+                "pages": "3-8",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Progress in Knowledge Process- Looking through the Human Lens",
+                "authors": "Prerna Mahajan, Rekha Kandwal and Ritu Vijay",
+                "doi": "",
+                "pages": "9-14",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Progress in Knowledge Prowess: Looking through the Human Lens",
+                "authors": "Jyoti Kukreja and Mansi Arora",
+                "doi": "",
+                "pages": "15-24",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "A study of Human-Computer Interaction for Mobile devices- A Case Study of “Black Berry”",
+                "authors": "Kavita Mittal",
+                "doi": "",
+                "pages": "25-31",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Practical Relevance of IT in Management Education",
+                "authors": "Manisha Gupta and Vijay Gupta",
+                "doi": "",
+                "pages": "32-39",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "A Next Generation Approach for Medical Sciences using Web Services",
+                "authors": "Sapna Arora",
+                "doi": "",
+                "pages": "40-43",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Cross Cultural HR perspective: Cultural Challenges in Globalization Era",
+                "authors": "Neha Gupta",
+                "doi": "",
+                "pages": "44-51",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Cloud Computing : Leveraging Shared Services for IT Transformation",
+                "authors": "Suman Madan and Kanika Behl",
+                "doi": "",
+                "pages": "52-61",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Emergence of Work-Life Balance as a Vital Parameter of Employee Effectiveness in the Modern Era: A Perspective",
+                "authors": "Tanushree",
+                "doi": "",
+                "pages": "62-68",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Analysis of Management Training Needs for Woman Entrepreneurs with Special Reference to Uttar Pradesh",
+                "authors": "Devesh Ranjan Tripathi",
+                "doi": "",
+                "pages": "69-75",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Book Review- The Fifth P., Arindam Mukherjee",
+                "authors": "Sarmistha Sharma",
+                "doi": "",
+                "pages": "76-78",
+                "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Book Review.pdf"
+            }
+        ]
     }
 ]
