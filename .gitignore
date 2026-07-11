@@ -28,7 +28,8 @@ campuslife/images/
 faculty/images/
 aboutus_new/images/
 infrastructure/images/
-placements/images/
+placements/images/*
+!placements/images/recruiters/
 alumni/magazines/
 journals1/
 journals2/
