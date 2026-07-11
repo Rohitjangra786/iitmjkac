@@ -237,7 +237,7 @@ input[type=submit] {
                   <div style="height: 5vh;"></div>
 			            	<div class="row">
 			            	    <div class="col-md-8">
-			            	        <p><a href="/admissions/docs/Notice Board.pdf">Admission Notice for Management Quota Academic Session 2026-27</a></p>
+			            	        <p><a href="/admissions/docs/Notice Board.pdf">Admission Notice for Management Quota AY 2026-27</a></p>
 			            	        <p><a href="/admissions/docs/Seat Matrix.pdf">Seat Intake and Seat Matrix for Management Quota AY 2026-27</a></p>
 			            	        <p><a href="/admissions/docs/Nodal Officer Nomination for Management.pdf">Nodal Officer Nomination for Management Quota AY 026-27</a></p>
 			            	
