@@ -217,7 +217,7 @@ input[type=submit] {
    
     <div class="container">
         <h1 class="text-center">
-           Management Quota Admissions-2025-26
+           Management Quota Admissions-2026-27
         </h1>
     </div>
     <div class="container">
@@ -234,12 +234,12 @@ input[type=submit] {
 			            	<div style="height: 5vh;"></div>
 			            	<div class="row">
 			            	    <div class="col-md-8">
-			            	        <p><a href="https://forms.gle/6eYKrhzV43jGdMiSA">Application Form for Admission in Management Quota 2025-26 - MCA</a></p>
-			            	<p><a href="https://forms.gle/3jmuMfKmgo9HEZE46">Application Form for Admission in Management Quota 2025-26 - MBA</a></p>
-			            	<p><a href="https://forms.gle/J7SmEC72TKAYqfBaA">Application Form for Admission in Management Quota 2025-26 - BA(JMC)</a></p>
-			            	<p><a href="https://forms.gle/LAY5dMvpWTw8zHYSA">Application Form for Admission in Management Quota 2025-26 - BCA</a></p>
-			            	<p><a href="https://forms.gle/fow6WR1LBKxG4mEg6">Application Form for Admission in Management Quota 2025-26 - B.Com(H)</a></p>
-			            	<p><a href="https://forms.gle/ix2B9JPt4XDyRSvq6">Application Form for Admission in Management Quota 2025-26 - BBA</a></p>
+			            	        <p><a href="#">Application Form for Admission in Management Quota 2025-26 - MCA</a></p>
+			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - MBA</a></p>
+			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BA(JMC)</a></p>
+			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BCA</a></p>
+			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - B.Com(H)</a></p>
+			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BBA</a></p>
 			            <p><a href="http://www.iitmjanakpuri.com/direct-file/MQPaymentNotice.pdf">Notice-Payment for Management Quota Admission</a></p>
 			            	    </div>
 			            	   <!-- <div class="col-md-4">
