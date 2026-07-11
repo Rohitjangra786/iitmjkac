@@ -231,44 +231,7 @@ input[type=submit] {
 			            		<p></p>
 			            		<a href="#" class="btn btn-danger">Offline Application Form</a>
 			            	</div>
-			            	<div style="height: 5vh;"></div>
-			            	<div class="row">
-			            	    <div class="col-md-8">
-			            	        <p><a href="#">Application Form for Admission in Management Quota 2025-26 - MCA</a></p>
-			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - MBA</a></p>
-			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BA(JMC)</a></p>
-			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BCA</a></p>
-			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - B.Com(H)</a></p>
-			            	<p><a href="#">Application Form for Admission in Management Quota 2025-26 - BBA</a></p>
 
-			            	    </div>
-			            	   <!-- <div class="col-md-4">
-			            	        <h3>Bank Details (For Payment)</h3>
-			            	        <table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <td><strong>Account Name:</strong></td>
-    <td>Institute of Information Technology and Management</td>
-  </tr>
-  <tr>
-    <td><strong>Bank Name:</strong></td>
-    <td>Bank of Maharashtra</td>
-  </tr>
-  <tr>
-    <td><strong>Bank Address:</strong></td>
-    <td>22-23 Institutional Area, D Block, Janakpuri New Delhi-110058</td>
-  </tr>
-  <tr>
-    <td><strong>Account No.</strong></td>
-    <td>60212532846</td>
-  </tr>
-  <tr>
-    <td><strong>IFSCode:</strong></td>
-    <td>MAHB0001188</td>
-  </tr>
-</table>
-
-			            	    </div>-->
-			            	</div>
 			            	
 			            </div>
 			            
