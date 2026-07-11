@@ -2876,5 +2876,103 @@
                 "pdf": "IITM Journal 2009-2017/2011/Vol.2 No.2 Jan-June 2011/Book Review.pdf"
             }
         ]
+    },
+    {
+        "vol": 2,
+        "issue": 1,
+        "year": 2010,
+        "period": "July-December",
+        "sortKey": 201007,
+        "slug": "v2i1",
+        "articles": [
+            {
+                "no": 1,
+                "title": "To study the impact of Website Factors on Consumer Online Buying Behavior in India",
+                "authors": "S.L. Gupta, Ruchi Nayyar and Ashish Nayyar",
+                "doi": "",
+                "pages": "3-15",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Child Labour in India: A Thematic Perspective",
+                "authors": "Rachita Rana and Rama Saxena",
+                "doi": "",
+                "pages": "16-27",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Data Networks and the Internet",
+                "authors": "Brahampal Singh",
+                "doi": "",
+                "pages": "28-33",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Study of Effective HRD Practices: A Telescopic View of Indian Banking Sector",
+                "authors": "Monika Kulshreshtha",
+                "doi": "",
+                "pages": "34-43",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "Cloud Computing- An Internet Driven Economics Incorporating Virtualization to IT-Sector",
+                "authors": "Ramandeep Kaur",
+                "doi": "",
+                "pages": "44-48",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Emerging Practices in Human Resource after the Downturn",
+                "authors": "Sumbul Tahir",
+                "doi": "",
+                "pages": "49-53",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "An Embedded Based Message Service System of Students Arriving/ Leaving Safely Using Radio Frequency Identification Technology",
+                "authors": "Meenu Gupta, Rajeev and Tanu Arora",
+                "doi": "",
+                "pages": "54-56",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Information Technology: A Pillar of Modern Libraries in India",
+                "authors": "Anjali Sharma",
+                "doi": "",
+                "pages": "57-60",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "E- Recruitment: A Better Recruitment Practice ( A Case Study on Infosys)",
+                "authors": "Sumit Chandiok",
+                "doi": "",
+                "pages": "61-70",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Energy Efficient Protocol in Wireless Sensor Network: Reactive On-Demand Routing",
+                "authors": "C. Komalavalli and Chetna Laroiya",
+                "doi": "",
+                "pages": "71-75",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "VAT(Value Added Tax)- Opportunities and Challenges Ahead",
+                "authors": "R.K. Sharma, Sunil Kumar and M.S.S. Raju",
+                "doi": "",
+                "pages": "76-80",
+                "pdf": "IITM Journal 2009-2017/2010/Vol.2 No.1 July-Dec 2010/Article 11.pdf"
+            }
+        ]
     }
 ]
