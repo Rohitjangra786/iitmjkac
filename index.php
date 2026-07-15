@@ -3454,12 +3454,12 @@ nav.navbar .nav-item{
 
 
             <a href="https://iitmjanakpuri.com/direct-file/Anugoonj Prelims 2026 Zone 4 Brochure.pdf" target="_blank">Anugoonj Prelims Zone IV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     -->        <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details for Academic Year 2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     -->    <a href="https://iitmjanakpuri.com/admissions/managementquota.php" target="_blank">Management Quota Admissions-2026-27</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+            <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details for Academic Year 2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/direct-file/counselor.pdf">Contact Your Counsellor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
             <!-- <a href="https://iitmjanakpuri.com/fiesta2k25/">Fiesta 2K25</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/direct-file/finalcheck.pdf" target="_blank">Admission Document (Two Copies Each) Check List for Academic Year 2025-26</a>&nbsp;&nbsp;
-             <a href="https://iitmjanakpuri.com/admissions/managementquota.php" target="_blank">Management Quota Admissions-2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/admissions/docs/iitmfees.pdf">Fee Details for UG & PG Programme</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <a href="https://forms.gle/6d1BNdiLqA4JjLD1A">Message for students from Chairman</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/direct-file/20250801(1).pdf" target="_blank">Orientation & Commencement of Classes Academic Year 2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

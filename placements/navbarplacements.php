@@ -166,9 +166,6 @@ a.sl: hover{
            <li class="nav-item" style="margin-left: 2em;margin-right: 2em;">
                 <a class="nav-link color-maroon tgfmlt sl1" href="https://www.iitminternware.com/" target="_blank">Internship Cell</a>
             </li>
-            <li class="nav-item" style="margin-left: 2em;margin-right: 2em;">
-                <a class="nav-link color-maroon tgfmlt sl1" href="images/IITM Brochure (final).pdf" target="_blank">Brochure</a>
-            </li>
             <li class="nav-item" style="margin-left: 2em;">
                 <!--<a class="nav-link color-white tgfmlt" onmouseover="somelinks(this)" onmouseout="normallinks(this)" href="#"><i class="fa fa-fw fa-search"></i></a>-->
             </li> 

@@ -14,6 +14,8 @@
 *.pdf
 *.PDF
 !admissions/docs/FEE_Details.pdf
+!admissions/docs/ggsipu-academic-calendar-2026-27.pdf
+!admissions/docs/ggsipu-academic-calendar-2025-26.pdf
 
 # ── Large content images (gallery, uploads, event photos) ─────────
 upload/
@@ -26,12 +28,19 @@ campuslife/images/
 faculty/images/
 aboutus_new/images/
 infrastructure/images/
-placements/images/
+placements/images/*
+!placements/images/recruiters/
 alumni/magazines/
 journals1/
 journals2/
 academics/images/
-academics/unmesh/
+!academics/unmesh/
+academics/unmesh/*
+!academics/unmesh/January_2026.pdf
+!academics/unmesh/February_2026.pdf
+!academics/unmesh/March_2026.pdf
+!academics/unmesh/April_2026.pdf
+!academics/unmesh/May_2026.pdf
 academics/p/
 IITMNBAAB/doc/
 IITMNBAAB/New page/PDFs/

@@ -724,7 +724,7 @@
                         <a href="https://iitmjanakpuri.com/course/bjmc.php">BAJMC (H)</a>
 
                         <span class="sub-label">Admissions</span>
-                        <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2025-26</a>
+                        <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2026-27</a>
                         <a href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                         <a href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
                         <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG &amp; PG)</a>
@@ -775,8 +775,7 @@
                         <a href="https://www.iitmjanakpuri.com/placements/recruiters.php">Recruiters Speak</a>
                         <a href="https://www.iitmjanakpuri.com/placements/plrecords.php">Placement Records</a>
                         <a href="https://www.iitmjanakpuri.com/placements/summertraining.php">Summer Training Records</a>
-                        <a href="https://www.iitminternware.com/" target="_blank">Internship Cell</a>
-                        <a href="https://www.iitmjanakpuri.com/placements/images/IITM%20Brochure%20(final).pdf" target="_blank">Brochure</a>
+                        <a href="https://www.iitminternware.com/" target="_blank" rel="noopener noreferrer">Internship Cell</a>
                     </div>
                 </div>
             </div>
@@ -952,7 +951,7 @@
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="#">Admissions</a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2025-26</a></li>
+                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2026-27</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details (UG & PG)</a></li>
@@ -1019,8 +1018,7 @@
                         <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/recruiters.php">Recruiters Speak</a></li>
                         <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/plrecords.php">Placement Records</a></li>
                         <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/summertraining.php">Summer Training Records</a></li>
-                        <li><a class="dropdown-item" href="https://www.iitminternware.com/">Internship Cell</a></li>
-                        <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/placements/images/IITM%20Brochure%20(final).pdf">Brochure</a></li>
+                        <li><a class="dropdown-item" href="https://www.iitminternware.com/" target="_blank" rel="noopener noreferrer">Internship Cell</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

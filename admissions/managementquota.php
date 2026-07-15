@@ -217,7 +217,7 @@ input[type=submit] {
    
     <div class="container">
         <h1 class="text-center">
-           Management Quota Admissions-2025-26
+           Management Quota Admissions-2026-27
         </h1>
     </div>
     <div class="container">
@@ -229,48 +229,20 @@ input[type=submit] {
 			            	</div>
 			            	<div class="col-sm-6 text-center">
 			            		<p></p>
-			            		<a href="./docs/manage.pdf" target="_blank" class="btn btn-danger">Offline Application Form</a>
+			            		<a href="#" class="btn btn-danger">Offline Application Form</a>
 			            	</div>
-			            	<div style="height: 5vh;"></div>
-			            	<div class="row">
-			            	    <div class="col-md-8">
-			            	        <p><a href="https://forms.gle/6eYKrhzV43jGdMiSA">Application Form for Admission in Management Quota 2025-26 - MCA</a></p>
-			            	<p><a href="https://forms.gle/3jmuMfKmgo9HEZE46">Application Form for Admission in Management Quota 2025-26 - MBA</a></p>
-			            	<p><a href="https://forms.gle/J7SmEC72TKAYqfBaA">Application Form for Admission in Management Quota 2025-26 - BA(JMC)</a></p>
-			            	<p><a href="https://forms.gle/LAY5dMvpWTw8zHYSA">Application Form for Admission in Management Quota 2025-26 - BCA</a></p>
-			            	<p><a href="https://forms.gle/fow6WR1LBKxG4mEg6">Application Form for Admission in Management Quota 2025-26 - B.Com(H)</a></p>
-			            	<p><a href="https://forms.gle/ix2B9JPt4XDyRSvq6">Application Form for Admission in Management Quota 2025-26 - BBA</a></p>
-			            <p><a href="http://www.iitmjanakpuri.com/direct-file/MQPaymentNotice.pdf">Notice-Payment for Management Quota Admission</a></p>
-			            	    </div>
-			            	   <!-- <div class="col-md-4">
-			            	        <h3>Bank Details (For Payment)</h3>
-			            	        <table border="1" cellpadding="8" cellspacing="0">
-  <tr>
-    <td><strong>Account Name:</strong></td>
-    <td>Institute of Information Technology and Management</td>
-  </tr>
-  <tr>
-    <td><strong>Bank Name:</strong></td>
-    <td>Bank of Maharashtra</td>
-  </tr>
-  <tr>
-    <td><strong>Bank Address:</strong></td>
-    <td>22-23 Institutional Area, D Block, Janakpuri New Delhi-110058</td>
-  </tr>
-  <tr>
-    <td><strong>Account No.</strong></td>
-    <td>60212532846</td>
-  </tr>
-  <tr>
-    <td><strong>IFSCode:</strong></td>
-    <td>MAHB0001188</td>
-  </tr>
-</table>
 
-			            	    </div>-->
-			            	</div>
 			            	
 			            </div>
+                  <div style="height: 5vh;"></div>
+			            	<div class="row">
+			            	    <div class="col-md-8">
+			            	        <p><a href="/admissions/docs/Notice Board.pdf">Admission Notice for Management Quota AY 2026-27</a></p>
+			            	        <p><a href="/admissions/docs/Seat Matrix.pdf">Seat Intake and Seat Matrix for Management Quota AY 2026-27</a></p>
+			            	        <p><a href="/admissions/docs/Nodal Officer Nomination for Management.pdf">Nodal Officer Nomination for Management Quota AY 026-27</a></p>
+			            	
+
+			            	    </div>
 			            
 <div style="height: 10vh;"></div>		
  
