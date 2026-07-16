@@ -3976,12 +3976,17 @@ return [
             [
                 'enroll' => '02913788822',
                 'name' => 'Ankita Sharma',
-                'company' => 'Wipro Ltd. / JLL Business Services'
+                'company' => 'Wipro Ltd. / JLL'
+            ],
+            [
+                'enroll' => '03613788822',
+                'name' => 'Ansh Makkad',
+                'company' => 'Skillinabox Learning Solutions Pvt. Ltd.'
             ],
             [
                 'enroll' => '01421188822',
                 'name' => 'Ayushi Tiwary',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '03221188822',
@@ -3989,24 +3994,29 @@ return [
                 'company' => 'CLAIRVOLEX'
             ],
             [
+                'enroll' => '70421188822',
+                'name' => 'Devesh Maggo',
+                'company' => 'Uniqlo'
+            ],
+            [
                 'enroll' => '01121188822',
                 'name' => 'Dia Bahl',
-                'company' => 'Epic Investment Partners'
+                'company' => 'EPIC INVESTMENT PARTNERS'
             ],
             [
                 'enroll' => '01413788822',
                 'name' => 'Divya Bhandari',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '00321188822',
                 'name' => 'Divyansh Kumar',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '02421188822',
                 'name' => 'Garvit Babbar',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '01313788822',
@@ -4021,7 +4031,7 @@ return [
             [
                 'enroll' => '03421188822',
                 'name' => 'Hardik Taneja',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '01621188822',
@@ -4031,17 +4041,17 @@ return [
             [
                 'enroll' => '02813788822',
                 'name' => 'Jiya Sain',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '70513788822',
                 'name' => 'Kaanha Grover',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '35413788822',
                 'name' => 'Kanika',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '00713788822',
@@ -4051,7 +4061,7 @@ return [
             [
                 'enroll' => '01921188822',
                 'name' => 'Luvya Popli',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '00913788822',
@@ -4066,7 +4076,7 @@ return [
             [
                 'enroll' => '01513788822',
                 'name' => 'Mehak',
-                'company' => 'Wipro Ltd. / JLL Business Services'
+                'company' => 'Wipro Ltd. / JLL'
             ],
             [
                 'enroll' => '01021188822',
@@ -4074,9 +4084,19 @@ return [
                 'company' => 'CLAIRVOLEX'
             ],
             [
+                'enroll' => '00921188822',
+                'name' => 'Muskan Sukhwani',
+                'company' => 'EaseMyDeal'
+            ],
+            [
                 'enroll' => '35313788822',
                 'name' => 'Preksha Sachdeva',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '02121188822',
+                'name' => 'Puneet Dewan',
+                'company' => 'Vishal Engineers'
             ],
             [
                 'enroll' => '36121188822',
@@ -4086,12 +4106,12 @@ return [
             [
                 'enroll' => '01113788822',
                 'name' => 'Seeta Dutta',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '03013788822',
                 'name' => 'Shivali Vohra',
-                'company' => 'Deloitte / JLL Business Services'
+                'company' => 'Deloitte / JLL'
             ],
             [
                 'enroll' => '01521188822',
@@ -4101,17 +4121,17 @@ return [
             [
                 'enroll' => '01913788822',
                 'name' => 'Shreya Sharma',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '01213788822',
                 'name' => 'Simar Arora',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '03321188822',
                 'name' => 'Simarpreet Singh',
-                'company' => 'Amazon'
+                'company' => 'GRYNOW MEDIA PVT LTD / Amazon'
             ],
             [
                 'enroll' => '70413788822',
@@ -4127,6 +4147,11 @@ return [
                 'enroll' => '35113788822',
                 'name' => 'Vanshika Dhawan',
                 'company' => 'Wipro Ltd. / Amazon'
+            ],
+            [
+                'enroll' => '35921188822',
+                'name' => 'Vanshul Gupta',
+                'company' => 'Vcommission Media Pvt Ltd'
             ]
         ],
         '2021-24' => [
@@ -4446,7 +4471,7 @@ return [
             ],
             [
                 'enroll' => '01221188819',
-                'name' => 'Aman Pandey',
+                'name' => 'AMAN PANDEY',
                 'company' => 'Jaro Education / HDFC Bank'
             ],
             [
@@ -4456,7 +4481,7 @@ return [
             ],
             [
                 'enroll' => '02813788819',
-                'name' => 'Bhabya',
+                'name' => 'Bhabya Kumari',
                 'company' => 'Upgrad'
             ],
             [
@@ -4481,13 +4506,18 @@ return [
             ],
             [
                 'enroll' => '03913788819',
-                'name' => 'Hardik Mediratta',
+                'name' => 'Hardik mediratta',
                 'company' => 'Natwest Group (RBS)'
             ],
             [
                 'enroll' => '04613788819',
-                'name' => 'Harsh Sharma',
+                'name' => 'HARSH SHARMA',
                 'company' => 'JLL'
+            ],
+            [
+                'enroll' => '04213788819',
+                'name' => 'Lakshaya S Verma',
+                'company' => 'Amazon India'
             ],
             [
                 'enroll' => '04113788819',
@@ -4501,7 +4531,7 @@ return [
             ],
             [
                 'enroll' => '02021188819',
-                'name' => 'Sajan vij',
+                'name' => 'Sajan Vij',
                 'company' => 'Natwest Group (RBS)'
             ],
             [
@@ -4552,9 +4582,9 @@ return [
             [
                 'enroll' => '35113788819',
                 'name' => 'Yashica Garg',
-                'company' => 'Incedo Technologies / Natwest Group (RBS)'
+                'company' => 'Incedo Technologies / NatWest Group (Previousily RBS)'
             ]
-        ]
+        ],
     ],
     'BJMC' => [
         '2023-26' => [
