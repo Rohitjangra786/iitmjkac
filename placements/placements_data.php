@@ -1697,191 +1697,376 @@ return [
         ],
         '2021-24' => [
             [
+                'enroll' => '06013702021',
+                'name' => 'Aditya Mangal',
+                'company' => 'Intellipaat software Pvt. Ltd.  / Pacific BPO Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '08913702021',
+                'name' => 'Aman',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '03513702021',
+                'name' => 'Aman Bhatnagar',
+                'company' => 'Incedo Technology'
+            ],
+            [
                 'enroll' => '03321102021',
-                'name' => 'ANKUR TIWARI',
-                'company' => 'DEPOTER'
+                'name' => 'Ankur Tiwari',
+                'company' => 'Depoter'
+            ],
+            [
+                'enroll' => '00821102021',
+                'name' => 'Anshpreet Singh Arora',
+                'company' => 'TCS'
             ],
             [
                 'enroll' => '04821102021',
-                'name' => 'ATUL BHARTI',
-                'company' => 'AMAZON'
+                'name' => 'Atul Bharti',
+                'company' => 'Amazon'
+            ],
+            [
+                'enroll' => '04313702021',
+                'name' => 'Ayush',
+                'company' => 'HIVE AI'
+            ],
+            [
+                'enroll' => '08413702021',
+                'name' => 'Dev Sharma',
+                'company' => 'Incedo Technology'
+            ],
+            [
+                'enroll' => '01213702021',
+                'name' => 'Dipayan Roy',
+                'company' => 'TCS'
             ],
             [
                 'enroll' => '07713702021',
-                'name' => 'DIVYANSH JHA',
-                'company' => 'SAP LABS'
+                'name' => 'Divyansh Jha',
+                'company' => 'SAP Labs'
             ],
             [
                 'enroll' => '02021102021',
-                'name' => 'GAUTAM KOHLI',
-                'company' => 'FEDERAL BANK /WIPRO LTD. / MICROLAND'
+                'name' => 'Gautam Kohli',
+                'company' => 'Wipro Ltd. / Microland/ Federal Bank/ Galytix'
+            ],
+            [
+                'enroll' => '08113702021',
+                'name' => 'Guneet Kumar Sehgal',
+                'company' => 'Capitall India Pvt. Ltd.'
             ],
             [
                 'enroll' => '05813702021',
-                'name' => 'GURJEET SINGH OHRI',
-                'company' => 'WIPRO LTD.'
+                'name' => 'Gurjeet Singh Ohri',
+                'company' => 'Wipro Ltd. / TCS'
+            ],
+            [
+                'enroll' => '03613702021',
+                'name' => 'Gyanu Kumar',
+                'company' => 'Pacific Global'
             ],
             [
                 'enroll' => '03013702021',
-                'name' => 'HARMANDEEP SINGH',
-                'company' => 'Hive.AI'
+                'name' => 'Harmandeep Singh',
+                'company' => 'HIVE AI'
             ],
             [
                 'enroll' => '00613702021',
-                'name' => 'HARSH ARORA',
-                'company' => 'CITY UNION BANK'
+                'name' => 'Harsh Arora',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01021102021',
+                'name' => 'Harsh Ojha',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '03821102021',
+                'name' => 'Harsh Samuel Singh',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '00321102021',
+                'name' => 'Harshit Narang',
+                'company' => 'Incedo Technology'
+            ],
+            [
+                'enroll' => '10113702021',
+                'name' => 'Himanshu Kumar',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '04013702021',
+                'name' => 'Jay Khandelwal',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '03021102021',
+                'name' => 'Khushi Rakheja',
+                'company' => 'Vide Alpha'
+            ],
+            [
+                'enroll' => '01313702021',
+                'name' => 'Khushi Sihag',
+                'company' => 'Infonative Solutions Pvt. Ltd.'
             ],
             [
                 'enroll' => '00813702021',
-                'name' => 'LAKSHAY CHAWLA',
+                'name' => 'Lakshay Chawla',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '05013702021',
+                'name' => 'Manav Narula',
                 'company' => 'TCS'
             ],
             [
                 'enroll' => '01321102021',
-                'name' => 'MANSHA MONGA',
-                'company' => 'WIPRO LTD. / MICROLAND / Galytix'
+                'name' => 'Mansha Monga',
+                'company' => 'Wipro Ltd. / Microland / Galytix'
+            ],
+            [
+                'enroll' => '09913702021',
+                'name' => 'Mehak Parekh',
+                'company' => 'Incedo Technology'
             ],
             [
                 'enroll' => '02013702021',
-                'name' => 'MIKUL JAIN',
+                'name' => 'Mikul Jain',
                 'company' => 'TCS'
+            ],
+            [
+                'enroll' => '06513702021',
+                'name' => 'Naman Kumar',
+                'company' => 'Global Logic'
+            ],
+            [
+                'enroll' => '35113702021',
+                'name' => 'Nishtha Ahlawat',
+                'company' => 'Global Logic'
+            ],
+            [
+                'enroll' => '04721102021',
+                'name' => 'Paridhi',
+                'company' => 'HIVE.AI /Zomato'
+            ],
+            [
+                'enroll' => '02113702021',
+                'name' => 'Pranay Bhasin',
+                'company' => 'AoN'
             ],
             [
                 'enroll' => '04913702021',
-                'name' => 'ROHIT PRAJAPATI',
-                'company' => 'INCEDO TECHNOLOGY'
+                'name' => 'Rohit Prajapati',
+                'company' => 'Incedo Technology'
+            ],
+            [
+                'enroll' => '10713702021',
+                'name' => 'Sahil Kandari',
+                'company' => 'InstaAstro Technology Pvt Ltd'
             ],
             [
                 'enroll' => '00213702021',
-                'name' => 'SARTHAK KUMAR',
+                'name' => 'Sarthak Kumar',
                 'company' => 'TCS'
+            ],
+            [
+                'enroll' => '03221102021',
+                'name' => 'Shubham Gupta',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '01713702021',
+                'name' => 'Shubham Jangir',
+                'company' => 'Roop Vatika'
+            ],
+            [
+                'enroll' => '00913702021',
+                'name' => 'Swayam Sharma',
+                'company' => 'Microland / Advisor Uncle'
+            ],
+            [
+                'enroll' => '02721102021',
+                'name' => 'Uday Arora',
+                'company' => 'City Union Bank'
             ],
             [
                 'enroll' => '03121102021',
-                'name' => 'VIBHOR BADOLA',
-                'company' => 'CITY UNION BANK'
+                'name' => 'Vibhor Badola',
+                'company' => 'City Union Bank'
             ],
             [
                 'enroll' => '00621102021',
-                'name' => 'VIPIN SINGH KIROULA',
+                'name' => 'Vipin Singh Kiroula',
                 'company' => 'TCS'
+            ],
+            [
+                'enroll' => '06713702021',
+                'name' => 'Yash Grover',
+                'company' => 'City Union Bank'
             ]
         ],
         '2020-23' => [
             [
                 'enroll' => '00221102020',
-                'name' => 'ABHAY SINGH',
-                'company' => 'INCEDO TECHNOLOGIES'
+                'name' => 'Abhay Singh',
+                'company' => 'Incedo Technologies'
             ],
             [
                 'enroll' => '00321102020',
-                'name' => 'ABHISHEK PRASAD',
-                'company' => 'HCL TECHNOLOGIES'
+                'name' => 'Abhishek Prasad',
+                'company' => 'HCL Technologies'
             ],
             [
                 'enroll' => '00513702020',
-                'name' => 'ADITI AGARWAL',
-                'company' => 'HCL TECHNOLOGIES / TCS'
+                'name' => 'Aditi Agarwal',
+                'company' => 'HCL Technologies / TCS'
             ],
             [
                 'enroll' => '35113702020',
-                'name' => 'AGAM SINGH',
-                'company' => 'VDART (HCL TECHNOLOGIES)'
+                'name' => 'Agam Singh',
+                'company' => 'VDart (HCL Technologies)'
             ],
             [
                 'enroll' => '00821102020',
-                'name' => 'ANMOL GARG',
+                'name' => 'Anmol Garg',
                 'company' => 'TCS'
             ],
             [
                 'enroll' => '01813702020',
-                'name' => 'AYUSH DUBEY',
-                'company' => 'HCL TECHNOLOGIES / TCS'
+                'name' => 'Ayush Dubey',
+                'company' => 'HCL Technologies / TCS'
+            ],
+            [
+                'enroll' => '02113702020',
+                'name' => 'Binit Karmakar',
+                'company' => 'Savvi Technologies'
             ],
             [
                 'enroll' => '01321102020',
-                'name' => 'CHETNA SHARMA',
-                'company' => 'HCL TECHNOLOGIES'
+                'name' => 'Chetna Sharma',
+                'company' => 'HCL Technologies'
             ],
             [
                 'enroll' => '01821102020',
-                'name' => 'GANGA SHARMA',
-                'company' => 'SAP LABS'
+                'name' => 'Ganga Sharma',
+                'company' => 'SAP Labs'
             ],
             [
                 'enroll' => '02221102020',
-                'name' => 'HARSH MAHORI',
+                'name' => 'Harsh Mahori',
                 'company' => 'TCS'
             ],
             [
                 'enroll' => '02421102020',
-                'name' => 'HIMANSHU SHARMA',
-                'company' => 'TCS / VDART (HCL TECHNOLOGIES)'
+                'name' => 'Himanshu Sharma',
+                'company' => 'TCS / VDart (HCL Technologies)'
             ],
             [
                 'enroll' => '02521102020',
-                'name' => 'ISHAN MEHRA',
+                'name' => 'Ishan Mehra',
                 'company' => 'TCS'
             ],
             [
+                'enroll' => '35313702020',
+                'name' => 'Japneet Singh',
+                'company' => 'Veersa Technologies'
+            ],
+            [
                 'enroll' => '02921102020',
-                'name' => 'KSHITIZ SRIVASTAVA',
+                'name' => 'Kshitiz Srivastava',
                 'company' => 'TCS'
             ],
             [
                 'enroll' => '04013702020',
-                'name' => 'MANJESH SINGH',
-                'company' => 'INCEDO TECHNOLOGIES / TCS'
+                'name' => 'Manjesh Singh',
+                'company' => 'Incedo Technologies / TCS'
+            ],
+            [
+                'enroll' => '04113702020',
+                'name' => 'Mansi',
+                'company' => 'GO-AI Associates'
             ],
             [
                 'enroll' => '03221102020',
-                'name' => 'NAKUL BATRA',
-                'company' => 'VDART (HCL TECHNOLOGIES)'
+                'name' => 'Nakul Batra',
+                'company' => 'VDart (HCL Technologies)'
             ],
             [
                 'enroll' => '03321102020',
-                'name' => 'NEVIDITA',
-                'company' => 'UPGRAD / HCL TECHNOLOGIES'
+                'name' => 'Nevidita',
+                'company' => 'Upgrad / HCL Technologies'
+            ],
+            [
+                'enroll' => '04713702020',
+                'name' => 'Nikhil Goyal',
+                'company' => 'Savantis Solutions'
+            ],
+            [
+                'enroll' => '04913702020',
+                'name' => 'Piyush Kumar',
+                'company' => 'Hibana Labs LLC'
             ],
             [
                 'enroll' => '05313702020',
-                'name' => 'PRASHANT YADAV',
-                'company' => 'INCEDO TECHNOLOGIES'
+                'name' => 'Prashant Yadav',
+                'company' => 'IBM / Incedo Technologies'
             ],
             [
                 'enroll' => '05513702020',
-                'name' => 'PRATHAM PANDEY',
-                'company' => 'HEXAWARE TECHNOLOGIES'
+                'name' => 'Pratham Pandey',
+                'company' => 'Hexaware Technologies'
+            ],
+            [
+                'enroll' => '35513702020',
+                'name' => 'Rajat',
+                'company' => 'Accenture'
             ],
             [
                 'enroll' => '06113702020',
-                'name' => 'SACHIN SHARMA',
-                'company' => 'HCL TECHNOLOGIES'
+                'name' => 'Sachin Sharma',
+                'company' => 'HCL Technologies'
+            ],
+            [
+                'enroll' => '06313702020',
+                'name' => 'Sarthak Mehta',
+                'company' => 'Microland Limited'
+            ],
+            [
+                'enroll' => '04321102020',
+                'name' => 'Shivani Shailja',
+                'company' => 'CVENT'
+            ],
+            [
+                'enroll' => '06513702020',
+                'name' => 'Shreya Jain',
+                'company' => 'Teleperformance'
             ],
             [
                 'enroll' => '07113702020',
-                'name' => 'SIMRAN KHANNA',
-                'company' => 'INCEDO TECHNOLOGIES'
+                'name' => 'Simran Khanna',
+                'company' => 'Incedo Technologies'
             ],
             [
                 'enroll' => '04621102020',
-                'name' => 'SPARSH PANT',
-                'company' => 'INCEDO TECHNOLOGIES'
+                'name' => 'Sparsh Pant',
+                'company' => 'Incedo Technologies'
             ],
             [
                 'enroll' => '07213702020',
-                'name' => 'SWATI TAHEEM',
-                'company' => 'DATOPIC TECHNOLOGIES PVT LTD'
+                'name' => 'Swati Taheem',
+                'company' => 'DATOPIC Technologies'
             ],
             [
                 'enroll' => '04821102020',
-                'name' => 'TUSHAR ARORA',
-                'company' => 'WIPRO LTD.'
+                'name' => 'Tushar Arora',
+                'company' => 'Wipro Ltd.'
             ],
             [
                 'enroll' => '07713702020',
-                'name' => 'UJJWAL YADAV',
-                'company' => 'INCEDO TECHNOLOGIES'
+                'name' => 'Ujjwal Yadav',
+                'company' => 'Incedo Technologies'
             ]
         ],
         '2019-22' => [
