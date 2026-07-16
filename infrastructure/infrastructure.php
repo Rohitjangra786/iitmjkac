@@ -22,7 +22,7 @@ echo '</script>';
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
  <link rel="canonical" href="https://www.iitmjanakpuri.com/infrastructure/infrastructure.php" />
-    <link href="assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets_new/styles_new.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Material Symbols -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500&display=swap">
@@ -144,8 +144,8 @@ body * {
         </div>
         <div class="row">
             <div class="col-md-3" style="padding: 5px; background-color: #add8e6;height: 80px;">
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/infrastructure/ict.php">ICT</a>
-                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/infrastructure/infrastructure.php">Infrastructure & Facility</a>
+                <a class="dropdown-item" href="ict.php">ICT</a>
+                <a class="dropdown-item" href="infrastructure.php">Infrastructure & Facility</a>
             </div>
             <div class="col-md-9">
                  <div class="container">
