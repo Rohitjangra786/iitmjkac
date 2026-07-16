@@ -1029,39 +1029,9 @@ return [
                 'company' => 'Mittal Software Labs'
             ],
             [
-                'enroll' => '00113704423',
-                'name' => 'Varun Bisoi',
-                'company' => 'NTT Data'
-            ],
-            [
-                'enroll' => '00413704423',
-                'name' => 'Nishtha Parashar',
-                'company' => 'IITM'
-            ],
-            [
-                'enroll' => '00913704423',
-                'name' => 'Tanisha Rao',
-                'company' => 'Busy Infotech'
-            ],
-            [
-                'enroll' => '01413704423',
-                'name' => 'Swikriti Gupta',
-                'company' => 'Infosys'
-            ],
-            [
-                'enroll' => '02013704423',
-                'name' => 'Annu',
-                'company' => 'Mittal Software Labs'
-            ],
-            [
                 'enroll' => '02113704423',
                 'name' => 'Aryan Sharma',
-                'company' => 'Busy Infotech'
-            ],
-            [
-                'enroll' => '02513704423',
-                'name' => 'Pallavi Singh',
-                'company' => 'NTT Data'
+                'company' => 'Veridical Technologies'
             ],
             [
                 'enroll' => '02613704423',
@@ -1069,9 +1039,9 @@ return [
                 'company' => 'Entab Infotech'
             ],
             [
-                'enroll' => '02713704423',
-                'name' => 'Simran Kumari',
-                'company' => 'Taction Software'
+                'enroll' => '03913704423',
+                'name' => 'Divjot Singh',
+                'company' => 'Innodata / CronJ IT Technologies Pvt. Ltd.'
             ],
             [
                 'enroll' => '03113704423',
@@ -1079,14 +1049,19 @@ return [
                 'company' => 'Entab Infotech'
             ],
             [
-                'enroll' => '03213704423',
-                'name' => 'Varshitha Rao',
-                'company' => 'GALYTIX'
+                'enroll' => '01613704423',
+                'name' => 'Ishita Sharma',
+                'company' => 'Tech Mahindra'
             ],
             [
-                'enroll' => '03313704423',
-                'name' => 'Remant Kumar',
-                'company' => 'Busy Infotech'
+                'enroll' => '01913704423',
+                'name' => 'Kshitiz Srivastava',
+                'company' => 'Docstribe AI'
+            ],
+            [
+                'enroll' => '04213704423',
+                'name' => 'Monisha Mohan',
+                'company' => 'Airish Technologies Private Limited'
             ],
             [
                 'enroll' => '03413704423',
@@ -1094,14 +1069,44 @@ return [
                 'company' => 'CronJ IT Technologies Pvt. Ltd.'
             ],
             [
-                'enroll' => '03913704423',
-                'name' => 'Divjot Singh',
-                'company' => 'CronJ IT Technologies Pvt. Ltd.'
+                'enroll' => '00413704423',
+                'name' => 'Nishtha Parashar',
+                'company' => 'IITM'
             ],
             [
-                'enroll' => '35213704423',
-                'name' => 'Sukhdev Kumar Mehta',
-                'company' => 'Schneider Electric Pvt. Ltd.'
+                'enroll' => '01713704423',
+                'name' => 'Omesh Vashisht',
+                'company' => 'Innodata'
+            ],
+            [
+                'enroll' => '02513704423',
+                'name' => 'Pallavi Singh',
+                'company' => 'NTT Data'
+            ],
+            [
+                'enroll' => '00813704423',
+                'name' => 'Prashant Kakkar',
+                'company' => 'Innodata'
+            ],
+            [
+                'enroll' => '70313704423',
+                'name' => 'Priyanka Kumari',
+                'company' => 'Punjab Bulls Technology Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03313704423',
+                'name' => 'Remant Kumar',
+                'company' => 'Busy Infotech'
+            ],
+            [
+                'enroll' => '02213704423',
+                'name' => 'Sarthak Kamra',
+                'company' => 'Acumen'
+            ],
+            [
+                'enroll' => '02713704423',
+                'name' => 'Simran Kumari',
+                'company' => 'Taction Software'
             ],
             [
                 'enroll' => '35313704423',
@@ -1109,11 +1114,36 @@ return [
                 'company' => 'Hexaview Technologies'
             ],
             [
-                'enroll' => '70313704423',
-                'name' => 'Priyanka Kumari',
-                'company' => 'Punjab Bulls Technology Pvt. Ltd.'
+                'enroll' => '35213704423',
+                'name' => 'Sukhdev Kumar Mehta',
+                'company' => 'Schiendler Electric Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '01413704423',
+                'name' => 'Swikriti Gupta',
+                'company' => 'Infosys'
+            ],
+            [
+                'enroll' => '04113704423',
+                'name' => 'Syed Amir Husain',
+                'company' => 'PC Solutions Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '00913704423',
+                'name' => 'Tanisha Rao',
+                'company' => 'Busy Infotech'
+            ],
+            [
+                'enroll' => '03213704423',
+                'name' => 'Varshitha Rao',
+                'company' => 'Galytix'
+            ],
+            [
+                'enroll' => '00113704423',
+                'name' => 'Varun Bisoi',
+                'company' => 'NTT Data'
             ]
-        ]
+        ],
     ],
     'BCA' => [
         '2023-26' => [
