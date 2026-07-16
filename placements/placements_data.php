@@ -351,12 +351,12 @@ return [
             [
                 'enroll' => '04113703922',
                 'name' => 'Aishwarya Ashok',
-                'company' => 'City Union Bank'
+                'company' => 'Genpact / City Union Bank'
             ],
             [
                 'enroll' => '01713703922',
                 'name' => 'Aman Yadav',
-                'company' => 'Bharat Fincare / City Union Bank'
+                'company' => 'City Union Bank / Bharat Fincare'
             ],
             [
                 'enroll' => '35213703922',
@@ -376,7 +376,7 @@ return [
             [
                 'enroll' => '02913703922',
                 'name' => 'Ankur',
-                'company' => '"Bharat Fincare / NAB (National Australia Bank)"'
+                'company' => 'Bharat Fincare / NAB (National Australia Bank)'
             ],
             [
                 'enroll' => '0073703922',
@@ -386,17 +386,22 @@ return [
             [
                 'enroll' => '02513703922',
                 'name' => 'Ayush Kumar',
-                'company' => 'ExamOnline / HDFC Bank'
+                'company' => 'HDFC Bank / ExamOnline'
             ],
             [
                 'enroll' => '02013703922',
                 'name' => 'Cheshta Arora',
-                'company' => 'GV Global (Revinc)'
+                'company' => 'GV Global (Revinc) / JLL'
             ],
             [
                 'enroll' => '00513703922',
                 'name' => 'Deepanshu Tyagi',
                 'company' => 'Hive AI'
+            ],
+            [
+                'enroll' => '00413703922',
+                'name' => 'Divya Sharma',
+                'company' => 'Dial Easy Finserve'
             ],
             [
                 'enroll' => '02413703922',
@@ -441,7 +446,7 @@ return [
             [
                 'enroll' => '00213703922',
                 'name' => 'Mohammad Saood',
-                'company' => 'Hive AI / ICICI Securities'
+                'company' => 'ICICI Securities / Hive AI'
             ],
             [
                 'enroll' => '00313703922',
@@ -451,7 +456,7 @@ return [
             [
                 'enroll' => '04213703922',
                 'name' => 'Naitik Pandey',
-                'company' => '"GeeKen Seating Collection Pvt. Ltd. / City Union Bank "'
+                'company' => 'City Union Bank'
             ],
             [
                 'enroll' => '03213703922',
@@ -486,7 +491,7 @@ return [
             [
                 'enroll' => '02713703922',
                 'name' => 'Revanth J',
-                'company' => 'Hive AI / ICICI Securities'
+                'company' => 'ICICI Securities / Hive AI'
             ],
             [
                 'enroll' => '01913703922',
@@ -511,7 +516,7 @@ return [
             [
                 'enroll' => '35513703922',
                 'name' => 'Saksham Rana',
-                'company' => 'City Union Bank / ICICI Securities'
+                'company' => 'ICICI Securities / City Union Bank'
             ],
             [
                 'enroll' => '35313703922',
@@ -563,7 +568,7 @@ return [
             [
                 'enroll' => '00913703921',
                 'name' => 'Aakriti Kohli',
-                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+                'company' => 'IMGC'
             ],
             [
                 'enroll' => '03213703921',
@@ -578,7 +583,7 @@ return [
             [
                 'enroll' => '02113703921',
                 'name' => 'Charu Bhatia',
-                'company' => '"India Mortgage Guarantee Corporation (IMGC) / TecTree Consulting"'
+                'company' => 'airbnb / TecTree Consulting / IMGC'
             ],
             [
                 'enroll' => '03913703921',
@@ -613,17 +618,17 @@ return [
             [
                 'enroll' => '01413703921',
                 'name' => 'Jahnvi Singh',
-                'company' => 'City Union Bank / Dot Pe'
+                'company' => 'City Union Bank'
             ],
             [
                 'enroll' => '35413703921',
                 'name' => 'Jaskaran Singh Sagoo',
-                'company' => 'ICG Medical India Pvt. Ltd.'
+                'company' => 'DotPe / ICG Medical India Pvt. Ltd.'
             ],
             [
                 'enroll' => '03613703921',
                 'name' => 'Jatin Ahuja',
-                'company' => 'Saraswat Bank'
+                'company' => 'TecTree Consulting / Saraswat Bank'
             ],
             [
                 'enroll' => '04313703921',
@@ -633,7 +638,7 @@ return [
             [
                 'enroll' => '04513703921',
                 'name' => 'Karan Verma',
-                'company' => '"Great Lakes E- Learning Services Pvt. Ltd. / Success Pact"'
+                'company' => 'Great Lakes E- Learning Services Pvt. Ltd. / Success Pact'
             ],
             [
                 'enroll' => '35613703921',
@@ -648,7 +653,7 @@ return [
             [
                 'enroll' => '00313703921',
                 'name' => 'Kritika Kalra',
-                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+                'company' => 'Allianz Partner / IMGC'
             ],
             [
                 'enroll' => '03813703921',
@@ -673,17 +678,17 @@ return [
             [
                 'enroll' => '02413703921',
                 'name' => 'Mohd. Areeb',
-                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+                'company' => 'IMGC'
             ],
             [
                 'enroll' => '00113703921',
                 'name' => 'Palak Rohilla',
-                'company' => 'Phronesis Partners Pvt. Ltd.'
+                'company' => 'Phronesis Partners Pte. Ltd.'
             ],
             [
                 'enroll' => '04013703921',
                 'name' => 'Piyush Tanwar',
-                'company' => 'India Mortgage Guarantee Corporation (IMGC)'
+                'company' => 'IMGC'
             ],
             [
                 'enroll' => '03413703921',
@@ -723,7 +728,7 @@ return [
             [
                 'enroll' => '02813703921',
                 'name' => 'Shubham Singh',
-                'company' => 'Phronesis Partners Pvt. Ltd.'
+                'company' => 'Phronesis Partners Pte. Ltd.'
             ],
             [
                 'enroll' => '35213703921',
