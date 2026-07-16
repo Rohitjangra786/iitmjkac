@@ -156,7 +156,7 @@ body * {
         <h2 class="text-center mb-4">Newsletter</h2>
         <div class="gallery-row">
             <div class="gallery-item">
-                <a href="http://www.iitmjanakpuri.com/academics/images/1.pdf" target="_blank">
+                <a href="images/1.pdf" target="_blank">
                     <img src="images/jigyasa_1.png" alt="Volume 22">
                 </a>
                 <h5>Volume-24, Issue-1</h5>
