@@ -1305,6 +1305,11 @@ return [
         ],
         '2022-25' => [
             [
+                'enroll' => '06113702022',
+                'name' => 'Aditi Parashar',
+                'company' => 'vCommission Media Pvt. Ltd.'
+            ],
+            [
                 'enroll' => '05513702022',
                 'name' => 'Aditya Raj',
                 'company' => 'Infosys'
@@ -1322,12 +1327,22 @@ return [
             [
                 'enroll' => '03021102022',
                 'name' => 'Akanksha Negi',
-                'company' => 'Wipro Ltd. / HCL Tech.'
+                'company' => 'Wipro Ltd. / OTW Solutions / HCL Tech.'
             ],
             [
                 'enroll' => '08913702022',
                 'name' => 'Akash Chaurasiya',
-                'company' => 'Wipro Technologies'
+                'company' => 'Wipro Technologies / Accurio Health India'
+            ],
+            [
+                'enroll' => '07321102022',
+                'name' => 'Aman',
+                'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '09813702022',
+                'name' => 'Aman Deep',
+                'company' => 'VDOIT'
             ],
             [
                 'enroll' => '06613702022',
@@ -1350,6 +1365,11 @@ return [
                 'company' => 'HCL Tech'
             ],
             [
+                'enroll' => '05713702022',
+                'name' => 'Arnav Ahuja',
+                'company' => 'British Council / Wipro Technologies'
+            ],
+            [
                 'enroll' => '02121102022',
                 'name' => 'Ashish Goyal',
                 'company' => 'Dentsu Global'
@@ -1357,7 +1377,7 @@ return [
             [
                 'enroll' => '05421102022',
                 'name' => 'Asmeet Kaur',
-                'company' => 'Wipro Ltd. / HCL Tech.'
+                'company' => 'Wipro Ltd. / HCL Tech'
             ],
             [
                 'enroll' => '03213702022',
@@ -1365,14 +1385,29 @@ return [
                 'company' => 'Big Oh Notation Pvt Ltd'
             ],
             [
-                'enroll' => '3821102022',
+                'enroll' => '02913702022',
+                'name' => 'Dhruv',
+                'company' => 'OTW Solutions'
+            ],
+            [
+                'enroll' => '02221102022',
+                'name' => 'Divyanshu Rawat',
+                'company' => 'HIVE.AI'
+            ],
+            [
+                'enroll' => '03821102022',
                 'name' => 'Gaurvit',
-                'company' => 'Hive AI'
+                'company' => 'HIVE.AI'
+            ],
+            [
+                'enroll' => '03521102022',
+                'name' => 'Govind Krishna',
+                'company' => 'OTW Solutions / Higher Study'
             ],
             [
                 'enroll' => '06021102022',
                 'name' => 'Hardik Verma',
-                'company' => 'HCLTech'
+                'company' => 'HCL Tech'
             ],
             [
                 'enroll' => '03721102022',
@@ -1385,6 +1420,11 @@ return [
                 'company' => 'TCS'
             ],
             [
+                'enroll' => '09113702022',
+                'name' => 'Jatin Alagh',
+                'company' => 'Concentrix'
+            ],
+            [
                 'enroll' => '09513702022',
                 'name' => 'Jyoti Singh',
                 'company' => 'Infosys / Deloitte'
@@ -1395,14 +1435,34 @@ return [
                 'company' => 'SAP Labs'
             ],
             [
+                'enroll' => '35613702022',
+                'name' => 'Kovidh Rawat',
+                'company' => 'Omnistarr'
+            ],
+            [
+                'enroll' => '01821102022',
+                'name' => 'Krish Kalra',
+                'company' => 'Concentrix'
+            ],
+            [
                 'enroll' => '04613702022',
                 'name' => 'Kushagra Kashyap',
-                'company' => 'Infosys'
+                'company' => 'Zomato / Infosys'
+            ],
+            [
+                'enroll' => '05521102022',
+                'name' => 'Leesha Gulati',
+                'company' => 'Cloud Ingenious'
             ],
             [
                 'enroll' => '07713702022',
                 'name' => 'Md Arslaan',
                 'company' => 'Deloitte'
+            ],
+            [
+                'enroll' => '05621102022',
+                'name' => 'Md Mosim',
+                'company' => 'Eventila Technologies Pvt. Ltd.'
             ],
             [
                 'enroll' => '05821102022',
@@ -1412,7 +1472,7 @@ return [
             [
                 'enroll' => '02721102022',
                 'name' => 'Mehak Taneja',
-                'company' => 'TCS / Deloitte'
+                'company' => 'Amazon / Deloitte / TCS'
             ],
             [
                 'enroll' => '00413702022',
@@ -1423,6 +1483,11 @@ return [
                 'enroll' => '35713702022',
                 'name' => 'Nancy Dangi',
                 'company' => 'Zomato'
+            ],
+            [
+                'enroll' => '02813702022',
+                'name' => 'Nikhil Sachdeva',
+                'company' => 'Romsons Group Pvt. Ltd.'
             ],
             [
                 'enroll' => '01513702022',
@@ -1442,17 +1507,32 @@ return [
             [
                 'enroll' => '03113702022',
                 'name' => 'Riya Sharma',
-                'company' => 'Amazon'
+                'company' => 'Amazon / SoftPrime Technologies'
+            ],
+            [
+                'enroll' => '05313702022',
+                'name' => 'Sachin Soni',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '08713702022',
+                'name' => 'Saish Kohli',
+                'company' => 'RSA Actuarial Services (India) Private Ltd. (apprenticeship)'
             ],
             [
                 'enroll' => '09713702022',
                 'name' => 'Shomiya Chaturvedi',
-                'company' => 'Dentsu Global'
+                'company' => 'Dentsu Global / Higher Study'
             ],
             [
                 'enroll' => '07021102022',
                 'name' => 'Shrestha Sharma',
                 'company' => 'CISCO'
+            ],
+            [
+                'enroll' => '02521102022',
+                'name' => 'Sidh Madan',
+                'company' => 'One MobiKwik Systems Limited / OTW Solutions'
             ],
             [
                 'enroll' => '04321102022',
@@ -1477,12 +1557,27 @@ return [
             [
                 'enroll' => '00421102022',
                 'name' => 'Tanisha Jaggi',
-                'company' => 'HCLTech / TCS'
+                'company' => 'HCL Tech / TCS'
+            ],
+            [
+                'enroll' => '01021102022',
+                'name' => 'Tanishq Ajmeria',
+                'company' => 'OTW Solutions'
+            ],
+            [
+                'enroll' => '00521102022',
+                'name' => 'Tanishq Kumar Arora',
+                'company' => 'OTW Solutions'
             ],
             [
                 'enroll' => '02613702022',
                 'name' => 'Tanya Maheshwari',
-                'company' => 'Amazon'
+                'company' => 'Amazon / \'UNIBOTS\' (SOMO Media Pvt Ltd)'
+            ],
+            [
+                'enroll' => '09213702022',
+                'name' => 'Tushar Ahuja',
+                'company' => 'HIVE.AI'
             ],
             [
                 'enroll' => '36213702022',
@@ -1492,22 +1587,27 @@ return [
             [
                 'enroll' => '07413702022',
                 'name' => 'Vaibhav Garg',
-                'company' => 'Infosys'
+                'company' => 'Infosys / Accurio Health India'
             ],
             [
                 'enroll' => '02313702022',
                 'name' => 'Vanshika Gupta',
-                'company' => 'Green Publication / HCLTech'
+                'company' => 'Green Publication / HCL Tech'
+            ],
+            [
+                'enroll' => '35513702022',
+                'name' => 'Vanshika Sharma',
+                'company' => 'Wipro Technologies'
+            ],
+            [
+                'enroll' => '00913702022',
+                'name' => 'Yash Kamal Gautam',
+                'company' => 'TCS'
             ],
             [
                 'enroll' => '03813702022',
                 'name' => 'Yash Wadhwa',
                 'company' => 'Times Internet'
-            ],
-            [
-                'enroll' => '05621102022',
-                'name' => 'Md Mosim',
-                'company' => 'Eventila Technologies Pvt. Ltd.'
             ]
         ],
         '2021-24' => [
@@ -1758,7 +1858,7 @@ return [
             [
                 'enroll' => '01221102019',
                 'name' => 'Bhumika Singh',
-                'company' => 'Wipro Technologies / Capgemini'
+                'company' => 'Infosys / Wipro Technologies / Capgemini'
             ],
             [
                 'enroll' => '04021102019',
@@ -1783,7 +1883,7 @@ return [
             [
                 'enroll' => '00921102019',
                 'name' => 'Harsh Jain',
-                'company' => 'Starworld Digital Pvt. Ltd. / SkyTrust IT Solutions'
+                'company' => 'Sky Trust & Star World Digital'
             ],
             [
                 'enroll' => '02013702019',
@@ -1802,7 +1902,7 @@ return [
             ],
             [
                 'enroll' => '35413702019',
-                'name' => 'Ishan Bablani',
+                'name' => 'Ishaan Bablani',
                 'company' => 'Wipro Technologies'
             ],
             [
@@ -1823,7 +1923,7 @@ return [
             [
                 'enroll' => '02413702019',
                 'name' => 'Kawangun Singh Saluja',
-                'company' => 'Wipro Technologies'
+                'company' => 'Infosys / Wipro Technologies'
             ],
             [
                 'enroll' => '01321102019',
@@ -1857,7 +1957,7 @@ return [
             ],
             [
                 'enroll' => '35513702019',
-                'name' => 'Manavdeep Singh',
+                'name' => 'Manav Deep Singh',
                 'company' => 'Wipro Technologies'
             ],
             [
@@ -1892,7 +1992,7 @@ return [
             ],
             [
                 'enroll' => '01013702019',
-                'name' => 'Namrata sehgal',
+                'name' => 'Namrata Sehgal',
                 'company' => 'Deloitte'
             ],
             [
@@ -1903,7 +2003,7 @@ return [
             [
                 'enroll' => '35421102019',
                 'name' => 'Nishant Gupta',
-                'company' => 'Wipro Technologies'
+                'company' => 'Wipro Technologies / Infosys'
             ],
             [
                 'enroll' => '01613702019',
@@ -1923,7 +2023,7 @@ return [
             [
                 'enroll' => '04513702019',
                 'name' => 'Pawan Singh Dangwal',
-                'company' => 'Deloitte / Wipro Technologies'
+                'company' => 'Deloitte'
             ],
             [
                 'enroll' => '05021102019',
@@ -1938,7 +2038,7 @@ return [
             [
                 'enroll' => '02913702019',
                 'name' => 'Prashant Rao',
-                'company' => 'Amazon India'
+                'company' => 'Capgemini / Amazon India'
             ],
             [
                 'enroll' => '04913702019',
@@ -1948,7 +2048,7 @@ return [
             [
                 'enroll' => '05313702019',
                 'name' => 'Rahul Sharma',
-                'company' => 'Capgemini'
+                'company' => 'Capgemini / Infosys'
             ],
             [
                 'enroll' => '02721102019',
@@ -2065,7 +2165,7 @@ return [
                 'name' => 'Vivek Sharma',
                 'company' => 'Deloitte'
             ]
-        ]
+        ],
     ],
     'BBA' => [
         '2023-26' => [
