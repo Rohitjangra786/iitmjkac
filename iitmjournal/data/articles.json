@@ -288,6 +288,120 @@
         ]
     },
     {
+        "vol": 14,
+        "issue": "1-2",
+        "year": 2023,
+        "period": "January-December",
+        "sortKey": 202301,
+        "slug": "v14i12",
+        "articles": [
+            {
+                "no": 1,
+                "title": "Time Series Analysis: A Study on the Pharmaceutical Industry in India",
+                "authors": "Vaishnavi D & Lakshmi J V N",
+                "doi": "10.65301/iitm.2023.14.12.470",
+                "pages": "1-6",
+                "pdf": "data/articles/v14i12/article-1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "Artificial Intelligence & Machine Learning Models for Credit Scoring and Risk Management",
+                "authors": "Himanshu Singh, Keerti, Dr. Sapna Arora",
+                "doi": "10.65301/iitm.2023.14.12.471",
+                "pages": "7-13",
+                "pdf": "data/articles/v14i12/article-2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Criminal Behaviour against women in Haryana: An Analysis through Machine Learning Algorithm",
+                "authors": "Alka Rawat, Romika Yadav",
+                "doi": "10.65301/iitm.2023.14.12.472",
+                "pages": "14-16",
+                "pdf": "data/articles/v14i12/article-3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Factors Affecting the Adoption of Cloud Based Accounting: A Case Study in Bhubaneswar",
+                "authors": "Sweeta Agrawal, Dr. Jayashree Jethy",
+                "doi": "10.65301/iitm.2023.14.12.473",
+                "pages": "17-25",
+                "pdf": "data/articles/v14i12/article-4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "The Booming Trend of Digital Learning in India",
+                "authors": "Shreya Uppal & Dr. Anamika Rana",
+                "doi": "10.65301/iitm.2023.14.12.474",
+                "pages": "26-29",
+                "pdf": "data/articles/v14i12/article-5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Genetic Algorithm for Load Balancing in Cloud Computing",
+                "authors": "Arun Gupta & Dr. Anoop Sharma",
+                "doi": "10.65301/iitm.2023.14.12.475",
+                "pages": "30-36",
+                "pdf": "data/articles/v14i12/article-6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "A Survey Study to Assess the Importance of Job Security in Public and Private Sectors in India in Light of Economic Downturn Caused by Covid-19",
+                "authors": "Sanjeev Gupta, Dr. O.S. Yadav & Arun Gupta",
+                "doi": "10.65301/iitm.2023.14.12.476",
+                "pages": "37-45",
+                "pdf": "data/articles/v14i12/article-7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Performance Evaluation of Equity Oriented Mutual Fund Schemes in India",
+                "authors": "Ms. Nisha Rani & Dr. Raghav Jain",
+                "doi": "10.65301/iitm.2023.14.12.477",
+                "pages": "46-49",
+                "pdf": "data/articles/v14i12/article-8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "Leveraging Digital Innovation for Enhanced Employee Engagement: A Theoretical Exploration",
+                "authors": "Ms. Shikha Dabral",
+                "doi": "10.65301/iitm.2023.14.12.478",
+                "pages": "50-55",
+                "pdf": "data/articles/v14i12/article-9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "The Investment Journey of Individual Investor in the Capital Market: A Qualitative Study",
+                "authors": "Ms. Komal Khatri",
+                "doi": "10.65301/iitm.2023.14.12.479",
+                "pages": "56-70",
+                "pdf": "data/articles/v14i12/article-10.pdf"
+            },
+            {
+                "no": 11,
+                "title": "Measuring Financial Index of India: A Multidimensional Approach",
+                "authors": "Sakshi Goyal, Prof. (Dr) A.K. Vashisht & Prof. (Dr) Ravi Kumar Gupta",
+                "doi": "10.65301/iitm.2023.14.12.480",
+                "pages": "71-75",
+                "pdf": "data/articles/v14i12/article-11.pdf"
+            },
+            {
+                "no": 12,
+                "title": "Government Initiatives in Online Education System and NEP 2020",
+                "authors": "Varsha Papnoie & Dr. Sunitha Ravi",
+                "doi": "10.65301/iitm.2023.14.12.481",
+                "pages": "76-85",
+                "pdf": "data/articles/v14i12/article-12.pdf"
+            },
+            {
+                "no": 13,
+                "title": "A Study on Geriatric Care: With Reference to India and Japan",
+                "authors": "Swati Sharma & Dr. Deepika Arora",
+                "doi": "10.65301/iitm.2023.14.12.482",
+                "pages": "86-88",
+                "pdf": "data/articles/v14i12/article-13.pdf"
+            }
+        ]
+    },
+    {
         "vol": 13,
         "issue": 2,
         "year": 2022,

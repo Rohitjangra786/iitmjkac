@@ -211,7 +211,7 @@
 		<span class="lp-news-tag">New Issue Out</span>
 		<?php if ($leftLatest): ?>
 		<div class="lp-news-title">
-			Volume <?php echo (int)$leftLatest["vol"]; ?>, Issue <?php echo (int)$leftLatest["issue"]; ?> is now live
+			Volume <?php echo (int)$leftLatest["vol"]; ?>, Issue <?php echo htmlspecialchars($leftLatest["issue"]); ?> is now live
 		</div>
 		<div class="lp-news-meta"><?php echo htmlspecialchars($leftLatest["period"]); ?> <?php echo (int)$leftLatest["year"]; ?> &middot; <?php echo count($leftLatest["articles"]); ?> articles</div>
 		<?php else: ?>

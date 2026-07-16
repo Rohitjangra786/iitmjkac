@@ -7,7 +7,7 @@
 		if (count($rightAll) > 0) { $rightCurrent = $rightAll[0]; }
 	}
 	$rightVol     = $rightCurrent ? (int)$rightCurrent["vol"]     : 16;
-	$rightIssue   = $rightCurrent ? (int)$rightCurrent["issue"]   : 2;
+	$rightIssue   = $rightCurrent ? $rightCurrent["issue"]        : 2;
 	$rightPeriod  = $rightCurrent ? $rightCurrent["period"]       : "July-December";
 	$rightYear    = $rightCurrent ? (int)$rightCurrent["year"]    : 2025;
 	$rightCount   = $rightCurrent ? count($rightCurrent["articles"]) : 0;

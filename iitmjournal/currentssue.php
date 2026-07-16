@@ -53,7 +53,7 @@
 					<img src="images/current_issue_cover.jpg" alt="IITM Journal Current Issue Cover" />
 				</div>
 				<div class="col-sm-8 ci-meta">
-					<h2>Volume <?php echo (int)$current["vol"]; ?>, Issue <?php echo (int)$current["issue"]; ?></h2>
+					<h2>Volume <?php echo (int)$current["vol"]; ?>, Issue <?php echo htmlspecialchars($current["issue"]); ?></h2>
 					<p style="font-size:18px;"><?php echo htmlspecialchars($current["period"]); ?> <?php echo (int)$current["year"]; ?></p>
 					<div class="ci-issn">ISSN: 0976-8629 &middot; E-ISSN: 2349-9826</div>
 					<p>

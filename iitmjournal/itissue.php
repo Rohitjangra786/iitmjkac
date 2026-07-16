@@ -81,12 +81,12 @@
 				<div class="panel panel-default issue-panel"
 					 data-sortkey="<?php echo (int)$iss["sortKey"]; ?>"
 					 data-vol="<?php echo (int)$iss["vol"]; ?>"
-					 data-issue="<?php echo (int)$iss["issue"]; ?>">
+					 data-issue="<?php echo htmlspecialchars($iss["issue"]); ?>">
 					<div class="panel-heading <?php echo $collapsed; ?>" role="tab"
 						 data-toggle="collapse" data-target="#issue-<?php echo $slug; ?>"
 						 aria-expanded="<?php echo $expanded; ?>">
 						<span class="caret-icon">&#9660;</span>
-						Volume <?php echo (int)$iss["vol"]; ?>, Issue <?php echo (int)$iss["issue"]; ?>
+						Volume <?php echo (int)$iss["vol"]; ?>, Issue <?php echo htmlspecialchars($iss["issue"]); ?>
 						&mdash; <?php echo htmlspecialchars($iss["period"]); ?> <?php echo (int)$iss["year"]; ?>
 						<span class="issue-count"><?php echo $count; ?> article<?php echo $count == 1 ? "" : "s"; ?></span>
 					</div>
