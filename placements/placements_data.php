@@ -2472,6 +2472,11 @@ return [
         ],
         '2022-25' => [
             [
+                'enroll' => '12513701722',
+                'name' => 'Aananya Sethi',
+                'company' => 'PwC India / NTT Data'
+            ],
+            [
                 'enroll' => '10213701722',
                 'name' => 'Abhav Vijay Gupta',
                 'company' => 'Wipro Ltd. / Mindforce Research'
@@ -2479,7 +2484,7 @@ return [
             [
                 'enroll' => '09321101722',
                 'name' => 'Abhishek Nair',
-                'company' => 'Wipro Ltd. / JLL Business Services'
+                'company' => 'Wipro Ltd. / JLL'
             ],
             [
                 'enroll' => '01313701722',
@@ -2489,12 +2494,12 @@ return [
             [
                 'enroll' => '04921101722',
                 'name' => 'Aditya Taneja',
-                'company' => 'INJ Partners'
+                'company' => 'INJ Partners / Marketing Mind – Digi Giant LLP'
             ],
             [
                 'enroll' => '07313701722',
                 'name' => 'Advaitt Chandola',
-                'company' => 'Clairvolex / JLL Business Services'
+                'company' => 'Clairvolex /JLL'
             ],
             [
                 'enroll' => '02321101722',
@@ -2504,12 +2509,12 @@ return [
             [
                 'enroll' => '02013701722',
                 'name' => 'Ansh Bhatia',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '06513701722',
                 'name' => 'Anshul Arora',
-                'company' => 'R1RCM / JLL Business Services'
+                'company' => 'R1RCM / JLL'
             ],
             [
                 'enroll' => '08321101722',
@@ -2519,22 +2524,32 @@ return [
             [
                 'enroll' => '03813701722',
                 'name' => 'Arsh Gakhar',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '12013701722',
                 'name' => 'Arushi Bhardwaj',
-                'company' => 'Galytix / JLL Business Services'
+                'company' => 'Galytix / JLL'
             ],
             [
                 'enroll' => '08713701722',
                 'name' => 'Ashpreet Singh Khanuja',
-                'company' => 'MINDFORCE RESEARCH'
+                'company' => 'Mindforce Research'
+            ],
+            [
+                'enroll' => '04621101722',
+                'name' => 'Ayush Khandelwal',
+                'company' => 'Leverage Edu'
+            ],
+            [
+                'enroll' => '07021101722',
+                'name' => 'Ayush Sharma',
+                'company' => 'Richman Fincap Limited'
             ],
             [
                 'enroll' => '07821101722',
                 'name' => 'Bhavya Aggarwal',
-                'company' => 'British Telecom'
+                'company' => 'TCS / British Telecom'
             ],
             [
                 'enroll' => '04813701722',
@@ -2547,9 +2562,14 @@ return [
                 'company' => 'Infonative Solutions'
             ],
             [
+                'enroll' => '07213701722',
+                'name' => 'Chitraksh',
+                'company' => 'Zomato'
+            ],
+            [
                 'enroll' => '00213701722',
                 'name' => 'Dhruv Gupta',
-                'company' => 'MINDFORCE RESEARCH / JLL Business Services'
+                'company' => 'Mindforce Research / JLL'
             ],
             [
                 'enroll' => '35821101722',
@@ -2562,9 +2582,19 @@ return [
                 'company' => 'R1RCM'
             ],
             [
+                'enroll' => '11713701722',
+                'name' => 'Divansh Bajaj',
+                'company' => 'iEnergizer'
+            ],
+            [
+                'enroll' => '04521101722',
+                'name' => 'Divya Raj Purohit',
+                'company' => 'Proffus Pvt Ltd'
+            ],
+            [
                 'enroll' => '07113701722',
                 'name' => 'Dushyant Chhabra',
-                'company' => 'Hike Education / Amazon / JLL Business Services'
+                'company' => 'Hike Education / Amazon / JLL'
             ],
             [
                 'enroll' => '02813701722',
@@ -2574,7 +2604,7 @@ return [
             [
                 'enroll' => '00313701722',
                 'name' => 'Guramrit Kaur',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '10413701722',
@@ -2584,12 +2614,17 @@ return [
             [
                 'enroll' => '10813701722',
                 'name' => 'Harshika Sadyora',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '05021101722',
+                'name' => 'Harshita  Khatri',
+                'company' => 'Unistone International'
             ],
             [
                 'enroll' => '07221101722',
                 'name' => 'Himanshu Bareja',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '02821101722',
@@ -2599,7 +2634,7 @@ return [
             [
                 'enroll' => '04121101722',
                 'name' => 'Ishita Chhabra',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '00921101722',
@@ -2607,19 +2642,59 @@ return [
                 'company' => 'INJ Partners'
             ],
             [
+                'enroll' => '02721101722',
+                'name' => 'Ishita Saxena',
+                'company' => 'Wipro Ltd.'
+            ],
+            [
                 'enroll' => '35113701722',
                 'name' => 'Jiya Sachdeva',
                 'company' => 'Wipro Ltd.'
             ],
             [
+                'enroll' => '00121101722',
+                'name' => 'Kamakshi Sharma',
+                'company' => 'Mercurius Advisory Services'
+            ],
+            [
+                'enroll' => '07513701722',
+                'name' => 'Kartik Sarna',
+                'company' => 'Accurio Health India'
+            ],
+            [
+                'enroll' => '01113701722',
+                'name' => 'Kartikey Sharma',
+                'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '06713701722',
+                'name' => 'Kartikey Sharma',
+                'company' => 'R1RCM'
+            ],
+            [
                 'enroll' => '03013701722',
                 'name' => 'Keshav Gupta',
-                'company' => 'R1RCM / Amazon / JLL Busienss Services'
+                'company' => 'R1RCM / Amazon / JLL'
+            ],
+            [
+                'enroll' => '03921101722',
+                'name' => 'Khushi Bansal',
+                'company' => 'MagicPin (Samast Technologies Private Limited)'
+            ],
+            [
+                'enroll' => '03213701722',
+                'name' => 'Khushi Gupta',
+                'company' => 'Triffed Marketing Pvt. Ltd.'
             ],
             [
                 'enroll' => '00821101722',
                 'name' => 'Krishna Sharma',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '07621101722',
+                'name' => 'Kritika Bajaj',
+                'company' => 'Viska'
             ],
             [
                 'enroll' => '35213701722',
@@ -2627,14 +2702,29 @@ return [
                 'company' => 'TrueBlue India / Infollion Research Services Pvt Ltd'
             ],
             [
+                'enroll' => '00321101722',
+                'name' => 'Lakshay Ahuja',
+                'company' => 'TCS'
+            ],
+            [
+                'enroll' => '14013701722',
+                'name' => 'Lakshay Garg',
+                'company' => 'Teleperformance Global Business Private Limited / Mindforce Research'
+            ],
+            [
                 'enroll' => '09313701722',
                 'name' => 'Lakshita Sharma',
-                'company' => 'TrueBlue India / R1RCM / JLL Business Services'
+                'company' => 'TrueBlue India / R1RCM/ JLL'
             ],
             [
                 'enroll' => '01021101722',
                 'name' => 'Lavanya Sharma',
                 'company' => 'AXPONENT'
+            ],
+            [
+                'enroll' => '12713701722',
+                'name' => 'Leevanshi',
+                'company' => 'NTT Data'
             ],
             [
                 'enroll' => '08121101722',
@@ -2647,6 +2737,11 @@ return [
                 'company' => 'TrueBlue India / Wipro Ltd. / Mindforce Research'
             ],
             [
+                'enroll' => '06921101722',
+                'name' => 'Mayank Garg',
+                'company' => 'Unibots'
+            ],
+            [
                 'enroll' => '07713701722',
                 'name' => 'Mehak Bablani',
                 'company' => 'TrueBlue India'
@@ -2657,14 +2752,19 @@ return [
                 'company' => 'R1RCM'
             ],
             [
+                'enroll' => '05521101722',
+                'name' => 'Niharika Sondhi',
+                'company' => 'Teleperformance'
+            ],
+            [
                 'enroll' => '03613701722',
                 'name' => 'Nikhil Khattar',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '08613701722',
                 'name' => 'Ojas Ahuja',
-                'company' => 'Intellipaat / Infonative Solutions'
+                'company' => 'Intellipaat Software Pvt. Ltd. / Infonative Solutions / Uniqlo'
             ],
             [
                 'enroll' => '11913701722',
@@ -2674,12 +2774,17 @@ return [
             [
                 'enroll' => '01513701722',
                 'name' => 'Parneet Kaur',
-                'company' => 'Wipro Ltd.'
+                'company' => 'MOZAIQ / Wipro Ltd.'
             ],
             [
                 'enroll' => '04821101722',
                 'name' => 'Pavit Singh',
-                'company' => 'INJ Partners'
+                'company' => 'Sys Softech / INJ Partners'
+            ],
+            [
+                'enroll' => '01921101722',
+                'name' => 'Pia Kamra',
+                'company' => 'Media Milstone'
             ],
             [
                 'enroll' => '01413701722',
@@ -2694,7 +2799,7 @@ return [
             [
                 'enroll' => '05313701722',
                 'name' => 'Prisha Singh',
-                'company' => 'AXPONENT'
+                'company' => 'Axponent / NTT Data'
             ],
             [
                 'enroll' => '05613701722',
@@ -2704,12 +2809,27 @@ return [
             [
                 'enroll' => '12113701722',
                 'name' => 'Raghav Khandelwal',
-                'company' => 'Infonative Solutions / JLL Business Services'
+                'company' => 'Adsify Technologies / Infonative Solutions / JLL'
+            ],
+            [
+                'enroll' => '06221101722',
+                'name' => 'Rishi Kakkar',
+                'company' => 'Exly'
+            ],
+            [
+                'enroll' => '00521101722',
+                'name' => 'Ritika Dhami',
+                'company' => 'Concentrix'
+            ],
+            [
+                'enroll' => '05121101722',
+                'name' => 'Riyanka Nanda',
+                'company' => 'FYBROS'
             ],
             [
                 'enroll' => '35513701722',
                 'name' => 'Rohan Gilhotra',
-                'company' => 'MINDFORCE RESEARCH'
+                'company' => 'Mindforce Research'
             ],
             [
                 'enroll' => '04021101722',
@@ -2719,12 +2839,22 @@ return [
             [
                 'enroll' => '00813701722',
                 'name' => 'Sahil Maheshwari',
-                'company' => 'Clairvolex / JLL Business Services'
+                'company' => 'Clairvolex  / JLL'
             ],
             [
                 'enroll' => '00913701722',
                 'name' => 'Sahil Sharma',
                 'company' => 'R1RCM'
+            ],
+            [
+                'enroll' => '07921101722',
+                'name' => 'Sakshi Sharma',
+                'company' => 'En Pointe Adwisers'
+            ],
+            [
+                'enroll' => '02121101722',
+                'name' => 'Sanya Narang',
+                'company' => 'Wipro Ltd.'
             ],
             [
                 'enroll' => '10713701722',
@@ -2734,7 +2864,12 @@ return [
             [
                 'enroll' => '06313701722',
                 'name' => 'Saryansh Jain',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '35413701722',
+                'name' => 'Saumya Dubey',
+                'company' => 'Hive. AI'
             ],
             [
                 'enroll' => '01013701722',
@@ -2744,12 +2879,17 @@ return [
             [
                 'enroll' => '00721101722',
                 'name' => 'Shantanu Garg',
-                'company' => 'Clairvolex / INJ Partners'
+                'company' => 'Clairvolex  / INJ Partners'
             ],
             [
                 'enroll' => '00413701722',
                 'name' => 'Shruti Rohilla',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '05821101722',
+                'name' => 'Siya Saxena',
+                'company' => 'Accurio Health India / NTT Data'
             ],
             [
                 'enroll' => '70513701722',
@@ -2757,9 +2897,34 @@ return [
                 'company' => 'TrueBlue India / Dentsu Global'
             ],
             [
+                'enroll' => '06121101722',
+                'name' => 'Sneha Negi',
+                'company' => 'Jotwani Associates'
+            ],
+            [
+                'enroll' => '00713701722',
+                'name' => 'Somya Keswani',
+                'company' => 'Pt BrightChamps Edtech Indonesia'
+            ],
+            [
+                'enroll' => '09021101722',
+                'name' => 'Sonali Dahiya',
+                'company' => 'Concentrix'
+            ],
+            [
+                'enroll' => '04013701722',
+                'name' => 'Sparsh Babber',
+                'company' => 'Accurio Health India'
+            ],
+            [
+                'enroll' => '02421101722',
+                'name' => 'Sparsh Gupta',
+                'company' => 'Accurio Health India'
+            ],
+            [
                 'enroll' => '04413701722',
                 'name' => 'Suhani Gupta',
-                'company' => 'Clairvolex'
+                'company' => 'AoN / Clairvolex'
             ],
             [
                 'enroll' => '01613701722',
@@ -2769,7 +2934,7 @@ return [
             [
                 'enroll' => '06213701722',
                 'name' => 'Tanishka Negi',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '01713701722',
@@ -2777,14 +2942,30 @@ return [
                 'company' => 'Amazon / Ernst & Young / Deloitte'
             ],
             [
+                'enroll' => '02621101722',
+                'name' => 'Tarishi Sachdeva',
+                'company' => 'NickleFox Technology Pvt. Ltd.'
+            ],
+            [
                 'enroll' => '04713701722',
                 'name' => 'Tisha Ahuja',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
+            ],
+            [
+                'enroll' => '04913701722',
+                'name' => 'Tushar Jain',
+                'company' => 'UnitedLex India Private Limited (formerly known as
+iRunway India Private Limited)'
+            ],
+            [
+                'enroll' => '12413701722',
+                'name' => 'Vaidehi',
+                'company' => 'Tathagat'
             ],
             [
                 'enroll' => '36813701722',
                 'name' => 'Vansh Behl',
-                'company' => 'MINDFORCE RESEARCH'
+                'company' => 'Mindforce Research'
             ],
             [
                 'enroll' => '70321101722',
@@ -2794,27 +2975,32 @@ return [
             [
                 'enroll' => '02613701722',
                 'name' => 'Varun Gupta',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '03313701722',
                 'name' => 'Vikram Kumar',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ],
             [
                 'enroll' => '08013701722',
                 'name' => 'Vinti Yadav',
-                'company' => 'Wipro Ltd.'
+                'company' => 'Wipro Ltd. / NTT Data'
             ],
             [
-                'enroll' => '1721101722',
+                'enroll' => '01721101722',
                 'name' => 'Yakshit Goel',
                 'company' => 'Zomato'
             ],
             [
+                'enroll' => '35813701722',
+                'name' => 'Yash Mehra',
+                'company' => 'Hi-Tech Accurate Communication Pvt Ltd.'
+            ],
+            [
                 'enroll' => '08513701722',
                 'name' => 'Yashaswi Kaushal',
-                'company' => 'JLL Business Services'
+                'company' => 'JLL'
             ]
         ],
         '2021-24' => [
@@ -3515,7 +3701,7 @@ return [
             [
                 'enroll' => '00721101719',
                 'name' => 'Arpit Jain',
-                'company' => 'Polestar Solutions & Services'
+                'company' => 'Square Yards Consulting Pvt. Ltd. / Polestar Solutions & Services'
             ],
             [
                 'enroll' => '08121101719',
@@ -3529,7 +3715,7 @@ return [
             ],
             [
                 'enroll' => '36121101719',
-                'name' => 'Bhawna Taneja',
+                'name' => 'Bhawna',
                 'company' => 'City Union Bank'
             ],
             [
@@ -3579,7 +3765,7 @@ return [
             ],
             [
                 'enroll' => '01821101719',
-                'name' => 'Harshit Gupta',
+                'name' => 'Harshit gupta',
                 'company' => 'HDFC Bank'
             ],
             [
@@ -3599,7 +3785,7 @@ return [
             ],
             [
                 'enroll' => '09913701719',
-                'name' => 'Ishika Singh',
+                'name' => 'Ishika singh',
                 'company' => 'Wipro Ltd.'
             ],
             [
@@ -3620,7 +3806,7 @@ return [
             [
                 'enroll' => '00413701719',
                 'name' => 'Kritika Chauhan',
-                'company' => 'Wipro Ltd.'
+                'company' => 'Wipro Ltd. / Travclan'
             ],
             [
                 'enroll' => '06313701719',
@@ -3639,13 +3825,13 @@ return [
             ],
             [
                 'enroll' => '07821101719',
-                'name' => 'Mayank Makkar',
+                'name' => 'Mayank makkar',
                 'company' => 'Incedo Technologies'
             ],
             [
                 'enroll' => '04721101719',
                 'name' => 'Meenal Bansal',
-                'company' => 'Jaro Education / Amazon India'
+                'company' => 'Amazon India / Jaro Education'
             ],
             [
                 'enroll' => '35721101719',
@@ -3656,6 +3842,11 @@ return [
                 'enroll' => '08113701719',
                 'name' => 'Mukul Kharb',
                 'company' => 'Wise FinServ'
+            ],
+            [
+                'enroll' => '04221101719',
+                'name' => 'Naitik Adlakha',
+                'company' => 'Wipro Ltd.'
             ],
             [
                 'enroll' => '03313701719',
@@ -3685,7 +3876,7 @@ return [
             [
                 'enroll' => '36221101719',
                 'name' => 'Priyanshi Agarwal',
-                'company' => 'Wipro Ltd.'
+                'company' => 'QUESS Corp Limited / Wipro Ltd.'
             ],
             [
                 'enroll' => '00321101719',
@@ -3694,13 +3885,13 @@ return [
             ],
             [
                 'enroll' => '08013701719',
-                'name' => 'Rahul Dhingra',
+                'name' => 'RAHUL DHINGRA',
                 'company' => 'Natwest Group (RBS)'
             ],
             [
                 'enroll' => '01713701719',
                 'name' => 'Rhytham Arora',
-                'company' => 'Jaro Education'
+                'company' => 'Honasa / Jaro Education'
             ],
             [
                 'enroll' => '07721101719',
@@ -3709,7 +3900,7 @@ return [
             ],
             [
                 'enroll' => '07521101719',
-                'name' => 'Riya Arora',
+                'name' => 'RIYA ARORA',
                 'company' => 'Wipro Ltd.'
             ],
             [
@@ -3759,7 +3950,7 @@ return [
             ],
             [
                 'enroll' => '01613701719',
-                'name' => 'Sheshank Gautam',
+                'name' => 'Sheshank gautam',
                 'company' => 'Wipro Ltd.'
             ],
             [
@@ -3779,7 +3970,7 @@ return [
             ],
             [
                 'enroll' => '03921101719',
-                'name' => 'Sourav Dua',
+                'name' => 'SOURAV DUA',
                 'company' => 'City Union Bank'
             ],
             [
@@ -3808,8 +3999,8 @@ return [
                 'company' => 'Natwest Group (RBS)'
             ],
             [
-                'enroll' => '05613701719',
-                'name' => 'Vanshika Arora',
+                'enroll' => '07013701719',
+                'name' => 'VANSHIKA',
                 'company' => 'Amazon India'
             ],
             [
@@ -3819,7 +4010,7 @@ return [
             ],
             [
                 'enroll' => '05921101719',
-                'name' => 'Viraj Gahlot',
+                'name' => 'VIRAJ GAHLOT',
                 'company' => 'Wipro Ltd. / City Union Bank'
             ],
             [
@@ -3839,7 +4030,7 @@ return [
             ],
             [
                 'enroll' => '00421101719',
-                'name' => 'Yatharth Ratra',
+                'name' => 'Yatharth ratra',
                 'company' => 'Wipro Ltd.'
             ],
             [
@@ -3847,7 +4038,7 @@ return [
                 'name' => 'Yatika Sharma',
                 'company' => 'Wise FinServ'
             ]
-        ]
+        ],
     ],
     'BCOM' => [
         '2023-26' => [
