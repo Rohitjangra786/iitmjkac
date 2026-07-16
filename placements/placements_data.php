@@ -147,144 +147,199 @@ return [
         ],
         '2023-25' => [
             [
-                'enroll' => '00113703924',
-                'name' => 'Shaan',
-                'company' => 'Digitar Media'
+                'enroll' => '00613703923',
+                'name' => 'Adarsh Singh',
+                'company' => 'Intellipaat Software Pvt. Ltd.'
             ],
             [
-                'enroll' => '00313703924',
-                'name' => 'Devyani Midha',
-                'company' => 'Epic Investment Partners'
+                'enroll' => '03513703923',
+                'name' => 'Adeeba Khan',
+                'company' => 'Infollion Research Services'
             ],
             [
-                'enroll' => '00413703924',
-                'name' => 'Garima Sharma',
-                'company' => 'Digital Peacock'
+                'enroll' => '35613703923',
+                'name' => 'Aditi Katoch',
+                'company' => 'PwC India'
             ],
             [
-                'enroll' => '00813703924',
-                'name' => 'Varun Kumar',
-                'company' => 'Kipenzi Pets Private Limited'
+                'enroll' => '03613703923',
+                'name' => 'Akansha Diwedi',
+                'company' => 'Bharat Fincare'
             ],
             [
-                'enroll' => '00913703924',
-                'name' => 'Sakshi',
-                'company' => 'Infomerics Valuation and Rating Limited'
+                'enroll' => '00513703923',
+                'name' => 'Akshit Nayyar',
+                'company' => 'Vcommission Media Pvt Ltd.'
             ],
             [
-                'enroll' => '01013703924',
-                'name' => 'Meenu Tiwari',
-                'company' => 'Ecera System'
+                'enroll' => '03113703923',
+                'name' => 'Amanpreet Singh',
+                'company' => 'City Union Bank'
             ],
             [
-                'enroll' => '01413703924',
-                'name' => 'Pooja Singh',
-                'company' => 'Zoppar'
+                'enroll' => '00913703923',
+                'name' => 'Ambuj Garg',
+                'company' => 'HyTech Pro India Pvt. Ltd. / ZS Associate'
             ],
             [
-                'enroll' => '01513703924',
-                'name' => 'Aditi Gupta',
-                'company' => 'Digitar Media'
+                'enroll' => '00113703923',
+                'name' => 'Ansh Sehgal',
+                'company' => 'Vcommission Media Pvt Ltd.'
             ],
             [
-                'enroll' => '01713703924',
-                'name' => 'Nivedita Mahajan',
-                'company' => 'IIDE - The Digital School'
+                'enroll' => '00413703923',
+                'name' => 'Anurag Mishra',
+                'company' => 'NxtQuantum Shift Technologies'
             ],
             [
-                'enroll' => '01813703924',
-                'name' => 'Naman Jain',
-                'company' => 'SB Dry Fruits Private Ltd.'
+                'enroll' => '02213703923',
+                'name' => 'Anurag Singh',
+                'company' => 'Vcommission Media Pvt Ltd.'
             ],
             [
-                'enroll' => '02013703924',
-                'name' => 'Deeksha Singh',
-                'company' => 'Alniche Lifesciences'
+                'enroll' => '02013703923',
+                'name' => 'Aparna Tikkoo',
+                'company' => 'Quality Asia Certifications Pvt Ltd / JLL'
             ],
             [
-                'enroll' => '02313703924',
-                'name' => 'Anisha Bhandari',
-                'company' => 'Industrial Roller Company'
+                'enroll' => '04513703923',
+                'name' => 'Deepak Kumar',
+                'company' => 'Unbundl (Infinite Creations Pvt Ltd)'
             ],
             [
-                'enroll' => '02513703924',
-                'name' => 'Abhay Shukla',
-                'company' => 'Infomerics Valuation and Rating Limited'
+                'enroll' => '03813703923',
+                'name' => 'Deepti Jain',
+                'company' => 'Ethos Ltd.'
             ],
             [
-                'enroll' => '02813703924',
-                'name' => 'Vanshika Verma',
-                'company' => 'Epic Investment Partners'
+                'enroll' => '02813703923',
+                'name' => 'Divya Pawar',
+                'company' => 'DCS Pvt. Ltd.'
             ],
             [
-                'enroll' => '03113703924',
-                'name' => 'Avantika Gaur',
-                'company' => 'Symmetrical Global Search Pvt. Ltd.'
+                'enroll' => '35413703923',
+                'name' => 'Geetika Bhardwaj',
+                'company' => 'City Union Bank'
             ],
             [
-                'enroll' => '03313703924',
-                'name' => 'Akshay Kumar',
-                'company' => '75way Technologies'
+                'enroll' => '03413703923',
+                'name' => 'Gursimar Kaur Arora',
+                'company' => 'INJ Partners'
             ],
             [
-                'enroll' => '03613703924',
-                'name' => 'Khushi Chauhan',
-                'company' => 'Epic Investment Partners'
+                'enroll' => '02713703923',
+                'name' => 'Hansika Sharma',
+                'company' => 'Artech Infosystems'
             ],
             [
-                'enroll' => '03813703924',
-                'name' => 'Chanchal',
-                'company' => 'Aakash Educational Services Ltd.'
+                'enroll' => '35513703923',
+                'name' => 'Jai Solanki',
+                'company' => 'JLL India'
             ],
             [
-                'enroll' => '04013703924',
-                'name' => 'Shweta',
-                'company' => 'AML RightSource'
+                'enroll' => '00813703923',
+                'name' => 'Jatin Kumar Jha',
+                'company' => 'Bharat Fincare'
             ],
             [
-                'enroll' => '04213703924',
-                'name' => 'Aniket Kumar',
-                'company' => 'Alniche Lifesciences'
+                'enroll' => '01613703923',
+                'name' => 'JATIN Rawat',
+                'company' => 'InterGlobe Air Transport Ltd.'
             ],
             [
-                'enroll' => '04413703924',
-                'name' => 'Ashish Kumar',
-                'company' => 'Ojasvi Associate'
+                'enroll' => '02513703923',
+                'name' => 'Kartikay Sonkar',
+                'company' => 'JLL India'
             ],
             [
-                'enroll' => '04513703924',
-                'name' => 'Rishabh Sharma',
-                'company' => 'Ojasvi Associate'
+                'enroll' => '01513703923',
+                'name' => 'Muskan',
+                'company' => 'Blue Umbrella'
             ],
             [
-                'enroll' => '04613703924',
-                'name' => 'Santosh Choudhary',
-                'company' => 'i-Process Services (India) Ltd.'
+                'enroll' => '02413703923',
+                'name' => 'Muskan Sejwal',
+                'company' => 'IndusInd Bank / VDOIT Technologies'
             ],
             [
-                'enroll' => '35213703924',
-                'name' => 'Aakash',
-                'company' => 'SK Associates'
+                'enroll' => '00313703923',
+                'name' => 'Muskan Sharma',
+                'company' => 'Accurio Health India'
             ],
             [
-                'enroll' => '35413703924',
-                'name' => 'Chaitanya Garg',
-                'company' => 'ANJ Trunkey Projects Pvt. Ltd.'
+                'enroll' => '04013703923',
+                'name' => 'Nakul Sejwal',
+                'company' => 'Intellipaat Software Pvt. Ltd.'
             ],
             [
-                'enroll' => '35613703924',
-                'name' => 'Priyam',
-                'company' => 'Agilish Telecom Private Limited'
+                'enroll' => '70113703923',
+                'name' => 'Nandini Prakash',
+                'company' => 'Deloitte / WNS Global Services'
             ],
             [
-                'enroll' => '50213703924',
-                'name' => 'Nikhil Mishra',
-                'company' => 'Federal Bank'
-            ],
-            [
-                'enroll' => '52113703924',
-                'name' => 'Harshita Ahuja',
+                'enroll' => '01313703923',
+                'name' => 'Nikhil Gohlan',
                 'company' => 'Jaro Education'
+            ],
+            [
+                'enroll' => '01413703923',
+                'name' => 'Nitisha Kumari',
+                'company' => 'TBO Tek Limited / Waterways Leisure Tourism Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '03313703923',
+                'name' => 'Pooja Sharma',
+                'company' => 'City Union Bank /  Market Xcel Data Matrix Pvt Ltd'
+            ],
+            [
+                'enroll' => '03913703923',
+                'name' => 'Priya Gupta',
+                'company' => 'City Union Bank / INJ Partners'
+            ],
+            [
+                'enroll' => '01913703923',
+                'name' => 'Rahul Lakra',
+                'company' => 'City Union Bank'
+            ],
+            [
+                'enroll' => '03713703923',
+                'name' => 'Rohit Sharma',
+                'company' => 'JLL India'
+            ],
+            [
+                'enroll' => '04613703923',
+                'name' => 'Romil Chopra',
+                'company' => 'Ajanta Bottles Pvt. Ltd. / Shipbolt Industries'
+            ],
+            [
+                'enroll' => '02613703923',
+                'name' => 'SarthakTyagi',
+                'company' => 'City Union Bank / Velocis Systems Pvt. Ltd.'
+            ],
+            [
+                'enroll' => '04213703923',
+                'name' => 'Tripti Prakash',
+                'company' => 'Market Xcel Data Matrix Pvt Ltd'
+            ],
+            [
+                'enroll' => '01713703923',
+                'name' => 'Tushar Choudhary',
+                'company' => 'INJ Partners / Vcommission Media Pvt Ltd.'
+            ],
+            [
+                'enroll' => '01113703923',
+                'name' => 'Valusha Verma',
+                'company' => 'Market Xcel Data Matrix Pvt Ltd / ICICI Securities'
+            ],
+            [
+                'enroll' => '01213703923',
+                'name' => 'VARSHA PAPNOIE',
+                'company' => 'Market Xcel Data Matrix Pvt Ltd'
+            ],
+            [
+                'enroll' => '02913703923',
+                'name' => 'Yash Jahagirdar',
+                'company' => 'Quality Asia Certifications Pvt Ltd'
             ]
         ],
         '2022-24' => [
@@ -745,7 +800,7 @@ return [
             [
                 'enroll' => '35113703920',
                 'name' => 'Ankur Shukla',
-                'company' => 'Legato Health Technologies / PlanetSpark'
+                'company' => 'Legato Health Technologies'
             ],
             [
                 'enroll' => '01013703920',
@@ -760,17 +815,12 @@ return [
             [
                 'enroll' => '01313703920',
                 'name' => 'Ashwin Krishna',
-                'company' => 'Corizo Edutech / L&T Finance'
+                'company' => 'L&T Finance / CORIZO Edutech'
             ],
             [
                 'enroll' => '01513703920',
                 'name' => 'Babita',
                 'company' => 'Success Pact'
-            ],
-            [
-                'enroll' => '01613703920',
-                'name' => 'Bharti Datt',
-                'company' => 'Aristotle Consultancy'
             ],
             [
                 'enroll' => '01713703920',
@@ -785,7 +835,7 @@ return [
             [
                 'enroll' => '50213703920',
                 'name' => 'Garvit Singh Shekhawat',
-                'company' => 'Astro Global / Vmak Research & Services Pvt. Ltd.'
+                'company' => 'Vmak Research & Services Pvt. Ltd.'
             ],
             [
                 'enroll' => '35213703920',
@@ -795,7 +845,12 @@ return [
             [
                 'enroll' => '35313703920',
                 'name' => 'Himanshu Chaudhary',
-                'company' => 'HDFC Bank / TransUnion'
+                'company' => 'nThraive Rubixis / AU Small Finance Bank / HDFC Bank'
+            ],
+            [
+                'enroll' => '02213703920',
+                'name' => 'Irshad',
+                'company' => 'Kotak Life Insurance'
             ],
             [
                 'enroll' => '02313703920',
@@ -830,7 +885,7 @@ return [
             [
                 'enroll' => '02813703920',
                 'name' => 'Naman Sharma',
-                'company' => 'PlanetSpark / Publicis Groupe'
+                'company' => 'PlanetSpark / Success Pact / PUBLICIS'
             ],
             [
                 'enroll' => '02913703920',
@@ -885,12 +940,12 @@ return [
             [
                 'enroll' => '04213703920',
                 'name' => 'Shivani Singh',
-                'company' => 'UpGrad / ANZ Support Services India Pvt. Ltd.'
+                'company' => 'UpGrad'
             ],
             [
                 'enroll' => '04313703920',
                 'name' => 'Shreya Singh',
-                'company' => 'ICICI Bank / Accenture'
+                'company' => 'ICICI Bank'
             ],
             [
                 'enroll' => '04513703920',
@@ -922,7 +977,7 @@ return [
                 'name' => 'Yogesh Kumar',
                 'company' => 'UpGrad'
             ]
-        ]
+        ],
     ],
     'MCA' => [
         '2024-26' => [
