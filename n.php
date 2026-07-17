@@ -855,6 +855,7 @@
                 <div id="sb-mand" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
                     <div class="accordion-body">
                         <a href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php">Academic Audit</a>
+                        <a href="https://iitmjanakpuri.com/JAC/mandatory-disclosure.php">JAC</a>
                         <a href="https://www.iitmjanakpuri.com/aboutus_new/aicte.php">AICTE</a>
                         <a href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MBA_2025-26.pdf" target="_blank">Mandatory Disclosure for MBA</a>
                         <a href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MCA_2025-26.pdf" target="_blank">Mandatory Disclosure for MCA</a>
@@ -1119,6 +1120,7 @@
                     </a>
                     <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/AAC/mandatorydisclosure.php">Academic Audit</a></li>
+                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/JAC/mandatory-disclosure.php">JAC</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/aboutus_new/aicte.php">AICTE</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MBA_2025-26.pdf" target="_blank">Mandatory Disclosure for MBA</a></li>
                             <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/direct-file/Mandatory Disclosure MCA_2025-26.pdf" target="_blank">Mandatory Disclosure for MCA</a></li>

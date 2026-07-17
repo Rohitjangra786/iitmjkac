@@ -167,6 +167,9 @@ a.sl: hover{
             <li class="nav-item">
                 <a class="nav-link color-white tgfmlt sl1" href="https://www.iitmjanakpuri.com/AAC/mandatorydisclosure.php">Mandatory Disclosure-Academic Audit</a>
             </li> 
+            <li class="nav-item">
+                <a class="nav-link color-white tgfmlt sl1" href="https://www.iitmjanakpuri.com/JAC/mandatory-disclosure.php">JAC</a>
+            </li> 
           <!--<li class="nav-item">
                 <a class="nav-link color-white tgfmlt sl1" href="https://iitmjanakpuri.com/scholarships/scholarships.php">Scholarships</a>
             </li>
