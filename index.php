@@ -3454,7 +3454,8 @@ nav.navbar .nav-item{
 
 
             <a href="https://iitmjanakpuri.com/direct-file/Anugoonj Prelims 2026 Zone 4 Brochure.pdf" target="_blank">Anugoonj Prelims Zone IV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     -->    <a class="marquee-hot" href="https://iitmjanakpuri.com/direct-file/Fee%20Notice%20for%202nd%20%26%203rd%20Year%20-AS%202026-27.pdf" target="_blank">Submission of Annual Fee - 1st and 2nd Year (Academic Year 2026-27)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://iitmjanakpuri.com/direct-file/AICTE-Approved%203-Day%20UHV-I%20FDP.pdf" target="_blank">AICTE-Approved 3-Day UHV-I FDP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="marquee-hot" href="https://iitmjanakpuri.com/direct-file/Fee%20Notice%20for%202nd%20%26%203rd%20Year%20-AS%202026-27.pdf" target="_blank">Submission of Annual Fee - 1st and 2nd Year (Academic Year 2026-27)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/admissions/managementquota.php" target="_blank">Management Quota Admissions-2026-27</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
             <a href="https://iitmjanakpuri.com/direct-file/feesdetails.pdf" target="_blank">Fee Details for Academic Year 2025-26</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://iitmjanakpuri.com/direct-file/counselor.pdf">Contact Your Counsellor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
