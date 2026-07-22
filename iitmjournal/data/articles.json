@@ -1,11 +1,11 @@
 [
     {
-        "vol": 16,
-        "issue": 2,
-        "year": 2025,
-        "period": "July-December",
-        "sortKey": 202507,
-        "slug": "v16i2",
+        "vol": 17,
+        "issue": 1,
+        "year": 2026,
+        "period": "January-June",
+        "sortKey": 202601,
+        "slug": "v17i1",
         "articles": [
             {
                 "no": 1,
