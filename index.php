@@ -3605,10 +3605,10 @@ nav.navbar .nav-item{
             <div class="lead-badge">MCA</div>
             <div class="lead-info">
                 <div class="lead-course">Master of Computer Application</div>
-                <div class="lead-name">Mr. Ashish Nayyar</div>
+                <div class="lead-name">Dr. Harmeet Malhotra</div>
                 <a href="tel:+918796452755" class="lead-phone">+91 87964 52755</a>
             </div>
-            <a href="tel:+918796452755" class="lead-call" aria-label="Call Mr. Ashish Nayyar">📞</a>
+            <a href="tel:+918796452755" class="lead-call" aria-label="Call Dr. Harmeet Malhotra">📞</a>
         </div>
 
         <div class="lead-card l3">
@@ -4590,7 +4590,7 @@ try {
             // Course-wise faculty contacts (used by multiple intents)
             var COURSE_CONTACTS = "<b>Course-wise Admission Helpline (2026-27):</b><br>" +
                 "• <b>BCA</b> — Ms. Leena Gupta · <a href='tel:+918796283551'>+91 87962 83551</a><br>" +
-                "• <b>MCA</b> — Mr. Ashish Nayyar · <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
+                "• <b>MCA</b> — Dr. Harmeet Malhotra · <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
                 "• <b>BBA</b> — Dr. Deepali Saluja · <a href='tel:+918796452756'>+91 87964 52756</a><br>" +
                 "• <b>B.Com (H)</b> — Dr. Raghav Jain · <a href='tel:+918796452757'>+91 87964 52757</a><br>" +
                 "• <b>MBA</b> — Dr. Mandeep Singh · <a href='tel:+919560098709'>+91 95600 98709</a><br>" +
@@ -4624,11 +4624,11 @@ try {
                          "👩‍🏫 Lead: <b>Ms. Leena Gupta</b> · 📞 <a href='tel:+918796283551'>+91 87962 83551</a><br>" +
                          "🔗 <a href='https://iitmjanakpuri.com/course/bca.php' target='_blank'>BCA Course Page</a> · " +
                          "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
-                { match: /(\bm\.?\s?c\.?\s?a\b|ashish.?nayyar|\bashish\b|\bnayyar\b)/i,
+                { match: /(\bm\.?\s?c\.?\s?a\b|harmeet.?malhotra|\bharmeet\b|\bmalhotra\b)/i,
                   reply: "🎓 <b>MCA — Master of Computer Applications</b><br>" +
                          "🪑 <b>60 seats</b> · 2-year programme (NEP 2020)<br>" +
                          "📋 Eligibility: Bachelor's with Maths in 12th or graduation + IPU CET MCA<br>" +
-                         "👨‍🏫 Lead: <b>Mr. Ashish Nayyar</b> · 📞 <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
+                         "👨‍🏫 Lead: <b>Dr. Harmeet Malhotra</b> · 📞 <a href='tel:+918796452755'>+91 87964 52755</a><br>" +
                          "🔗 <a href='https://iitmjanakpuri.com/course/mca.php' target='_blank'>MCA Course Page</a> · " +
                          "<a href='https://iitmjanakpuri.com/admissions/admissionprocedure.php' target='_blank'>Apply / Procedure</a>" },
                 { match: /(\bb\.?\s?b\.?\s?a\b|deepali.?saluja|\bsaluja\b|\bdeepali\b)/i,

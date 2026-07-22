@@ -226,7 +226,7 @@
                             </button>
                             <div class="ms-menu" role="listbox" aria-multiselectable="false">
                                 <label class="ms-option"><input type="radio" name="course" value="BCA|8796283551|Ms. Leena Gupta"><span>BCA</span></label>
-                                <label class="ms-option"><input type="radio" name="course" value="MCA|8796452755|Mr. Ashish Nayyar"><span>MCA</span></label>
+                                <label class="ms-option"><input type="radio" name="course" value="MCA|8796452755|Dr. Harmeet Malhotra"><span>MCA</span></label>
                                 <label class="ms-option"><input type="radio" name="course" value="BBA|8796452756|Dr. Deepali Saluja"><span>BBA</span></label>
                                 <label class="ms-option"><input type="radio" name="course" value="B.Com (H)|8796452757|Dr. Raghav Jain"><span>B.Com (H)</span></label>
                                 <label class="ms-option"><input type="radio" name="course" value="MBA|9560098709|Dr. Mandeep Singh"><span>MBA</span></label>

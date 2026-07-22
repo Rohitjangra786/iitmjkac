@@ -412,7 +412,7 @@ tr:hover {
 										<tr>
 											<td align="center">3</td>
 											<td align="center">MCA & BCA</td>
-											<td align="center">Mr. Ashish Nayyar (Incharge) - 9711197715</td>
+											<td align="center">Dr. Harmeet Malhotra (Incharge) - 9711197715</td>
 										</tr>
 										<tr>
 											<td align="center">4</td>

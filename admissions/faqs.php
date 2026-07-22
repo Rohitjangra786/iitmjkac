@@ -222,7 +222,7 @@ h3{
 										<tr>
 											<td align="center">1</td>
 											<td align="center">MCA & BCA</td>
-											<td align="center">Mr. Ashish Nayyar - 9211592472</td>
+											<td align="center">Dr. Harmeet Malhotra - 9211592472</td>
 										</tr>
 										<tr>
 											<td align="center">2</td>

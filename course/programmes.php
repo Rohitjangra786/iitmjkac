@@ -992,7 +992,7 @@ h1, h2, h3, h4, h5, h6,
                 <a href="mca.php" class="pcc-btn primary">Read More</a>
                 <a href="../admissions/admissionprocedure.php" class="pcc-btn outline">Apply</a>
             </div>
-            <p class="pcc-faculty">Programme Lead: Mr. Ashish Nayyar · <a href="tel:+918796452755">+91 87964 52755</a></p>
+            <p class="pcc-faculty">Programme Lead: Dr. Harmeet Malhotra · <a href="tel:+918796452755">+91 87964 52755</a></p>
         </div>
     </article>
 

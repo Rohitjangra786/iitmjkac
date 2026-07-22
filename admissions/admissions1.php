@@ -594,7 +594,7 @@ tr:hover {
 										<tr>
 											<td align="center">1</td>
 											<td align="center">BCA</td>
-											<td align="center">Mr. Ashish Nayyar - 8287831728 </td>
+											<td align="center">Dr. Harmeet Malhotra - 8287831728 </td>
 										</tr>
 										
 										<tr>
