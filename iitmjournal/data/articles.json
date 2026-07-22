@@ -9,6 +9,96 @@
         "articles": [
             {
                 "no": 1,
+                "title": "Machine Learning Techniques for Movie Recommendation: A Matrix Factorization Perspective",
+                "authors": "Ashish Kumar Nayyar",
+                "doi": "10.65301/iitm.2026.17.1.1",
+                "pages": "1-12",
+                "pdf": "data/articles/v17i1/article-1.pdf"
+            },
+            {
+                "no": 2,
+                "title": "A Comparative Study of Total Quality Management Practices across Accredited Indian Higher Education Institutions",
+                "authors": "Smruti Ranjan Rath",
+                "doi": "10.65301/iitm.2026.17.1.2",
+                "pages": "13-36",
+                "pdf": "data/articles/v17i1/article-2.pdf"
+            },
+            {
+                "no": 3,
+                "title": "Forecasting Stock Price Movements Using Fundamental and Technical Analysis: A Case Study of Ola Electric",
+                "authors": "Rohit Kumar",
+                "doi": "10.65301/iitm.2026.17.1.3",
+                "pages": "37-51",
+                "pdf": "data/articles/v17i1/article-3.pdf"
+            },
+            {
+                "no": 4,
+                "title": "Prioritizing the Factors Influencing Employer Attractiveness of Gen Z\u2014An Application of Fuzzy Analytic Hierarchy Process",
+                "authors": "Neelam Dhall, Disha Garg",
+                "doi": "10.65301/iitm.2026.17.1.4",
+                "pages": "52-70",
+                "pdf": "data/articles/v17i1/article-4.pdf"
+            },
+            {
+                "no": 5,
+                "title": "The Evolving Landscape of Risk: A Study of Banking Governance and Stability",
+                "authors": "Jivesh Bhutani, Sapna Gandhi",
+                "doi": "10.65301/iitm.2026.17.1.5",
+                "pages": "71-86",
+                "pdf": "data/articles/v17i1/article-5.pdf"
+            },
+            {
+                "no": 6,
+                "title": "Communication As A Catalyst for Good Governance and Policy\u2014Innovation",
+                "authors": "Lochan Chugh, Daksh Bansal, Akshit Anand",
+                "doi": "10.65301/iitm.2026.17.1.6",
+                "pages": "87-98",
+                "pdf": "data/articles/v17i1/article-6.pdf"
+            },
+            {
+                "no": 7,
+                "title": "Unpacking the Motivational Dynamics of PRP: Insights from an Empirical Study of Indian IT Firms",
+                "authors": "Simran Kaur, Rekha",
+                "doi": "10.65301/iitm.2026.17.1.7",
+                "pages": "99-111",
+                "pdf": "data/articles/v17i1/article-7.pdf"
+            },
+            {
+                "no": 8,
+                "title": "Secure and Sustainable Public Service Delivery with AI, Blockchain and IoT",
+                "authors": "Kavita Srivastava, Leena Gupta, Gopal Singh Latwal",
+                "doi": "10.65301/iitm.2026.17.1.8",
+                "pages": "112-125",
+                "pdf": "data/articles/v17i1/article-8.pdf"
+            },
+            {
+                "no": 9,
+                "title": "One Algorithm, Two Responses: Occupational Identity and Motivation in White and Blue Collar Platform Work",
+                "authors": "Anjum Tanwar, Sunita Tanwar",
+                "doi": "10.65301/iitm.2026.17.1.9",
+                "pages": "126-160",
+                "pdf": "data/articles/v17i1/article-9.pdf"
+            },
+            {
+                "no": 10,
+                "title": "Machine Learning-Driven Framework for Enhancing Customer Retention and Reducing Churn",
+                "authors": "Paras Pandey",
+                "doi": "10.65301/iitm.2026.17.1.10",
+                "pages": "161-187",
+                "pdf": "data/articles/v17i1/article-10.pdf"
+            }
+        ]
+    },
+    {
+        "vol": 16,
+        "issue": 2,
+        "year": 2025,
+        "period": "July-December",
+        "sortKey": 202507,
+        "slug": "v16i2",
+        "articles": [
+            {
+                "no": 1,
                 "title": "AI-Driven Digital Transformation in Business Process Optimization",
                 "authors": "Mohd Azher Parvez",
                 "doi": "10.65301/iitm.2025.17.2.920",
@@ -157,7 +247,7 @@
         "articles": [
             {
                 "no": 1,
-                "title": "Female Education – A Path to Achieve Gender Parity for Sustainable Development Goals",
+                "title": "Female Education \u2013 A Path to Achieve Gender Parity for Sustainable Development Goals",
                 "authors": "Anita Sharma",
                 "doi": "10.65301/iitm.2024.15.1.422",
                 "pages": "1-6",
@@ -207,7 +297,7 @@
         "articles": [
             {
                 "no": 1,
-                "title": "Female Education– A Path to Achieve Gender Parity for Sustainable Development Goals",
+                "title": "Female Education\u2013 A Path to Achieve Gender Parity for Sustainable Development Goals",
                 "authors": "Anita Sharma",
                 "doi": "10.65301/iitm.2024.15.1.422",
                 "pages": "1-6",
@@ -279,7 +369,7 @@
             },
             {
                 "no": 10,
-                "title": "Agile Effort Estimation Using Machine Learning – A Systematic Review",
+                "title": "Agile Effort Estimation Using Machine Learning \u2013 A Systematic Review",
                 "authors": "Prabhneet Kaur and Ankur Sharma",
                 "doi": "10.65301/iitm.2024.15.1.431",
                 "pages": "119-137",
@@ -533,7 +623,7 @@
             },
             {
                 "no": 5,
-                "title": "Covid-19 Impact on Digital Services of Banking Industry with Respect to Employee’s Perception",
+                "title": "Covid-19 Impact on Digital Services of Banking Industry with Respect to Employee\u2019s Perception",
                 "authors": "Pallavi Pandey , Bilal Mustafa Khan and Harish Singla",
                 "doi": "10.65301/iitm.2022.13.1.454",
                 "pages": "26-32",
@@ -647,7 +737,7 @@
             },
             {
                 "no": 8,
-                "title": "Exploring the Relationship between Attitude and Purchase Intention Towards Organic Food – does ‘Willingness to Pay’ Mediate the Effect?",
+                "title": "Exploring the Relationship between Attitude and Purchase Intention Towards Organic Food \u2013 does \u2018Willingness to Pay\u2019 Mediate the Effect?",
                 "authors": "Sisir Ghorai , Abhijit Sinha and Sudin Bag",
                 "doi": "10.65301/iitm.2021.12.2.599",
                 "pages": "48-58",
@@ -785,7 +875,7 @@
             },
             {
                 "no": 14,
-                "title": "Web Penetrator – Web App Penetration Testing Tool",
+                "title": "Web Penetrator \u2013 Web App Penetration Testing Tool",
                 "authors": "Raj Saundatikar and Lakshmi J.V.N",
                 "doi": "10.65301/iitm.2021.12.1.483",
                 "pages": "59-61",
@@ -907,7 +997,7 @@
             },
             {
                 "no": 2,
-                "title": "Is CSR Aligned to SDGs? – A Study of CSR Programs in Education",
+                "title": "Is CSR Aligned to SDGs? \u2013 A Study of CSR Programs in Education",
                 "authors": "Kalyani Mujumdar and Datattry Mane",
                 "doi": "10.65301/iitm.2020.11.2.626",
                 "pages": "11-19",
@@ -1315,7 +1405,7 @@
         "articles": [
             {
                 "no": 1,
-                "title": "Panel Data Study of Dividend Policy Effect on Firms’ Value: Study on Manufacturing Sector of Bangladesh",
+                "title": "Panel Data Study of Dividend Policy Effect on Firms\u2019 Value: Study on Manufacturing Sector of Bangladesh",
                 "authors": "Mohammad Shahidul Islam",
                 "doi": "10.65301/iitm.2018.9.2.506",
                 "pages": "1-9",
@@ -1437,7 +1527,7 @@
             },
             {
                 "no": 8,
-                "title": "Cloud Computing –Rendering Virtualization to IT-Sector",
+                "title": "Cloud Computing \u2013Rendering Virtualization to IT-Sector",
                 "authors": "Ramandeep Kaur",
                 "doi": "10.65301/iitm.2018.9.1.502",
                 "pages": "37-40",
@@ -1487,7 +1577,7 @@
             },
             {
                 "no": 2,
-                "title": "An Enquiry into India’s Export Market and Product Diversification",
+                "title": "An Enquiry into India\u2019s Export Market and Product Diversification",
                 "authors": "Rashmi Taneja and Rakesh Mohan Joshi",
                 "doi": "",
                 "pages": "20-28",
@@ -1519,7 +1609,7 @@
             },
             {
                 "no": 6,
-                "title": "A Comparative Analysis of South Indian Bank’s Performance Post Implementation of Information Technology: An Empirical Analysis",
+                "title": "A Comparative Analysis of South Indian Bank\u2019s Performance Post Implementation of Information Technology: An Empirical Analysis",
                 "authors": "Titto Varghese and Sneju Sajan",
                 "doi": "",
                 "pages": "56-59",
@@ -1527,7 +1617,7 @@
             },
             {
                 "no": 7,
-                "title": "The Impact of Marketing Mix Strategy on Hospital’s Performance Measured by Patient’s Satisfaction (An Empirical Study on Santokba Durlabhji Memorial Hospital, Jaipur)",
+                "title": "The Impact of Marketing Mix Strategy on Hospital\u2019s Performance Measured by Patient\u2019s Satisfaction (An Empirical Study on Santokba Durlabhji Memorial Hospital, Jaipur)",
                 "authors": "Ankita Jain and Varsha Choudhary",
                 "doi": "",
                 "pages": "70-78",
@@ -1673,7 +1763,7 @@
             },
             {
                 "no": 17,
-                "title": "Social Engineering – Threats & Prevention",
+                "title": "Social Engineering \u2013 Threats & Prevention",
                 "authors": "Amanpreet Kaur Sara and Nidhi Srivastava",
                 "doi": "",
                 "pages": "90-93",
@@ -1715,7 +1805,7 @@
             },
             {
                 "no": 4,
-                "title": "Restaurant Image Parameters and its Importance in Building Children’s Perception for Multinational Fast Food Restaurants",
+                "title": "Restaurant Image Parameters and its Importance in Building Children\u2019s Perception for Multinational Fast Food Restaurants",
                 "authors": "Daisy Kurien, Jitendra Sharma and Siddharth Das",
                 "doi": "",
                 "pages": "38-47",
@@ -1731,7 +1821,7 @@
             },
             {
                 "no": 6,
-                "title": "Assessing the Processing Effect of Indian Tourism’s Advertisements",
+                "title": "Assessing the Processing Effect of Indian Tourism\u2019s Advertisements",
                 "authors": "Annu Dahiya and Rajiv Kumar",
                 "doi": "",
                 "pages": "55-62",
@@ -1869,7 +1959,7 @@
             },
             {
                 "no": 14,
-                "title": "Cyber Crime – A Threat to Mankind",
+                "title": "Cyber Crime \u2013 A Threat to Mankind",
                 "authors": "Charul Nigam and Vaishali Singhal",
                 "doi": "",
                 "pages": "74-78",
@@ -2927,7 +3017,7 @@
             },
             {
                 "no": 4,
-                "title": "A study of Human-Computer Interaction for Mobile devices- A Case Study of “Black Berry”",
+                "title": "A study of Human-Computer Interaction for Mobile devices- A Case Study of \u201cBlack Berry\u201d",
                 "authors": "Kavita Mittal",
                 "doi": "",
                 "pages": "25-31",
@@ -3277,7 +3367,7 @@
             },
             {
                 "no": 11,
-                "title": "Students’ Preference on the Use of Cell Phone Services: A Pragmetic Approach",
+                "title": "Students\u2019 Preference on the Use of Cell Phone Services: A Pragmetic Approach",
                 "authors": "Gopal Singh Latwal",
                 "doi": "",
                 "pages": "71-87",
