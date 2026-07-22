@@ -156,8 +156,23 @@ body * {
         <h2 class="text-center mb-4">Newsletter</h2>
         <div class="gallery-row">
             <div class="gallery-item">
+                <a href="images/JIGYASA_JAN_JUNE_2025.pdf" target="_blank">
+                    <img src="images/jigyasa_vol25_issue1.png" alt="Volume 25 Issue 1">
+                </a>
+                <h5>Volume-25, Issue-1</h5>
+            </div>
+            <div class="gallery-item">
+                <a href="images/JIGYASA_JUL_DEC_2024.pdf" target="_blank">
+                    <img src="images/jigyasa_vol24_issue2.png" alt="Volume 24 Issue 2">
+                </a>
+                <h5>Volume-24, Issue-2</h5>
+            </div>
+        </div>
+        <h2 class="text-center mb-4"></h2>
+        <div class="gallery-row">
+            <div class="gallery-item">
                 <a href="images/1.pdf" target="_blank">
-                    <img src="images/jigyasa_1.png" alt="Volume 22">
+                    <img src="images/jigyasa_1.png" alt="Volume 24">
                 </a>
                 <h5>Volume-24, Issue-1</h5>
             </div>
