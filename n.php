@@ -785,6 +785,7 @@
                 <div id="sb-pub" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
                     <div class="accordion-body">
                         <span class="sub-label">Annual Reports</span>
+                        <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2425.pdf" target="_blank">2024-25</a>
                         <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2324.pdf" target="_blank">2023-24</a>
                         <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2223.pdf" target="_blank">2022-23</a>
                         <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2122.pdf" target="_blank">2021-22</a>
@@ -1032,6 +1033,7 @@
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="#">Annual Reports</a>
                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2425.pdf" target="_blank">2024-25</a></li>
                                 <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2324.pdf" target="_blank">2023-24</a></li>
                                 <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2223.pdf" target="_blank">2022-23</a></li>
                                 <li><a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2122.pdf" target="_blank">2021-22</a></li>
