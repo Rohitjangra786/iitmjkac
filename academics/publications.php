@@ -135,6 +135,7 @@ body * {
     <div class="row">
         <div class="col-md-3" style="padding: 5px; background-color: #add8e6;height: 250px;">
                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/publications.php" id="pub" role="button">Publications</a>
+               <a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/AnnualReports.php">Annual Reports</a>
                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/journals.php">Journals</a>
                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/unmesh.php">Unmesh</a>
                <a class="dropdown-item" href="https://www.iitmjanakpuri.com/academics/pragya.php">Pragya</a>

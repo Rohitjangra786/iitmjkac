@@ -145,10 +145,10 @@ echo '</script>';
                 <span class="material-symbols-outlined">library_books</span>
                 <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2324.pdf" target="_blank">Annual Report 2023-24</a>
             </div>
-         <!--   <div class="box">
+            <div class="box">
                 <span class="material-symbols-outlined">library_books</span>
-                <a href="https://iitmjanakpuri.com/academics/2425.php" target="_blank">Annual Report 2022-23</a>
-            </div> -->
+                <a href="https://www.iitmjanakpuri.com/academics/pdf/AnnualReport_2425.pdf" target="_blank">Annual Report 2024-25</a>
+            </div>
         </div>
     </div>
         </div>
