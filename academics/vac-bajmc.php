@@ -102,20 +102,22 @@ echo '</script>';
         <div class="value-added-section">
             <h1>VALUE ADDED COURSES DONE IN BA (JMC) PROGRAMME</h1>
             <p>
-                Value-Added Courses (VACs) for BA (JMC) students provide practical training in media production, digital journalism, content creation, video editing, and public relations.
+                The Value Added Courses (VACs) in the BA (JMC) programme are an essential component which are industry sponsored certifications. These courses are designed to enrich students' professional education by fostering practical courses like Mobile Journalism, Travel Photography, Advanced CorelDRAW, Basics of Podcast Production, Hindi typing, Adobe InDesign, AI in Media production & Drone Journalism to make the students industry ready.
             </p>
             <p>
-                These courses help journalism & mass communication students master modern digital media tools, broadcasting equipment, and newsroom workflows to excel in media houses, advertising agencies, and digital content platforms.
+                VACs are compulsory credit-bearing courses that enrich students beyond core journalism and media studies and contribute to holistic personality development. Through these value-added learning opportunities, students enhance their employability, strengthen their professional portfolios, and acquire industry-relevant skills that prepare them for careers in journalism, digital media, advertising, public relations, visual communication, and content creation.
             </p>
             
-            <p class="fw-bold mt-4" style="color: #800000;">Value Added Courses Conducted:</p>
+            <p class="fw-bold mt-4" style="color: #800000;">Courses Offered Are:</p>
             <ul class="committee-list">
-                <li>Digital Content Creation & Video Editing</li>
-                <li>Photography & Visual Storytelling</li>
-                <li>Public Relations & Crisis Communication</li>
-                <li>Anchor & News Reporting Workshop</li>
-                <li>Social Media Marketing for Journalists</li>
-                <li>Media Ethics & Digital Laws</li>
+                <li><strong>Mobile Journalism (MOJO):</strong> In this, students will learn the fundamentals of capturing stories/news through planning, recording, editing, and publishing engaging content like Vox Pop, Field reporting through smartphones.</li>
+                <li><strong>Travel Photography:</strong> Students will develop skills in capturing travel images, outdoor shoots through effective composition, lighting, and visual storytelling techniques.</li>
+                <li><strong>Advanced CorelDRAW:</strong> Students will gain proficiency in creating professional vector graphics, layouts, and publication designs using advanced CorelDRAW tools.</li>
+                <li><strong>Basics of Podcast Production:</strong> Students will learn the fundamentals of podcast planning, research, scripting, recording, editing, interviewing and publishing engaging audio content.</li>
+                <li><strong>Hindi Typing:</strong> Students will improve their Hindi typing speed and accuracy using Unicode typing tools for professional media and documentation work.</li>
+                <li><strong>Adobe InDesign:</strong> Students will learn to design and produce professional-quality newspapers, magazines, brochures, promotional branding material & other print publications using Adobe InDesign.</li>
+                <li><strong>AI in Media Production:</strong> Students will explore AI-powered tools for content creation, editing, automation, prompt engineering, AI in filmmaking and multimedia production while understanding their ethical applications in media.</li>
+                <li><strong>Hindi Print Production:</strong> Students will acquire practical skills in Hindi newspaper and magazine page layout, typography, proofreading, and print-ready publication production.</li>
             </ul>
         </div>
     </div>
