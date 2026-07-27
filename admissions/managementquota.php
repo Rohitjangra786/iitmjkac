@@ -225,7 +225,7 @@ input[type=submit] {
 			            <div class="row">
 			            	<div class="col-sm-6 text-center">
 			            		<p></p>
-			            		<a href="#" target="_blank" class="btn btn-primary">Online Application Form</a>
+			            		<a href="https://forms.gle/B1DtoZoHx9piigvdA" target="_blank" class="btn btn-primary">Online Application Form</a>
 			            	</div>
 			            	<div class="col-sm-6 text-center">
 			            		<p></p>
