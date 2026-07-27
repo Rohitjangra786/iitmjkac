@@ -307,6 +307,31 @@ echo '</script>';
 
     <!-- Bootstrap Bundle JS (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var dropdownBtn = document.getElementById('onlineAppDropdown');
+            if (dropdownBtn) {
+                dropdownBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    var menu = this.nextElementSibling;
+                    if (menu) {
+                        menu.classList.toggle('show');
+                    }
+                });
+
+                document.addEventListener('click', function (e) {
+                    var dropdown = dropdownBtn.closest('.dropdown');
+                    if (dropdown && !dropdown.contains(e.target)) {
+                        var menu = dropdownBtn.nextElementSibling;
+                        if (menu && menu.classList.contains('show')) {
+                            menu.classList.remove('show');
+                        }
+                    }
+                });
+            }
+        });
+    </script>
     <script src="myscript.js"></script>
 </body>
 </html>
