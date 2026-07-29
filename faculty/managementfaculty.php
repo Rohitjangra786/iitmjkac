@@ -940,7 +940,7 @@ hv:hover .ab{
             </div>
             <div class="card-info">
               <div class="tgfmlt align-text-bottom bg1" style="margin-top: auto;">
-                          <h2 class="tgfmlt" style="color: #fff; line-height: 2.5rem;"><strong> Ms. Parul Sharma</strong></h2>
+                          <h2 class="tgfmlt" style="color: #fff; line-height: 2.5rem;"><strong> Dr. Parul Sharma</strong></h2>
                           <h3 class="tgfmlt" style="color: #fff; line-height: 2.5rem;">Assistant Professor</h3>
                           <h3 class="tgfmlt" style="color: #fff; line-height: 2.5rem;">M.Com, UGC NET (Commerce), B.Ed, PGDBA (Finance), Pursuing Ph.D.</h3>
                           <h3 class="tgfmlt" style="color: #fff; line-height: 2.5rem;">Parul.sharma@iitmipu.ac.in</h3>

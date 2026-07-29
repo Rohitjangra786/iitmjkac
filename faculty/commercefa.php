@@ -646,7 +646,7 @@ hv:hover .ab{
                 alt="Waterfall" style="width: 100%;"
               />
               <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:2rem;"><strong>Ms. Parul  Sharma</strong></h5>
+                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:2rem;"><strong>Dr. Parul Sharma</strong></h5>
                 <p class="card-text">
                  <h3 class="tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1.3rem;">Assistant Professor</h3>
                  <h3 class="tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1.3rem;">B.Com, M.Com, NET, Pursuing Ph.D. </h3>

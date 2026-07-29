@@ -228,7 +228,7 @@ $bcom_faculty = [
         "img" => "images/commerce/Komal Goel new.JPG"
     ],
     [
-        "name" => "Ms. Parul Sharma",
+        "name" => "Dr. Parul Sharma",
         "designation" => "Assistant Professor",
         "qual" => "B.Com, M.Com, NET, Pursuing Ph.D.",
         "email" => "parul.sharma@iitmipu.ac.in",
