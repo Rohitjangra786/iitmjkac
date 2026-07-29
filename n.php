@@ -724,6 +724,7 @@
                         <a href="https://iitmjanakpuri.com/course/bjmc.php">BAJMC (H)</a>
 
                         <span class="sub-label">Admissions</span>
+                        <a href="https://iitmjanakpuri.com/direct-file/Document%20Verification%20Checklist-2026.pdf" target="_blank">Document Verification Checklist-2026</a>
                         <a href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2026-27</a>
                         <a href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a>
                         <a href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a>
@@ -953,6 +954,7 @@
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" href="#">Admissions</a>
                             <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://iitmjanakpuri.com/direct-file/Document%20Verification%20Checklist-2026.pdf" target="_blank">Document Verification Checklist-2026</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/managementquota.php">Management Quota 2026-27</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/admissionprocedure.php">Admission Procedure</a></li>
                             <li><a class="dropdown-item" href="https://iitmjanakpuri.com/admissions/eligibilitycriteria.php">Eligibility Criteria</a></li>
@@ -969,6 +971,7 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="https://iitmjanakpuri.com/academics/valueaddedcourses.php">Value Added Courses</a></li>
+                        <li><a class="dropdown-item" href="https://iitmjanakpuri.com/direct-file/Document%20Verification%20Checklist-2026.pdf" target="_blank">Document Verification Checklist-2026</a></li>
 
                     </ul>
 
