@@ -115,6 +115,7 @@
 						<li><a href="admissionfaq.php" target="_blank">Frequently Asked Questions</a></li>
 						<!--<li><a href="registration.php" target="_blank">CET Preparation</a></li>-->
 						<li><a href="enquiry2.php" target="_blank">Enquiry</a></li>
+						<li><a href="direct-file/Document%20Verification%20Checklist-2026.pdf" target="_blank">Document Verification Checklist-2026</a></li>
 						<li><a href="direct-file/documents_req.pdf" target="_blank" target="_blank">List of Documents</a></li>
 						<!--<li><a href="direct-file/fees22.pdf" target="_blank" target="_blank">Fee Details</a></li>-->
 					</ul>
@@ -152,6 +153,7 @@
 						<li><a href="pedagogy.php">Pedagogy</a></li>
 						<li><a href="skill_development.php">Skill Development</a></li>
 						<li><a href="syllabus.php">Syllabus</a></li>
+						<li><a href="direct-file/Document%20Verification%20Checklist-2026.pdf" target="_blank">Document Verification Checklist-2026</a></li>
 						<!--<li><a href="academic.php">Academic Calendar</a></li>-->
 						<li class="dropdown-submenu">
 							<a class="test" href="#">Publications<span class="caret"></span></a>
