@@ -278,7 +278,7 @@ echo '</script>';
             <div class="doc-card">
                 <a href="/admissions/docs/IITM_Final Schedule of Management Admission AS 2026-27 BCA,BBA B.Com(H).pdf" target="_blank">
                     <div class="doc-icon"><i class="bi bi-calendar-event-fill"></i></div>
-                    <span>Final Schedule of Management Admission AY 2026-27 (BCA, BBA, B.Com(H))</span>
+                    <span>Final Schedule of Management Quota Admission AY 2026-27</span>
                 </a>
                 <span class="badge bg-secondary">PDF</span>
             </div>
@@ -286,7 +286,7 @@ echo '</script>';
             <div class="doc-card">
                 <a href="/admissions/docs/IITM_Extension of date for Admission in Management Quota AS 2026-27 MCA-MBA-BA(JMC).pdf" target="_blank">
                     <div class="doc-icon"><i class="bi bi-clock-history"></i></div>
-                    <span>Extension of Date for Admission in Management Quota AY 2026-27 (MCA, MBA, BA(JMC))</span>
+                    <span>Extension of date for Registration for Admission in Management Seats in various Program AS 2026-27</span>
                 </a>
                 <span class="badge bg-secondary">PDF</span>
             </div>
@@ -350,4 +350,4 @@ echo '</script>';
     </script>
     <script src="myscript.js"></script>
 </body>
-</html>
+</html>
