@@ -531,20 +531,7 @@ hv:hover .ab{
               
             </div>
           </div>
-          <div class="card border-0"  style="height: 25rem;width: 25rem;">
-            <div class="card-img-wrapper" style="background-color: #fff;">
-              <img src="images/faculty/ashish1.png" alt="Architect" class="img-responsive img-thumbnail rounded-circle mt-30" style="object-fit: contain;border: 3px solid #800000;"/>
-            </div>
-            <div class="card-info">
-              <div class="tgfmlt align-text-bottom bg1" style="margin-top: auto;">
-                          <h2 class="tgfmlt" style="color: #800000; line-height: 1.5rem;font-size: 150%;"><strong>Mr. Ashish Kumar Nayyar</strong></h2>
-                          <h3 class="tgfmlt" style="color: #800000; line-height: 1.5rem;font-size: 150%;">Assistant Professor</h3>
-                          <h3 class="tgfmlt" style="color: #800000; line-height: 1.5rem;font-size: 150%;">B.Sc. MCA, M.Tech., Pursuing Ph.D.</h3>
-                          <h3 class="tgfmlt" style="color: #800000; line-height: 1.5rem;font-size: 150%;">pd.bca@iitmipu.ac.in</h3>
-                        </div>
-             
-            </div>
-          </div>
+
         </div>
         
         

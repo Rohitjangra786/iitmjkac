@@ -37,13 +37,6 @@ $faculty = [
         "img" => "images/commerce/shilpi-removebg-preview.jpg"
     ],
     [
-        "name" => "Mr. Ashish Kumar Nayyar",
-        "designation" => "Assistant Professor",
-        "qual" => "B.Sc. MCA, M.Tech., Pursuing Ph.D.",
-        "email" => "pd.bca@iitmipu.ac.in",
-        "img" => "images/commerce/DSC06601.jpg"
-    ],
-    [
         "name" => "Ms. Leena Gupta",
         "designation" => "Assistant Professor",
         "qual" => "B.Sc., MCA, M.Tech, Pursuing Ph.D.",

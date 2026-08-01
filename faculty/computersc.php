@@ -484,24 +484,7 @@ hv:hover .ab{
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
-              <img
-                src="images/commerce/ashish new.jpg"
-                class="card-img-top"
-                alt="Waterfall" style="width: 100%;"
-              />
-              <div class="card-body">
-                <h5 class="card-title tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:2rem;"><strong>Mr. Ashish Kumar Nayyar</strong></h5>
-                <p class="card-text text-center">
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1.3rem;">Assistant Professor</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1.3rem;">B.Sc. MCA, M.Tech., Pursuing Ph.D.</h3>
-                 <h3 class="tgfmlt text-center" style="color: #000; line-height: 1.5rem;font-size:1.2rem;">pd.bca@iitmipu.ac.in</h3>
-                </p>
-               <!-- <a href="#!" class="btn btn-primary">Button</a> -->
-              </div>
-            </div>
-          </div>
+
           <div class="col-lg-3">
             <div class="card" style="height: 100%;width: 100%;border: 2px #fff solid;">
               <img
