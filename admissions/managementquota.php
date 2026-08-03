@@ -276,6 +276,22 @@ echo '</script>';
             </h3>
 
             <div class="doc-card">
+                <a href="/admissions/docs/IITM_Merit list of BCA, BBA, B.Com(H) for MQ Admission AS 2026-27.pdf" target="_blank">
+                    <div class="doc-icon"><i class="bi bi-card-checklist"></i></div>
+                    <span>Merit list of BCA, BBA, B.Com(H) for MQ Admission AS 2026-27</span>
+                </a>
+                <span class="badge bg-secondary">PDF</span>
+            </div>
+
+            <div class="doc-card">
+                <a href="/admissions/docs/IITM_Applicant list of BCA, BBA, B.Com(H) for MQ Admission AS 2026-27.pdf" target="_blank">
+                    <div class="doc-icon"><i class="bi bi-person-lines-fill"></i></div>
+                    <span>Applicant list of BCA, BBA, B.Com(H) for MQ Admission AS 2026-27</span>
+                </a>
+                <span class="badge bg-secondary">PDF</span>
+            </div>
+
+            <div class="doc-card">
                 <a href="/admissions/docs/IITM_Final Schedule of Management Admission AS 2026-27 BCA,BBA B.Com(H).pdf" target="_blank">
                     <div class="doc-icon"><i class="bi bi-calendar-event-fill"></i></div>
                     <span>Final Schedule of Management Quota Admission AY 2026-27</span>

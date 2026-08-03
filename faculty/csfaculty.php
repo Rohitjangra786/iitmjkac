@@ -519,7 +519,7 @@ hv:hover .ab{
           </div>
           <div class="card border-0" style="height: 25rem;width: 25rem;">
             <div class="card-img-wrapper" style="background-color: #fff;" >
-              <img src="images/faculty/raman1.png" alt="Designer" class="img-responsive img-thumbnail rounded-circle mt-30" style="object-fit: contain;border: 3px solid #800000;"/>
+              <img src="images/commerce/DrRamandeep.jpg" alt="Designer" class="img-responsive img-thumbnail rounded-circle mt-30" style="object-fit: contain;border: 3px solid #800000;"/>
             </div>
             <div class="card-info">
               <div class="tgfmlt align-text-bottom bg1" style="margin-top: auto;">
