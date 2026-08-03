@@ -100,6 +100,7 @@
 									$doi = htmlspecialchars($a["doi"] ?? "");
 									$pages = htmlspecialchars($a["pages"] ?? "");
 									$pdf = $a["pdf"] ?? null;
+									$pdfUrl = $pdf ? implode('/', array_map('rawurlencode', explode('/', $pdf))) : null;
 								?>
 								<tr class="article-row"
 									data-search="<?php echo strtolower($title . " " . $authors . " " . $doi); ?>">
@@ -118,8 +119,8 @@
 									</td>
 									<td class="col-pages hidden-xs"><?php echo $pages; ?></td>
 									<td class="col-pdf">
-										<?php if ($pdf): ?>
-											<a href="<?php echo htmlspecialchars($pdf); ?>" target="_blank" rel="noopener" class="btn-pdf">View PDF</a>
+										<?php if ($pdfUrl): ?>
+											<a href="<?php echo htmlspecialchars($pdfUrl); ?>" target="_blank" rel="noopener" class="btn-pdf">View PDF</a>
 										<?php else: ?>
 											<span class="btn-pdf btn-pdf-disabled">N/A</span>
 										<?php endif; ?>

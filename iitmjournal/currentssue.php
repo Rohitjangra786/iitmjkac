@@ -70,6 +70,7 @@
 					$doi = htmlspecialchars($a["doi"] ?? "");
 					$pages = htmlspecialchars($a["pages"] ?? "");
 					$pdf = $a["pdf"] ?? null;
+					$pdfUrl = $pdf ? implode('/', array_map('rawurlencode', explode('/', $pdf))) : null;
 				?>
 				<div class="ci-article">
 					<div>
@@ -83,9 +84,9 @@
 							&middot; DOI: <a href="https://doi.org/<?php echo $doi; ?>" target="_blank" rel="noopener"><?php echo $doi; ?></a>
 						<?php endif; ?>
 					</div>
-					<?php if ($pdf): ?>
+					<?php if ($pdfUrl): ?>
 					<div class="ci-article-actions">
-						<a href="<?php echo htmlspecialchars($pdf); ?>" target="_blank" rel="noopener" class="btn-pdf">View PDF</a>
+						<a href="<?php echo htmlspecialchars($pdfUrl); ?>" target="_blank" rel="noopener" class="btn-pdf">View PDF</a>
 					</div>
 					<?php endif; ?>
 				</div>
