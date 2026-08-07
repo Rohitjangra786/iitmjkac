@@ -276,6 +276,14 @@ echo '</script>';
             </h3>
 
             <div class="doc-card">
+                <a href="/admissions/docs/IITM_Final Schedule of MQ Admission for MCA_MBA_BA(JMC) Prog. AS 2026-27.pdf" target="_blank">
+                    <div class="doc-icon"><i class="bi bi-calendar2-range-fill"></i></div>
+                    <span>Final Schedule of MQ Admission for MCA, MBA, BA(JMC) Prog. AS 2026-27</span>
+                </a>
+                <span class="badge bg-secondary">PDF</span>
+            </div>
+
+            <div class="doc-card">
                 <a href="/admissions/docs/IITM_Final List of candidates admitted under MQ Admission for BBA_BCA_B.Com AS 2026-27.pdf" target="_blank">
                     <div class="doc-icon"><i class="bi bi-file-earmark-check-fill"></i></div>
                     <span>Final List of candidates admitted under MQ Admission for BCA, BBA, B.Com(H) AS 2026-27</span>
@@ -303,14 +311,6 @@ echo '</script>';
                 <a href="/admissions/docs/IITM_List of candidates admitted in 1st Round of MQ Admission for BBA_BCA_B.Com.pdf" target="_blank">
                     <div class="doc-icon"><i class="bi bi-person-check"></i></div>
                     <span>List of candidates admitted in 1st Round of MQ Admission for BCA, BBA, B.Com(H) AS 2026-27</span>
-                </a>
-                <span class="badge bg-secondary">PDF</span>
-            </div>
-
-            <div class="doc-card">
-                <a href="/admissions/docs/IITM_Final Schedule of MQ Admission for MCA_MBA_BA(JMC) Prog. AS 2026-27.pdf" target="_blank">
-                    <div class="doc-icon"><i class="bi bi-calendar2-range-fill"></i></div>
-                    <span>Final Schedule of MQ Admission for MCA, MBA, BA(JMC) Prog. AS 2026-27</span>
                 </a>
                 <span class="badge bg-secondary">PDF</span>
             </div>
